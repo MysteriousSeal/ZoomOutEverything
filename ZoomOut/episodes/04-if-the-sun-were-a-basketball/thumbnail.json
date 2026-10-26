@@ -1,0 +1,21 @@
+{
+  "mode": "world",
+  "time": 2.98,
+  "zoom": 1.9,
+  "fx": 0.42,
+  "fy": 0.53,
+  "tx": 0.5,
+  "ty": 0.55,
+  "lines": [
+    "IF THE SUN WERE",
+    "A *BASKETBALL*"
+  ],
+  "stat": {
+    "big": "EARTH: A PEPPERCORN",
+    "small": "26 METRES AWAY",
+    "size": 86,
+    "x": 540,
+    "y": 1750
+  },
+  "exposure": 1.7
+}

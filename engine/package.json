@@ -1,0 +1,10 @@
+{
+  "name": "eli5-motion-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Code-rendered motion graphics: Canvas 2D in headless Chrome -> PNG frames -> ffmpeg",
+  "dependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "mode": "world",
+  "time": 35.65,
+  "zoom": 1.0,
+  "fx": 0.5,
+  "fy": 0.42,
+  "tx": 0.5,
+  "ty": 0.4721,
+  "lines": [
+    "1 DAY = *1 YEAR*"
+  ],
+  "stat": {
+    "big": "6 MONTHS",
+    "small": "OF DAYLIGHT, THEN 6 OF NIGHT",
+    "x": 540,
+    "y": 1455
+  },
+  "size": 150,
+  "shade": 0.92,
+  "shadeEnd": 760
+}

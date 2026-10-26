@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 1.0,
+  "zoom": 1.1,
+  "fx": 0.5,
+  "fy": 0.5,
+  "tx": 0.5,
+  "ty": 0.55,
+  "lines": [
+    "WHAT IF HUMANS",
+    "*DISAPPEARED?*"
+  ],
+  "stat": {
+    "big": "2 DAYS",
+    "small": "UNTIL THE SUBWAY FLOODS",
+    "x": 540,
+    "y": 1600
+  }
+}

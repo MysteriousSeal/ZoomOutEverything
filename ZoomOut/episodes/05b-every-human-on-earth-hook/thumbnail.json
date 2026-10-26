@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 33.1,
+  "zoom": 1.25,
+  "fx": 0.449,
+  "fy": 0.48,
+  "tx": 0.5,
+  "ty": 0.533,
+  "lines": [
+    "EVERY HUMAN",
+    "IN *ONE CUBE*"
+  ],
+  "stat": {
+    "big": "≈ 800 m TALL",
+    "small": "ALL 8 BILLION OF US",
+    "x": 540,
+    "y": 1380
+  }
+}

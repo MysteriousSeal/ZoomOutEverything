@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 63.7,
+  "zoom": 1.15,
+  "fx": 0.5,
+  "fy": 0.55,
+  "tx": 0.5,
+  "ty": 0.6,
+  "lines": [
+    "HOW HIGH",
+    "IS *SPACE?*"
+  ],
+  "stat": {
+    "big": "100 km",
+    "small": "STRAIGHT UP",
+    "x": 540,
+    "y": 1640
+  }
+}

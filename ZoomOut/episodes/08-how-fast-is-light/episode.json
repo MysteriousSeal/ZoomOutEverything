@@ -1,0 +1,52 @@
+{
+  "slug": "08-how-fast-is-light",
+  "channel": "ZOOM OUT",
+  "title": "How Fast Is Light, Really?",
+  "episodeLabel": "EP 08",
+  "accent": [
+    255,
+    225,
+    140
+  ],
+  "music": "deep",
+  "coverTime": 22.1,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.8,
+    "lead": 0.35,
+    "tail": 3.0,
+    "hookHold": 0.6,
+    "phraseGap": 0.6
+  },
+  "lines": [
+    "How fast is light, really?",
+    "Three hundred thousand kilometers, every single second.",
+    "In one second, light could circle the Earth seven and a half times.",
+    "It reaches the Moon in just over a second.",
+    "Sunlight takes about eight minutes to get here.",
+    "So when you look at the Sun, | you're seeing it as it was eight minutes ago.",
+    "Light from Neptune takes about four hours.",
+    "Voyager 1, our most distant spacecraft, | is almost a full day away at light speed.",
+    "The nearest star? | Its light travels for more than four years to reach us.",
+    "From the far side of our galaxy, | the light has been traveling for tens of thousands of years.",
+    "And the most distant galaxies we've seen? | Their light set off more than thirteen billion years ago.",
+    "Light is the fastest thing in the universe.",
+    "And the universe is still too big for it."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s01-one-second.js",
+    "scenes/s02-around-earth.js",
+    "scenes/s03-moon.js",
+    "scenes/s04-sun.js",
+    "scenes/s05-old-light.js",
+    "scenes/s06-neptune.js",
+    "scenes/s07-voyager.js",
+    "scenes/s08-proxima.js",
+    "scenes/s09-milky-way.js",
+    "scenes/s10-deep-field.js",
+    "scenes/s11-fastest.js",
+    "scenes/s12-too-big.js"
+  ]
+}

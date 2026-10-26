@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 1.2,
+  "zoom": 1.35,
+  "fx": 0.5,
+  "fy": 0.53,
+  "tx": 0.5,
+  "ty": 0.58,
+  "lines": [
+    "WHAT IF EARTH",
+    "STOPPED *SPINNING?*"
+  ],
+  "stat": {
+    "big": "1,670 km/h",
+    "small": "YOUR SPEED RIGHT NOW",
+    "x": 540,
+    "y": 1640
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "mode": "world",
+  "time": 32.443,
+  "zoom": 1.25,
+  "fx": 0.47,
+  "fy": 0.44,
+  "tx": 0.52,
+  "ty": 0.55,
+  "lines": [
+    "ALL OF EARTH’S *WATER*",
+    "IN ONE BALL"
+  ],
+  "stat": {
+    "big": "1,385 km",
+    "small": "EVERY DROP OF IT",
+    "x": 80,
+    "y": 1430,
+    "align": "left"
+  }
+}

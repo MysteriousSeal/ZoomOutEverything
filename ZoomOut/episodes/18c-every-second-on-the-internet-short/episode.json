@@ -1,0 +1,61 @@
+{
+  "slug": "18c-every-second-on-the-internet-short",
+  "channel": "ZOOM OUT",
+  "series": "By the Numbers",
+  "title": "One Day of YouTube Uploads Would Take 82 Years to Watch",
+  "episodeLabel": "EP 18",
+  "accent": [
+    80,
+    170,
+    255
+  ],
+  "music": "bright",
+  "coverTime": 1.5,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.26,
+    "lead": 0.35,
+    "tail": 1.0,
+    "hookHold": 0.15,
+    "phraseGap": 0.26,
+    "holds": {
+      "1": 0.2,
+      "5": 0.35,
+      "7": 1.4
+    }
+  },
+  "lines": [
+    "What happens on the internet in one single second?",
+    "It starts with one phone.",
+    "In that second, | Google gets over {100,000~a hundred thousand} searches.",
+    "YouTube gets about {8 hours~eight hours} of new video. | Every second.",
+    "And between continents, | it goes under the sea.",
+    "About {1.4 million~one point four million} kilometers of cable, | enough to wrap the Earth {35 times~thirty-five times}.",
+    "In the deep sea, | many are as thick as a garden hose,",
+    "yet they carry over {99%~ninety-nine percent} of the traffic between continents.",
+    "Back on that one phone, | one day of YouTube uploads | would take about {82 years~eighty-two years} to watch. | Longer than a lifetime.",
+    "What damages undersea internet cables the most? | Shark bites, | or fishing gear and ship anchors? | Tell me in the comments."
+  ],
+  "scenes": [
+    "scenes/c00-hook.js",
+    "scenes/c01-one-phone.js",
+    "scenes/c02-searches.js",
+    "scenes/c03-youtube.js",
+    "scenes/c04-under-the-sea.js",
+    "scenes/c05-cable-length.js",
+    "scenes/c06-garden-hose.js",
+    "scenes/c07-ninety-nine.js",
+    "scenes/c08-eighty-two-years.js",
+    "scenes/c09-question.js"
+  ],
+  "preroll": {
+    "line": "More than {99%~ninety-nine percent} of the internet between continents runs under the sea.",
+    "scene": "scenes/p-cold.js",
+    "from": 27.1,
+    "rate": 0.3,
+    "overlays": false,
+    "hold": 0.2
+  },
+  "captionY": 1450
+}

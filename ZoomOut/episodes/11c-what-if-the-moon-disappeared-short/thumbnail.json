@@ -1,0 +1,20 @@
+{
+  "mode": "world",
+  "time": 9.4,
+  "zoom": 1.15,
+  "fx": 0.5,
+  "fy": 0.45,
+  "tx": 0.5,
+  "ty": 0.5,
+  "exposure": 1.5,
+  "lines": [
+    "NIGHTS WITH",
+    "*NO MOON*"
+  ],
+  "stat": {
+    "big": "100× DARKER",
+    "small": "THAN UNDER A FULL MOON",
+    "x": 540,
+    "y": 1140
+  }
+}

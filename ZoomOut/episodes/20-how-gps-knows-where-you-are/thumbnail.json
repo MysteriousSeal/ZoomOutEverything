@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 50,
+  "zoom": 1.15,
+  "fx": 0.5,
+  "fy": 0.45,
+  "tx": 0.5,
+  "ty": 0.5,
+  "lines": [
+    "HOW DOES GPS",
+    "*FIND YOU?*"
+  ],
+  "stat": {
+    "big": "10 km / DAY",
+    "small": "THE ERROR WITHOUT EINSTEIN",
+    "x": 540,
+    "y": 1640
+  }
+}

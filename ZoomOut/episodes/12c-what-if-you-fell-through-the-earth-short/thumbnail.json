@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 45.3,
+  "zoom": 1.08,
+  "fx": 0.5,
+  "fy": 0.36,
+  "tx": 0.485,
+  "ty": 0.49,
+  "lines": [
+    "LONDON TO NEW YORK",
+    "IN *42 MINUTES*"
+  ],
+  "stat": {
+    "big": "NO ENGINE",
+    "small": "JUST GRAVITY AND A STRAIGHT TUNNEL",
+    "x": 460,
+    "y": 1380
+  }
+}

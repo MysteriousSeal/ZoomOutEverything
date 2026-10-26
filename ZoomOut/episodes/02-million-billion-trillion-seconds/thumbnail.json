@@ -1,0 +1,21 @@
+{
+  "mode": "world",
+  "time": 14.5,
+  "zoom": 2.1,
+  "fx": 0.42,
+  "fy": 0.52,
+  "tx": 0.5,
+  "ty": 0.62,
+  "lines": [
+    "A *TRILLION*",
+    "SECONDS AGO?"
+  ],
+  "stat": {
+    "big": "31,700 YEARS",
+    "small": "MAMMOTHS STILL ROAMED",
+    "x": 540,
+    "y": 1730
+  },
+  "shade": 1.0,
+  "shadeEnd": 1250
+}

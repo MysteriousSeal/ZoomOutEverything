@@ -1,0 +1,28 @@
+{
+  "slug": "02-million-billion-trillion-seconds",
+  "channel": "ZOOM OUT",
+  "title": "A Million vs a Billion vs a Trillion Seconds",
+  "episodeLabel": "EP 02",
+  "accent": [245, 200, 90],
+  "music": "deep",
+  "coverTime": 20.0,
+  "voice": { "name": "af_heart", "speed": 0.92, "lineGap": 0.45, "lead": 0.35, "tail": 2.2, "hookHold": 0.4, "phraseGap": 0.6 },
+  "lines": [
+    "How long is a million seconds?",
+    "About eleven and a half days. | A short vacation.",
+    "A billion seconds is almost thirty-two years.",
+    "That's the difference between a million and a billion.",
+    "A trillion seconds ago, mammoths still roamed the Earth, | and humans were painting caves.",
+    "That's thirty-one thousand, seven hundred years.",
+    "And counting the US national debt, one dollar per second, | would take over a million years."
+  ],
+  "scenes": [
+    "scenes/s0-hook.js",
+    "scenes/s1-million.js",
+    "scenes/s2-billion.js",
+    "scenes/s3-compare.js",
+    "scenes/s4-trillion.js",
+    "scenes/s5-span.js",
+    "scenes/s6-debt.js"
+  ]
+}

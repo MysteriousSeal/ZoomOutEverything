@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 50.1,
+  "zoom": 1.7,
+  "fx": 0.5,
+  "fy": 0.47,
+  "tx": 0.5,
+  "ty": 0.6,
+  "lines": [
+    "HOW SMALL",
+    "IS AN *ATOM?*"
+  ],
+  "stat": {
+    "big": "99.9999%",
+    "small": "EMPTY SPACE",
+    "x": 540,
+    "y": 1580
+  }
+}

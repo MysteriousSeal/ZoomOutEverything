@@ -1,0 +1,67 @@
+{
+ "slug": "24-the-year-10-days-vanished",
+ "channel": "ZOOM OUT",
+ "title": "The Year 10 Days Vanished",
+ "series": "Hidden History",
+ "episodeLabel": "EP 24",
+ "accent": [
+  230,
+  190,
+  110
+ ],
+ "music": "deep",
+ "coverTime": 1.5,
+ "voice": {
+  "name": "af_heart",
+  "speed": 0.92,
+  "lineGap": 0.6,
+  "lead": 0.35,
+  "tail": 3.0,
+  "hookHold": 0.5,
+  "phraseGap": 0.45,
+  "holds": {
+   "8": 0.4
+  }
+ },
+ "lines": [
+  "How did ten days vanish from history?",
+  "In {1582~fifteen eighty-two}, much of Catholic Europe went to bed on Thursday, October fourth, | and woke up on Friday the fifteenth.",
+  "The culprit: Julius Caesar's calendar, sixteen centuries old.",
+  "A leap day every four years made its average year | three hundred sixty-five and a quarter days.",
+  "But Earth returns to the equinox about eleven minutes sooner.",
+  "Eleven minutes a year doesn't sound like much.",
+  "But it adds up to a whole day every hundred and twenty-eight years.",
+  "By {1582~fifteen eighty-two} it had slipped ten days, | and Easter was drifting away from the real equinox.",
+  "So Pope Gregory the Thirteenth simply deleted them.",
+  "To stop the drift, | three leap days every four hundred years were cancelled.",
+  "That's why {1900~nineteen hundred} had no leap day, | but {2000~two thousand} did.",
+  "Britain held out until {1752~seventeen fifty-two}, | and had to skip eleven days.",
+  "Even today, the calendar drifts about a day every three thousand years.",
+  "If ten days vanished from this year, | which ten would you skip? | Tell me in the comments."
+ ],
+ "scenes": [
+  "scenes/s00-hook.js",
+  "scenes/s01-oct-1582.js",
+  "scenes/s02-caesar.js",
+  "scenes/s03-leap-day.js",
+  "scenes/s04-eleven-minutes.js",
+  "scenes/s05-not-much.js",
+  "scenes/s06-128-years.js",
+  "scenes/s07-ten-days.js",
+  "scenes/s08-gregory.js",
+  "scenes/s09-leap-rule.js",
+  "scenes/s10-1900-2000.js",
+  "scenes/s11-britain.js",
+  "scenes/s12-still-drifting.js",
+  "scenes/s13-question.js"
+ ],
+ "preroll": {
+  "line": "Ten days in {1582~fifteen eighty-two} never happened. | Not one.",
+  "scene": "scenes/p-cold.js",
+  "from": 43.3,
+  "rate": 0.25,
+  "overlays": true,
+  "hold": 0.2
+ },
+ "captionY": 1450
+}

@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 46.9,
+  "zoom": 1.15,
+  "fx": 0.5,
+  "fy": 0.4,
+  "tx": 0.5,
+  "ty": 0.46,
+  "lines": [
+    "WHAT IF THE SUN",
+    "BECAME A *BLACK HOLE?*"
+  ],
+  "stat": {
+    "big": "6 km",
+    "small": "THE WHOLE SUN, CRUSHED",
+    "x": 540,
+    "y": 1640
+  }
+}

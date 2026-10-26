@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 61.0,
+  "zoom": 1.15,
+  "fx": 0.5,
+  "fy": 0.5,
+  "tx": 0.5,
+  "ty": 0.52,
+  "lines": [
+    "HOW MANY",
+    "*ANTS* ON EARTH?"
+  ],
+  "stat": {
+    "big": "20 QUADRILLION",
+    "small": "IN ONE LINE: PAST PLUTO",
+    "x": 540,
+    "y": 1640
+  }
+}

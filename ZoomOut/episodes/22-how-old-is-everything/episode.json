@@ -1,0 +1,61 @@
+{
+ "slug": "22-how-old-is-everything",
+ "channel": "ZOOM OUT",
+ "title": "How Old Is Everything, Really?",
+ "series": "Hidden History",
+ "episodeLabel": "EP 22",
+ "accent": [120, 210, 230],
+ "music": "deep",
+ "coverTime": 1.5,
+ "voice": {
+  "name": "af_heart",
+  "speed": 0.92,
+  "lineGap": 0.75,
+  "lead": 0.35,
+  "tail": 3.0,
+  "hookHold": 0.6,
+  "phraseGap": 0.55,
+  "holds": { "7": 0.5, "9": 0.6, "10": 0.5, "12": 1.4 }
+ },
+ "lines": [
+  "How old is everything, really?",
+  "Start with you. | A long life is about eighty years.",
+  "The Great Pyramid of Giza is about four and a half thousand years old.",
+  "Cleopatra lived closer to the Moon landing | than to the building of that pyramid.",
+  "Our species appeared about three hundred thousand years ago.",
+  "The last dinosaurs died out sixty-six million years ago.",
+  "And {T.rex~Tee rex} lived closer to us | than to Stegosaurus.",
+  "Sharks are even older than trees.",
+  "The Earth itself formed four and a half billion years ago.",
+  "And the universe began about thirteen point eight billion years ago.",
+  "Now squeeze all of that onto a hundred-meter running track.",
+  "The dinosaurs vanish half a meter from the finish line. | Our species: the last two millimeters.",
+  "And all of written history? | Thinner than a human hair.",
+  "If you could visit any moment on that track, | where would you go? | Tell me in the comments."
+ ],
+ "scenes": [
+  "scenes/s00-hook.js",
+  "scenes/s01-lifetime.js",
+  "scenes/s02-pyramid.js",
+  "scenes/s03-cleopatra.js",
+  "scenes/s04-sapiens.js",
+  "scenes/s05-dinosaurs.js",
+  "scenes/s06-trex-stego.js",
+  "scenes/s07-sharks-trees.js",
+  "scenes/s08-earth.js",
+  "scenes/s09-big-bang.js",
+  "scenes/s10-track.js",
+  "scenes/s11-finish-line.js",
+  "scenes/s12-hair.js",
+  "scenes/s13-question.js"
+ ],
+ "preroll": {
+  "line": "All of written history | is thinner than a human hair.",
+  "scene": "scenes/p-cold.js",
+  "from": 55.3,
+  "rate": 0.25,
+  "overlays": true,
+  "hold": 0.2
+ },
+ "captionY": 1450
+}

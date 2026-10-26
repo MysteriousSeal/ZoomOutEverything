@@ -1,0 +1,78 @@
+{
+  "slug": "16b-what-if-the-sun-became-a-black-hole-hook",
+  "channel": "ZOOM OUT",
+  "title": "What If the Sun Became a Black Hole?",
+  "episodeLabel": "EP 16",
+  "accent": [
+    190,
+    140,
+    255
+  ],
+  "music": "deep",
+  "coverTime": 1.5,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.85,
+    "lead": 0.35,
+    "tail": 1.0,
+    "hookHold": 0.6,
+    "phraseGap": 0.6,
+    "holds": {
+      "18": 2.3
+    }
+  },
+  "lines": [
+    "What if the Sun suddenly became a black hole?",
+    "Here's what would happen. | The strangest part comes last.",
+    "For {8 minutes and 20 seconds~eight minutes and twenty seconds}, | nothing would change.",
+    "That's how long {sunlight/~sunlight} takes to reach us.",
+    "Even changes in gravity | only {travel/~travel} at the speed of {light./~light.}",
+    "Then, | the sky would go dark.",
+    "But Earth wouldn't fly off into space.",
+    "It would keep the same orbit, | {150 million kilometers~a hundred fifty million kilometers} out.",
+    "From that far, | a black hole {pulls/~pulls} like any star of the same mass.",
+    "Only mass and distance matter.",
+    "So how small is a black {hole/~hole} with the Sun's mass?",
+    "About {6 kilometers~six kilometers} wide. | Smaller than a city.",
+    "The whole Sun, | in a ball you {could/~could} drive across in minutes.",
+    "Back on Earth, | the cold {would/~would} set in fast.",
+    "Within weeks, | experts {estimate/~estimate} the land would {drop/~drop} below {−18 degrees~minus eighteen degrees}.",
+    "The oceans would freeze over from the top, | but under the ice, | the deep water could stay liquid for a very long {time./~time.}",
+    "But here's the twist: | the Sun can never do this.",
+    "It's far too light. | It would need to {be/~be} about {20 times~twenty times} heavier.",
+    "In about {5 billion years~five billion years}, | it will begin to {swell/~swell} into a red giant, | then {shrink/~shrink} to a white {dwarf/~dwarf} about the size of {Earth./~Earth.}",
+    "Crush Earth into a black hole instead. | How big would it be? | About the size of a marble, or about the size of a car? | Tell me in the comments."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s01-strangest.js",
+    "scenes/s02-nothing-changes.js",
+    "scenes/s03-sunlight.js",
+    "scenes/s04-gravity-speed.js",
+    "scenes/s05-dark.js",
+    "scenes/s06-no-fly-off.js",
+    "scenes/s07-same-orbit.js",
+    "scenes/s08-same-pull.js",
+    "scenes/s09-mass-distance.js",
+    "scenes/s10-how-small.js",
+    "scenes/s11-six-km.js",
+    "scenes/s12-drive-across.js",
+    "scenes/s13-cold.js",
+    "scenes/s14-minus-eighteen.js",
+    "scenes/s15-oceans.js",
+    "scenes/s16-twist.js",
+    "scenes/s17-too-light.js",
+    "scenes/s18-white-dwarf.js",
+    "scenes/s19-question.js"
+  ],
+  "preroll": {
+    "line": "Crush the whole {Sun/~Sun} into a black hole, | and it would be just {6 kilometers~six kilometers} wide.",
+    "scene": "scenes/p-cold.js",
+    "from": 46.8,
+    "rate": 0.33,
+    "overlays": false,
+    "hold": 0.2
+  },
+  "captionY": 1450
+}

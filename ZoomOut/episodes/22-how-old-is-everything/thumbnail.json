@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 60.2,
+  "zoom": 1.0,
+  "fx": 0.5,
+  "fy": 0.5,
+  "tx": 0.5,
+  "ty": 0.5,
+  "lines": [
+    "HOW OLD IS",
+    "*EVERYTHING?*"
+  ],
+  "stat": {
+    "big": "0.04 mm",
+    "small": "ALL OF WRITTEN HISTORY",
+    "x": 540,
+    "y": 1640
+  }
+}

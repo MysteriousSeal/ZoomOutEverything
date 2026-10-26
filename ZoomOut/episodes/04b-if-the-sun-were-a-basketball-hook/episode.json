@@ -1,0 +1,61 @@
+{
+ "slug": "04b-if-the-sun-were-a-basketball-hook",
+ "channel": "ZOOM OUT",
+ "title": "If the Sun Were a Basketball",
+ "episodeLabel": "EP 04",
+ "accent": [
+  255,
+  160,
+  70
+ ],
+ "music": "deep",
+ "coverTime": 1.5,
+ "voice": {
+  "name": "af_heart",
+  "speed": 0.92,
+  "lineGap": 0.8,
+  "lead": 0.35,
+  "tail": 2.2,
+  "hookHold": 0.2,
+  "phraseGap": 0.6,
+  "holds": {
+   "1": 0.6,
+   "13": 2.35
+  }
+ },
+ "lines": [
+  "If the Sun were a basketball in New York, the nearest star would be in Rome.",
+  "Shrink the Sun down to the size of a basketball.",
+  "Mercury becomes a grain of sand, ten meters away.",
+  "Venus, a peppercorn, about nineteen meters out.",
+  "Earth is a peppercorn too, twenty-six meters away.",
+  "And the Moon? A speck of dust, a hand's width from Earth.",
+  "Mars, a mustard seed, thirty-nine meters out.",
+  "Jupiter, a grape, a hundred and thirty meters away.",
+  "Saturn, a smaller grape, two hundred and fifty meters out.",
+  "Uranus and Neptune, two coffee beans, | half a kilometer and nearly eight hundred meters away.",
+  "That's the whole solar system: | a basketball, a few crumbs, and a lot of nothing.",
+  "And the nearest star? | Another ball, a ping-pong ball this time\u2026",
+  "as far away as New York is from Rome.",
+  "Space isn't crowded. | It's almost entirely empty.",
+  "Now guess: at this scale, how far is the center of our galaxy? | Across the world, the Moon, | or a hundred times farther? | Comment your guess."
+ ],
+ "scenes": [
+  "scenes/s000-cold.js",
+  "scenes/s00-sun.js",
+  "scenes/s01-mercury.js",
+  "scenes/s02-venus.js",
+  "scenes/s03-earth.js",
+  "scenes/s04-moon.js",
+  "scenes/s05-mars.js",
+  "scenes/s06-jupiter.js",
+  "scenes/s07-saturn.js",
+  "scenes/s08-icegiants.js",
+  "scenes/s09-system.js",
+  "scenes/s10-star.js",
+  "scenes/s11-nyrome.js",
+  "scenes/s12-empty.js",
+  "scenes/s13-question.js"
+ ],
+ "captionY": 1450
+}

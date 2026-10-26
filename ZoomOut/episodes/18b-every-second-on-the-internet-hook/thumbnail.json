@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 66.6,
+  "zoom": 1.5,
+  "fx": 0.5,
+  "fy": 0.4,
+  "tx": 0.5,
+  "ty": 0.53,
+  "lines": [
+    "EVERY SECOND ON",
+    "THE *INTERNET*"
+  ],
+  "stat": {
+    "big": "82 YEARS",
+    "small": "TO WATCH ONE DAY OF UPLOADS",
+    "x": 540,
+    "y": 1430
+  }
+}

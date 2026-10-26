@@ -1,0 +1,52 @@
+{
+  "slug": "09-how-much-water-is-on-earth",
+  "channel": "ZOOM OUT",
+  "title": "How Much Water Is on Earth, Really?",
+  "episodeLabel": "EP 09",
+  "accent": [
+    80,
+    180,
+    255
+  ],
+  "music": "bright",
+  "coverTime": 27.6,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 1.05,
+    "lead": 0.35,
+    "tail": 3.4,
+    "hookHold": 0.6,
+    "phraseGap": 0.7
+  },
+  "lines": [
+    "How much water is there on Earth, really?",
+    "Oceans cover seventy-one percent of the planet.",
+    "Now gather every drop: | the oceans, the ice caps, the lakes, the rivers, even the clouds.",
+    "Pull it all together into one ball.",
+    "It would be just one thousand three hundred eighty-five kilometers across.",
+    "That's less than half the width of the Moon.",
+    "Next to Earth, it's a small blue bead.",
+    "Now keep only the liquid fresh water: | the lakes, the rivers, the swamps, the groundwater.",
+    "That ball is just two hundred seventy-three kilometers wide.",
+    "And the water in every lake and river on the planet?",
+    "A tiny drop, about fifty-six kilometers across. | Roughly the width of London.",
+    "That's what so much of life depends on.",
+    "A blue planet, | with surprisingly little water."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s01-seventy-one.js",
+    "scenes/s02-every-drop.js",
+    "scenes/s03-one-ball.js",
+    "scenes/s04-1385-km.js",
+    "scenes/s05-moon.js",
+    "scenes/s06-bead.js",
+    "scenes/s07-fresh.js",
+    "scenes/s08-273-km.js",
+    "scenes/s09-lakes-rivers.js",
+    "scenes/s10-56-km.js",
+    "scenes/s11-life.js",
+    "scenes/s12-blue-planet.js"
+  ]
+}

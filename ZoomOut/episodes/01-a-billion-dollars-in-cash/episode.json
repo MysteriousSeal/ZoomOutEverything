@@ -1,0 +1,40 @@
+{
+  "slug": "01-a-billion-dollars-in-cash",
+  "channel": "ZOOM OUT",
+  "title": "What $1 Billion Actually Looks Like",
+  "episodeLabel": "EP 01",
+  "accent": [
+    110,
+    220,
+    140
+  ],
+  "music": "bright",
+  "coverTime": 17.2,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.45,
+    "lead": 0.35,
+    "tail": 2.2,
+    "hookHold": 0.2,
+    "phraseGap": 0.6
+  },
+  "lines": [
+    "This is ten thousand dollars in hundred-dollar bills. | About one centimeter thick.",
+    "A million dollars weighs ten kilos, and fits in a briefcase.",
+    "A hundred million fills an entire shipping pallet.",
+    "A billion dollars? | Ten pallets. Ten tonnes of cash.",
+    "The world's richest people own hundreds of these.",
+    "And a trillion dollars? | Ten thousand pallets.",
+    "Stacked two high, they cover a whole football field."
+  ],
+  "scenes": [
+    "scenes/s0-stack.js",
+    "scenes/s1-briefcase.js",
+    "scenes/s2-pallet.js",
+    "scenes/s3-billion.js",
+    "scenes/s4-richest.js",
+    "scenes/s5-trillion.js",
+    "scenes/s6-field.js"
+  ]
+}

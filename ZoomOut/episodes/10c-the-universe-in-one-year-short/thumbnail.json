@@ -1,0 +1,24 @@
+{
+  "mode": "world",
+  "time": 30.3,
+  "zoom": 1.05,
+  "fx": 0.5,
+  "fy": 0.5,
+  "tx": 0.48,
+  "ty": 0.6,
+  "shade": 1.0,
+  "shadeEnd": 1050,
+  "headY": 250,
+  "lines": [
+    "HUMANS SHOWED UP",
+    "AT *11:48 PM*"
+  ],
+  "stat": {
+    "big": "DEC 31",
+    "small": "THE YEAR'S LAST DAY",
+    "x": 72,
+    "y": 1474,
+    "align": "left",
+    "size": 96
+  }
+}

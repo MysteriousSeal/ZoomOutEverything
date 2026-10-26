@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 45,
+  "zoom": 1.25,
+  "fx": 0.5,
+  "fy": 0.45,
+  "tx": 0.5,
+  "ty": 0.55,
+  "lines": [
+    "WHY DOES A WEEK",
+    "HAVE *7 DAYS?*"
+  ],
+  "stat": {
+    "big": "10-DAY WEEK?",
+    "small": "FRANCE TRIED IT IN 1793",
+    "x": 540,
+    "y": 1640
+  }
+}

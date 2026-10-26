@@ -1,0 +1,20 @@
+{
+  "mode": "world",
+  "time": 26.32,
+  "zoom": 1.0,
+  "fx": 0.5,
+  "fy": 0.6,
+  "tx": 0.5,
+  "ty": 0.58,
+  "lines": [
+    "NOTHING IN THE SKY",
+    "TAKES *A WEEK*"
+  ],
+  "stat": {
+    "big": "7 MOVING LIGHTS",
+    "small": "TRACKED IN BABYLON",
+    "x": 540,
+    "y": 1430,
+    "size": 90
+  }
+}

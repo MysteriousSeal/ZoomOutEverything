@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 52.95,
+  "zoom": 1.25,
+  "fx": 0.65,
+  "fy": 0.5,
+  "tx": 0.55,
+  "ty": 0.6,
+  "lines": [
+    "THE UNIVERSE",
+    "IN *ONE YEAR*"
+  ],
+  "stat": {
+    "big": "0.18 s",
+    "small": "YOUR WHOLE LIFE",
+    "x": 400,
+    "y": 1560
+  }
+}

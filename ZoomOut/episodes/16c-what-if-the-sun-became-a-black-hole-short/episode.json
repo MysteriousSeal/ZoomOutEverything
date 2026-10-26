@@ -1,0 +1,62 @@
+{
+  "slug": "16c-what-if-the-sun-became-a-black-hole-short",
+  "channel": "ZOOM OUT",
+  "title": "If the Sun Vanished, You Wouldn't Know for 8 Minutes",
+  "episodeLabel": "EP 16",
+  "accent": [
+    190,
+    140,
+    255
+  ],
+  "music": "deep",
+  "coverTime": 1.5,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.4,
+    "lead": 0.35,
+    "tail": 1.15,
+    "hookHold": 0.3,
+    "phraseGap": 0.32,
+    "holds": {
+      "3": 0.6,
+      "9": 0.15
+    }
+  },
+  "lines": [
+    "What if the Sun suddenly became a black hole?",
+    "For {8 minutes and 20 seconds~eight minutes and twenty seconds}, | nothing would change.",
+    "That's how long sunlight takes to reach us, | and gravity is no faster.",
+    "And then, | the sky would go dark.",
+    "But Earth would keep the same orbit. | Only mass and distance matter.",
+    "So how small is a black {hole/~hole} with the Sun's mass?",
+    "About {6 kilometers~six kilometers} wide. | Smaller than a city.",
+    "Back on Earth, | within weeks the land could drop below {−18 °C~minus eighteen degrees}.",
+    "But here's the twist: | the Sun can never do this.",
+    "It's far too light. | It would need to be about {20 times~twenty times} heavier.",
+    "Crush Earth {into/~into} a black hole instead. | How big would it be? | About the size of a marble, | or about the size of a car? | Tell me in the comments."
+  ],
+  "scenes": [
+    "scenes/c00-hook.js",
+    "scenes/c01-nothing-changes.js",
+    "scenes/c02-light.js",
+    "scenes/c03-dark.js",
+    "scenes/c04-same-orbit.js",
+    "scenes/c05-how-small.js",
+    "scenes/c06-six-km.js",
+    "scenes/c07-cold.js",
+    "scenes/c08-twist.js",
+    "scenes/c09-too-light.js",
+    "scenes/s13-question.js"
+  ],
+  "series": "What If",
+  "preroll": {
+    "line": "Crush the whole {Sun/~Sun} into a black hole, | and it would be just {6 kilometers~six kilometers} wide.",
+    "scene": "scenes/p-cold.js",
+    "from": 23.96,
+    "rate": 0.3,
+    "overlays": false,
+    "hold": 0.2
+  },
+  "captionY": 1450
+}

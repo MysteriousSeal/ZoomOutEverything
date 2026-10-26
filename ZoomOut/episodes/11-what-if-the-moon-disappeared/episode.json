@@ -1,0 +1,53 @@
+{
+  "slug": "11-what-if-the-moon-disappeared",
+  "channel": "ZOOM OUT",
+  "title": "What If the Moon Disappeared?",
+  "series": "What If",
+  "episodeLabel": "EP 11",
+  "accent": [
+    175,
+    195,
+    255
+  ],
+  "music": "deep",
+  "coverTime": 1.1,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.8,
+    "lead": 0.35,
+    "tail": 3.0,
+    "hookHold": 0.9,
+    "phraseGap": 0.6
+  },
+  "lines": [
+    "What if the Moon suddenly disappeared?",
+    "The first thing you'd notice would be the nights.",
+    "Today, a full Moon lights the land with reflected sunlight.",
+    "Without it, | those nights would be about a hundred times darker.",
+    "Then the tides. | The Moon does most of the pulling on our oceans.",
+    "With only the Sun left, | tides would shrink to about a third of today's biggest.",
+    "And total solar eclipses would be gone, forever.",
+    "The Moon also steadies Earth's tilt, | the reason we have seasons.",
+    "Without it, | many models say that tilt could wobble far more.",
+    "Over millions of years, | seasons could go haywire.",
+    "But here's the twist: | the Moon is already slowly leaving us.",
+    "Every year, | it drifts about three point eight centimeters farther away.",
+    "That's about as fast as your fingernails grow."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s01-the-nights.js",
+    "scenes/s02-moonlight.js",
+    "scenes/s03-hundred-darker.js",
+    "scenes/s04-tides.js",
+    "scenes/s05-one-third.js",
+    "scenes/s06-eclipses.js",
+    "scenes/s07-tilt.js",
+    "scenes/s08-wobble.js",
+    "scenes/s09-seasons.js",
+    "scenes/s10-leaving.js",
+    "scenes/s11-3-8-cm.js",
+    "scenes/s12-fingernails.js"
+  ]
+}

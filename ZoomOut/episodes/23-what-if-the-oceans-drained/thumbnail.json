@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 40.0,
+  "zoom": 1.22,
+  "fx": 0.486,
+  "fy": 0.44,
+  "tx": 0.5,
+  "ty": 0.5,
+  "lines": [
+    "WHAT IF THE OCEANS",
+    "*DRAINED?*"
+  ],
+  "stat": {
+    "big": "65,000 km",
+    "small": "A HIDDEN MOUNTAIN RANGE",
+    "x": 540,
+    "y": 1640
+  }
+}

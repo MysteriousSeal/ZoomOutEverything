@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 16.58,
+  "zoom": 1.6,
+  "fx": 0.45,
+  "fy": 0.46,
+  "tx": 0.52,
+  "ty": 0.6,
+  "lines": [
+    "*$1 BILLION*",
+    "IN CASH"
+  ],
+  "stat": {
+    "big": "10 TONNES",
+    "small": "TEN PALLETS OF $100 BILLS",
+    "x": 540,
+    "y": 1560
+  }
+}

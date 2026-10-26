@@ -1,0 +1,66 @@
+{
+  "slug": "17c-your-body-in-one-second-short",
+  "channel": "ZOOM OUT",
+  "title": "Your Bones Make 2–3 Million Blood Cells Every Second",
+  "episodeLabel": "EP 17",
+  "accent": [
+    255,
+    95,
+    110
+  ],
+  "music": "bright",
+  "coverTime": 1.5,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.3,
+    "lead": 0.35,
+    "tail": 1.2,
+    "hookHold": 0.15,
+    "phraseGap": 0.26,
+    "holds": {
+      "7": 0.35
+    }
+  },
+  "lines": [
+    "What happens inside your body in a single second?",
+    "Your heart beats about once,",
+    "pushing out about {70 milliliters~seventy milliliters} of blood.",
+    "Your fastest nerve signals hit {120 meters~a hundred and twenty meters} per second,",
+    "fast enough to cross a soccer field | in under a second.",
+    "Dive into a blood vessel.",
+    "You have about {25 trillion~twenty-five trillion} red blood cells.",
+    "Your bone marrow never stops.",
+    "It makes {2 to 3 million/~two to three million} new ones | every second.",
+    "The strangest part.",
+    "Every day, you replace about {330 billion~three hundred thirty billion} cells,",
+    "about {1%~one percent} of you, | {4 million~four million} every second.",
+    "By the end of this video, | you're not quite the same person who started it.",
+    "How many times will your heart beat in a lifetime? | About {3 million~three million}, or about {3 billion~three billion}? | Tell me in the comments."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s02-heartbeat.js",
+    "scenes/s03-seventy-ml.js",
+    "scenes/s04-nerve.js",
+    "scenes/s05-soccer-field.js",
+    "scenes/s06-into-vessel.js",
+    "scenes/s07-trillions.js",
+    "scenes/s09-marrow-map.js",
+    "scenes/s10-cell-factory.js",
+    "scenes/s14-strangest.js",
+    "scenes/s15-330-billion.js",
+    "scenes/s16-every-second.js",
+    "scenes/s18-new-you.js",
+    "scenes/s19-question.js"
+  ],
+  "preroll": {
+    "line": "Right now, your body is replacing almost {4 million~four million} cells, every second.",
+    "scene": "scenes/p-cold.js",
+    "from": 30.79,
+    "rate": 0.3,
+    "overlays": false,
+    "hold": 0.2
+  },
+  "captionY": 1450
+}

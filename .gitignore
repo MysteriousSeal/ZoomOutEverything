@@ -1,0 +1,17 @@
+# secrets
+.env
+.env.*
+# generated / large
+.tts_cache/
+node_modules/
+.venv/
+venv/
+__pycache__/
+build/
+out/
+TheShortAnswer/models/
+ZoomOut/voice-samples/
+*.mp4
+*.mov
+# OS
+.DS_Store

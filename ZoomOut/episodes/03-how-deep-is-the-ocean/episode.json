@@ -1,0 +1,40 @@
+{
+  "slug": "03-how-deep-is-the-ocean",
+  "channel": "ZOOM OUT",
+  "title": "How Deep Is the Ocean, Really?",
+  "episodeLabel": "EP 03",
+  "accent": [
+    70,
+    205,
+    215
+  ],
+  "music": "deep",
+  "coverTime": 1.2,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.4,
+    "lead": 0.35,
+    "tail": 2.2,
+    "hookHold": 0.5,
+    "phraseGap": 0.9
+  },
+  "lines": [
+    "How deep is the ocean, really?",
+    "At two hundred meters, sunlight is basically gone.",
+    "At three hundred thirty-two: the deepest scuba dive ever.",
+    "Sink the Burj Khalifa here, and it vanishes completely.",
+    "At three thousand meters, a whale is still hunting, on a single breath.",
+    "At three thousand eight hundred, the Titanic.",
+    "And at eleven thousand, the bottom. | Drop Everest in, and there's still two kilometers of water above it."
+  ],
+  "scenes": [
+    "scenes/s0-surface.js",
+    "scenes/s1-sunlight.js",
+    "scenes/s2-diver.js",
+    "scenes/s3-burj.js",
+    "scenes/s4-whale.js",
+    "scenes/s5-titanic.js",
+    "scenes/s6-trench.js"
+  ]
+}

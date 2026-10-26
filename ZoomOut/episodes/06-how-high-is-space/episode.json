@@ -1,0 +1,52 @@
+{
+  "slug": "06-how-high-is-space",
+  "channel": "ZOOM OUT",
+  "title": "How High Is Space, Really?",
+  "episodeLabel": "EP 06",
+  "accent": [
+    150,
+    170,
+    255
+  ],
+  "music": "deep",
+  "coverTime": 59.3,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.8,
+    "lead": 0.35,
+    "tail": 3.0,
+    "hookHold": 0.6,
+    "phraseGap": 0.6
+  },
+  "lines": [
+    "How far up is space, really?",
+    "The Statue of Liberty stands ninety-three meters tall.",
+    "The Eiffel Tower, three hundred thirty.",
+    "The Burj Khalifa, eight hundred twenty-eight.",
+    "Mount Everest towers over them all, at almost nine kilometers.",
+    "Passenger jets cruise a little higher, around eleven kilometers up.",
+    "By thirty kilometers, ninety-nine percent of the air is already below you.",
+    "At thirty-nine, a skydiver once jumped from a balloon, | and broke the sound barrier on the way down.",
+    "And at one hundred kilometers: the K\u00e1rm\u00e1n line. | Officially, space.",
+    "If you could drive straight up, | you'd get there in about an hour.",
+    "The International Space Station orbits around four hundred kilometers up.",
+    "On a classroom globe, | that's barely a centimeter above the surface.",
+    "Space isn't far away. | It's just straight up."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s01-liberty.js",
+    "scenes/s02-eiffel.js",
+    "scenes/s03-burj.js",
+    "scenes/s04-everest.js",
+    "scenes/s05-jets.js",
+    "scenes/s06-thin-air.js",
+    "scenes/s07-balloon.js",
+    "scenes/s08-karman.js",
+    "scenes/s09-one-hour.js",
+    "scenes/s10-iss.js",
+    "scenes/s11-globe.js",
+    "scenes/s12-straight-up.js"
+  ]
+}

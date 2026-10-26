@@ -1,0 +1,66 @@
+{
+ "slug": "05b-every-human-on-earth-hook",
+ "channel": "ZOOM OUT",
+ "title": "Could Every Human Fit in One Place?",
+ "episodeLabel": "EP 05",
+ "accent": [
+  255,
+  130,
+  110
+ ],
+ "music": "bright",
+ "coverTime": 1.5,
+ "voice": {
+  "name": "af_heart",
+  "speed": 0.92,
+  "lineGap": 0.8,
+  "lead": 0.35,
+  "tail": 3.0,
+  "hookHold": 0.6,
+  "phraseGap": 0.6,
+  "holds": {
+   "12": 2.4
+  }
+ },
+ "lines": [
+  "Could every human on Earth fit in one place?",
+  "There are about eight billion of us.",
+  "Give everyone a square meter, | and we'd cover an area the size of Puerto Rico.",
+  "Pack in like a concert crowd, four per square meter, | and we'd all fit inside Rhode Island, with room to spare.",
+  "Now pack everyone, by volume, into a single cube.",
+  "It's about eight hundred meters tall. | Shorter than the Burj Khalifa.",
+  "Drop it into the Grand Canyon, and you'd barely find it.",
+  "Spread us evenly over the whole planet, | and we'd be a film seventy times thinner than a human hair.",
+  "Physically, humanity is almost nothing.",
+  "But there's one more number.",
+  "About a hundred and seventeen billion humans have ever lived.",
+  "Everyone alive today is just seven percent of them.",
+  "For every one of us, | about thirteen people have already come and gone.",
+  "If you could meet one of those hundred and seventeen billion people, | who would it be? | Tell me in the comments."
+ ],
+ "scenes": [
+  "scenes/s00-hook.js",
+  "scenes/s01-eight-billion.js",
+  "scenes/s02-puerto-rico.js",
+  "scenes/s03-rhode-island.js",
+  "scenes/s04-cube.js",
+  "scenes/s05-burj.js",
+  "scenes/s06-canyon.js",
+  "scenes/s07-film.js",
+  "scenes/s08-nothing.js",
+  "scenes/s09-one-more.js",
+  "scenes/s10-ever-lived.js",
+  "scenes/s11-seven-percent.js",
+  "scenes/s12-thirteen.js",
+  "scenes/s13-question.js"
+ ],
+ "preroll": {
+  "line": "All eight billion of us would fit in a single cube, | shorter than the Burj Khalifa.",
+  "scene": "scenes/p-cold.js",
+  "from": 25.36,
+  "rate": 0.4,
+  "overlays": true,
+  "hold": 0.2
+ },
+ "captionY": 1450
+}

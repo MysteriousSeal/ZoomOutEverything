@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 37.4,
+  "zoom": 1.2,
+  "fx": 0.5,
+  "fy": 0.45,
+  "tx": 0.5,
+  "ty": 0.5,
+  "lines": [
+    "YOU COULD WALK",
+    "TO *ENGLAND*"
+  ],
+  "stat": {
+    "big": "−120 m",
+    "small": "SEA LEVEL, 20,000 YEARS AGO",
+    "x": 540,
+    "y": 1400
+  }
+}

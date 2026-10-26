@@ -1,0 +1,67 @@
+{
+  "slug": "12b-what-if-you-fell-through-the-earth-hook",
+  "channel": "ZOOM OUT",
+  "title": "What If You Fell Through the Earth?",
+  "series": "What If",
+  "episodeLabel": "EP 12",
+  "accent": [
+    255,
+    140,
+    70
+  ],
+  "music": "deep",
+  "coverTime": 1.5,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.6,
+    "lead": 0.35,
+    "tail": 3.0,
+    "hookHold": 0.6,
+    "phraseGap": 0.5,
+    "holds": {
+      "12": 2.55
+    }
+  },
+  "lines": [
+    "What if you jumped into a hole straight through the Earth?",
+    "First, you'd fall through the crust: | about {35 kilometers~thirty-five kilometers} of solid rock.",
+    "Then the mantle: | nearly {3,000 kilometers~three thousand kilometers} of hot rock.",
+    "Next, the outer core, | an ocean of liquid iron.",
+    "The inner core is about as hot as the surface of the Sun.",
+    "With no air to slow you, | you'd pass the center at about {8 kilometers a second~eight kilometers a second}.",
+    "That's roughly {8 times~eight times} faster than a rifle bullet.",
+    "Then gravity flips, | and starts slowing you down.",
+    "You coast up the other side | and reach the surface, {12,700 kilometers~twelve thousand seven hundred kilometers} away.",
+    "Unless someone grabs you, | you fall straight back in.",
+    "The whole trip takes about {42 minutes~forty-two minutes}.",
+    "And in the simplest model, | a straight tunnel between any two cities takes the same time.",
+    "London to New York? | Also about {42 minutes~forty-two minutes}.",
+    "If you fell through the Moon instead, | would the trip be shorter or longer? | Tell me in the comments."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s01-crust.js",
+    "scenes/s02-mantle.js",
+    "scenes/s03-outer-core.js",
+    "scenes/s04-inner-core.js",
+    "scenes/s05-top-speed.js",
+    "scenes/s06-bullet.js",
+    "scenes/s07-gravity-flips.js",
+    "scenes/s08-other-side.js",
+    "scenes/s09-fall-back.js",
+    "scenes/s10-42-minutes.js",
+    "scenes/s11-any-two-cities.js",
+    "scenes/s12-london-new-york.js",
+    "scenes/s13-question.js"
+  ],
+  "preroll": {
+    "line": "Jump into a hole through the Earth, | and you'd reach the other side in {42 minutes~forty-two minutes}.",
+    "scene": "scenes/p-cold.js",
+    "from": 44.12,
+    "rate": 0.54,
+    "overlays": false,
+    "hold": 0.2
+  },
+  "captionY": 1450
+}

@@ -1,0 +1,68 @@
+{
+ "slug": "21-how-many-ants-are-on-earth",
+ "channel": "ZOOM OUT",
+ "title": "How Many Ants Are on Earth?",
+ "series": "By the Numbers",
+ "episodeLabel": "EP 21",
+ "accent": [
+  235,
+  170,
+  70
+ ],
+ "music": "bright",
+ "coverTime": 1.5,
+ "voice": {
+  "name": "af_heart",
+  "speed": 0.92,
+  "lineGap": 0.65,
+  "lead": 0.35,
+  "tail": 3.0,
+  "hookHold": 0.6,
+  "phraseGap": 0.55,
+  "holds": {
+   "2": 0.4,
+   "11": 0.6
+  }
+ },
+ "lines": [
+  "How many ants are there on Earth?",
+  "Start with one colony: | a few thousand ants, under a single stone.",
+  "Some leafcutter nests hold millions.",
+  "In {2022~twenty twenty-two}, scientists combined nearly five hundred ground surveys | from every continent but Antarctica.",
+  "Their conservative estimate: | twenty quadrillion ants.",
+  "That's a two, followed by sixteen zeros.",
+  "Nearly two and a half million ants | for every person alive.",
+  "Together, they outweigh all the wild birds and wild mammals on Earth, | combined.",
+  "And they've been here for over a hundred million years, | since the age of the dinosaurs.",
+  "Now line them all up, | end to end, at half a centimeter each.",
+  "The line leaves Earth, | passes Neptune, | then Pluto.",
+  "It would stretch about six hundred and seventy times the distance from Earth to the Sun.",
+  "Look down. | You're never really alone.",
+  "Be honest: | when you find an ant in your kitchen, | do you let it live? | Tell me in the comments."
+ ],
+ "scenes": [
+  "scenes/s00-hook.js",
+  "scenes/s01-colony.js",
+  "scenes/s02-leafcutters.js",
+  "scenes/s03-surveys.js",
+  "scenes/s04-quadrillion.js",
+  "scenes/s05-sixteen-zeros.js",
+  "scenes/s06-per-person.js",
+  "scenes/s07-biomass.js",
+  "scenes/s08-amber.js",
+  "scenes/s09-line-up.js",
+  "scenes/s10-past-pluto.js",
+  "scenes/s11-670-au.js",
+  "scenes/s12-never-alone.js",
+  "scenes/s13-question.js"
+ ],
+ "preroll": {
+  "line": "Line up every ant on Earth, | and the line reaches far past Pluto.",
+  "scene": "scenes/p-cold.js",
+  "from": 51.2,
+  "rate": 0.25,
+  "overlays": true,
+  "hold": 0.2
+ },
+ "captionY": 1450
+}

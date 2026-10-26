@@ -1,0 +1,22 @@
+{
+  "mode": "world",
+  "time": 6.437,
+  "zoom": 1.7,
+  "fx": 0.5,
+  "fy": 0.27,
+  "tx": 0.5,
+  "ty": 0.45,
+  "lines": [
+    "WHAT IF THE",
+    "*MOON* VANISHED?"
+  ],
+  "stat": {
+    "big": "3.8 cm",
+    "small": "IT DRIFTS AWAY EVERY YEAR",
+    "x": 540,
+    "y": 1240,
+    "size": 150
+  },
+  "size": 112,
+  "shadeEnd": 640
+}

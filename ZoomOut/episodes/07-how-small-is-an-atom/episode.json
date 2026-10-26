@@ -1,0 +1,52 @@
+{
+  "slug": "07-how-small-is-an-atom",
+  "channel": "ZOOM OUT",
+  "title": "How Small Is an Atom, Really?",
+  "episodeLabel": "EP 07",
+  "accent": [
+    110,
+    240,
+    200
+  ],
+  "music": "deep",
+  "coverTime": 45.0,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.8,
+    "lead": 0.35,
+    "tail": 3.0,
+    "hookHold": 0.6,
+    "phraseGap": 0.6
+  },
+  "lines": [
+    "How small is an atom, really?",
+    "Start with a single human hair, about seventy micrometers wide.",
+    "Ten red blood cells, side by side, would just span it.",
+    "Each of those cells is about seven times wider than a bacterium.",
+    "A virus is roughly ten times smaller still.",
+    "Inside your cells, DNA is a strand just two nanometers wide.",
+    "And an atom? | About a tenth of a nanometer.",
+    "It would take half a million atoms, side by side, | to cross that one hair.",
+    "But here's the strange part: | an atom is almost entirely empty.",
+    "Blow one up to the size of a football stadium, | and its nucleus would be a grain of sand on the center spot.",
+    "The electrons? | Just a faint haze, out in the stands.",
+    "Everything in between is empty space.",
+    "Including the atoms that make up you."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s01-hair.js",
+    "scenes/s02-blood-cells.js",
+    "scenes/s03-bacterium.js",
+    "scenes/s04-virus.js",
+    "scenes/s05-dna.js",
+    "scenes/s06-atom.js",
+    "scenes/s07-half-million.js",
+    "scenes/s08-empty.js",
+    "scenes/s09-stadium.js",
+    "scenes/s10-electrons.js",
+    "scenes/s11-empty-space.js",
+    "scenes/s12-you.js"
+  ]
+}

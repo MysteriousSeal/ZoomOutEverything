@@ -1,0 +1,27 @@
+{
+  "mode": "world",
+  "time": 55.5,
+  "zoom": 1.0,
+  "fx": 0.5,
+  "fy": 0.4349,
+  "tx": 0.5,
+  "ty": 0.5333,
+  "exposure": 1.25,
+  "shade": 1.0,
+  "shadeEnd": 920,
+  "size": 96,
+  "headY": 246,
+  "lines": [
+    "ALL RECORDED HISTORY",
+    "FITS IN THE",
+    "*LAST 12 SECONDS*"
+  ],
+  "stat": {
+    "big": "12 s",
+    "small": "OUT OF 365 DAYS",
+    "size": 100,
+    "x": 60,
+    "y": 1000,
+    "align": "left"
+  }
+}

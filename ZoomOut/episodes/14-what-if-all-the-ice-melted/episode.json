@@ -1,0 +1,52 @@
+{
+  "slug": "14-what-if-all-the-ice-melted",
+  "channel": "ZOOM OUT",
+  "title": "What If All the Ice Melted?",
+  "episodeLabel": "EP 14",
+  "accent": [
+    150,
+    235,
+    215
+  ],
+  "music": "bright",
+  "coverTime": 24.8,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.8,
+    "lead": 0.35,
+    "tail": 3.0,
+    "hookHold": 0.5,
+    "phraseGap": 0.65
+  },
+  "lines": [
+    "What if all the ice on Earth melted?",
+    "Now zoom out from a single ice cube, | all the way to Antarctica.",
+    "Antarctica holds about ninety percent of the world's ice.",
+    "In places, it's more than four kilometers thick.",
+    "If all the ice on land melted, | the oceans would rise about seventy meters.",
+    "That's almost up to the chest of the Statue of Liberty.",
+    "Most of Florida | would be underwater.",
+    "Venice would vanish. | So would Amsterdam.",
+    "Shanghai, too. | Every coastline on Earth would have to be redrawn.",
+    "But the sea has moved the other way, too.",
+    "Twenty thousand years ago, at the peak of the last ice age, | the sea was about one hundred twenty meters lower.",
+    "You could have walked from France to England, | or from Siberia to Alaska.",
+    "Coastlines aren't fixed. | The ice decides where they are."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s01-zoom-out.js",
+    "scenes/s02-ninety-percent.js",
+    "scenes/s03-thickness.js",
+    "scenes/s04-seventy-metres.js",
+    "scenes/s05-liberty.js",
+    "scenes/s06-florida.js",
+    "scenes/s07-venice-amsterdam.js",
+    "scenes/s08-shanghai-coastlines.js",
+    "scenes/s09-other-way.js",
+    "scenes/s10-ice-age.js",
+    "scenes/s11-land-bridges.js",
+    "scenes/s12-not-fixed.js"
+  ]
+}

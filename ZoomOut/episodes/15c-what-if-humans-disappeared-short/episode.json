@@ -1,0 +1,60 @@
+{
+  "slug": "15c-what-if-humans-disappeared-short",
+  "channel": "ZOOM OUT",
+  "series": "What If",
+  "title": "What If Humans Disappeared Tomorrow?",
+  "episodeLabel": "EP 15",
+  "accent": [
+    255,
+    190,
+    95
+  ],
+  "music": "deep",
+  "coverTime": 1.5,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.42,
+    "lead": 0.35,
+    "tail": 1.4,
+    "hookHold": 0.3,
+    "phraseGap": 0.35,
+    "holds": {
+      "2": 0.3,
+      "8": 1.0
+    }
+  },
+  "lines": [
+    "What if every human on Earth disappeared tomorrow?",
+    "Within hours, | power plants would shut down, and the lights would go out.",
+    "Without its pumps, | New York's subway would flood in about {2 days~two days}.",
+    "In about {20 years~twenty years}, | broken streets {would/~would} start turning to forest.",
+    "Within a few centuries, | steel bridges and towers would rust and fall.",
+    "Plastic could outlast them, | perhaps for {1,000 years~a thousand years} or more.",
+    "But our most lasting {trace/~trace} has already left the {planet./~planet.}",
+    "For about a century, | our radio and TV {signals/~signals} have raced outward at light speed.",
+    "Today they reach about {100 light-years~a hundred light-years} in every direction, | {they're~and they're} still spreading.",
+    "How many stars have our signals already reached? | {About 100~About a hundred}, or {over 10,000~over ten thousand}? | Tell me in the comments."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s02-grid.js",
+    "scenes/s04-subway.js",
+    "scenes/s06-forest.js",
+    "scenes/s07-bridges.js",
+    "scenes/s08-plastic.js",
+    "scenes/s10-last-trace.js",
+    "scenes/s11-broadcasts.js",
+    "scenes/s12-bubble.js",
+    "scenes/s13-question.js"
+  ],
+  "preroll": {
+    "line": "Our longest-lasting trace has already left Earth.",
+    "scene": "scenes/p-cold.js",
+    "from": 37.37,
+    "rate": 0.3,
+    "overlays": false,
+    "hold": 0.2
+  },
+  "captionY": 1450
+}

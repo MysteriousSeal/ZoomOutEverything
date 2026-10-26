@@ -1,0 +1,52 @@
+{
+  "slug": "13-what-if-the-earth-stopped-spinning",
+  "channel": "ZOOM OUT",
+  "title": "What If the Earth Stopped Spinning?",
+  "episodeLabel": "EP 13",
+  "accent": [
+    90,
+    220,
+    235
+  ],
+  "music": "deep",
+  "coverTime": 1.2,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.65,
+    "lead": 0.35,
+    "tail": 2.8,
+    "hookHold": 0.4,
+    "phraseGap": 0.5
+  },
+  "lines": [
+    "What if the Earth suddenly stopped spinning?",
+    "At the equator, | you're moving at about one thousand six hundred seventy kilometers an hour.",
+    "You don't feel it, because everything moves with you.",
+    "Stop the planet suddenly, | and anything not bolted down keeps going east, at that speed.",
+    "So does the air: winds of more than a thousand kilometers an hour.",
+    "Over time, the oceans would start to move.",
+    "Spinning makes Earth bulge about twenty-one kilometers at the equator.",
+    "Without it, that water slides toward the poles.",
+    "Two polar oceans, and one giant continent wrapped around the middle.",
+    "And one day would last a whole year: | six months of daylight, six months of night.",
+    "The strange part? | Earth really is slowing down.",
+    "About four hundred million years ago, | a year had roughly four hundred days.",
+    "Fossil corals recorded it, | in their daily growth rings."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s01-equator.js",
+    "scenes/s02-dont-feel-it.js",
+    "scenes/s03-stop.js",
+    "scenes/s04-winds.js",
+    "scenes/s05-oceans-move.js",
+    "scenes/s06-bulge.js",
+    "scenes/s07-to-the-poles.js",
+    "scenes/s08-one-continent.js",
+    "scenes/s09-day-is-a-year.js",
+    "scenes/s10-slowing-down.js",
+    "scenes/s11-400-days.js",
+    "scenes/s12-corals.js"
+  ]
+}

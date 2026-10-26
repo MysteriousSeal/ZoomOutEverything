@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 27.44,
+  "zoom": 1.35,
+  "fx": 0.45,
+  "fy": 0.62,
+  "tx": 0.5,
+  "ty": 0.66,
+  "lines": [
+    "HOW DEEP IS",
+    "THE *OCEAN?*"
+  ],
+  "stat": {
+    "big": "11,000 m",
+    "small": "EVEREST WOULD SINK",
+    "x": 540,
+    "y": 1640
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 15,
+  "zoom": 1.4,
+  "fx": 0.6,
+  "fy": 0.34,
+  "tx": 0.5,
+  "ty": 0.476,
+  "lines": [
+    "YOUR BODY IN",
+    "*ONE SECOND*"
+  ],
+  "stat": {
+    "big": "4 MILLION",
+    "small": "NEW CELLS EVERY SECOND",
+    "x": 540,
+    "y": 1640
+  }
+}

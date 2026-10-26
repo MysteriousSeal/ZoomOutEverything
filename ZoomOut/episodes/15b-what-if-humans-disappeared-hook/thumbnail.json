@@ -1,0 +1,20 @@
+{
+  "mode": "world",
+  "time": 60.2,
+  "zoom": 1.0,
+  "fx": 0.5,
+  "fy": 0.5,
+  "tx": 0.5,
+  "ty": 0.53,
+  "lines": [
+    "WHAT IF HUMANS",
+    "*DISAPPEARED?*"
+  ],
+  "stat": {
+    "big": "100 LIGHT-YEARS",
+    "small": "HOW FAR OUR TV SIGNALS HAVE GONE",
+    "x": 540,
+    "y": 1425,
+    "size": 96
+  }
+}

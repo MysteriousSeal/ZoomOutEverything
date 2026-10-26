@@ -1,0 +1,61 @@
+{
+ "slug": "11c-what-if-the-moon-disappeared-short",
+ "channel": "ZOOM OUT",
+ "title": "What If the Moon Disappeared?",
+ "series": "What If",
+ "episodeLabel": "EP 11",
+ "accent": [
+  175,
+  195,
+  255
+ ],
+ "music": "deep",
+ "coverTime": 1.5,
+ "voice": {
+  "name": "af_heart",
+  "speed": 0.92,
+  "lineGap": 0.5,
+  "lead": 0.35,
+  "tail": 1.6,
+  "hookHold": 0.4,
+  "phraseGap": 0.45,
+  "holds": {
+   "9": 1.1
+  }
+ },
+ "lines": [
+  "What if the Moon suddenly disappeared?",
+  "Without it, | moonlit nights would be {about 100~about a hundred} times darker.",
+  "Then the tides. | The Moon does most of the pulling.",
+  "With only the Sun left, | tides would shrink to about a third of today's biggest.",
+  "And total solar {eclipses/~eclipses} would be gone, forever.",
+  "The Moon also steadies Earth's tilt.",
+  "Without it, | many models say that {tilt/~tilt} could wobble far {more,/~more,} and seasons could go haywire.",
+  "But here's the twist: | the Moon is already slowly leaving us.",
+  "Every year, | it drifts about {3.8 centimeters~three point eight centimeters} farther away.",
+  "That's about as fast as your fingernails grow.",
+  "How long until total solar eclipses end? | {About 6,000 years~About six thousand years}, or {about 600 million years~about six hundred million years}? | Tell me in the comments."
+ ],
+ "scenes": [
+  "scenes/s00-hook.js",
+  "scenes/s03-hundred-darker.js",
+  "scenes/s04-tides.js",
+  "scenes/s05-one-third.js",
+  "scenes/s06-eclipses.js",
+  "scenes/s07-tilt.js",
+  "scenes/s08-wobble.js",
+  "scenes/s10-leaving.js",
+  "scenes/s11-3-8-cm.js",
+  "scenes/s12-fingernails.js",
+  "scenes/s13-question.js"
+ ],
+ "preroll": {
+  "line": "The Moon is already leaving us.",
+  "scene": "scenes/p-cold.js",
+  "from": 35.19,
+  "rate": 0.3,
+  "overlays": false,
+  "hold": 0.2
+ },
+ "captionY": 1450
+}

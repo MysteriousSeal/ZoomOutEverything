@@ -1,0 +1,56 @@
+{
+  "slug": "13c-what-if-the-earth-stopped-spinning-short",
+  "channel": "ZOOM OUT",
+  "title": "What If the Earth Stopped Spinning?",
+  "episodeLabel": "EP 13",
+  "accent": [
+    90,
+    220,
+    235
+  ],
+  "music": "deep",
+  "coverTime": 1.2,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.94,
+    "lineGap": 0.42,
+    "lead": 0.35,
+    "tail": 1.6,
+    "hookHold": 0.2,
+    "phraseGap": 0.35,
+    "holds": {}
+  },
+  "lines": [
+    "What if Earth suddenly stopped spinning?",
+    "At the equator, | you're moving at {about/~about} {1,670 kilometers an hour~one thousand six hundred seventy kilometers an hour}.",
+    "Stop the planet suddenly, | and {anything/~anything} not bolted {down/~down} flies east.",
+    "So does the air, at more {than/~than} {1,000 kilometers an hour~a thousand kilometers an hour}.",
+    "Without spin, | the water bulging at the {equator/~equator} slides to the poles.",
+    "{2~Two} polar oceans, one giant {continent/~continent} around the middle.",
+    "One day would last a whole year: | {6 months~six months} of daylight, {6 months~six months} of night.",
+    "Strangely, Earth really is slowing {down./~down.}",
+    "{400 million years~four hundred million years} {ago,/~ago,} a year had about {400 days~four hundred days}.",
+    "At today's rate, how long until a day lasts {25 hours~twenty-five hours}? | About {20,000~twenty thousand} years, | or about {200 million~two hundred million} years? | Tell me in the comments."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s01-equator.js",
+    "scenes/s03-stop.js",
+    "scenes/s04-winds.js",
+    "scenes/s06-bulge.js",
+    "scenes/s08-one-continent.js",
+    "scenes/s09-day-is-a-year.js",
+    "scenes/s10-slowing-down.js",
+    "scenes/s11-400-days.js",
+    "scenes/s13-question.js"
+  ],
+  "preroll": {
+    "line": "If Earth stopped spinning, | winds would blow at over {1,000 kilometers an hour~a thousand kilometers an hour}.",
+    "scene": "scenes/p-cold.js",
+    "from": 14.07,
+    "rate": 0.35,
+    "overlays": false,
+    "hold": 0.2
+  },
+  "captionY": 1450
+}

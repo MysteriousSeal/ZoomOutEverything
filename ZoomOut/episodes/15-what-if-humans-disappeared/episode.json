@@ -1,0 +1,53 @@
+{
+  "slug": "15-what-if-humans-disappeared",
+  "channel": "ZOOM OUT",
+  "series": "What If",
+  "title": "What If Humans Disappeared Tomorrow?",
+  "episodeLabel": "EP 15",
+  "accent": [
+    255,
+    190,
+    95
+  ],
+  "music": "deep",
+  "coverTime": 44.4,
+  "voice": {
+    "name": "af_heart",
+    "speed": 0.92,
+    "lineGap": 0.65,
+    "lead": 0.35,
+    "tail": 3.0,
+    "hookHold": 0.6,
+    "phraseGap": 0.5
+  },
+  "lines": [
+    "What if every human on Earth disappeared tomorrow?",
+    "At first, the lights would stay on, | for no one.",
+    "Within hours, with no one to run them, | power plants would shut down.",
+    "One by one, | the lights would go out.",
+    "Beneath New York, pumps keep the subway dry.",
+    "Without them, | the tunnels would flood in about two days.",
+    "In about twenty years, | cracked streets would turn to forest.",
+    "Within a few centuries, | steel bridges and towers would rust and fall.",
+    "Plastic could outlast them, | perhaps for a thousand years or more.",
+    "Some bronze statues might keep their shape for millions of years.",
+    "But our most lasting trace has already left the planet.",
+    "For about a century, | our radio and TV signals have raced outward at light speed.",
+    "Today they reach about a hundred light-years in every direction, | and they're still spreading."
+  ],
+  "scenes": [
+    "scenes/s00-hook.js",
+    "scenes/s01-lights-on.js",
+    "scenes/s02-power-plants.js",
+    "scenes/s03-blackout.js",
+    "scenes/s04-pumps.js",
+    "scenes/s05-flood.js",
+    "scenes/s06-forest.js",
+    "scenes/s07-bridges.js",
+    "scenes/s08-plastic.js",
+    "scenes/s09-bronze.js",
+    "scenes/s10-last-trace.js",
+    "scenes/s11-broadcasts.js",
+    "scenes/s12-bubble.js"
+  ]
+}

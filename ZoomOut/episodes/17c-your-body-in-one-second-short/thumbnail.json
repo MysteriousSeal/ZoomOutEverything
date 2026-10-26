@@ -1,0 +1,22 @@
+{
+  "mode": "world",
+  "time": 30.34,
+  "zoom": 1.3,
+  "fx": 0.46,
+  "fy": 0.5,
+  "tx": 0.5,
+  "ty": 0.6,
+  "exposure": 1.1,
+  "lines": [
+    "YOUR BONES MAKE",
+    "*2–3 MILLION*",
+    "CELLS A SECOND"
+  ],
+  "stat": {
+    "big": "25 TRILLION",
+    "small": "RED BLOOD CELLS IN YOU",
+    "x": 540,
+    "y": 1420,
+    "size": 110
+  }
+}

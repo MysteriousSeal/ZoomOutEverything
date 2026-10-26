@@ -1,0 +1,20 @@
+{
+  "mode": "world",
+  "time": 17.70,
+  "zoom": 1.7,
+  "fx": 0.513,
+  "fy": 0.446,
+  "tx": 0.5,
+  "ty": 0.52,
+  "exposure": 1.15,
+  "lines": [
+    "YOU WOULDN'T KNOW",
+    "FOR *8 MINUTES*"
+  ],
+  "stat": {
+    "big": "8:20",
+    "small": "BEFORE THE SKY GOES DARK",
+    "x": 540,
+    "y": 1460
+  }
+}
