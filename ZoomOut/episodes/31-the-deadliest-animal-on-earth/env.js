@@ -40,25 +40,25 @@ const BYID = Object.fromEntries(ROWS.map((r) => [r.id, r]));
 // and only then does the new bar grow (c0 → c1, landing ON the spoken number).
 const SHIFT = 0.3, SLIDE = 0.3, RESC = 0.55;
 /**
- * per-row timing (global s): appear (rows shift), pre (prefix + blurred odometer appear, with the spoken lead-in),
- * c0/c1 (bar grows / value revealed ON the spoken number), rs ([start, dur] of the axis rescale it causes, or null)
+ * per-row timing (global s): appear (rows shift), pre (prefix + blank flap cells appear, with the spoken lead-in),
+ * c0/c1 (bar grows / split-flap value lands ON the first frame of the spoken number word: landT), rs ([start, dur] of the axis rescale it causes, or null)
  */
 export function rowT(tl, id) {
   switch (id) {
-    case 'shark': { const c0 = W8(tl, 'six', -0.55); return { appear: B(tl, 1, 0.35), pre: c0, c0, c1: W8(tl, 'six', 0.02), rs: null }; }
+    case 'shark': { const c0 = W8(tl, 'six', -0.55); return { appear: B(tl, 1, 0.35), pre: c0, c0, c1: landT(tl, 'shark'), rs: null }; }
     case 'snake': {
       const c0 = W8(tl, 'snakeHundred', -0.02), r0 = c0 - 0.1 - RESC;
-      return { appear: r0 - 0.6, pre: W8(tl, 'upTo', -0.04), c0, c1: W8(tl, 'snakeThousand', 0.03), rs: [r0, RESC] };
+      return { appear: r0 - 0.6, pre: W8(tl, 'upTo', -0.04), c0, c1: landT(tl, 'snake'), rs: [r0, RESC] };
     }
-    case 'dog': { const c0 = W8(tl, 'sixty', -0.35); return { appear: c0 - 0.75, pre: c0, c0, c1: W8(tl, 'dogThousand', 0.03), rs: null }; }
+    case 'dog': { const c0 = W8(tl, 'sixty', -0.35); return { appear: c0 - 0.75, pre: c0, c0, c1: landT(tl, 'dog'), rs: null }; }
     case 'human': {
       const c0 = W8(tl, 'four', -0.1), r0 = c0 - 0.1 - RESC;
-      return { appear: r0 - 0.6, pre: c0, c0, c1: W8(tl, 'humThousand', 0.03), rs: [r0, RESC] };
+      return { appear: r0 - 0.6, pre: c0, c0, c1: landT(tl, 'human'), rs: [r0, RESC] };
     }
     case 'mosq': {
       // its axis stage is set while the camera is inside the macro shot (the board is off screen): no visible jump
       const c0 = W8(tl, 'malSix', -0.05);
-      return { appear: B(tl, 5, 0.25), pre: c0, c0, c1: W8(tl, 'malThousand', 0.03), rs: [W8(tl, 'tiny', 1.75), RESC] };
+      return { appear: B(tl, 5, 0.25), pre: c0, c0, c1: landT(tl, 'mosq'), rs: [W8(tl, 'tiny', 1.75), RESC] };
     }
   }
   return null;
@@ -574,36 +574,107 @@ export function drawForeground(c, v) {
 
 // ------------------------------------------------------------------ shared overlay helpers
 /**
- * A heavy-blur "odometer" standing in for a number that has not landed yet: rolling digit columns under a ~15 px blur,
- * so no frame reads as a value. Laid out on the FINAL string (right-aligned at xr) so the reveal doesn't jump.
+ * SPLIT-FLAP reveal (departures board). The number's FINAL layout — one flap cell per digit, separators as plain text —
+ * is laid out once and never moves. Cells sit blank (no digit) from the prefix's arrival; FLAP_D s before the landing
+ * word every cell flips through BLANK flaps (top half folding down over a hinge, shaded, phases staggered per cell),
+ * and ALL digits land together, straight on their final digits, ON the first frame of the spoken number word. No in-between digit or blur is ever drawn. Time is frame-quantised (gq), fully deterministic.
  */
-function odometer(c, str, xr, y, size, color, gt, a) {
-  if (a <= 0.01) return;
-  c.save();
+const FLAP_D = 0.6, FLAP_P = 0.1;
+/** frame on which a row's value lands: the first frame of the spoken number word ("thousand" / "six") */
+export function landT(tl, id) {
+  const ws = (i, word) => {
+    for (const ph of tl.lines[i].phrases ?? []) for (const [t, w] of ph.words ?? []) if (w.toLowerCase().startsWith(word)) return t;
+    return null;
+  };
+  switch (id) {
+    // whisper puts "six" on its vowel (7.90); the /s/ is clearly audible from ≈ 7.69 on vo.wav — land on the /s/
+    case 'shark': return gq(W8(tl, 'six', 0.035));
+    case 'snake': return gq(ws(2, 'thousand') ?? W8(tl, 'snakeThousand'));
+    case 'dog': return gq(ws(3, 'thousand') ?? W8(tl, 'dogThousand'));
+    case 'human': return gq(ws(4, 'thousand') ?? W8(tl, 'humThousand'));
+    case 'mosq': return gq(ws(6, 'thousand') ?? W8(tl, 'malThousand'));
+  }
+  return null;
+}
+/** settle time of digit cell r (0 = rightmost) of a number with nd digits landing at land */
+// every digit settles on the same frame (the landing word): a partly-settled board could read as a wrong number
+const settleT = (land) => land;
+/** the cell layout of the final string: [{ch, x, w, digit, r}] (x = left edge), right-aligned at xr */
+function flapCells(c, str, xr, size) {
   c.font = L.font(size, 800, L.FONT.display);
-  c.textAlign = 'left';
-  const w = c.measureText(str).width;
-  c.beginPath(); c.rect(xr - w - 30, y - size * 0.95, w + 60, size * 1.15); c.clip();
-  c.filter = `blur(${Math.round(size * 0.12)}px)`;
-  c.globalAlpha *= 0.5 * a;
-  c.fillStyle = L.rgba(color);
-  let x = xr - w, di = 0;
-  const pitch = size * 0.78;
+  const dw = Math.max(...'0123456789'.split('').map((d) => c.measureText(d).width));
+  const cw = dw + size * 0.1, gap = size * 0.06;
+  const cells = [];
   for (const ch of str) {
-    const cw = c.measureText(ch).width;
-    if (/\d/.test(ch)) {
-      const roll = gt * (9 + di * 1.3) + di * 0.41;
-      const base = Math.floor(roll), ph = roll - base;
-      for (let j = -1; j <= 1; j++) c.fillText(String((base + j + 10 * 100) % 10), x, y + (j + ph) * pitch);
-      di++;
-    } else c.fillText(ch, x, y);
-    x += cw;
+    const d = /\d/.test(ch);
+    cells.push({ ch, digit: d, w: d ? cw : c.measureText(ch).width + gap * 0.5 });
+  }
+  const tot = cells.reduce((s, q) => s + q.w + gap, -gap);
+  let x = xr - tot, r = cells.filter((q) => q.digit).length;
+  for (const q of cells) { q.x = x; x += q.w + gap; if (q.digit) q.r = --r; }
+  return { cells, w: tot };
+}
+function drawFlaps(c, str, xr, y, size, color, g, land, a) {
+  if (a <= 0.01) return;
+  const { cells } = flapCells(c, str, xr, size);
+  const top = y - size * 0.86, h = size * 0.98, hy = top + h / 2, rad = size * 0.07;
+  const r0 = land - FLAP_D;
+  c.save();
+  c.globalAlpha *= a;
+  c.font = L.font(size, 800, L.FONT.display);
+  c.textBaseline = 'alphabetic';
+  for (const q of cells) {
+    if (!q.digit) {   // separator: plain crisp text, same as the final layout
+      c.shadowColor = 'rgba(0,0,0,0.6)'; c.shadowBlur = 16;
+      c.fillStyle = L.rgba(color); c.textAlign = 'center';
+      c.fillText(q.ch, q.x + q.w / 2, y);
+      c.shadowBlur = 0;
+      continue;
+    }
+    const settled = g >= settleT(land) - 1e-6;
+    // the cell: two halves (top a touch lighter), soft drop shadow
+    c.save();
+    c.shadowColor = 'rgba(0,0,0,0.55)'; c.shadowBlur = 18; c.shadowOffsetY = 4;
+    c.fillStyle = 'rgba(27,30,37,0.95)';
+    L.roundRect(c, q.x, top, q.w, h, rad); c.fill();
+    c.restore();
+    c.save();
+    L.roundRect(c, q.x, top, q.w, h, rad); c.clip();
+    c.fillStyle = 'rgba(255,255,255,0.05)'; c.fillRect(q.x, top, q.w, h / 2);
+    c.strokeStyle = 'rgba(255,255,255,0.09)'; c.lineWidth = 2; L.roundRect(c, q.x + 1, top + 1, q.w - 2, h - 2, rad); c.stroke();
+    if (settled) {
+      c.fillStyle = L.rgba(color); c.textAlign = 'center';
+      c.fillText(q.ch, q.x + q.w / 2, y);
+    } else if (g >= r0 - 1e-6) {
+      // flipping: a blank flap folds from the top half down over the hinge, then lands on the bottom half
+      const ph = (((g - r0) / FLAP_P + q.r * 0.37) % 1 + 1) % 1;
+      const cs = Math.cos(ph * Math.PI);          // 1 → 0 (top flap folding) → -1 (bottom flap landing)
+      const fh = (h / 2) * Math.abs(cs);
+      const shade = 0.25 + 0.55 * (1 - Math.abs(cs));
+      if (cs >= 0) {
+        // the old top half falling: under it the next (blank) top half, a touch darker
+        c.fillStyle = 'rgba(0,0,0,0.22)'; c.fillRect(q.x, top, q.w, h / 2);
+        c.fillStyle = `rgba(${Math.round(56 - 26 * shade)},${Math.round(60 - 26 * shade)},${Math.round(71 - 28 * shade)},1)`;
+        c.fillRect(q.x + 1, hy - fh, q.w - 2, fh);
+        c.fillStyle = `rgba(255,255,255,${0.18 * (1 - shade)})`; c.fillRect(q.x + 1, hy - fh, q.w - 2, 2);
+      } else {
+        c.fillStyle = `rgba(${Math.round(46 - 24 * shade)},${Math.round(50 - 24 * shade)},${Math.round(60 - 26 * shade)},1)`;
+        c.fillRect(q.x + 1, hy, q.w - 2, fh);
+        c.fillStyle = `rgba(0,0,0,${0.35 * shade})`; c.fillRect(q.x + 1, hy + fh - 3, q.w - 2, 3);
+      }
+    }
+    // hinge: a dark split line with a faint highlight under it, and the two side pins
+    c.fillStyle = 'rgba(0,0,0,0.8)'; c.fillRect(q.x, hy - 1, q.w, 2);
+    c.fillStyle = 'rgba(255,255,255,0.08)'; c.fillRect(q.x, hy + 1, q.w, 1);
+    c.fillStyle = 'rgba(70,74,84,1)';
+    c.fillRect(q.x, hy - 5, 3, 10); c.fillRect(q.x + q.w - 3, hy - 5, 3, 10);
+    c.restore();
   }
   c.restore();
 }
 /**
- * Big number. The prefix ("UP TO", "≈") arrives with its spoken lead-in, a blurred odometer holds the number's place
- * while the bar grows, and the FINAL value is revealed as the bar lands. Returns {x0, x1} (final extents).
+ * Big number. The prefix ("UP TO", "≈") and the blank flap cells arrive with the spoken lead-in; the split-flap reveal
+ * lands the value ON the spoken number word. Returns {x0, x1} (final extents).
  */
 export function bigNumber(c, { id, tl, gt, x = 540, y, size = 124, color = INKW, k = 1, prefixSize }) {
   const row = BYID[id], rt = rowT(tl, id);
@@ -614,16 +685,13 @@ export function bigNumber(c, { id, tl, gt, x = 540, y, size = 124, color = INKW,
   const ps = prefixSize ?? (approx ? size : Math.round(size * 0.42));
   c.save();
   c.textBaseline = 'alphabetic';
-  c.font = L.font(size, 800, L.FONT.display);
-  const wn = c.measureText(finalNum).width;
+  const wn = flapCells(c, finalNum, 0, size).w;
   c.font = L.font(ps, 800, L.FONT.display);
-  const wp = c.measureText(pre).width;
+  const wp = c.measureText(pre).width + size * 0.06;
   const x0 = x - (wn + wp) / 2, x1 = x0 + wp + wn;
   if (cv.started && k > 0) {
     c.globalAlpha *= k;
     const g = gq(gt);
-    const rk = cv.landed ? L.ease.outCubic(L.clamp((g - rt.c1) / 0.14)) : 0;
-    // prefix: from its spoken lead-in
     const pa = L.clamp((g - rt.pre) / 0.18);
     c.shadowColor = 'rgba(0,0,0,0.6)'; c.shadowBlur = 20;
     c.font = L.font(ps, 800, L.FONT.display);
@@ -631,20 +699,7 @@ export function bigNumber(c, { id, tl, gt, x = 540, y, size = 124, color = INKW,
     c.textAlign = 'left';
     c.fillText(pre, x0, approx ? y : y - size * 0.3);
     c.shadowBlur = 0;
-    // odometer until the value lands, then the value (a short settle: scale 1.06 → 1)
-    odometer(c, finalNum, x1, y, size, color, g, 1 - rk);
-    if (rk > 0) {
-      c.save();
-      c.globalAlpha *= rk;
-      const s = L.lerp(1.06, 1, rk);
-      c.translate(x1 - wn / 2, y - size * 0.36); c.scale(s, s); c.translate(-(x1 - wn / 2), -(y - size * 0.36));
-      c.shadowColor = 'rgba(0,0,0,0.6)'; c.shadowBlur = 20;
-      c.font = L.font(size, 800, L.FONT.display);
-      c.fillStyle = L.rgba(color);
-      c.textAlign = 'right';
-      c.fillText(finalNum, x1, y);
-      c.restore();
-    }
+    drawFlaps(c, finalNum, x1, y, size, color, g, rt.c1, pa);
   }
   c.restore();
   return { x0, x1 };
@@ -693,10 +748,12 @@ export function cues(tl) {
   // hook
   out.push({ t: 0.0, name: 'deep', gain: 0.34, pitch: 0.7 });
   out.push({ t: (ph(0, 0, 'end') + ph(0, 1)) / 2 - 0.08, name: 'impact', gain: 0.24, pitch: 0.85 });   // the stamp, in the pause
-  // count-ups (soft ticks under the voice)
+  // split-flap: at most one soft tick per reveal, as the flaps start (never within 70 ms of a word onset; never on the
+  // landing word)
+  const onsets = tl.lines.flatMap((ln) => (ln.phrases ?? []).flatMap((p) => (p.words ?? []).map((w) => w[0])));
   for (const id of ['shark', 'snake', 'dog', 'human', 'mosq']) {
-    const r = rowT(tl, id);
-    out.push({ t: r.c0, name: 'count', gain: 0.07, pitch: id === 'shark' ? 1.2 : 1 });
+    const t = rowT(tl, id).c1 - FLAP_D;
+    if (!onsets.some((o) => Math.abs(o - t) < 0.07)) out.push({ t, name: 'tick', gain: 0.045, pitch: 0.85 });
   }
   // map card: farm, hospital
   out.push({ t: W8(tl, 'farmers', -0.2), name: 'blip', gain: 0.1, pitch: 0.9 });
