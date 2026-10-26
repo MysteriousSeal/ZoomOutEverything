@@ -1,0 +1,227 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 59.004,
+ "lines": [
+  {
+   "text": "What if the whole history of the universe fit into one year?",
+   "start": 0.35,
+   "end": 3.445,
+   "phrases": [
+    {
+     "text": "What if the whole history of the universe fit into one year?",
+     "start": 0.35,
+     "end": 3.445
+    }
+   ]
+  },
+  {
+   "text": "The Big Bang happens on January first, at midnight.",
+   "start": 5.345,
+   "end": 8.402,
+   "phrases": [
+    {
+     "text": "The Big Bang happens on January first, at midnight.",
+     "start": 5.345,
+     "end": 8.402
+    }
+   ]
+  },
+  {
+   "text": "Each day stands for about thirty-eight million years.",
+   "start": 9.702,
+   "end": 12.449,
+   "phrases": [
+    {
+     "text": "Each day stands for about thirty-eight million years.",
+     "start": 9.702,
+     "end": 12.449
+    }
+   ]
+  },
+  {
+   "text": "Our Sun doesn't ignite until early September.",
+   "start": 13.749,
+   "end": 16.555,
+   "phrases": [
+    {
+     "text": "Our Sun doesn't ignite until early September.",
+     "start": 13.749,
+     "end": 16.555
+    }
+   ]
+  },
+  {
+   "text": "The first life on Earth appears in late September.",
+   "start": 17.855,
+   "end": 20.686,
+   "phrases": [
+    {
+     "text": "The first life on Earth appears in late September.",
+     "start": 17.855,
+     "end": 20.686
+    }
+   ]
+  },
+  {
+   "text": "Then, for months, almost nothing but microbes.",
+   "start": 21.986,
+   "end": 24.806,
+   "phrases": [
+    {
+     "text": "Then, for months, almost nothing but microbes.",
+     "start": 21.986,
+     "end": 24.806
+    }
+   ]
+  },
+  {
+   "text": "The dinosaurs arrive around Christmas, and they're wiped out on December thirtieth.",
+   "start": 26.106,
+   "end": 31.088,
+   "phrases": [
+    {
+     "text": "The dinosaurs arrive around Christmas,",
+     "start": 26.106,
+     "end": 28.125
+    },
+    {
+     "text": "and they're wiped out on December thirtieth.",
+     "start": 28.925,
+     "end": 31.088
+    }
+   ]
+  },
+  {
+   "text": "Humans like us? We show up at about eleven forty-eight p.m., on New Year's Eve.",
+   "start": 32.388,
+   "end": 38.439,
+   "phrases": [
+    {
+     "text": "Humans like us?",
+     "start": 32.388,
+     "end": 33.558
+    },
+    {
+     "text": "We show up at about eleven forty-eight p.m., on New Year's Eve.",
+     "start": 34.358,
+     "end": 38.439
+    }
+   ]
+  },
+  {
+   "text": "All of recorded history fits in the last twelve seconds.",
+   "start": 39.739,
+   "end": 42.953,
+   "phrases": [
+    {
+     "text": "All of recorded history fits in the last twelve seconds.",
+     "start": 39.739,
+     "end": 42.953
+    }
+   ]
+  },
+  {
+   "text": "Columbus sails just over one second before midnight.",
+   "start": 44.253,
+   "end": 47.396,
+   "phrases": [
+    {
+     "text": "Columbus sails just over one second before midnight.",
+     "start": 44.253,
+     "end": 47.396
+    }
+   ]
+  },
+  {
+   "text": "And your whole life?",
+   "start": 48.696,
+   "end": 49.739,
+   "phrases": [
+    {
+     "text": "And your whole life?",
+     "start": 48.696,
+     "end": 49.739
+    }
+   ]
+  },
+  {
+   "text": "Less than a fifth of a second.",
+   "start": 51.039,
+   "end": 52.684,
+   "phrases": [
+    {
+     "text": "Less than a fifth of a second.",
+     "start": 51.039,
+     "end": 52.684
+    }
+   ]
+  },
+  {
+   "text": "We only just arrived.",
+   "start": 53.984,
+   "end": 55.404,
+   "phrases": [
+    {
+     "text": "We only just arrived.",
+     "start": 53.984,
+     "end": 55.404
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.195
+  },
+  {
+   "start": 5.195,
+   "end": 9.552
+  },
+  {
+   "start": 9.552,
+   "end": 13.599
+  },
+  {
+   "start": 13.599,
+   "end": 17.705
+  },
+  {
+   "start": 17.705,
+   "end": 21.836
+  },
+  {
+   "start": 21.836,
+   "end": 25.956
+  },
+  {
+   "start": 25.956,
+   "end": 32.238
+  },
+  {
+   "start": 32.238,
+   "end": 39.589
+  },
+  {
+   "start": 39.589,
+   "end": 44.103
+  },
+  {
+   "start": 44.103,
+   "end": 48.546
+  },
+  {
+   "start": 48.546,
+   "end": 50.889
+  },
+  {
+   "start": 50.889,
+   "end": 53.834
+  },
+  {
+   "start": 53.834,
+   "end": 59.004
+  }
+ ]
+}

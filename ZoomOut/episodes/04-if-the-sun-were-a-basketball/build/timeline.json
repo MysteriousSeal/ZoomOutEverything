@@ -1,0 +1,237 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 59.659,
+ "lines": [
+  {
+   "text": "Shrink the Sun down to the size of a basketball.",
+   "start": 0.35,
+   "end": 3.013,
+   "phrases": [
+    {
+     "text": "Shrink the Sun down to the size of a basketball.",
+     "start": 0.35,
+     "end": 3.013
+    }
+   ]
+  },
+  {
+   "text": "Mercury becomes a grain of sand, ten meters away.",
+   "start": 4.413,
+   "end": 7.641,
+   "phrases": [
+    {
+     "text": "Mercury becomes a grain of sand, ten meters away.",
+     "start": 4.413,
+     "end": 7.641
+    }
+   ]
+  },
+  {
+   "text": "Venus, a peppercorn, about nineteen meters out.",
+   "start": 8.441,
+   "end": 11.435,
+   "phrases": [
+    {
+     "text": "Venus, a peppercorn, about nineteen meters out.",
+     "start": 8.441,
+     "end": 11.435
+    }
+   ]
+  },
+  {
+   "text": "Earth is a peppercorn too, twenty-six meters away.",
+   "start": 12.235,
+   "end": 15.354,
+   "phrases": [
+    {
+     "text": "Earth is a peppercorn too, twenty-six meters away.",
+     "start": 12.235,
+     "end": 15.354
+    }
+   ]
+  },
+  {
+   "text": "And the Moon? A speck of dust, a hand's width from Earth.",
+   "start": 16.154,
+   "end": 19.388,
+   "phrases": [
+    {
+     "text": "And the Moon? A speck of dust, a hand's width from Earth.",
+     "start": 16.154,
+     "end": 19.388
+    }
+   ]
+  },
+  {
+   "text": "Mars, a mustard seed, thirty-nine meters out.",
+   "start": 20.188,
+   "end": 23.201,
+   "phrases": [
+    {
+     "text": "Mars, a mustard seed, thirty-nine meters out.",
+     "start": 20.188,
+     "end": 23.201
+    }
+   ]
+  },
+  {
+   "text": "Jupiter, a grape, a hundred and thirty meters away.",
+   "start": 24.001,
+   "end": 27.206,
+   "phrases": [
+    {
+     "text": "Jupiter, a grape, a hundred and thirty meters away.",
+     "start": 24.001,
+     "end": 27.206
+    }
+   ]
+  },
+  {
+   "text": "Saturn, a smaller grape, two hundred and fifty meters out.",
+   "start": 28.006,
+   "end": 31.443,
+   "phrases": [
+    {
+     "text": "Saturn, a smaller grape, two hundred and fifty meters out.",
+     "start": 28.006,
+     "end": 31.443
+    }
+   ]
+  },
+  {
+   "text": "Uranus and Neptune, two coffee beans, half a kilometer and nearly eight hundred meters away.",
+   "start": 32.243,
+   "end": 38.387,
+   "phrases": [
+    {
+     "text": "Uranus and Neptune, two coffee beans,",
+     "start": 32.243,
+     "end": 34.736
+    },
+    {
+     "text": "half a kilometer and nearly eight hundred meters away.",
+     "start": 35.336,
+     "end": 38.387
+    }
+   ]
+  },
+  {
+   "text": "That's the whole solar system: a basketball, a few crumbs, and a lot of nothing.",
+   "start": 39.187,
+   "end": 44.219,
+   "phrases": [
+    {
+     "text": "That's the whole solar system:",
+     "start": 39.187,
+     "end": 40.745
+    },
+    {
+     "text": "a basketball, a few crumbs, and a lot of nothing.",
+     "start": 41.345,
+     "end": 44.219
+    }
+   ]
+  },
+  {
+   "text": "And the nearest star? Another ball, a ping-pong ball this time\u2026",
+   "start": 45.019,
+   "end": 49.067,
+   "phrases": [
+    {
+     "text": "And the nearest star?",
+     "start": 45.019,
+     "end": 46.064
+    },
+    {
+     "text": "Another ball, a ping-pong ball this time\u2026",
+     "start": 46.664,
+     "end": 49.067
+    }
+   ]
+  },
+  {
+   "text": "as far away as New York is from Rome.",
+   "start": 49.867,
+   "end": 52.056,
+   "phrases": [
+    {
+     "text": "as far away as New York is from Rome.",
+     "start": 49.867,
+     "end": 52.056
+    }
+   ]
+  },
+  {
+   "text": "Space isn't crowded. It's almost entirely empty.",
+   "start": 52.856,
+   "end": 56.659,
+   "phrases": [
+    {
+     "text": "Space isn't crowded.",
+     "start": 52.856,
+     "end": 54.241
+    },
+    {
+     "text": "It's almost entirely empty.",
+     "start": 54.841,
+     "end": 56.659
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 4.263
+  },
+  {
+   "start": 4.263,
+   "end": 8.291
+  },
+  {
+   "start": 8.291,
+   "end": 12.085
+  },
+  {
+   "start": 12.085,
+   "end": 16.004
+  },
+  {
+   "start": 16.004,
+   "end": 20.038
+  },
+  {
+   "start": 20.038,
+   "end": 23.851
+  },
+  {
+   "start": 23.851,
+   "end": 27.856
+  },
+  {
+   "start": 27.856,
+   "end": 32.093
+  },
+  {
+   "start": 32.093,
+   "end": 39.037
+  },
+  {
+   "start": 39.037,
+   "end": 44.869
+  },
+  {
+   "start": 44.869,
+   "end": 49.717
+  },
+  {
+   "start": 49.717,
+   "end": 52.706
+  },
+  {
+   "start": 52.706,
+   "end": 59.659
+  }
+ ]
+}

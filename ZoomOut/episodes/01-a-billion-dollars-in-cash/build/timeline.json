@@ -1,0 +1,136 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 29.744,
+ "lines": [
+  {
+   "text": "This is ten thousand dollars in hundred-dollar bills. About one centimeter thick.",
+   "start": 0.35,
+   "end": 5.678,
+   "phrases": [
+    {
+     "text": "This is ten thousand dollars in hundred-dollar bills.",
+     "start": 0.35,
+     "end": 3.521
+    },
+    {
+     "text": "About one centimeter thick.",
+     "start": 4.121,
+     "end": 5.678
+    }
+   ]
+  },
+  {
+   "text": "A million dollars weighs ten kilos, and fits in a briefcase.",
+   "start": 6.328,
+   "end": 9.971,
+   "phrases": [
+    {
+     "text": "A million dollars weighs ten kilos, and fits in a briefcase.",
+     "start": 6.328,
+     "end": 9.971
+    }
+   ]
+  },
+  {
+   "text": "A hundred million fills an entire shipping pallet.",
+   "start": 10.421,
+   "end": 13.237,
+   "phrases": [
+    {
+     "text": "A hundred million fills an entire shipping pallet.",
+     "start": 10.421,
+     "end": 13.237
+    }
+   ]
+  },
+  {
+   "text": "A billion dollars? Ten pallets. Ten tonnes of cash.",
+   "start": 13.687,
+   "end": 17.582,
+   "phrases": [
+    {
+     "text": "A billion dollars?",
+     "start": 13.687,
+     "end": 14.832
+    },
+    {
+     "text": "Ten pallets. Ten tonnes of cash.",
+     "start": 15.432,
+     "end": 17.582
+    }
+   ]
+  },
+  {
+   "text": "The world's richest people own hundreds of these.",
+   "start": 18.032,
+   "end": 20.676,
+   "phrases": [
+    {
+     "text": "The world's richest people own hundreds of these.",
+     "start": 18.032,
+     "end": 20.676
+    }
+   ]
+  },
+  {
+   "text": "And a trillion dollars? Ten thousand pallets.",
+   "start": 21.126,
+   "end": 24.352,
+   "phrases": [
+    {
+     "text": "And a trillion dollars?",
+     "start": 21.126,
+     "end": 22.449
+    },
+    {
+     "text": "Ten thousand pallets.",
+     "start": 23.049,
+     "end": 24.352
+    }
+   ]
+  },
+  {
+   "text": "Stacked two high, they cover a whole football field.",
+   "start": 24.802,
+   "end": 27.544,
+   "phrases": [
+    {
+     "text": "Stacked two high, they cover a whole football field.",
+     "start": 24.802,
+     "end": 27.544
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 6.178
+  },
+  {
+   "start": 6.178,
+   "end": 10.271
+  },
+  {
+   "start": 10.271,
+   "end": 13.537
+  },
+  {
+   "start": 13.537,
+   "end": 17.882
+  },
+  {
+   "start": 17.882,
+   "end": 20.976
+  },
+  {
+   "start": 20.976,
+   "end": 24.652
+  },
+  {
+   "start": 24.652,
+   "end": 29.744
+  }
+ ]
+}

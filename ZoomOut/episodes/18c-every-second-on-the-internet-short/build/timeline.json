@@ -1,0 +1,241 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 53.135,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "More than 99% of the internet between continents runs under the sea.",
+   "start": 0.35,
+   "end": 5.341,
+   "phrases": [
+    {
+     "text": "More than 99% of the internet between continents runs under the sea.",
+     "start": 0.35,
+     "end": 5.341
+    }
+   ]
+  },
+  {
+   "text": "What happens on the internet in one single second?",
+   "start": 5.801,
+   "end": 8.57,
+   "phrases": [
+    {
+     "text": "What happens on the internet in one single second?",
+     "start": 5.801,
+     "end": 8.57
+    }
+   ]
+  },
+  {
+   "text": "It starts with one phone.",
+   "start": 8.98,
+   "end": 10.351,
+   "phrases": [
+    {
+     "text": "It starts with one phone.",
+     "start": 8.98,
+     "end": 10.351
+    }
+   ]
+  },
+  {
+   "text": "In that second, Google gets over 100,000 searches.",
+   "start": 10.811,
+   "end": 14.553,
+   "phrases": [
+    {
+     "text": "In that second,",
+     "start": 10.811,
+     "end": 11.734
+    },
+    {
+     "text": "Google gets over 100,000 searches.",
+     "start": 11.994,
+     "end": 14.553
+    }
+   ]
+  },
+  {
+   "text": "YouTube gets about 8 hours of new video. Every second.",
+   "start": 14.813,
+   "end": 18.427,
+   "phrases": [
+    {
+     "text": "YouTube gets about 8 hours of new video.",
+     "start": 14.813,
+     "end": 17.266
+    },
+    {
+     "text": "Every second.",
+     "start": 17.526,
+     "end": 18.427
+    }
+   ]
+  },
+  {
+   "text": "And between continents, it goes under the sea.",
+   "start": 18.687,
+   "end": 21.473,
+   "phrases": [
+    {
+     "text": "And between continents,",
+     "start": 18.687,
+     "end": 20.04
+    },
+    {
+     "text": "it goes under the sea.",
+     "start": 20.3,
+     "end": 21.473
+    }
+   ]
+  },
+  {
+   "text": "About 1.4 million kilometers of cable, enough to wrap the Earth 35 times.",
+   "start": 21.733,
+   "end": 27.093,
+   "phrases": [
+    {
+     "text": "About 1.4 million kilometers of cable,",
+     "start": 21.733,
+     "end": 24.543
+    },
+    {
+     "text": "enough to wrap the Earth 35 times.",
+     "start": 24.803,
+     "end": 27.093
+    }
+   ]
+  },
+  {
+   "text": "In the deep sea, many are as thick as a garden hose,",
+   "start": 27.703,
+   "end": 31.063,
+   "phrases": [
+    {
+     "text": "In the deep sea,",
+     "start": 27.703,
+     "end": 28.693
+    },
+    {
+     "text": "many are as thick as a garden hose,",
+     "start": 28.953,
+     "end": 31.063
+    }
+   ]
+  },
+  {
+   "text": "yet they carry over 99% of the traffic between continents.",
+   "start": 31.323,
+   "end": 35.341,
+   "phrases": [
+    {
+     "text": "yet they carry over 99% of the traffic between continents.",
+     "start": 31.323,
+     "end": 35.341
+    }
+   ]
+  },
+  {
+   "text": "Back on that one phone, one day of YouTube uploads would take about 82 years to watch. Longer than a lifetime.",
+   "start": 37.001,
+   "end": 44.383,
+   "phrases": [
+    {
+     "text": "Back on that one phone,",
+     "start": 37.001,
+     "end": 38.259
+    },
+    {
+     "text": "one day of YouTube uploads",
+     "start": 38.519,
+     "end": 40.126
+    },
+    {
+     "text": "would take about 82 years to watch.",
+     "start": 40.386,
+     "end": 42.725
+    },
+    {
+     "text": "Longer than a lifetime.",
+     "start": 42.985,
+     "end": 44.383
+    }
+   ]
+  },
+  {
+   "text": "What damages undersea internet cables the most? Shark bites, or fishing gear and ship anchors? Tell me in the comments.",
+   "start": 44.643,
+   "end": 52.135,
+   "phrases": [
+    {
+     "text": "What damages undersea internet cables the most?",
+     "start": 44.643,
+     "end": 47.491
+    },
+    {
+     "text": "Shark bites,",
+     "start": 47.751,
+     "end": 48.69
+    },
+    {
+     "text": "or fishing gear and ship anchors?",
+     "start": 48.95,
+     "end": 50.696
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 50.956,
+     "end": 52.135
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.651
+  },
+  {
+   "start": 5.651,
+   "end": 8.83
+  },
+  {
+   "start": 8.83,
+   "end": 10.661
+  },
+  {
+   "start": 10.661,
+   "end": 14.663
+  },
+  {
+   "start": 14.663,
+   "end": 18.537
+  },
+  {
+   "start": 18.537,
+   "end": 21.583
+  },
+  {
+   "start": 21.583,
+   "end": 27.553
+  },
+  {
+   "start": 27.553,
+   "end": 31.173
+  },
+  {
+   "start": 31.173,
+   "end": 36.851
+  },
+  {
+   "start": 36.851,
+   "end": 44.493
+  },
+  {
+   "start": 44.493,
+   "end": 53.135
+  }
+ ]
+}

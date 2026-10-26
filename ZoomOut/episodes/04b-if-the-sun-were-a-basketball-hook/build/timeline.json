@@ -1,0 +1,284 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 77.594,
+ "lines": [
+  {
+   "text": "If the Sun were a basketball in New York, the nearest star would be in Rome.",
+   "start": 0.35,
+   "end": 4.548,
+   "phrases": [
+    {
+     "text": "If the Sun were a basketball in New York, the nearest star would be in Rome.",
+     "start": 0.35,
+     "end": 4.548
+    }
+   ]
+  },
+  {
+   "text": "Shrink the Sun down to the size of a basketball.",
+   "start": 5.548,
+   "end": 8.211,
+   "phrases": [
+    {
+     "text": "Shrink the Sun down to the size of a basketball.",
+     "start": 5.548,
+     "end": 8.211
+    }
+   ]
+  },
+  {
+   "text": "Mercury becomes a grain of sand, ten meters away.",
+   "start": 9.611,
+   "end": 12.839,
+   "phrases": [
+    {
+     "text": "Mercury becomes a grain of sand, ten meters away.",
+     "start": 9.611,
+     "end": 12.839
+    }
+   ]
+  },
+  {
+   "text": "Venus, a peppercorn, about nineteen meters out.",
+   "start": 13.639,
+   "end": 16.633,
+   "phrases": [
+    {
+     "text": "Venus, a peppercorn, about nineteen meters out.",
+     "start": 13.639,
+     "end": 16.633
+    }
+   ]
+  },
+  {
+   "text": "Earth is a peppercorn too, twenty-six meters away.",
+   "start": 17.433,
+   "end": 20.552,
+   "phrases": [
+    {
+     "text": "Earth is a peppercorn too, twenty-six meters away.",
+     "start": 17.433,
+     "end": 20.552
+    }
+   ]
+  },
+  {
+   "text": "And the Moon? A speck of dust, a hand's width from Earth.",
+   "start": 21.352,
+   "end": 24.586,
+   "phrases": [
+    {
+     "text": "And the Moon? A speck of dust, a hand's width from Earth.",
+     "start": 21.352,
+     "end": 24.586
+    }
+   ]
+  },
+  {
+   "text": "Mars, a mustard seed, thirty-nine meters out.",
+   "start": 25.386,
+   "end": 28.398,
+   "phrases": [
+    {
+     "text": "Mars, a mustard seed, thirty-nine meters out.",
+     "start": 25.386,
+     "end": 28.398
+    }
+   ]
+  },
+  {
+   "text": "Jupiter, a grape, a hundred and thirty meters away.",
+   "start": 29.198,
+   "end": 32.404,
+   "phrases": [
+    {
+     "text": "Jupiter, a grape, a hundred and thirty meters away.",
+     "start": 29.198,
+     "end": 32.404
+    }
+   ]
+  },
+  {
+   "text": "Saturn, a smaller grape, two hundred and fifty meters out.",
+   "start": 33.204,
+   "end": 36.64,
+   "phrases": [
+    {
+     "text": "Saturn, a smaller grape, two hundred and fifty meters out.",
+     "start": 33.204,
+     "end": 36.64
+    }
+   ]
+  },
+  {
+   "text": "Uranus and Neptune, two coffee beans, half a kilometer and nearly eight hundred meters away.",
+   "start": 37.44,
+   "end": 43.585,
+   "phrases": [
+    {
+     "text": "Uranus and Neptune, two coffee beans,",
+     "start": 37.44,
+     "end": 39.934
+    },
+    {
+     "text": "half a kilometer and nearly eight hundred meters away.",
+     "start": 40.534,
+     "end": 43.585
+    }
+   ]
+  },
+  {
+   "text": "That's the whole solar system: a basketball, a few crumbs, and a lot of nothing.",
+   "start": 44.385,
+   "end": 49.417,
+   "phrases": [
+    {
+     "text": "That's the whole solar system:",
+     "start": 44.385,
+     "end": 45.943
+    },
+    {
+     "text": "a basketball, a few crumbs, and a lot of nothing.",
+     "start": 46.543,
+     "end": 49.417
+    }
+   ]
+  },
+  {
+   "text": "And the nearest star? Another ball, a ping-pong ball this time\u2026",
+   "start": 50.217,
+   "end": 54.265,
+   "phrases": [
+    {
+     "text": "And the nearest star?",
+     "start": 50.217,
+     "end": 51.262
+    },
+    {
+     "text": "Another ball, a ping-pong ball this time\u2026",
+     "start": 51.862,
+     "end": 54.265
+    }
+   ]
+  },
+  {
+   "text": "as far away as New York is from Rome.",
+   "start": 55.065,
+   "end": 57.254,
+   "phrases": [
+    {
+     "text": "as far away as New York is from Rome.",
+     "start": 55.065,
+     "end": 57.254
+    }
+   ]
+  },
+  {
+   "text": "Space isn't crowded. It's almost entirely empty.",
+   "start": 58.054,
+   "end": 61.857,
+   "phrases": [
+    {
+     "text": "Space isn't crowded.",
+     "start": 58.054,
+     "end": 59.439
+    },
+    {
+     "text": "It's almost entirely empty.",
+     "start": 60.039,
+     "end": 61.857
+    }
+   ]
+  },
+  {
+   "text": "Now guess: at this scale, how far is the center of our galaxy? Across the world, the Moon, or a hundred times farther? Comment your guess.",
+   "start": 65.007,
+   "end": 74.594,
+   "phrases": [
+    {
+     "text": "Now guess: at this scale, how far is the center of our galaxy?",
+     "start": 65.007,
+     "end": 68.976
+    },
+    {
+     "text": "Across the world, the Moon,",
+     "start": 69.576,
+     "end": 70.949
+    },
+    {
+     "text": "or a hundred times farther?",
+     "start": 71.549,
+     "end": 72.991
+    },
+    {
+     "text": "Comment your guess.",
+     "start": 73.591,
+     "end": 74.594
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.398
+  },
+  {
+   "start": 5.398,
+   "end": 9.461
+  },
+  {
+   "start": 9.461,
+   "end": 13.489
+  },
+  {
+   "start": 13.489,
+   "end": 17.283
+  },
+  {
+   "start": 17.283,
+   "end": 21.202
+  },
+  {
+   "start": 21.202,
+   "end": 25.236
+  },
+  {
+   "start": 25.236,
+   "end": 29.048
+  },
+  {
+   "start": 29.048,
+   "end": 33.054
+  },
+  {
+   "start": 33.054,
+   "end": 37.29
+  },
+  {
+   "start": 37.29,
+   "end": 44.235
+  },
+  {
+   "start": 44.235,
+   "end": 50.067
+  },
+  {
+   "start": 50.067,
+   "end": 54.915
+  },
+  {
+   "start": 54.915,
+   "end": 57.904
+  },
+  {
+   "start": 57.904,
+   "end": 64.857
+  },
+  {
+   "start": 64.857,
+   "end": 77.594
+  }
+ ]
+}

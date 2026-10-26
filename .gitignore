@@ -2,14 +2,17 @@
 .env
 .env.*
 # generated / large
-.tts_cache/
 node_modules/
 .venv/
+tools/stt-venv/
+tools/queue.txt*
 venv/
 __pycache__/
-build/
+# build: keep the timing files, regenerate the audio and frames
+**/build/*
+!**/build/timeline.json
+!**/build/cues.json
 TheShortAnswer/models/
-ZoomOut/voice-samples/
 *.mov
 # OS
 .DS_Store

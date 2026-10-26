@@ -1,0 +1,257 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 60.86,
+ "lines": [
+  {
+   "text": "What if all the ice on Earth melted?",
+   "start": 0.35,
+   "end": 2.147,
+   "phrases": [
+    {
+     "text": "What if all the ice on Earth melted?",
+     "start": 0.35,
+     "end": 2.147
+    }
+   ]
+  },
+  {
+   "text": "Now zoom out from a single ice cube, all the way to Antarctica.",
+   "start": 3.447,
+   "end": 7.739,
+   "phrases": [
+    {
+     "text": "Now zoom out from a single ice cube,",
+     "start": 3.447,
+     "end": 5.564
+    },
+    {
+     "text": "all the way to Antarctica.",
+     "start": 6.214,
+     "end": 7.739
+    }
+   ]
+  },
+  {
+   "text": "Antarctica holds about ninety percent of the world's ice.",
+   "start": 8.539,
+   "end": 11.961,
+   "phrases": [
+    {
+     "text": "Antarctica holds about ninety percent of the world's ice.",
+     "start": 8.539,
+     "end": 11.961
+    }
+   ]
+  },
+  {
+   "text": "In places, it's more than four kilometers thick.",
+   "start": 12.761,
+   "end": 15.628,
+   "phrases": [
+    {
+     "text": "In places, it's more than four kilometers thick.",
+     "start": 12.761,
+     "end": 15.628
+    }
+   ]
+  },
+  {
+   "text": "If all the ice on land melted, the oceans would rise about seventy meters.",
+   "start": 16.428,
+   "end": 21.416,
+   "phrases": [
+    {
+     "text": "If all the ice on land melted,",
+     "start": 16.428,
+     "end": 18.263
+    },
+    {
+     "text": "the oceans would rise about seventy meters.",
+     "start": 18.913,
+     "end": 21.416
+    }
+   ]
+  },
+  {
+   "text": "That's almost up to the chest of the Statue of Liberty.",
+   "start": 22.216,
+   "end": 25.24,
+   "phrases": [
+    {
+     "text": "That's almost up to the chest of the Statue of Liberty.",
+     "start": 22.216,
+     "end": 25.24
+    }
+   ]
+  },
+  {
+   "text": "Most of Florida would be underwater.",
+   "start": 26.04,
+   "end": 28.976,
+   "phrases": [
+    {
+     "text": "Most of Florida",
+     "start": 26.04,
+     "end": 27.136
+    },
+    {
+     "text": "would be underwater.",
+     "start": 27.786,
+     "end": 28.976
+    }
+   ]
+  },
+  {
+   "text": "Venice would vanish. So would Amsterdam.",
+   "start": 29.776,
+   "end": 32.666,
+   "phrases": [
+    {
+     "text": "Venice would vanish.",
+     "start": 29.776,
+     "end": 30.944
+    },
+    {
+     "text": "So would Amsterdam.",
+     "start": 31.594,
+     "end": 32.666
+    }
+   ]
+  },
+  {
+   "text": "Shanghai, too. Every coastline on Earth would have to be redrawn.",
+   "start": 33.466,
+   "end": 37.719,
+   "phrases": [
+    {
+     "text": "Shanghai, too.",
+     "start": 33.466,
+     "end": 34.404
+    },
+    {
+     "text": "Every coastline on Earth would have to be redrawn.",
+     "start": 35.054,
+     "end": 37.719
+    }
+   ]
+  },
+  {
+   "text": "But the sea has moved the other way, too.",
+   "start": 38.519,
+   "end": 40.586,
+   "phrases": [
+    {
+     "text": "But the sea has moved the other way, too.",
+     "start": 38.519,
+     "end": 40.586
+    }
+   ]
+  },
+  {
+   "text": "Twenty thousand years ago, at the peak of the last ice age, the sea was about one hundred twenty meters lower.",
+   "start": 41.386,
+   "end": 48.177,
+   "phrases": [
+    {
+     "text": "Twenty thousand years ago, at the peak of the last ice age,",
+     "start": 41.386,
+     "end": 44.923
+    },
+    {
+     "text": "the sea was about one hundred twenty meters lower.",
+     "start": 45.573,
+     "end": 48.177
+    }
+   ]
+  },
+  {
+   "text": "You could have walked from France to England, or from Siberia to Alaska.",
+   "start": 48.977,
+   "end": 53.271,
+   "phrases": [
+    {
+     "text": "You could have walked from France to England,",
+     "start": 48.977,
+     "end": 50.893
+    },
+    {
+     "text": "or from Siberia to Alaska.",
+     "start": 51.543,
+     "end": 53.271
+    }
+   ]
+  },
+  {
+   "text": "Coastlines aren't fixed. The ice decides where they are.",
+   "start": 54.071,
+   "end": 57.86,
+   "phrases": [
+    {
+     "text": "Coastlines aren't fixed.",
+     "start": 54.071,
+     "end": 55.547
+    },
+    {
+     "text": "The ice decides where they are.",
+     "start": 56.197,
+     "end": 57.86
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 3.297
+  },
+  {
+   "start": 3.297,
+   "end": 8.389
+  },
+  {
+   "start": 8.389,
+   "end": 12.611
+  },
+  {
+   "start": 12.611,
+   "end": 16.278
+  },
+  {
+   "start": 16.278,
+   "end": 22.066
+  },
+  {
+   "start": 22.066,
+   "end": 25.89
+  },
+  {
+   "start": 25.89,
+   "end": 29.626
+  },
+  {
+   "start": 29.626,
+   "end": 33.316
+  },
+  {
+   "start": 33.316,
+   "end": 38.369
+  },
+  {
+   "start": 38.369,
+   "end": 41.236
+  },
+  {
+   "start": 41.236,
+   "end": 48.827
+  },
+  {
+   "start": 48.827,
+   "end": 53.921
+  },
+  {
+   "start": 53.921,
+   "end": 60.86
+  }
+ ]
+}

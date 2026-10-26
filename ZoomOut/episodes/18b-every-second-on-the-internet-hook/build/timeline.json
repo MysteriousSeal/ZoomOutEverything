@@ -1,0 +1,416 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 105.479,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "More than 99% of the internet between continents runs under the sea.",
+   "start": 0.35,
+   "end": 5.341,
+   "phrases": [
+    {
+     "text": "More than 99% of the internet between continents runs under the sea.",
+     "start": 0.35,
+     "end": 5.341
+    }
+   ]
+  },
+  {
+   "text": "What happens on the internet in one single second?",
+   "start": 6.221,
+   "end": 8.99,
+   "phrases": [
+    {
+     "text": "What happens on the internet in one single second?",
+     "start": 6.221,
+     "end": 8.99
+    }
+   ]
+  },
+  {
+   "text": "It starts with one phone, lighting up in the dark.",
+   "start": 10.17,
+   "end": 13.464,
+   "phrases": [
+    {
+     "text": "It starts with one phone,",
+     "start": 10.17,
+     "end": 11.538
+    },
+    {
+     "text": "lighting up in the dark.",
+     "start": 12.138,
+     "end": 13.464
+    }
+   ]
+  },
+  {
+   "text": "In that same second, people type more than 100,000 searches into Google.",
+   "start": 14.144,
+   "end": 19.309,
+   "phrases": [
+    {
+     "text": "In that same second,",
+     "start": 14.144,
+     "end": 15.349
+    },
+    {
+     "text": "people type more than 100,000 searches into Google.",
+     "start": 15.949,
+     "end": 19.309
+    }
+   ]
+  },
+  {
+   "text": "That's over 8 billion questions a day. And the strangest number comes last.",
+   "start": 19.989,
+   "end": 24.737,
+   "phrases": [
+    {
+     "text": "That's over 8 billion questions a day.",
+     "start": 19.989,
+     "end": 22.184
+    },
+    {
+     "text": "And the strangest number comes last.",
+     "start": 22.784,
+     "end": 24.737
+    }
+   ]
+  },
+  {
+   "text": "Zoom out, and that second also sends about/ 4 million emails.",
+   "start": 25.417,
+   "end": 30.132,
+   "phrases": [
+    {
+     "text": "Zoom out,",
+     "start": 25.417,
+     "end": 26.186
+    },
+    {
+     "text": "and that second also sends about/ 4 million emails.",
+     "start": 26.786,
+     "end": 30.132
+    }
+   ]
+  },
+  {
+   "text": "Nearly half of them are spam.",
+   "start": 30.812,
+   "end": 32.456,
+   "phrases": [
+    {
+     "text": "Nearly half of them are spam.",
+     "start": 30.812,
+     "end": 32.456
+    }
+   ]
+  },
+  {
+   "text": "Meanwhile, about 8 hours of new video land on YouTube.",
+   "start": 33.136,
+   "end": 36.538,
+   "phrases": [
+    {
+     "text": "Meanwhile, about 8 hours of new video land on YouTube.",
+     "start": 33.136,
+     "end": 36.538
+    }
+   ]
+  },
+  {
+   "text": "Not every minute. Every second.",
+   "start": 37.218,
+   "end": 39.789,
+   "phrases": [
+    {
+     "text": "Not every minute.",
+     "start": 37.218,
+     "end": 38.288
+    },
+    {
+     "text": "Every second.",
+     "start": 38.888,
+     "end": 39.789
+    }
+   ]
+  },
+  {
+   "text": "All of it has to live somewhere: in vast warehouses of computers called data centers.",
+   "start": 40.469,
+   "end": 46.073,
+   "phrases": [
+    {
+     "text": "All of it has to live somewhere:",
+     "start": 40.469,
+     "end": 42.077
+    },
+    {
+     "text": "in vast warehouses of computers called data centers.",
+     "start": 42.677,
+     "end": 46.073
+    }
+   ]
+  },
+  {
+   "text": "Experts estimate they use about 1.5% of all the world's electricity.",
+   "start": 46.753,
+   "end": 51.655,
+   "phrases": [
+    {
+     "text": "Experts estimate they use about 1.5% of all the world's electricity.",
+     "start": 46.753,
+     "end": 51.655
+    }
+   ]
+  },
+  {
+   "text": "Roughly as much as the whole of France.",
+   "start": 52.335,
+   "end": 54.384,
+   "phrases": [
+    {
+     "text": "Roughly as much as the whole of France.",
+     "start": 52.335,
+     "end": 54.384
+    }
+   ]
+  },
+  {
+   "text": "And to cross from one continent to another, the data doesn't fly through space.",
+   "start": 55.064,
+   "end": 59.699,
+   "phrases": [
+    {
+     "text": "And to cross from one continent to another,",
+     "start": 55.064,
+     "end": 57.268
+    },
+    {
+     "text": "the data doesn't fly through space.",
+     "start": 57.868,
+     "end": 59.699
+    }
+   ]
+  },
+  {
+   "text": "It goes under the sea.",
+   "start": 60.379,
+   "end": 61.552,
+   "phrases": [
+    {
+     "text": "It goes under the sea.",
+     "start": 60.379,
+     "end": 61.552
+    }
+   ]
+  },
+  {
+   "text": "About 1.4 million kilometers of cable lie on the ocean floor.",
+   "start": 62.232,
+   "end": 66.743,
+   "phrases": [
+    {
+     "text": "About 1.4 million kilometers of cable lie on the ocean floor.",
+     "start": 62.232,
+     "end": 66.743
+    }
+   ]
+  },
+  {
+   "text": "That's enough to wrap around the Earth 35 times.",
+   "start": 67.423,
+   "end": 70.262,
+   "phrases": [
+    {
+     "text": "That's enough to wrap around the Earth 35 times.",
+     "start": 67.423,
+     "end": 70.262
+    }
+   ]
+  },
+  {
+   "text": "In the deep sea, many are about as thick as a garden hose.",
+   "start": 70.942,
+   "end": 74.846,
+   "phrases": [
+    {
+     "text": "In the deep sea,",
+     "start": 70.942,
+     "end": 71.932
+    },
+    {
+     "text": "many are about as thick as a garden hose.",
+     "start": 72.532,
+     "end": 74.846
+    }
+   ]
+  },
+  {
+   "text": "Yet they carry more than 99% of the traffic between continents.",
+   "start": 75.526,
+   "end": 79.61,
+   "phrases": [
+    {
+     "text": "Yet they carry more than 99% of the traffic between continents.",
+     "start": 75.526,
+     "end": 79.61
+    }
+   ]
+  },
+  {
+   "text": "Now, back to that one phone, and those 8 hours of YouTube every second.",
+   "start": 80.29,
+   "end": 85.103,
+   "phrases": [
+    {
+     "text": "Now, back to that one phone,",
+     "start": 80.29,
+     "end": 81.968
+    },
+    {
+     "text": "and those 8 hours of YouTube every second.",
+     "start": 82.568,
+     "end": 85.103
+    }
+   ]
+  },
+  {
+   "text": "One single day of uploads would take about 82 years to watch, nonstop. Longer than a lifetime.",
+   "start": 85.783,
+   "end": 92.817,
+   "phrases": [
+    {
+     "text": "One single day of uploads",
+     "start": 85.783,
+     "end": 87.36
+    },
+    {
+     "text": "would take about 82 years to watch, nonstop.",
+     "start": 87.96,
+     "end": 90.818
+    },
+    {
+     "text": "Longer than a lifetime.",
+     "start": 91.418,
+     "end": 92.817
+    }
+   ]
+  },
+  {
+   "text": "What damages undersea internet cables the most? Shark bites, or fishing gear and ship anchors? Tell me in the comments.",
+   "start": 95.967,
+   "end": 104.479,
+   "phrases": [
+    {
+     "text": "What damages undersea internet cables the most?",
+     "start": 95.967,
+     "end": 98.814
+    },
+    {
+     "text": "Shark bites,",
+     "start": 99.414,
+     "end": 100.354
+    },
+    {
+     "text": "or fishing gear and ship anchors?",
+     "start": 100.954,
+     "end": 102.699
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 103.299,
+     "end": 104.479
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 6.071
+  },
+  {
+   "start": 6.071,
+   "end": 10.02
+  },
+  {
+   "start": 10.02,
+   "end": 13.994
+  },
+  {
+   "start": 13.994,
+   "end": 19.839
+  },
+  {
+   "start": 19.839,
+   "end": 25.267
+  },
+  {
+   "start": 25.267,
+   "end": 30.662
+  },
+  {
+   "start": 30.662,
+   "end": 32.986
+  },
+  {
+   "start": 32.986,
+   "end": 37.068
+  },
+  {
+   "start": 37.068,
+   "end": 40.319
+  },
+  {
+   "start": 40.319,
+   "end": 46.603
+  },
+  {
+   "start": 46.603,
+   "end": 52.185
+  },
+  {
+   "start": 52.185,
+   "end": 54.914
+  },
+  {
+   "start": 54.914,
+   "end": 60.229
+  },
+  {
+   "start": 60.229,
+   "end": 62.082
+  },
+  {
+   "start": 62.082,
+   "end": 67.273
+  },
+  {
+   "start": 67.273,
+   "end": 70.792
+  },
+  {
+   "start": 70.792,
+   "end": 75.376
+  },
+  {
+   "start": 75.376,
+   "end": 80.14
+  },
+  {
+   "start": 80.14,
+   "end": 85.633
+  },
+  {
+   "start": 85.633,
+   "end": 95.817
+  },
+  {
+   "start": 95.817,
+   "end": 105.479
+  }
+ ]
+}

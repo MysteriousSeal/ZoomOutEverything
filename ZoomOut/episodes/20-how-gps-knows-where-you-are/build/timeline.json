@@ -1,0 +1,378 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 90.445,
+ "lines": [
+  {
+   "text": "How does your phone know exactly where you are?",
+   "start": 0.35,
+   "end": 2.645,
+   "phrases": [
+    {
+     "text": "How does your phone know exactly where you are?",
+     "start": 0.35,
+     "end": 2.645
+    }
+   ]
+  },
+  {
+   "text": "The answer is falling from space, and the strangest part involves Einstein.",
+   "start": 3.845,
+   "end": 8.635,
+   "phrases": [
+    {
+     "text": "The answer is falling from space,",
+     "start": 3.845,
+     "end": 5.659
+    },
+    {
+     "text": "and the strangest part involves Einstein.",
+     "start": 6.159,
+     "end": 8.635
+    }
+   ]
+  },
+  {
+   "text": "About thirty-one GPS satellites orbit the Earth, some twenty thousand kilometers up.",
+   "start": 9.235,
+   "end": 14.882,
+   "phrases": [
+    {
+     "text": "About thirty-one GPS satellites orbit the Earth,",
+     "start": 9.235,
+     "end": 12.482
+    },
+    {
+     "text": "some twenty thousand kilometers up.",
+     "start": 12.982,
+     "end": 14.882
+    }
+   ]
+  },
+  {
+   "text": "Each one laps the planet about twice a day.",
+   "start": 15.482,
+   "end": 17.778,
+   "phrases": [
+    {
+     "text": "Each one laps the planet about twice a day.",
+     "start": 15.482,
+     "end": 17.778
+    }
+   ]
+  },
+  {
+   "text": "They carry atomic clocks on board.",
+   "start": 18.378,
+   "end": 20.376,
+   "phrases": [
+    {
+     "text": "They carry atomic clocks on board.",
+     "start": 18.378,
+     "end": 20.376
+    }
+   ]
+  },
+  {
+   "text": "They constantly broadcast where they are, and the exact time.",
+   "start": 20.976,
+   "end": 24.741,
+   "phrases": [
+    {
+     "text": "They constantly broadcast where they are,",
+     "start": 20.976,
+     "end": 23.086
+    },
+    {
+     "text": "and the exact time.",
+     "start": 23.586,
+     "end": 24.741
+    }
+   ]
+  },
+  {
+   "text": "Your phone never transmits back. It only listens.",
+   "start": 25.341,
+   "end": 28.778,
+   "phrases": [
+    {
+     "text": "Your phone never transmits back.",
+     "start": 25.341,
+     "end": 27.185
+    },
+    {
+     "text": "It only listens.",
+     "start": 27.685,
+     "end": 28.778
+    }
+   ]
+  },
+  {
+   "text": "Those signals reach you in about seven hundredths of a second.",
+   "start": 29.378,
+   "end": 32.916,
+   "phrases": [
+    {
+     "text": "Those signals reach you in about seven hundredths of a second.",
+     "start": 29.378,
+     "end": 32.916
+    }
+   ]
+  },
+  {
+   "text": "But light covers about thirty centimeters in a billionth of a second.",
+   "start": 33.516,
+   "end": 37.547,
+   "phrases": [
+    {
+     "text": "But light covers about thirty centimeters in a billionth of a second.",
+     "start": 33.516,
+     "end": 37.547
+    }
+   ]
+  },
+  {
+   "text": "Off by a millionth of a second, and you'd miss by three hundred meters.",
+   "start": 38.147,
+   "end": 42.338,
+   "phrases": [
+    {
+     "text": "Off by a millionth of a second,",
+     "start": 38.147,
+     "end": 39.762
+    },
+    {
+     "text": "and you'd miss by three hundred meters.",
+     "start": 40.262,
+     "end": 42.338
+    }
+   ]
+  },
+  {
+   "text": "One satellite's delay puts you somewhere on a giant sphere.",
+   "start": 42.938,
+   "end": 46.413,
+   "phrases": [
+    {
+     "text": "One satellite's delay puts you somewhere on a giant sphere.",
+     "start": 42.938,
+     "end": 46.413
+    }
+   ]
+  },
+  {
+   "text": "A second satellite, and the two spheres meet in a circle.",
+   "start": 47.013,
+   "end": 50.604,
+   "phrases": [
+    {
+     "text": "A second satellite,",
+     "start": 47.013,
+     "end": 48.189
+    },
+    {
+     "text": "and the two spheres meet in a circle.",
+     "start": 48.689,
+     "end": 50.604
+    }
+   ]
+  },
+  {
+   "text": "A third narrows it to two points, one of them usually far out in space.",
+   "start": 51.204,
+   "end": 55.969,
+   "phrases": [
+    {
+     "text": "A third narrows it to two points,",
+     "start": 51.204,
+     "end": 53.102
+    },
+    {
+     "text": "one of them usually far out in space.",
+     "start": 53.602,
+     "end": 55.969
+    }
+   ]
+  },
+  {
+   "text": "A fourth fixes your phone's own clock, which is nowhere near atomic.",
+   "start": 56.569,
+   "end": 60.759,
+   "phrases": [
+    {
+     "text": "A fourth fixes your phone's own clock,",
+     "start": 56.569,
+     "end": 58.646
+    },
+    {
+     "text": "which is nowhere near atomic.",
+     "start": 59.146,
+     "end": 60.759
+    }
+   ]
+  },
+  {
+   "text": "Now the strangest part: Einstein is in your pocket.",
+   "start": 61.359,
+   "end": 64.886,
+   "phrases": [
+    {
+     "text": "Now the strangest part:",
+     "start": 61.359,
+     "end": 62.833
+    },
+    {
+     "text": "Einstein is in your pocket.",
+     "start": 63.333,
+     "end": 64.886
+    }
+   ]
+  },
+  {
+   "text": "Up there, weaker gravity makes their clocks run faster, by about forty-five microseconds a day.",
+   "start": 65.486,
+   "end": 71.525,
+   "phrases": [
+    {
+     "text": "Up there, weaker gravity makes their clocks run faster,",
+     "start": 65.486,
+     "end": 68.64
+    },
+    {
+     "text": "by about forty-five microseconds a day.",
+     "start": 69.14,
+     "end": 71.525
+    }
+   ]
+  },
+  {
+   "text": "Their speed slows them by about seven. So they gain thirty-eight every day.",
+   "start": 72.125,
+   "end": 76.58,
+   "phrases": [
+    {
+     "text": "Their speed slows them by about seven.",
+     "start": 72.125,
+     "end": 74.177
+    },
+    {
+     "text": "So they gain thirty-eight every day.",
+     "start": 74.677,
+     "end": 76.58
+    }
+   ]
+  },
+  {
+   "text": "Left uncorrected, GPS would drift about ten kilometers every day.",
+   "start": 77.18,
+   "end": 81.895,
+   "phrases": [
+    {
+     "text": "Left uncorrected,",
+     "start": 77.18,
+     "end": 78.332
+    },
+    {
+     "text": "GPS would drift about ten kilometers every day.",
+     "start": 78.832,
+     "end": 81.895
+    }
+   ]
+  },
+  {
+   "text": "So engineers tune the clocks to tick slower before launch, and the dot stays on you.",
+   "start": 82.495,
+   "end": 87.445,
+   "phrases": [
+    {
+     "text": "So engineers tune the clocks to tick slower before launch,",
+     "start": 82.495,
+     "end": 85.595
+    },
+    {
+     "text": "and the dot stays on you.",
+     "start": 86.095,
+     "end": 87.445
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 3.695
+  },
+  {
+   "start": 3.695,
+   "end": 9.085
+  },
+  {
+   "start": 9.085,
+   "end": 15.332
+  },
+  {
+   "start": 15.332,
+   "end": 18.228
+  },
+  {
+   "start": 18.228,
+   "end": 20.826
+  },
+  {
+   "start": 20.826,
+   "end": 25.191
+  },
+  {
+   "start": 25.191,
+   "end": 29.228
+  },
+  {
+   "start": 29.228,
+   "end": 33.366
+  },
+  {
+   "start": 33.366,
+   "end": 37.997
+  },
+  {
+   "start": 37.997,
+   "end": 42.788
+  },
+  {
+   "start": 42.788,
+   "end": 46.863
+  },
+  {
+   "start": 46.863,
+   "end": 51.054
+  },
+  {
+   "start": 51.054,
+   "end": 56.419
+  },
+  {
+   "start": 56.419,
+   "end": 61.209
+  },
+  {
+   "start": 61.209,
+   "end": 65.336
+  },
+  {
+   "start": 65.336,
+   "end": 71.975
+  },
+  {
+   "start": 71.975,
+   "end": 77.03
+  },
+  {
+   "start": 77.03,
+   "end": 82.345
+  },
+  {
+   "start": 82.345,
+   "end": 90.445
+  }
+ ]
+}

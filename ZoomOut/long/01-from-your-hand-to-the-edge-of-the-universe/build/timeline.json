@@ -1,0 +1,872 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 293.222,
+ "lines": [
+  {
+   "text": "This is a human hand. About ten centimeters across.",
+   "start": 1.2,
+   "end": 4.894,
+   "phrases": [
+    {
+     "text": "This is a human hand.",
+     "start": 1.2,
+     "end": 2.531
+    },
+    {
+     "text": "About ten centimeters across.",
+     "start": 3.131,
+     "end": 4.894
+    }
+   ]
+  },
+  {
+   "text": "Now let's zoom out, ten times wider at every step, until we reach the edge of everything we can see.",
+   "start": 6.194,
+   "end": 12.526,
+   "phrases": [
+    {
+     "text": "Now let's zoom out, ten times wider at every step,",
+     "start": 6.194,
+     "end": 9.401
+    },
+    {
+     "text": "until we reach the edge of everything we can see.",
+     "start": 10.001,
+     "end": 12.526
+    }
+   ]
+  },
+  {
+   "text": "A person, lying in the grass on a summer afternoon.",
+   "start": 13.426,
+   "end": 16.38,
+   "phrases": [
+    {
+     "text": "A person, lying in the grass on a summer afternoon.",
+     "start": 13.426,
+     "end": 16.38
+    }
+   ]
+  },
+  {
+   "text": "A blanket, a few trees, and a footpath.",
+   "start": 17.28,
+   "end": 19.623,
+   "phrases": [
+    {
+     "text": "A blanket, a few trees, and a footpath.",
+     "start": 17.28,
+     "end": 19.623
+    }
+   ]
+  },
+  {
+   "text": "This is the Sheep Meadow, in New York's Central Park.",
+   "start": 20.523,
+   "end": 24.079,
+   "phrases": [
+    {
+     "text": "This is the Sheep Meadow,",
+     "start": 20.523,
+     "end": 21.948
+    },
+    {
+     "text": "in New York's Central Park.",
+     "start": 22.548,
+     "end": 24.079
+    }
+   ]
+  },
+  {
+   "text": "The park is four kilometers long, a green rectangle cut out of the city grid.",
+   "start": 24.979,
+   "end": 29.839,
+   "phrases": [
+    {
+     "text": "The park is four kilometers long,",
+     "start": 24.979,
+     "end": 26.891
+    },
+    {
+     "text": "a green rectangle cut out of the city grid.",
+     "start": 27.491,
+     "end": 29.839
+    }
+   ]
+  },
+  {
+   "text": "Manhattan: an island twenty-one kilometers long, home to more than one and a half million people.",
+   "start": 30.739,
+   "end": 36.804,
+   "phrases": [
+    {
+     "text": "Manhattan: an island twenty-one kilometers long,",
+     "start": 30.739,
+     "end": 33.772
+    },
+    {
+     "text": "home to more than one and a half million people.",
+     "start": 34.372,
+     "end": 36.804
+    }
+   ]
+  },
+  {
+   "text": "The whole city, wrapped around one of the largest natural harbors in the world.",
+   "start": 37.704,
+   "end": 42.477,
+   "phrases": [
+    {
+     "text": "The whole city,",
+     "start": 37.704,
+     "end": 38.599
+    },
+    {
+     "text": "wrapped around one of the largest natural harbors in the world.",
+     "start": 39.199,
+     "end": 42.477
+    }
+   ]
+  },
+  {
+   "text": "The east coast of North America, and the curve of the planet starts to show.",
+   "start": 43.377,
+   "end": 47.82,
+   "phrases": [
+    {
+     "text": "The east coast of North America,",
+     "start": 43.377,
+     "end": 45.2
+    },
+    {
+     "text": "and the curve of the planet starts to show.",
+     "start": 45.8,
+     "end": 47.82
+    }
+   ]
+  },
+  {
+   "text": "The Earth. Twelve thousand seven hundred kilometers across.",
+   "start": 49.72,
+   "end": 53.868,
+   "phrases": [
+    {
+     "text": "The Earth.",
+     "start": 49.72,
+     "end": 50.406
+    },
+    {
+     "text": "Twelve thousand seven hundred kilometers across.",
+     "start": 51.006,
+     "end": 53.868
+    }
+   ]
+  },
+  {
+   "text": "The International Space Station orbits just four hundred kilometers up, barely above the surface at this scale.",
+   "start": 55.968,
+   "end": 62.736,
+   "phrases": [
+    {
+     "text": "The International Space Station orbits just four hundred kilometers up,",
+     "start": 55.968,
+     "end": 60.17
+    },
+    {
+     "text": "barely above the surface at this scale.",
+     "start": 60.77,
+     "end": 62.736
+    }
+   ]
+  },
+  {
+   "text": "The Moon, three hundred eighty-four thousand kilometers away. Light makes the trip in just over a second.",
+   "start": 63.636,
+   "end": 70.734,
+   "phrases": [
+    {
+     "text": "The Moon,",
+     "start": 63.636,
+     "end": 64.309
+    },
+    {
+     "text": "three hundred eighty-four thousand kilometers away.",
+     "start": 64.909,
+     "end": 67.814
+    },
+    {
+     "text": "Light makes the trip in just over a second.",
+     "start": 68.414,
+     "end": 70.734
+    }
+   ]
+  },
+  {
+   "text": "Only a handful of humans have ever traveled this far from home.",
+   "start": 71.634,
+   "end": 75.231,
+   "phrases": [
+    {
+     "text": "Only a handful of humans have ever traveled this far from home.",
+     "start": 71.634,
+     "end": 75.231
+    }
+   ]
+  },
+  {
+   "text": "The Sun. A hundred and fifty million kilometers away. Its light takes about eight minutes to reach us.",
+   "start": 76.131,
+   "end": 82.979,
+   "phrases": [
+    {
+     "text": "The Sun.",
+     "start": 76.131,
+     "end": 76.804
+    },
+    {
+     "text": "A hundred and fifty million kilometers away.",
+     "start": 77.404,
+     "end": 80.02
+    },
+    {
+     "text": "Its light takes about eight minutes to reach us.",
+     "start": 80.62,
+     "end": 82.979
+    }
+   ]
+  },
+  {
+   "text": "Mercury, Venus, Earth, Mars: the rocky inner planets, and past them, the asteroid belt.",
+   "start": 83.879,
+   "end": 90.589,
+   "phrases": [
+    {
+     "text": "Mercury, Venus, Earth, Mars:",
+     "start": 83.879,
+     "end": 85.963
+    },
+    {
+     "text": "the rocky inner planets,",
+     "start": 86.563,
+     "end": 87.91
+    },
+    {
+     "text": "and past them, the asteroid belt.",
+     "start": 88.51,
+     "end": 90.589
+    }
+   ]
+  },
+  {
+   "text": "Then the giants: Jupiter, Saturn, Uranus, and Neptune, four and a half billion kilometers out.",
+   "start": 91.489,
+   "end": 98.533,
+   "phrases": [
+    {
+     "text": "Then the giants:",
+     "start": 91.489,
+     "end": 92.545
+    },
+    {
+     "text": "Jupiter, Saturn, Uranus,",
+     "start": 93.145,
+     "end": 94.994
+    },
+    {
+     "text": "and Neptune, four and a half billion kilometers out.",
+     "start": 95.594,
+     "end": 98.533
+    }
+   ]
+  },
+  {
+   "text": "Voyager 1, launched in nineteen seventy-seven, is the farthest object humans have ever built. It's nearly a full light-day away.",
+   "start": 99.433,
+   "end": 108.11,
+   "phrases": [
+    {
+     "text": "Voyager 1, launched in nineteen seventy-seven,",
+     "start": 99.433,
+     "end": 102.548
+    },
+    {
+     "text": "is the farthest object humans have ever built.",
+     "start": 103.148,
+     "end": 105.707
+    },
+    {
+     "text": "It's nearly a full light-day away.",
+     "start": 106.307,
+     "end": 108.11
+    }
+   ]
+  },
+  {
+   "text": "A light-year is nearly ten trillion kilometers. Around the Sun, the Oort cloud may hold trillions of icy comets, stretching more than a light-year out.",
+   "start": 109.01,
+   "end": 118.915,
+   "phrases": [
+    {
+     "text": "A light-year is nearly ten trillion kilometers.",
+     "start": 109.01,
+     "end": 111.838
+    },
+    {
+     "text": "Around the Sun, the Oort cloud may hold trillions of icy comets,",
+     "start": 112.438,
+     "end": 116.376
+    },
+    {
+     "text": "stretching more than a light-year out.",
+     "start": 116.976,
+     "end": 118.915
+    }
+   ]
+  },
+  {
+   "text": "Four light-years away: Proxima Centauri, the nearest star. Voyager would need more than seventy thousand years to get there.",
+   "start": 119.815,
+   "end": 127.876,
+   "phrases": [
+    {
+     "text": "Four light-years away:",
+     "start": 119.815,
+     "end": 121.141
+    },
+    {
+     "text": "Proxima Centauri, the nearest star.",
+     "start": 121.741,
+     "end": 123.821
+    },
+    {
+     "text": "Voyager would need more than seventy thousand years to get there.",
+     "start": 124.421,
+     "end": 127.876
+    }
+   ]
+  },
+  {
+   "text": "Within ten light-years, there are only about a dozen stars.",
+   "start": 128.776,
+   "end": 132.638,
+   "phrases": [
+    {
+     "text": "Within ten light-years,",
+     "start": 128.776,
+     "end": 130.145
+    },
+    {
+     "text": "there are only about a dozen stars.",
+     "start": 130.745,
+     "end": 132.638
+    }
+   ]
+  },
+  {
+   "text": "Nearly every star you can see at night lies within a few thousand light-years.",
+   "start": 133.538,
+   "end": 138.398,
+   "phrases": [
+    {
+     "text": "Nearly every star you can see at night",
+     "start": 133.538,
+     "end": 135.657
+    },
+    {
+     "text": "lies within a few thousand light-years.",
+     "start": 136.257,
+     "end": 138.398
+    }
+   ]
+  },
+  {
+   "text": "The Milky Way. A hundred thousand light-years across, with hundreds of billions of stars.",
+   "start": 140.098,
+   "end": 146.247,
+   "phrases": [
+    {
+     "text": "The Milky Way.",
+     "start": 140.098,
+     "end": 141.009
+    },
+    {
+     "text": "A hundred thousand light-years across,",
+     "start": 141.609,
+     "end": 143.707
+    },
+    {
+     "text": "with hundreds of billions of stars.",
+     "start": 144.307,
+     "end": 146.247
+    }
+   ]
+  },
+  {
+   "text": "We're out here, in a quiet arm, twenty-six thousand light-years from the center. There, a black hole four million times heavier than the Sun sits waiting.",
+   "start": 148.647,
+   "end": 158.237,
+   "phrases": [
+    {
+     "text": "We're out here, in a quiet arm, twenty-six thousand light-years from the center.",
+     "start": 148.647,
+     "end": 153.173
+    },
+    {
+     "text": "There, a black hole four million times heavier than the Sun sits waiting.",
+     "start": 153.773,
+     "end": 158.237
+    }
+   ]
+  },
+  {
+   "text": "The Sun takes about two hundred thirty million years to go around once. The last time we were here, the first dinosaurs were just appearing.",
+   "start": 159.137,
+   "end": 167.879,
+   "phrases": [
+    {
+     "text": "The Sun takes about two hundred thirty million years to go around once.",
+     "start": 159.137,
+     "end": 163.205
+    },
+    {
+     "text": "The last time we were here,",
+     "start": 163.805,
+     "end": 165.176
+    },
+    {
+     "text": "the first dinosaurs were just appearing.",
+     "start": 165.776,
+     "end": 167.879
+    }
+   ]
+  },
+  {
+   "text": "The Local Group: the Milky Way, Andromeda, and dozens of smaller galaxies.",
+   "start": 168.779,
+   "end": 174.607,
+   "phrases": [
+    {
+     "text": "The Local Group:",
+     "start": 168.779,
+     "end": 169.811
+    },
+    {
+     "text": "the Milky Way, Andromeda,",
+     "start": 170.411,
+     "end": 172.136
+    },
+    {
+     "text": "and dozens of smaller galaxies.",
+     "start": 172.736,
+     "end": 174.607
+    }
+   ]
+  },
+  {
+   "text": "Andromeda is two and a half million light-years away. On a dark night you can see it with your naked eye, as light that set off long before our species existed.",
+   "start": 175.507,
+   "end": 185.69,
+   "phrases": [
+    {
+     "text": "Andromeda is two and a half million light-years away.",
+     "start": 175.507,
+     "end": 178.483
+    },
+    {
+     "text": "On a dark night you can see it with your naked eye,",
+     "start": 179.083,
+     "end": 181.837
+    },
+    {
+     "text": "as light that set off long before our species existed.",
+     "start": 182.437,
+     "end": 185.69
+    }
+   ]
+  },
+  {
+   "text": "Galaxies gather in groups, groups into clusters, and clusters into superclusters.",
+   "start": 186.59,
+   "end": 192.738,
+   "phrases": [
+    {
+     "text": "Galaxies gather in groups,",
+     "start": 186.59,
+     "end": 188.239
+    },
+    {
+     "text": "groups into clusters,",
+     "start": 188.839,
+     "end": 190.165
+    },
+    {
+     "text": "and clusters into superclusters.",
+     "start": 190.765,
+     "end": 192.738
+    }
+   ]
+  },
+  {
+   "text": "Ours is called Laniakea, Hawaiian for immense heaven: about a hundred thousand galaxies, spread across five hundred million light-years.",
+   "start": 193.638,
+   "end": 202.464,
+   "phrases": [
+    {
+     "text": "Ours is called Laniakea, Hawaiian for immense heaven:",
+     "start": 193.638,
+     "end": 196.853
+    },
+    {
+     "text": "about a hundred thousand galaxies,",
+     "start": 197.453,
+     "end": 199.444
+    },
+    {
+     "text": "spread across five hundred million light-years.",
+     "start": 200.044,
+     "end": 202.464
+    }
+   ]
+  },
+  {
+   "text": "Zoom out again, and the galaxies line up into filaments and walls, around enormous empty voids. The cosmic web.",
+   "start": 203.364,
+   "end": 211.791,
+   "phrases": [
+    {
+     "text": "Zoom out again,",
+     "start": 203.364,
+     "end": 204.341
+    },
+    {
+     "text": "and the galaxies line up into filaments and walls,",
+     "start": 204.941,
+     "end": 207.813
+    },
+    {
+     "text": "around enormous empty voids.",
+     "start": 208.413,
+     "end": 210.17
+    },
+    {
+     "text": "The cosmic web.",
+     "start": 210.77,
+     "end": 211.791
+    }
+   ]
+  },
+  {
+   "text": "Every point of light here is a galaxy.",
+   "start": 213.691,
+   "end": 215.693,
+   "phrases": [
+    {
+     "text": "Every point of light here is a galaxy.",
+     "start": 213.691,
+     "end": 215.693
+    }
+   ]
+  },
+  {
+   "text": "The observable universe. Ninety-three billion light-years across, holding hundreds of billions of galaxies.",
+   "start": 216.593,
+   "end": 223.825,
+   "phrases": [
+    {
+     "text": "The observable universe.",
+     "start": 216.593,
+     "end": 218.03
+    },
+    {
+     "text": "Ninety-three billion light-years across,",
+     "start": 218.63,
+     "end": 220.805
+    },
+    {
+     "text": "holding hundreds of billions of galaxies.",
+     "start": 221.405,
+     "end": 223.825
+    }
+   ]
+  },
+  {
+   "text": "The universe is thirteen point eight billion years old, but space has been stretching the whole time, so the farthest light we see came from places that are now much farther away.",
+   "start": 226.725,
+   "end": 237.692,
+   "phrases": [
+    {
+     "text": "The universe is thirteen point eight billion years old,",
+     "start": 226.725,
+     "end": 229.691
+    },
+    {
+     "text": "but space has been stretching the whole time,",
+     "start": 230.291,
+     "end": 232.536
+    },
+    {
+     "text": "so the farthest light we see came from places that are now much farther away.",
+     "start": 233.136,
+     "end": 237.692
+    }
+   ]
+  },
+  {
+   "text": "At the edge is the oldest light there is: the afterglow of the Big Bang.",
+   "start": 238.592,
+   "end": 243.105,
+   "phrases": [
+    {
+     "text": "At the edge is the oldest light there is:",
+     "start": 238.592,
+     "end": 240.829
+    },
+    {
+     "text": "the afterglow of the Big Bang.",
+     "start": 241.429,
+     "end": 243.105
+    }
+   ]
+  },
+  {
+   "text": "Beyond it, light hasn't had time to reach us yet. Nobody knows how far the universe really goes.",
+   "start": 244.005,
+   "end": 250.374,
+   "phrases": [
+    {
+     "text": "Beyond it, light hasn't had time to reach us yet.",
+     "start": 244.005,
+     "end": 246.794
+    },
+    {
+     "text": "Nobody knows how far the universe really goes.",
+     "start": 247.394,
+     "end": 250.374
+    }
+   ]
+  },
+  {
+   "text": "And since light reaches us from every direction at the same speed, the center of the observable universe is right where you are.",
+   "start": 251.274,
+   "end": 259.458,
+   "phrases": [
+    {
+     "text": "And since light reaches us from every direction at the same speed,",
+     "start": 251.274,
+     "end": 254.74
+    },
+    {
+     "text": "the center of the observable universe",
+     "start": 255.34,
+     "end": 257.67
+    },
+    {
+     "text": "is right where you are.",
+     "start": 258.27,
+     "end": 259.458
+    }
+   ]
+  },
+  {
+   "text": "So let's go back.",
+   "start": 260.958,
+   "end": 262.061,
+   "phrases": [
+    {
+     "text": "So let's go back.",
+     "start": 260.958,
+     "end": 262.061
+    }
+   ]
+  },
+  {
+   "text": "A human hand. About twenty-eight steps of ten from the edge of everything we can see.",
+   "start": 269.461,
+   "end": 275.32,
+   "phrases": [
+    {
+     "text": "A human hand.",
+     "start": 269.461,
+     "end": 270.47
+    },
+    {
+     "text": "About twenty-eight steps of ten",
+     "start": 271.07,
+     "end": 272.724
+    },
+    {
+     "text": "from the edge of everything we can see.",
+     "start": 273.324,
+     "end": 275.32
+    }
+   ]
+  },
+  {
+   "text": "Let's zoom out.",
+   "start": 276.22,
+   "end": 277.222,
+   "phrases": [
+    {
+     "text": "Let's zoom out.",
+     "start": 276.22,
+     "end": 277.222
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 6.044
+  },
+  {
+   "start": 6.044,
+   "end": 13.276
+  },
+  {
+   "start": 13.276,
+   "end": 17.13
+  },
+  {
+   "start": 17.13,
+   "end": 20.373
+  },
+  {
+   "start": 20.373,
+   "end": 24.829
+  },
+  {
+   "start": 24.829,
+   "end": 30.589
+  },
+  {
+   "start": 30.589,
+   "end": 37.554
+  },
+  {
+   "start": 37.554,
+   "end": 43.227
+  },
+  {
+   "start": 43.227,
+   "end": 49.57
+  },
+  {
+   "start": 49.57,
+   "end": 55.818
+  },
+  {
+   "start": 55.818,
+   "end": 63.486
+  },
+  {
+   "start": 63.486,
+   "end": 71.484
+  },
+  {
+   "start": 71.484,
+   "end": 75.981
+  },
+  {
+   "start": 75.981,
+   "end": 83.729
+  },
+  {
+   "start": 83.729,
+   "end": 91.339
+  },
+  {
+   "start": 91.339,
+   "end": 99.283
+  },
+  {
+   "start": 99.283,
+   "end": 108.86
+  },
+  {
+   "start": 108.86,
+   "end": 119.665
+  },
+  {
+   "start": 119.665,
+   "end": 128.626
+  },
+  {
+   "start": 128.626,
+   "end": 133.388
+  },
+  {
+   "start": 133.388,
+   "end": 139.948
+  },
+  {
+   "start": 139.948,
+   "end": 148.497
+  },
+  {
+   "start": 148.497,
+   "end": 158.987
+  },
+  {
+   "start": 158.987,
+   "end": 168.629
+  },
+  {
+   "start": 168.629,
+   "end": 175.357
+  },
+  {
+   "start": 175.357,
+   "end": 186.44
+  },
+  {
+   "start": 186.44,
+   "end": 193.488
+  },
+  {
+   "start": 193.488,
+   "end": 203.214
+  },
+  {
+   "start": 203.214,
+   "end": 213.541
+  },
+  {
+   "start": 213.541,
+   "end": 216.443
+  },
+  {
+   "start": 216.443,
+   "end": 226.575
+  },
+  {
+   "start": 226.575,
+   "end": 238.442
+  },
+  {
+   "start": 238.442,
+   "end": 243.855
+  },
+  {
+   "start": 243.855,
+   "end": 251.124
+  },
+  {
+   "start": 251.124,
+   "end": 260.808
+  },
+  {
+   "start": 260.808,
+   "end": 269.311
+  },
+  {
+   "start": 269.311,
+   "end": 276.07
+  },
+  {
+   "start": 276.07,
+   "end": 293.222
+  }
+ ]
+}

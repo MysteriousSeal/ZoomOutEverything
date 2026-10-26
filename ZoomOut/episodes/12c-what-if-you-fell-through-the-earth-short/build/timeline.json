@@ -1,0 +1,252 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "total": 53.345,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Jump into a hole through the Earth, and you'd reach the other side in 42 minutes.",
+   "start": 0.35,
+   "end": 5.018,
+   "phrases": [
+    {
+     "text": "Jump into a hole through the Earth,",
+     "start": 0.35,
+     "end": 2.085
+    },
+    {
+     "text": "and you'd reach the other side in 42 minutes.",
+     "start": 2.435,
+     "end": 5.018
+    }
+   ]
+  },
+  {
+   "text": "What if you jumped into a hole straight through the Earth?",
+   "start": 5.638,
+   "end": 8.08,
+   "phrases": [
+    {
+     "text": "What if you jumped into a hole straight through the Earth?",
+     "start": 5.638,
+     "end": 8.08
+    }
+   ]
+  },
+  {
+   "text": "First, the crust: about 35 kilometers of solid rock.",
+   "start": 9.1,
+   "end": 13.064,
+   "phrases": [
+    {
+     "text": "First, the crust:",
+     "start": 9.1,
+     "end": 10.125
+    },
+    {
+     "text": "about 35 kilometers of solid rock.",
+     "start": 10.475,
+     "end": 13.064
+    }
+   ]
+  },
+  {
+   "text": "Then the mantle: nearly 3,000 kilometers of hot rock.",
+   "start": 13.484,
+   "end": 17.369,
+   "phrases": [
+    {
+     "text": "Then the mantle:",
+     "start": 13.484,
+     "end": 14.436
+    },
+    {
+     "text": "nearly 3,000 kilometers of hot rock.",
+     "start": 14.786,
+     "end": 17.369
+    }
+   ]
+  },
+  {
+   "text": "Next, the outer core, an ocean of liquid iron.",
+   "start": 17.789,
+   "end": 21.006,
+   "phrases": [
+    {
+     "text": "Next, the outer core,",
+     "start": 17.789,
+     "end": 18.987
+    },
+    {
+     "text": "an ocean of liquid iron.",
+     "start": 19.337,
+     "end": 21.006
+    }
+   ]
+  },
+  {
+   "text": "You'd pass the center at about/ 8 kilometers a second.",
+   "start": 21.426,
+   "end": 24.831,
+   "phrases": [
+    {
+     "text": "You'd pass the center",
+     "start": 21.426,
+     "end": 22.594
+    },
+    {
+     "text": "at about/ 8 kilometers a second.",
+     "start": 22.944,
+     "end": 24.831
+    }
+   ]
+  },
+  {
+   "text": "That's roughly 8 times faster than a rifle bullet.",
+   "start": 25.251,
+   "end": 28.272,
+   "phrases": [
+    {
+     "text": "That's roughly 8 times faster than a rifle bullet.",
+     "start": 25.251,
+     "end": 28.272
+    }
+   ]
+  },
+  {
+   "text": "Then gravity flips, and starts slowing you down.",
+   "start": 28.692,
+   "end": 31.658,
+   "phrases": [
+    {
+     "text": "Then gravity flips,",
+     "start": 28.692,
+     "end": 29.96
+    },
+    {
+     "text": "and starts slowing you down.",
+     "start": 30.31,
+     "end": 31.658
+    }
+   ]
+  },
+  {
+   "text": "You coast up the other side and reach the surface, 12,700 kilometers away.",
+   "start": 32.078,
+   "end": 37.698,
+   "phrases": [
+    {
+     "text": "You coast up the other side",
+     "start": 32.078,
+     "end": 33.43
+    },
+    {
+     "text": "and reach the surface, 12,700 kilometers away.",
+     "start": 33.78,
+     "end": 37.698
+    }
+   ]
+  },
+  {
+   "text": "The whole trip takes about 42 minutes.",
+   "start": 38.118,
+   "end": 40.312,
+   "phrases": [
+    {
+     "text": "The whole trip takes about 42 minutes.",
+     "start": 38.118,
+     "end": 40.312
+    }
+   ]
+  },
+  {
+   "text": "A straight tunnel from London to New York? Also about 42 minutes.",
+   "start": 40.732,
+   "end": 45.048,
+   "phrases": [
+    {
+     "text": "A straight tunnel from London to New York?",
+     "start": 40.732,
+     "end": 42.94
+    },
+    {
+     "text": "Also about 42 minutes.",
+     "start": 43.29,
+     "end": 45.048
+    }
+   ]
+  },
+  {
+   "text": "Through the Moon instead, would the trip be shorter or longer? Tell me in the comments.",
+   "start": 46.068,
+   "end": 50.845,
+   "phrases": [
+    {
+     "text": "Through the Moon instead,",
+     "start": 46.068,
+     "end": 47.28
+    },
+    {
+     "text": "would the trip be shorter or longer?",
+     "start": 47.63,
+     "end": 49.368
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 49.718,
+     "end": 50.845
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.488
+  },
+  {
+   "start": 5.488,
+   "end": 8.95
+  },
+  {
+   "start": 8.95,
+   "end": 13.334
+  },
+  {
+   "start": 13.334,
+   "end": 17.639
+  },
+  {
+   "start": 17.639,
+   "end": 21.276
+  },
+  {
+   "start": 21.276,
+   "end": 25.101
+  },
+  {
+   "start": 25.101,
+   "end": 28.542
+  },
+  {
+   "start": 28.542,
+   "end": 31.928
+  },
+  {
+   "start": 31.928,
+   "end": 37.968
+  },
+  {
+   "start": 37.968,
+   "end": 40.582
+  },
+  {
+   "start": 40.582,
+   "end": 45.918
+  },
+  {
+   "start": 45.918,
+   "end": 53.345
+  }
+ ]
+}

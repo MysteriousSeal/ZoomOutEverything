@@ -1,0 +1,368 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 89.946,
+ "lines": [
+  {
+   "text": "What happens on the internet in one single second?",
+   "start": 0.35,
+   "end": 3.119,
+   "phrases": [
+    {
+     "text": "What happens on the internet in one single second?",
+     "start": 0.35,
+     "end": 3.119
+    }
+   ]
+  },
+  {
+   "text": "It starts with one phone, lighting up in the dark.",
+   "start": 4.299,
+   "end": 7.593,
+   "phrases": [
+    {
+     "text": "It starts with one phone,",
+     "start": 4.299,
+     "end": 5.667
+    },
+    {
+     "text": "lighting up in the dark.",
+     "start": 6.267,
+     "end": 7.593
+    }
+   ]
+  },
+  {
+   "text": "In that same second, people type more than a hundred thousand searches into Google.",
+   "start": 8.273,
+   "end": 13.438,
+   "phrases": [
+    {
+     "text": "In that same second,",
+     "start": 8.273,
+     "end": 9.479
+    },
+    {
+     "text": "people type more than a hundred thousand searches into Google.",
+     "start": 10.079,
+     "end": 13.438
+    }
+   ]
+  },
+  {
+   "text": "That's over eight billion questions a day. And the strangest number comes last.",
+   "start": 14.118,
+   "end": 18.866,
+   "phrases": [
+    {
+     "text": "That's over eight billion questions a day.",
+     "start": 14.118,
+     "end": 16.313
+    },
+    {
+     "text": "And the strangest number comes last.",
+     "start": 16.913,
+     "end": 18.866
+    }
+   ]
+  },
+  {
+   "text": "Zoom out, and that second also sends about four million emails.",
+   "start": 19.546,
+   "end": 24.261,
+   "phrases": [
+    {
+     "text": "Zoom out,",
+     "start": 19.546,
+     "end": 20.316
+    },
+    {
+     "text": "and that second also sends about four million emails.",
+     "start": 20.916,
+     "end": 24.261
+    }
+   ]
+  },
+  {
+   "text": "Nearly half of them are spam.",
+   "start": 24.941,
+   "end": 26.585,
+   "phrases": [
+    {
+     "text": "Nearly half of them are spam.",
+     "start": 24.941,
+     "end": 26.585
+    }
+   ]
+  },
+  {
+   "text": "Meanwhile, about eight hours of new video land on YouTube.",
+   "start": 27.265,
+   "end": 30.668,
+   "phrases": [
+    {
+     "text": "Meanwhile, about eight hours of new video land on YouTube.",
+     "start": 27.265,
+     "end": 30.668
+    }
+   ]
+  },
+  {
+   "text": "Not every minute. Every second.",
+   "start": 31.348,
+   "end": 33.918,
+   "phrases": [
+    {
+     "text": "Not every minute.",
+     "start": 31.348,
+     "end": 32.418
+    },
+    {
+     "text": "Every second.",
+     "start": 33.018,
+     "end": 33.918
+    }
+   ]
+  },
+  {
+   "text": "All of it has to live somewhere: in vast warehouses of computers called data centers.",
+   "start": 34.598,
+   "end": 40.202,
+   "phrases": [
+    {
+     "text": "All of it has to live somewhere:",
+     "start": 34.598,
+     "end": 36.207
+    },
+    {
+     "text": "in vast warehouses of computers called data centers.",
+     "start": 36.807,
+     "end": 40.202
+    }
+   ]
+  },
+  {
+   "text": "Experts estimate they use about one and a half percent of all the world's electricity.",
+   "start": 40.882,
+   "end": 45.784,
+   "phrases": [
+    {
+     "text": "Experts estimate they use about one and a half percent of all the world's electricity.",
+     "start": 40.882,
+     "end": 45.784
+    }
+   ]
+  },
+  {
+   "text": "Roughly as much as the whole of France.",
+   "start": 46.464,
+   "end": 48.513,
+   "phrases": [
+    {
+     "text": "Roughly as much as the whole of France.",
+     "start": 46.464,
+     "end": 48.513
+    }
+   ]
+  },
+  {
+   "text": "And to cross from one continent to another, the data doesn't fly through space.",
+   "start": 49.193,
+   "end": 53.828,
+   "phrases": [
+    {
+     "text": "And to cross from one continent to another,",
+     "start": 49.193,
+     "end": 51.398
+    },
+    {
+     "text": "the data doesn't fly through space.",
+     "start": 51.998,
+     "end": 53.828
+    }
+   ]
+  },
+  {
+   "text": "It goes under the sea.",
+   "start": 54.508,
+   "end": 55.681,
+   "phrases": [
+    {
+     "text": "It goes under the sea.",
+     "start": 54.508,
+     "end": 55.681
+    }
+   ]
+  },
+  {
+   "text": "About one point four million kilometers of cable lie on the ocean floor.",
+   "start": 56.361,
+   "end": 60.873,
+   "phrases": [
+    {
+     "text": "About one point four million kilometers of cable lie on the ocean floor.",
+     "start": 56.361,
+     "end": 60.873
+    }
+   ]
+  },
+  {
+   "text": "That's enough to wrap around the Earth thirty-five times.",
+   "start": 61.553,
+   "end": 64.391,
+   "phrases": [
+    {
+     "text": "That's enough to wrap around the Earth thirty-five times.",
+     "start": 61.553,
+     "end": 64.391
+    }
+   ]
+  },
+  {
+   "text": "In the deep sea, many are about as thick as a garden hose.",
+   "start": 65.071,
+   "end": 68.975,
+   "phrases": [
+    {
+     "text": "In the deep sea,",
+     "start": 65.071,
+     "end": 66.062
+    },
+    {
+     "text": "many are about as thick as a garden hose.",
+     "start": 66.662,
+     "end": 68.975
+    }
+   ]
+  },
+  {
+   "text": "Yet they carry more than ninety-nine percent of the traffic between continents.",
+   "start": 69.655,
+   "end": 73.74,
+   "phrases": [
+    {
+     "text": "Yet they carry more than ninety-nine percent of the traffic between continents.",
+     "start": 69.655,
+     "end": 73.74
+    }
+   ]
+  },
+  {
+   "text": "Now, back to that one phone, and those eight hours of YouTube every second.",
+   "start": 74.42,
+   "end": 79.232,
+   "phrases": [
+    {
+     "text": "Now, back to that one phone,",
+     "start": 74.42,
+     "end": 76.097
+    },
+    {
+     "text": "and those eight hours of YouTube every second.",
+     "start": 76.697,
+     "end": 79.232
+    }
+   ]
+  },
+  {
+   "text": "One single day of uploads would take about eighty-two years to watch, nonstop. Longer than a lifetime.",
+   "start": 79.912,
+   "end": 86.946,
+   "phrases": [
+    {
+     "text": "One single day of uploads",
+     "start": 79.912,
+     "end": 81.489
+    },
+    {
+     "text": "would take about eighty-two years to watch, nonstop.",
+     "start": 82.089,
+     "end": 84.948
+    },
+    {
+     "text": "Longer than a lifetime.",
+     "start": 85.548,
+     "end": 86.946
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 4.149
+  },
+  {
+   "start": 4.149,
+   "end": 8.123
+  },
+  {
+   "start": 8.123,
+   "end": 13.968
+  },
+  {
+   "start": 13.968,
+   "end": 19.396
+  },
+  {
+   "start": 19.396,
+   "end": 24.791
+  },
+  {
+   "start": 24.791,
+   "end": 27.115
+  },
+  {
+   "start": 27.115,
+   "end": 31.198
+  },
+  {
+   "start": 31.198,
+   "end": 34.448
+  },
+  {
+   "start": 34.448,
+   "end": 40.732
+  },
+  {
+   "start": 40.732,
+   "end": 46.314
+  },
+  {
+   "start": 46.314,
+   "end": 49.043
+  },
+  {
+   "start": 49.043,
+   "end": 54.358
+  },
+  {
+   "start": 54.358,
+   "end": 56.211
+  },
+  {
+   "start": 56.211,
+   "end": 61.403
+  },
+  {
+   "start": 61.403,
+   "end": 64.921
+  },
+  {
+   "start": 64.921,
+   "end": 69.505
+  },
+  {
+   "start": 69.505,
+   "end": 74.27
+  },
+  {
+   "start": 74.27,
+   "end": 79.762
+  },
+  {
+   "start": 79.762,
+   "end": 89.946
+  }
+ ]
+}

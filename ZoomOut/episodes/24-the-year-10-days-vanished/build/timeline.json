@@ -1,0 +1,295 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 77.859,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Ten days in 1582 never happened. Not one.",
+   "start": 0.35,
+   "end": 4.144,
+   "phrases": [
+    {
+     "text": "Ten days in 1582 never happened.",
+     "start": 0.35,
+     "end": 2.96
+    },
+    {
+     "text": "Not one.",
+     "start": 3.41,
+     "end": 4.144
+    }
+   ]
+  },
+  {
+   "text": "How did ten days vanish from history?",
+   "start": 4.944,
+   "end": 7.082,
+   "phrases": [
+    {
+     "text": "How did ten days vanish from history?",
+     "start": 4.944,
+     "end": 7.082
+    }
+   ]
+  },
+  {
+   "text": "In 1582, much of Catholic Europe went to bed on Thursday, October fourth, and woke up on Friday the fifteenth.",
+   "start": 8.182,
+   "end": 15.62,
+   "phrases": [
+    {
+     "text": "In 1582, much of Catholic Europe went to bed on Thursday, October fourth,",
+     "start": 8.182,
+     "end": 13.306
+    },
+    {
+     "text": "and woke up on Friday the fifteenth.",
+     "start": 13.756,
+     "end": 15.62
+    }
+   ]
+  },
+  {
+   "text": "The culprit: Julius Caesar's calendar, sixteen centuries old.",
+   "start": 16.22,
+   "end": 20.226,
+   "phrases": [
+    {
+     "text": "The culprit: Julius Caesar's calendar, sixteen centuries old.",
+     "start": 16.22,
+     "end": 20.226
+    }
+   ]
+  },
+  {
+   "text": "A leap day every four years made its average year three hundred sixty-five and a quarter days.",
+   "start": 20.826,
+   "end": 26.631,
+   "phrases": [
+    {
+     "text": "A leap day every four years made its average year",
+     "start": 20.826,
+     "end": 23.554
+    },
+    {
+     "text": "three hundred sixty-five and a quarter days.",
+     "start": 24.004,
+     "end": 26.631
+    }
+   ]
+  },
+  {
+   "text": "But Earth returns to the equinox about eleven minutes sooner.",
+   "start": 27.231,
+   "end": 30.61,
+   "phrases": [
+    {
+     "text": "But Earth returns to the equinox about eleven minutes sooner.",
+     "start": 27.231,
+     "end": 30.61
+    }
+   ]
+  },
+  {
+   "text": "Eleven minutes a year doesn't sound like much.",
+   "start": 31.21,
+   "end": 33.883,
+   "phrases": [
+    {
+     "text": "Eleven minutes a year doesn't sound like much.",
+     "start": 31.21,
+     "end": 33.883
+    }
+   ]
+  },
+  {
+   "text": "But it adds up to a whole day every hundred and twenty-eight years.",
+   "start": 34.483,
+   "end": 37.942,
+   "phrases": [
+    {
+     "text": "But it adds up to a whole day every hundred and twenty-eight years.",
+     "start": 34.483,
+     "end": 37.942
+    }
+   ]
+  },
+  {
+   "text": "By 1582 it had slipped ten days, and Easter was drifting away from the real equinox.",
+   "start": 38.542,
+   "end": 44.556,
+   "phrases": [
+    {
+     "text": "By 1582 it had slipped ten days,",
+     "start": 38.542,
+     "end": 41.082
+    },
+    {
+     "text": "and Easter was drifting away from the real equinox.",
+     "start": 41.532,
+     "end": 44.556
+    }
+   ]
+  },
+  {
+   "text": "So Pope Gregory the Thirteenth simply deleted them.",
+   "start": 45.156,
+   "end": 48.288,
+   "phrases": [
+    {
+     "text": "So Pope Gregory the Thirteenth simply deleted them.",
+     "start": 45.156,
+     "end": 48.288
+    }
+   ]
+  },
+  {
+   "text": "To stop the drift, three leap days every four hundred years were cancelled.",
+   "start": 49.288,
+   "end": 53.951,
+   "phrases": [
+    {
+     "text": "To stop the drift,",
+     "start": 49.288,
+     "end": 50.436
+    },
+    {
+     "text": "three leap days every four hundred years were cancelled.",
+     "start": 50.886,
+     "end": 53.951
+    }
+   ]
+  },
+  {
+   "text": "That's why 1900 had no leap day, but 2000 did.",
+   "start": 54.551,
+   "end": 58.836,
+   "phrases": [
+    {
+     "text": "That's why 1900 had no leap day,",
+     "start": 54.551,
+     "end": 57.127
+    },
+    {
+     "text": "but 2000 did.",
+     "start": 57.577,
+     "end": 58.836
+    }
+   ]
+  },
+  {
+   "text": "Britain held out until 1752, and had to skip eleven days.",
+   "start": 59.436,
+   "end": 64.206,
+   "phrases": [
+    {
+     "text": "Britain held out until 1752,",
+     "start": 59.436,
+     "end": 62.096
+    },
+    {
+     "text": "and had to skip eleven days.",
+     "start": 62.546,
+     "end": 64.206
+    }
+   ]
+  },
+  {
+   "text": "Even today, the calendar drifts about a day every three thousand years.",
+   "start": 64.806,
+   "end": 69.079,
+   "phrases": [
+    {
+     "text": "Even today, the calendar drifts about a day every three thousand years.",
+     "start": 64.806,
+     "end": 69.079
+    }
+   ]
+  },
+  {
+   "text": "If ten days vanished from this year, which ten would you skip? Tell me in the comments.",
+   "start": 69.679,
+   "end": 74.859,
+   "phrases": [
+    {
+     "text": "If ten days vanished from this year,",
+     "start": 69.679,
+     "end": 71.547
+    },
+    {
+     "text": "which ten would you skip?",
+     "start": 71.997,
+     "end": 73.229
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 73.679,
+     "end": 74.859
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 4.794
+  },
+  {
+   "start": 4.794,
+   "end": 8.032
+  },
+  {
+   "start": 8.032,
+   "end": 16.07
+  },
+  {
+   "start": 16.07,
+   "end": 20.676
+  },
+  {
+   "start": 20.676,
+   "end": 27.081
+  },
+  {
+   "start": 27.081,
+   "end": 31.06
+  },
+  {
+   "start": 31.06,
+   "end": 34.333
+  },
+  {
+   "start": 34.333,
+   "end": 38.392
+  },
+  {
+   "start": 38.392,
+   "end": 45.006
+  },
+  {
+   "start": 45.006,
+   "end": 49.138
+  },
+  {
+   "start": 49.138,
+   "end": 54.401
+  },
+  {
+   "start": 54.401,
+   "end": 59.286
+  },
+  {
+   "start": 59.286,
+   "end": 64.656
+  },
+  {
+   "start": 64.656,
+   "end": 69.529
+  },
+  {
+   "start": 69.529,
+   "end": 77.859
+  }
+ ]
+}

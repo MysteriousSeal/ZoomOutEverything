@@ -1,0 +1,257 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 59.624,
+ "lines": [
+  {
+   "text": "What if the Moon suddenly disappeared?",
+   "start": 0.35,
+   "end": 2.324,
+   "phrases": [
+    {
+     "text": "What if the Moon suddenly disappeared?",
+     "start": 0.35,
+     "end": 2.324
+    }
+   ]
+  },
+  {
+   "text": "The first thing you'd notice would be the nights.",
+   "start": 4.024,
+   "end": 6.166,
+   "phrases": [
+    {
+     "text": "The first thing you'd notice would be the nights.",
+     "start": 4.024,
+     "end": 6.166
+    }
+   ]
+  },
+  {
+   "text": "Today, a full Moon lights the land with reflected sunlight.",
+   "start": 6.966,
+   "end": 10.449,
+   "phrases": [
+    {
+     "text": "Today, a full Moon lights the land with reflected sunlight.",
+     "start": 6.966,
+     "end": 10.449
+    }
+   ]
+  },
+  {
+   "text": "Without it, those nights would be about a hundred times darker.",
+   "start": 11.249,
+   "end": 15.375,
+   "phrases": [
+    {
+     "text": "Without it,",
+     "start": 11.249,
+     "end": 12.001
+    },
+    {
+     "text": "those nights would be about a hundred times darker.",
+     "start": 12.601,
+     "end": 15.375
+    }
+   ]
+  },
+  {
+   "text": "Then the tides. The Moon does most of the pulling on our oceans.",
+   "start": 16.175,
+   "end": 20.375,
+   "phrases": [
+    {
+     "text": "Then the tides.",
+     "start": 16.175,
+     "end": 17.183
+    },
+    {
+     "text": "The Moon does most of the pulling on our oceans.",
+     "start": 17.783,
+     "end": 20.375
+    }
+   ]
+  },
+  {
+   "text": "With only the Sun left, tides would shrink to about a third of today's biggest.",
+   "start": 21.175,
+   "end": 25.953,
+   "phrases": [
+    {
+     "text": "With only the Sun left,",
+     "start": 21.175,
+     "end": 22.513
+    },
+    {
+     "text": "tides would shrink to about a third of today's biggest.",
+     "start": 23.113,
+     "end": 25.953
+    }
+   ]
+  },
+  {
+   "text": "And total solar eclipses would be gone, forever.",
+   "start": 26.753,
+   "end": 29.587,
+   "phrases": [
+    {
+     "text": "And total solar eclipses would be gone, forever.",
+     "start": 26.753,
+     "end": 29.587
+    }
+   ]
+  },
+  {
+   "text": "The Moon also steadies Earth's tilt, the reason we have seasons.",
+   "start": 30.387,
+   "end": 34.478,
+   "phrases": [
+    {
+     "text": "The Moon also steadies Earth's tilt,",
+     "start": 30.387,
+     "end": 32.339
+    },
+    {
+     "text": "the reason we have seasons.",
+     "start": 32.939,
+     "end": 34.478
+    }
+   ]
+  },
+  {
+   "text": "Without it, many models say that tilt could wobble far more.",
+   "start": 35.278,
+   "end": 39.218,
+   "phrases": [
+    {
+     "text": "Without it,",
+     "start": 35.278,
+     "end": 36.03
+    },
+    {
+     "text": "many models say that tilt could wobble far more.",
+     "start": 36.63,
+     "end": 39.218
+    }
+   ]
+  },
+  {
+   "text": "Over millions of years, seasons could go haywire.",
+   "start": 40.018,
+   "end": 43.611,
+   "phrases": [
+    {
+     "text": "Over millions of years,",
+     "start": 40.018,
+     "end": 41.426
+    },
+    {
+     "text": "seasons could go haywire.",
+     "start": 42.026,
+     "end": 43.611
+    }
+   ]
+  },
+  {
+   "text": "But here's the twist: the Moon is already slowly leaving us.",
+   "start": 44.411,
+   "end": 48.369,
+   "phrases": [
+    {
+     "text": "But here's the twist:",
+     "start": 44.411,
+     "end": 45.649
+    },
+    {
+     "text": "the Moon is already slowly leaving us.",
+     "start": 46.249,
+     "end": 48.369
+    }
+   ]
+  },
+  {
+   "text": "Every year, it drifts about three point eight centimeters farther away.",
+   "start": 49.169,
+   "end": 53.487,
+   "phrases": [
+    {
+     "text": "Every year,",
+     "start": 49.169,
+     "end": 49.915
+    },
+    {
+     "text": "it drifts about three point eight centimeters farther away.",
+     "start": 50.515,
+     "end": 53.487
+    }
+   ]
+  },
+  {
+   "text": "That's about as fast as your fingernails grow.",
+   "start": 54.287,
+   "end": 56.624,
+   "phrases": [
+    {
+     "text": "That's about as fast as your fingernails grow.",
+     "start": 54.287,
+     "end": 56.624
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 3.874
+  },
+  {
+   "start": 3.874,
+   "end": 6.816
+  },
+  {
+   "start": 6.816,
+   "end": 11.099
+  },
+  {
+   "start": 11.099,
+   "end": 16.025
+  },
+  {
+   "start": 16.025,
+   "end": 21.025
+  },
+  {
+   "start": 21.025,
+   "end": 26.603
+  },
+  {
+   "start": 26.603,
+   "end": 30.237
+  },
+  {
+   "start": 30.237,
+   "end": 35.128
+  },
+  {
+   "start": 35.128,
+   "end": 39.868
+  },
+  {
+   "start": 39.868,
+   "end": 44.261
+  },
+  {
+   "start": 44.261,
+   "end": 49.019
+  },
+  {
+   "start": 49.019,
+   "end": 54.137
+  },
+  {
+   "start": 54.137,
+   "end": 59.624
+  }
+ ]
+}

@@ -1,0 +1,267 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 53.5,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Crush the whole Sun/ into a black hole, and it would be just 6 kilometers wide.",
+   "start": 0.35,
+   "end": 4.725,
+   "phrases": [
+    {
+     "text": "Crush the whole Sun/ into a black hole,",
+     "start": 0.35,
+     "end": 2.276
+    },
+    {
+     "text": "and it would be just 6 kilometers wide.",
+     "start": 2.596,
+     "end": 4.725
+    }
+   ]
+  },
+  {
+   "text": "What if the Sun suddenly became a black hole?",
+   "start": 5.325,
+   "end": 7.706,
+   "phrases": [
+    {
+     "text": "What if the Sun suddenly became a black hole?",
+     "start": 5.325,
+     "end": 7.706
+    }
+   ]
+  },
+  {
+   "text": "For 8 minutes and 20 seconds, nothing would change.",
+   "start": 8.406,
+   "end": 11.648,
+   "phrases": [
+    {
+     "text": "For 8 minutes and 20 seconds,",
+     "start": 8.406,
+     "end": 10.159
+    },
+    {
+     "text": "nothing would change.",
+     "start": 10.479,
+     "end": 11.648
+    }
+   ]
+  },
+  {
+   "text": "That's how long sunlight takes to reach us, and gravity is no faster.",
+   "start": 12.048,
+   "end": 16.232,
+   "phrases": [
+    {
+     "text": "That's how long sunlight takes to reach us,",
+     "start": 12.048,
+     "end": 14.264
+    },
+    {
+     "text": "and gravity is no faster.",
+     "start": 14.584,
+     "end": 16.232
+    }
+   ]
+  },
+  {
+   "text": "And then, the sky would go dark.",
+   "start": 16.632,
+   "end": 18.914,
+   "phrases": [
+    {
+     "text": "And then,",
+     "start": 16.632,
+     "end": 17.251
+    },
+    {
+     "text": "the sky would go dark.",
+     "start": 17.571,
+     "end": 18.914
+    }
+   ]
+  },
+  {
+   "text": "But Earth would keep the same orbit. Only mass and distance matter.",
+   "start": 19.914,
+   "end": 23.83,
+   "phrases": [
+    {
+     "text": "But Earth would keep the same orbit.",
+     "start": 19.914,
+     "end": 21.759
+    },
+    {
+     "text": "Only mass and distance matter.",
+     "start": 22.079,
+     "end": 23.83
+    }
+   ]
+  },
+  {
+   "text": "So how small is a black hole/ with the Sun's mass?",
+   "start": 24.23,
+   "end": 26.874,
+   "phrases": [
+    {
+     "text": "So how small is a black hole/ with the Sun's mass?",
+     "start": 24.23,
+     "end": 26.874
+    }
+   ]
+  },
+  {
+   "text": "About 6 kilometers wide. Smaller than a city.",
+   "start": 27.274,
+   "end": 30.504,
+   "phrases": [
+    {
+     "text": "About 6 kilometers wide.",
+     "start": 27.274,
+     "end": 28.983
+    },
+    {
+     "text": "Smaller than a city.",
+     "start": 29.303,
+     "end": 30.504
+    }
+   ]
+  },
+  {
+   "text": "Back on Earth, within weeks the land could drop below \u221218 \u00b0C.",
+   "start": 30.904,
+   "end": 35.623,
+   "phrases": [
+    {
+     "text": "Back on Earth,",
+     "start": 30.904,
+     "end": 31.781
+    },
+    {
+     "text": "within weeks the land could drop below \u221218 \u00b0C.",
+     "start": 32.101,
+     "end": 35.623
+    }
+   ]
+  },
+  {
+   "text": "But here's the twist: the Sun can never do this.",
+   "start": 36.023,
+   "end": 39.058,
+   "phrases": [
+    {
+     "text": "But here's the twist:",
+     "start": 36.023,
+     "end": 37.261
+    },
+    {
+     "text": "the Sun can never do this.",
+     "start": 37.581,
+     "end": 39.058
+    }
+   ]
+  },
+  {
+   "text": "It's far too light. It would need to be about 20 times heavier.",
+   "start": 39.458,
+   "end": 43.182,
+   "phrases": [
+    {
+     "text": "It's far too light.",
+     "start": 39.458,
+     "end": 40.604
+    },
+    {
+     "text": "It would need to be about 20 times heavier.",
+     "start": 40.924,
+     "end": 43.182
+    }
+   ]
+  },
+  {
+   "text": "Crush Earth into/ a black hole instead. How big would it be? About the size of a marble, or about the size of a car? Tell me in the comments.",
+   "start": 43.732,
+   "end": 52.35,
+   "phrases": [
+    {
+     "text": "Crush Earth into/ a black hole instead.",
+     "start": 43.732,
+     "end": 45.778
+    },
+    {
+     "text": "How big would it be?",
+     "start": 46.098,
+     "end": 47.3
+    },
+    {
+     "text": "About the size of a marble,",
+     "start": 47.62,
+     "end": 49.056
+    },
+    {
+     "text": "or about the size of a car?",
+     "start": 49.376,
+     "end": 50.85
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 51.17,
+     "end": 52.35
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.175
+  },
+  {
+   "start": 5.175,
+   "end": 8.256
+  },
+  {
+   "start": 8.256,
+   "end": 11.898
+  },
+  {
+   "start": 11.898,
+   "end": 16.482
+  },
+  {
+   "start": 16.482,
+   "end": 19.764
+  },
+  {
+   "start": 19.764,
+   "end": 24.08
+  },
+  {
+   "start": 24.08,
+   "end": 27.124
+  },
+  {
+   "start": 27.124,
+   "end": 30.754
+  },
+  {
+   "start": 30.754,
+   "end": 35.873
+  },
+  {
+   "start": 35.873,
+   "end": 39.308
+  },
+  {
+   "start": 39.308,
+   "end": 43.582
+  },
+  {
+   "start": 43.582,
+   "end": 53.5
+  }
+ ]
+}

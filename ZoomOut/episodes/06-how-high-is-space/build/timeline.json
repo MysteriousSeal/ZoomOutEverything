@@ -1,0 +1,242 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 60.853,
+ "lines": [
+  {
+   "text": "How far up is space, really?",
+   "start": 0.35,
+   "end": 1.944,
+   "phrases": [
+    {
+     "text": "How far up is space, really?",
+     "start": 0.35,
+     "end": 1.944
+    }
+   ]
+  },
+  {
+   "text": "The Statue of Liberty stands ninety-three meters tall.",
+   "start": 3.344,
+   "end": 6.356,
+   "phrases": [
+    {
+     "text": "The Statue of Liberty stands ninety-three meters tall.",
+     "start": 3.344,
+     "end": 6.356
+    }
+   ]
+  },
+  {
+   "text": "The Eiffel Tower, three hundred thirty.",
+   "start": 7.156,
+   "end": 9.432,
+   "phrases": [
+    {
+     "text": "The Eiffel Tower, three hundred thirty.",
+     "start": 7.156,
+     "end": 9.432
+    }
+   ]
+  },
+  {
+   "text": "The Burj Khalifa, eight hundred twenty-eight.",
+   "start": 10.232,
+   "end": 12.673,
+   "phrases": [
+    {
+     "text": "The Burj Khalifa, eight hundred twenty-eight.",
+     "start": 10.232,
+     "end": 12.673
+    }
+   ]
+  },
+  {
+   "text": "Mount Everest towers over them all, at almost nine kilometers.",
+   "start": 13.473,
+   "end": 17.239,
+   "phrases": [
+    {
+     "text": "Mount Everest towers over them all, at almost nine kilometers.",
+     "start": 13.473,
+     "end": 17.239
+    }
+   ]
+  },
+  {
+   "text": "Passenger jets cruise a little higher, around eleven kilometers up.",
+   "start": 18.039,
+   "end": 22.061,
+   "phrases": [
+    {
+     "text": "Passenger jets cruise a little higher, around eleven kilometers up.",
+     "start": 18.039,
+     "end": 22.061
+    }
+   ]
+  },
+  {
+   "text": "By thirty kilometers, ninety-nine percent of the air is already below you.",
+   "start": 22.861,
+   "end": 27.21,
+   "phrases": [
+    {
+     "text": "By thirty kilometers, ninety-nine percent of the air is already below you.",
+     "start": 22.861,
+     "end": 27.21
+    }
+   ]
+  },
+  {
+   "text": "At thirty-nine, a skydiver once jumped from a balloon, and broke the sound barrier on the way down.",
+   "start": 28.01,
+   "end": 33.953,
+   "phrases": [
+    {
+     "text": "At thirty-nine, a skydiver once jumped from a balloon,",
+     "start": 28.01,
+     "end": 31.184
+    },
+    {
+     "text": "and broke the sound barrier on the way down.",
+     "start": 31.784,
+     "end": 33.953
+    }
+   ]
+  },
+  {
+   "text": "And at one hundred kilometers: the K\u00e1rm\u00e1n line. Officially, space.",
+   "start": 34.753,
+   "end": 39.473,
+   "phrases": [
+    {
+     "text": "And at one hundred kilometers: the K\u00e1rm\u00e1n line.",
+     "start": 34.753,
+     "end": 37.657
+    },
+    {
+     "text": "Officially, space.",
+     "start": 38.257,
+     "end": 39.473
+    }
+   ]
+  },
+  {
+   "text": "If you could drive straight up, you'd get there in about an hour.",
+   "start": 40.273,
+   "end": 43.879,
+   "phrases": [
+    {
+     "text": "If you could drive straight up,",
+     "start": 40.273,
+     "end": 41.707
+    },
+    {
+     "text": "you'd get there in about an hour.",
+     "start": 42.307,
+     "end": 43.879
+    }
+   ]
+  },
+  {
+   "text": "The International Space Station orbits around four hundred kilometers up.",
+   "start": 44.679,
+   "end": 49.022,
+   "phrases": [
+    {
+     "text": "The International Space Station orbits around four hundred kilometers up.",
+     "start": 44.679,
+     "end": 49.022
+    }
+   ]
+  },
+  {
+   "text": "On a classroom globe, that's barely a centimeter above the surface.",
+   "start": 49.822,
+   "end": 53.961,
+   "phrases": [
+    {
+     "text": "On a classroom globe,",
+     "start": 49.822,
+     "end": 51.002
+    },
+    {
+     "text": "that's barely a centimeter above the surface.",
+     "start": 51.602,
+     "end": 53.961
+    }
+   ]
+  },
+  {
+   "text": "Space isn't far away. It's just straight up.",
+   "start": 54.761,
+   "end": 57.853,
+   "phrases": [
+    {
+     "text": "Space isn't far away.",
+     "start": 54.761,
+     "end": 56.198
+    },
+    {
+     "text": "It's just straight up.",
+     "start": 56.798,
+     "end": 57.853
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 3.194
+  },
+  {
+   "start": 3.194,
+   "end": 7.006
+  },
+  {
+   "start": 7.006,
+   "end": 10.082
+  },
+  {
+   "start": 10.082,
+   "end": 13.323
+  },
+  {
+   "start": 13.323,
+   "end": 17.889
+  },
+  {
+   "start": 17.889,
+   "end": 22.711
+  },
+  {
+   "start": 22.711,
+   "end": 27.86
+  },
+  {
+   "start": 27.86,
+   "end": 34.603
+  },
+  {
+   "start": 34.603,
+   "end": 40.123
+  },
+  {
+   "start": 40.123,
+   "end": 44.529
+  },
+  {
+   "start": 44.529,
+   "end": 49.672
+  },
+  {
+   "start": 49.672,
+   "end": 54.611
+  },
+  {
+   "start": 54.611,
+   "end": 60.853
+  }
+ ]
+}

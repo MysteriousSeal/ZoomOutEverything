@@ -1,0 +1,5 @@
+# engine/py (voice.py, audio.py) and The Short Answer; Python 3.13
+kokoro-onnx==0.6.1
+pillow==13.0.0
+scipy==1.18.1
+soundfile==0.14.0

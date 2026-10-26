@@ -1,0 +1,231 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 53.559,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Our longest-lasting trace has already left Earth.",
+   "start": 0.35,
+   "end": 3.147,
+   "phrases": [
+    {
+     "text": "Our longest-lasting trace has already left Earth.",
+     "start": 0.35,
+     "end": 3.147
+    }
+   ]
+  },
+  {
+   "text": "What if every human on Earth disappeared tomorrow?",
+   "start": 3.767,
+   "end": 6.339,
+   "phrases": [
+    {
+     "text": "What if every human on Earth disappeared tomorrow?",
+     "start": 3.767,
+     "end": 6.339
+    }
+   ]
+  },
+  {
+   "text": "Within hours, power plants would shut down, and the lights would go out.",
+   "start": 7.059,
+   "end": 11.415,
+   "phrases": [
+    {
+     "text": "Within hours,",
+     "start": 7.059,
+     "end": 8.025
+    },
+    {
+     "text": "power plants would shut down, and the lights would go out.",
+     "start": 8.375,
+     "end": 11.415
+    }
+   ]
+  },
+  {
+   "text": "Without its pumps, New York's subway would flood in about 2 days.",
+   "start": 11.835,
+   "end": 15.763,
+   "phrases": [
+    {
+     "text": "Without its pumps,",
+     "start": 11.835,
+     "end": 12.868
+    },
+    {
+     "text": "New York's subway would flood in about 2 days.",
+     "start": 13.218,
+     "end": 15.763
+    }
+   ]
+  },
+  {
+   "text": "In about 20 years, broken streets would/ start turning to forest.",
+   "start": 16.483,
+   "end": 20.493,
+   "phrases": [
+    {
+     "text": "In about 20 years,",
+     "start": 16.483,
+     "end": 17.743
+    },
+    {
+     "text": "broken streets would/ start turning to forest.",
+     "start": 18.093,
+     "end": 20.493
+    }
+   ]
+  },
+  {
+   "text": "Within a few centuries, steel bridges and towers would rust and fall.",
+   "start": 20.913,
+   "end": 25.272,
+   "phrases": [
+    {
+     "text": "Within a few centuries,",
+     "start": 20.913,
+     "end": 22.245
+    },
+    {
+     "text": "steel bridges and towers would rust and fall.",
+     "start": 22.595,
+     "end": 25.272
+    }
+   ]
+  },
+  {
+   "text": "Plastic could outlast them, perhaps for 1,000 years or more.",
+   "start": 25.692,
+   "end": 29.323,
+   "phrases": [
+    {
+     "text": "Plastic could outlast them,",
+     "start": 25.692,
+     "end": 27.117
+    },
+    {
+     "text": "perhaps for 1,000 years or more.",
+     "start": 27.467,
+     "end": 29.323
+    }
+   ]
+  },
+  {
+   "text": "But our most lasting trace/ has already left the planet./",
+   "start": 29.743,
+   "end": 32.587,
+   "phrases": [
+    {
+     "text": "But our most lasting trace/ has already left the planet./",
+     "start": 29.743,
+     "end": 32.587
+    }
+   ]
+  },
+  {
+   "text": "For about a century, our radio and TV signals/ have raced outward at light speed.",
+   "start": 33.007,
+   "end": 38.321,
+   "phrases": [
+    {
+     "text": "For about a century,",
+     "start": 33.007,
+     "end": 34.193
+    },
+    {
+     "text": "our radio and TV signals/ have raced outward at light speed.",
+     "start": 34.543,
+     "end": 38.321
+    }
+   ]
+  },
+  {
+   "text": "Today they reach about 100 light-years in every direction, they're still spreading.",
+   "start": 38.741,
+   "end": 44.028,
+   "phrases": [
+    {
+     "text": "Today they reach about 100 light-years in every direction,",
+     "start": 38.741,
+     "end": 42.414
+    },
+    {
+     "text": "they're still spreading.",
+     "start": 42.764,
+     "end": 44.028
+    }
+   ]
+  },
+  {
+   "text": "How many stars have our signals already reached? About 100, or over 10,000? Tell me in the comments.",
+   "start": 45.448,
+   "end": 52.159,
+   "phrases": [
+    {
+     "text": "How many stars have our signals already reached?",
+     "start": 45.448,
+     "end": 48.056
+    },
+    {
+     "text": "About 100, or over 10,000?",
+     "start": 48.406,
+     "end": 50.63
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 50.98,
+     "end": 52.159
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 3.617
+  },
+  {
+   "start": 3.617,
+   "end": 6.909
+  },
+  {
+   "start": 6.909,
+   "end": 11.685
+  },
+  {
+   "start": 11.685,
+   "end": 16.333
+  },
+  {
+   "start": 16.333,
+   "end": 20.763
+  },
+  {
+   "start": 20.763,
+   "end": 25.542
+  },
+  {
+   "start": 25.542,
+   "end": 29.593
+  },
+  {
+   "start": 29.593,
+   "end": 32.857
+  },
+  {
+   "start": 32.857,
+   "end": 38.591
+  },
+  {
+   "start": 38.591,
+   "end": 45.298
+  },
+  {
+   "start": 45.298,
+   "end": 53.559
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 71.254,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "All of written history is thinner than a human hair.",
+   "start": 0.35,
+   "end": 3.651,
+   "phrases": [
+    {
+     "text": "All of written history",
+     "start": 0.35,
+     "end": 1.559
+    },
+    {
+     "text": "is thinner than a human hair.",
+     "start": 2.109,
+     "end": 3.651
+    }
+   ]
+  },
+  {
+   "text": "How old is everything, really?",
+   "start": 4.601,
+   "end": 6.266,
+   "phrases": [
+    {
+     "text": "How old is everything, really?",
+     "start": 4.601,
+     "end": 6.266
+    }
+   ]
+  },
+  {
+   "text": "Start with you. A long life is about eighty years.",
+   "start": 7.616,
+   "end": 10.992,
+   "phrases": [
+    {
+     "text": "Start with you.",
+     "start": 7.616,
+     "end": 8.488
+    },
+    {
+     "text": "A long life is about eighty years.",
+     "start": 9.038,
+     "end": 10.992
+    }
+   ]
+  },
+  {
+   "text": "The Great Pyramid of Giza is about four and a half thousand years old.",
+   "start": 11.742,
+   "end": 15.52,
+   "phrases": [
+    {
+     "text": "The Great Pyramid of Giza is about four and a half thousand years old.",
+     "start": 11.742,
+     "end": 15.52
+    }
+   ]
+  },
+  {
+   "text": "Cleopatra lived closer to the Moon landing than to the building of that pyramid.",
+   "start": 16.27,
+   "end": 21.12,
+   "phrases": [
+    {
+     "text": "Cleopatra lived closer to the Moon landing",
+     "start": 16.27,
+     "end": 18.841
+    },
+    {
+     "text": "than to the building of that pyramid.",
+     "start": 19.391,
+     "end": 21.12
+    }
+   ]
+  },
+  {
+   "text": "Our species appeared about three hundred thousand years ago.",
+   "start": 21.87,
+   "end": 24.904,
+   "phrases": [
+    {
+     "text": "Our species appeared about three hundred thousand years ago.",
+     "start": 21.87,
+     "end": 24.904
+    }
+   ]
+  },
+  {
+   "text": "The last dinosaurs died out sixty-six million years ago.",
+   "start": 25.654,
+   "end": 29.03,
+   "phrases": [
+    {
+     "text": "The last dinosaurs died out sixty-six million years ago.",
+     "start": 25.654,
+     "end": 29.03
+    }
+   ]
+  },
+  {
+   "text": "And T.rex lived closer to us than to Stegosaurus.",
+   "start": 29.78,
+   "end": 33.374,
+   "phrases": [
+    {
+     "text": "And T.rex lived closer to us",
+     "start": 29.78,
+     "end": 31.537
+    },
+    {
+     "text": "than to Stegosaurus.",
+     "start": 32.087,
+     "end": 33.374
+    }
+   ]
+  },
+  {
+   "text": "Sharks are even older than trees.",
+   "start": 34.124,
+   "end": 36.021,
+   "phrases": [
+    {
+     "text": "Sharks are even older than trees.",
+     "start": 34.124,
+     "end": 36.021
+    }
+   ]
+  },
+  {
+   "text": "The Earth itself formed four and a half billion years ago.",
+   "start": 37.271,
+   "end": 40.171,
+   "phrases": [
+    {
+     "text": "The Earth itself formed four and a half billion years ago.",
+     "start": 37.271,
+     "end": 40.171
+    }
+   ]
+  },
+  {
+   "text": "And the universe began about thirteen point eight billion years ago.",
+   "start": 40.921,
+   "end": 44.734,
+   "phrases": [
+    {
+     "text": "And the universe began about thirteen point eight billion years ago.",
+     "start": 40.921,
+     "end": 44.734
+    }
+   ]
+  },
+  {
+   "text": "Now squeeze all of that onto a hundred-meter running track.",
+   "start": 46.084,
+   "end": 49.476,
+   "phrases": [
+    {
+     "text": "Now squeeze all of that onto a hundred-meter running track.",
+     "start": 46.084,
+     "end": 49.476
+    }
+   ]
+  },
+  {
+   "text": "The dinosaurs vanish half a meter from the finish line. Our species: the last two millimeters.",
+   "start": 50.726,
+   "end": 56.575,
+   "phrases": [
+    {
+     "text": "The dinosaurs vanish half a meter from the finish line.",
+     "start": 50.726,
+     "end": 53.704
+    },
+    {
+     "text": "Our species: the last two millimeters.",
+     "start": 54.254,
+     "end": 56.575
+    }
+   ]
+  },
+  {
+   "text": "And all of written history? Thinner than a human hair.",
+   "start": 57.325,
+   "end": 60.626,
+   "phrases": [
+    {
+     "text": "And all of written history?",
+     "start": 57.325,
+     "end": 58.694
+    },
+    {
+     "text": "Thinner than a human hair.",
+     "start": 59.244,
+     "end": 60.626
+    }
+   ]
+  },
+  {
+   "text": "If you could visit any moment on that track, where would you go? Tell me in the comments.",
+   "start": 62.776,
+   "end": 68.254,
+   "phrases": [
+    {
+     "text": "If you could visit any moment on that track,",
+     "start": 62.776,
+     "end": 64.963
+    },
+    {
+     "text": "where would you go?",
+     "start": 65.513,
+     "end": 66.525
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 67.075,
+     "end": 68.254
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 4.451
+  },
+  {
+   "start": 4.451,
+   "end": 7.466
+  },
+  {
+   "start": 7.466,
+   "end": 11.592
+  },
+  {
+   "start": 11.592,
+   "end": 16.12
+  },
+  {
+   "start": 16.12,
+   "end": 21.72
+  },
+  {
+   "start": 21.72,
+   "end": 25.504
+  },
+  {
+   "start": 25.504,
+   "end": 29.63
+  },
+  {
+   "start": 29.63,
+   "end": 33.974
+  },
+  {
+   "start": 33.974,
+   "end": 37.121
+  },
+  {
+   "start": 37.121,
+   "end": 40.771
+  },
+  {
+   "start": 40.771,
+   "end": 45.934
+  },
+  {
+   "start": 45.934,
+   "end": 50.576
+  },
+  {
+   "start": 50.576,
+   "end": 57.175
+  },
+  {
+   "start": 57.175,
+   "end": 62.626
+  },
+  {
+   "start": 62.626,
+   "end": 71.254
+  }
+ ]
+}

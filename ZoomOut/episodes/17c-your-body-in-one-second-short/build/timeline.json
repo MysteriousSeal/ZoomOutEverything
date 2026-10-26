@@ -1,0 +1,280 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 52.697,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Right now, your body is replacing almost 4 million cells, every second.",
+   "start": 0.35,
+   "end": 4.964,
+   "phrases": [
+    {
+     "text": "Right now, your body is replacing almost 4 million cells, every second.",
+     "start": 0.35,
+     "end": 4.964
+    }
+   ]
+  },
+  {
+   "text": "What happens inside your body in a single second?",
+   "start": 5.464,
+   "end": 8.251,
+   "phrases": [
+    {
+     "text": "What happens inside your body in a single second?",
+     "start": 5.464,
+     "end": 8.251
+    }
+   ]
+  },
+  {
+   "text": "Your heart beats about once,",
+   "start": 8.701,
+   "end": 10.351,
+   "phrases": [
+    {
+     "text": "Your heart beats about once,",
+     "start": 8.701,
+     "end": 10.351
+    }
+   ]
+  },
+  {
+   "text": "pushing out about 70 milliliters of blood.",
+   "start": 10.651,
+   "end": 13.042,
+   "phrases": [
+    {
+     "text": "pushing out about 70 milliliters of blood.",
+     "start": 10.651,
+     "end": 13.042
+    }
+   ]
+  },
+  {
+   "text": "Your fastest nerve signals hit 120 meters per second,",
+   "start": 13.342,
+   "end": 17.339,
+   "phrases": [
+    {
+     "text": "Your fastest nerve signals hit 120 meters per second,",
+     "start": 13.342,
+     "end": 17.339
+    }
+   ]
+  },
+  {
+   "text": "fast enough to cross a soccer field in under a second.",
+   "start": 17.639,
+   "end": 20.934,
+   "phrases": [
+    {
+     "text": "fast enough to cross a soccer field",
+     "start": 17.639,
+     "end": 19.589
+    },
+    {
+     "text": "in under a second.",
+     "start": 19.849,
+     "end": 20.934
+    }
+   ]
+  },
+  {
+   "text": "Dive into a blood vessel.",
+   "start": 21.234,
+   "end": 22.654,
+   "phrases": [
+    {
+     "text": "Dive into a blood vessel.",
+     "start": 21.234,
+     "end": 22.654
+    }
+   ]
+  },
+  {
+   "text": "You have about 25 trillion red blood cells.",
+   "start": 22.954,
+   "end": 25.623,
+   "phrases": [
+    {
+     "text": "You have about 25 trillion red blood cells.",
+     "start": 22.954,
+     "end": 25.623
+    }
+   ]
+  },
+  {
+   "text": "Your bone marrow never stops.",
+   "start": 25.923,
+   "end": 27.602,
+   "phrases": [
+    {
+     "text": "Your bone marrow never stops.",
+     "start": 25.923,
+     "end": 27.602
+    }
+   ]
+  },
+  {
+   "text": "It makes 2 to 3 million/ new ones every second.",
+   "start": 28.252,
+   "end": 31.343,
+   "phrases": [
+    {
+     "text": "It makes 2 to 3 million/ new ones",
+     "start": 28.252,
+     "end": 30.182
+    },
+    {
+     "text": "every second.",
+     "start": 30.442,
+     "end": 31.343
+    }
+   ]
+  },
+  {
+   "text": "The strangest part.",
+   "start": 31.643,
+   "end": 32.936,
+   "phrases": [
+    {
+     "text": "The strangest part.",
+     "start": 31.643,
+     "end": 32.936
+    }
+   ]
+  },
+  {
+   "text": "Every day, you replace about 330 billion cells,",
+   "start": 33.236,
+   "end": 36.896,
+   "phrases": [
+    {
+     "text": "Every day, you replace about 330 billion cells,",
+     "start": 33.236,
+     "end": 36.896
+    }
+   ]
+  },
+  {
+   "text": "about 1% of you, 4 million every second.",
+   "start": 37.196,
+   "end": 40.453,
+   "phrases": [
+    {
+     "text": "about 1% of you,",
+     "start": 37.196,
+     "end": 38.584
+    },
+    {
+     "text": "4 million every second.",
+     "start": 38.844,
+     "end": 40.453
+    }
+   ]
+  },
+  {
+   "text": "By the end of this video, you're not quite the same person who started it.",
+   "start": 40.753,
+   "end": 44.581,
+   "phrases": [
+    {
+     "text": "By the end of this video,",
+     "start": 40.753,
+     "end": 42.082
+    },
+    {
+     "text": "you're not quite the same person who started it.",
+     "start": 42.342,
+     "end": 44.581
+    }
+   ]
+  },
+  {
+   "text": "How many times will your heart beat in a lifetime? About 3 million, or about 3 billion? Tell me in the comments.",
+   "start": 44.881,
+   "end": 51.497,
+   "phrases": [
+    {
+     "text": "How many times will your heart beat in a lifetime?",
+     "start": 44.881,
+     "end": 47.387
+    },
+    {
+     "text": "About 3 million, or about 3 billion?",
+     "start": 47.647,
+     "end": 50.058
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 50.318,
+     "end": 51.497
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.314
+  },
+  {
+   "start": 5.314,
+   "end": 8.551
+  },
+  {
+   "start": 8.551,
+   "end": 10.501
+  },
+  {
+   "start": 10.501,
+   "end": 13.192
+  },
+  {
+   "start": 13.192,
+   "end": 17.489
+  },
+  {
+   "start": 17.489,
+   "end": 21.084
+  },
+  {
+   "start": 21.084,
+   "end": 22.804
+  },
+  {
+   "start": 22.804,
+   "end": 25.773
+  },
+  {
+   "start": 25.773,
+   "end": 28.102
+  },
+  {
+   "start": 28.102,
+   "end": 31.493
+  },
+  {
+   "start": 31.493,
+   "end": 33.086
+  },
+  {
+   "start": 33.086,
+   "end": 37.046
+  },
+  {
+   "start": 37.046,
+   "end": 40.603
+  },
+  {
+   "start": 40.603,
+   "end": 44.731
+  },
+  {
+   "start": 44.731,
+   "end": 52.697
+  }
+ ]
+}

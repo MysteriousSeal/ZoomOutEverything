@@ -1,0 +1,168 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 43.723,
+ "lines": [
+  {
+   "text": "Drop Everest into the ocean's deepest point, and it disappears.",
+   "start": 0.35,
+   "end": 4.12,
+   "phrases": [
+    {
+     "text": "Drop Everest into the ocean's deepest point, and it disappears.",
+     "start": 0.35,
+     "end": 4.12
+    }
+   ]
+  },
+  {
+   "text": "How deep is the ocean, really?",
+   "start": 4.72,
+   "end": 6.386,
+   "phrases": [
+    {
+     "text": "How deep is the ocean, really?",
+     "start": 4.72,
+     "end": 6.386
+    }
+   ]
+  },
+  {
+   "text": "At two hundred meters, sunlight is basically gone.",
+   "start": 7.286,
+   "end": 10.455,
+   "phrases": [
+    {
+     "text": "At two hundred meters, sunlight is basically gone.",
+     "start": 7.286,
+     "end": 10.455
+    }
+   ]
+  },
+  {
+   "text": "At three hundred thirty-two: the deepest scuba dive ever.",
+   "start": 10.855,
+   "end": 14.266,
+   "phrases": [
+    {
+     "text": "At three hundred thirty-two: the deepest scuba dive ever.",
+     "start": 10.855,
+     "end": 14.266
+    }
+   ]
+  },
+  {
+   "text": "Sink the Burj Khalifa here, and it vanishes completely.",
+   "start": 14.666,
+   "end": 17.952,
+   "phrases": [
+    {
+     "text": "Sink the Burj Khalifa here, and it vanishes completely.",
+     "start": 14.666,
+     "end": 17.952
+    }
+   ]
+  },
+  {
+   "text": "At three thousand meters, a whale is still hunting, on a single breath.",
+   "start": 18.352,
+   "end": 22.568,
+   "phrases": [
+    {
+     "text": "At three thousand meters, a whale is still hunting, on a single breath.",
+     "start": 18.352,
+     "end": 22.568
+    }
+   ]
+  },
+  {
+   "text": "At three thousand eight hundred, the Titanic.",
+   "start": 22.968,
+   "end": 25.334,
+   "phrases": [
+    {
+     "text": "At three thousand eight hundred, the Titanic.",
+     "start": 22.968,
+     "end": 25.334
+    }
+   ]
+  },
+  {
+   "text": "And at eleven thousand, the bottom. Drop Everest in, and there's still two kilometers of water above it.",
+   "start": 25.733,
+   "end": 32.272,
+   "phrases": [
+    {
+     "text": "And at eleven thousand, the bottom.",
+     "start": 25.733,
+     "end": 27.602
+    },
+    {
+     "text": "Drop Everest in, and there's still two kilometers of water above it.",
+     "start": 28.502,
+     "end": 32.272
+    }
+   ]
+  },
+  {
+   "text": "How deep would you go? Scuba, the Titanic, or the very bottom? Tell me in the comments.",
+   "start": 34.622,
+   "end": 41.523,
+   "phrases": [
+    {
+     "text": "How deep would you go?",
+     "start": 34.622,
+     "end": 35.891
+    },
+    {
+     "text": "Scuba, the Titanic, or the very bottom?",
+     "start": 36.791,
+     "end": 39.444
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 40.344,
+     "end": 41.523
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 4.57
+  },
+  {
+   "start": 4.57,
+   "end": 7.136
+  },
+  {
+   "start": 7.136,
+   "end": 10.705
+  },
+  {
+   "start": 10.705,
+   "end": 14.516
+  },
+  {
+   "start": 14.516,
+   "end": 18.202
+  },
+  {
+   "start": 18.202,
+   "end": 22.818
+  },
+  {
+   "start": 22.818,
+   "end": 25.583
+  },
+  {
+   "start": 25.583,
+   "end": 34.472
+  },
+  {
+   "start": 34.472,
+   "end": 43.723
+  }
+ ]
+}

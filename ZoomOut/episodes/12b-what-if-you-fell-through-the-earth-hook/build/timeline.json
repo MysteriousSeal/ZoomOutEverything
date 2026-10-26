@@ -1,0 +1,310 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 75.07,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Jump into a hole through the Earth, and you'd reach the other side in 42 minutes.",
+   "start": 0.35,
+   "end": 5.179,
+   "phrases": [
+    {
+     "text": "Jump into a hole through the Earth,",
+     "start": 0.35,
+     "end": 2.085
+    },
+    {
+     "text": "and you'd reach the other side in 42 minutes.",
+     "start": 2.585,
+     "end": 5.179
+    }
+   ]
+  },
+  {
+   "text": "What if you jumped into a hole straight through the Earth?",
+   "start": 5.979,
+   "end": 8.446,
+   "phrases": [
+    {
+     "text": "What if you jumped into a hole straight through the Earth?",
+     "start": 5.979,
+     "end": 8.446
+    }
+   ]
+  },
+  {
+   "text": "First, you'd fall through the crust: about 35 kilometers of solid rock.",
+   "start": 9.646,
+   "end": 14.653,
+   "phrases": [
+    {
+     "text": "First, you'd fall through the crust:",
+     "start": 9.646,
+     "end": 11.482
+    },
+    {
+     "text": "about 35 kilometers of solid rock.",
+     "start": 11.982,
+     "end": 14.653
+    }
+   ]
+  },
+  {
+   "text": "Then the mantle: nearly 3,000 kilometers of hot rock.",
+   "start": 15.253,
+   "end": 19.317,
+   "phrases": [
+    {
+     "text": "Then the mantle:",
+     "start": 15.253,
+     "end": 16.234
+    },
+    {
+     "text": "nearly 3,000 kilometers of hot rock.",
+     "start": 16.734,
+     "end": 19.317
+    }
+   ]
+  },
+  {
+   "text": "Next, the outer core, an ocean of liquid iron.",
+   "start": 19.917,
+   "end": 23.349,
+   "phrases": [
+    {
+     "text": "Next, the outer core,",
+     "start": 19.917,
+     "end": 21.168
+    },
+    {
+     "text": "an ocean of liquid iron.",
+     "start": 21.668,
+     "end": 23.349
+    }
+   ]
+  },
+  {
+   "text": "The inner core is about as hot as the surface of the Sun.",
+   "start": 23.949,
+   "end": 27.172,
+   "phrases": [
+    {
+     "text": "The inner core is about as hot as the surface of the Sun.",
+     "start": 23.949,
+     "end": 27.172
+    }
+   ]
+  },
+  {
+   "text": "With no air to slow you, you'd pass the center at about 8 kilometers a second.",
+   "start": 27.772,
+   "end": 32.895,
+   "phrases": [
+    {
+     "text": "With no air to slow you,",
+     "start": 27.772,
+     "end": 29.139
+    },
+    {
+     "text": "you'd pass the center at about 8 kilometers a second.",
+     "start": 29.639,
+     "end": 32.895
+    }
+   ]
+  },
+  {
+   "text": "That's roughly 8 times faster than a rifle bullet.",
+   "start": 33.495,
+   "end": 36.521,
+   "phrases": [
+    {
+     "text": "That's roughly 8 times faster than a rifle bullet.",
+     "start": 33.495,
+     "end": 36.521
+    }
+   ]
+  },
+  {
+   "text": "Then gravity flips, and starts slowing you down.",
+   "start": 37.121,
+   "end": 40.248,
+   "phrases": [
+    {
+     "text": "Then gravity flips,",
+     "start": 37.121,
+     "end": 38.4
+    },
+    {
+     "text": "and starts slowing you down.",
+     "start": 38.9,
+     "end": 40.248
+    }
+   ]
+  },
+  {
+   "text": "You coast up the other side and reach the surface, 12,700 kilometers away.",
+   "start": 40.848,
+   "end": 46.675,
+   "phrases": [
+    {
+     "text": "You coast up the other side",
+     "start": 40.848,
+     "end": 42.201
+    },
+    {
+     "text": "and reach the surface, 12,700 kilometers away.",
+     "start": 42.701,
+     "end": 46.675
+    }
+   ]
+  },
+  {
+   "text": "Unless someone grabs you, you fall straight back in.",
+   "start": 47.275,
+   "end": 50.483,
+   "phrases": [
+    {
+     "text": "Unless someone grabs you,",
+     "start": 47.275,
+     "end": 48.626
+    },
+    {
+     "text": "you fall straight back in.",
+     "start": 49.126,
+     "end": 50.483
+    }
+   ]
+  },
+  {
+   "text": "The whole trip takes about 42 minutes.",
+   "start": 51.083,
+   "end": 53.302,
+   "phrases": [
+    {
+     "text": "The whole trip takes about 42 minutes.",
+     "start": 51.083,
+     "end": 53.302
+    }
+   ]
+  },
+  {
+   "text": "And in the simplest model, a straight tunnel between any two cities takes the same time.",
+   "start": 53.902,
+   "end": 59.181,
+   "phrases": [
+    {
+     "text": "And in the simplest model,",
+     "start": 53.902,
+     "end": 55.302
+    },
+    {
+     "text": "a straight tunnel between any two cities takes the same time.",
+     "start": 55.802,
+     "end": 59.181
+    }
+   ]
+  },
+  {
+   "text": "London to New York? Also about 42 minutes.",
+   "start": 59.781,
+   "end": 63.277,
+   "phrases": [
+    {
+     "text": "London to New York?",
+     "start": 59.781,
+     "end": 61.014
+    },
+    {
+     "text": "Also about 42 minutes.",
+     "start": 61.514,
+     "end": 63.277
+    }
+   ]
+  },
+  {
+   "text": "If you fell through the Moon instead, would the trip be shorter or longer? Tell me in the comments.",
+   "start": 66.427,
+   "end": 72.07,
+   "phrases": [
+    {
+     "text": "If you fell through the Moon instead,",
+     "start": 66.427,
+     "end": 68.106
+    },
+    {
+     "text": "would the trip be shorter or longer?",
+     "start": 68.606,
+     "end": 70.391
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 70.891,
+     "end": 72.07
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.829
+  },
+  {
+   "start": 5.829,
+   "end": 9.496
+  },
+  {
+   "start": 9.496,
+   "end": 15.103
+  },
+  {
+   "start": 15.103,
+   "end": 19.767
+  },
+  {
+   "start": 19.767,
+   "end": 23.799
+  },
+  {
+   "start": 23.799,
+   "end": 27.622
+  },
+  {
+   "start": 27.622,
+   "end": 33.345
+  },
+  {
+   "start": 33.345,
+   "end": 36.971
+  },
+  {
+   "start": 36.971,
+   "end": 40.698
+  },
+  {
+   "start": 40.698,
+   "end": 47.125
+  },
+  {
+   "start": 47.125,
+   "end": 50.933
+  },
+  {
+   "start": 50.933,
+   "end": 53.752
+  },
+  {
+   "start": 53.752,
+   "end": 59.631
+  },
+  {
+   "start": 59.631,
+   "end": 66.277
+  },
+  {
+   "start": 66.277,
+   "end": 75.07
+  }
+ ]
+}

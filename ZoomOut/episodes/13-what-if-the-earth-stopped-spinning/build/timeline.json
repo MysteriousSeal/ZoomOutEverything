@@ -1,0 +1,247 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 60.14,
+ "lines": [
+  {
+   "text": "What if the Earth suddenly stopped spinning?",
+   "start": 0.35,
+   "end": 2.203,
+   "phrases": [
+    {
+     "text": "What if the Earth suddenly stopped spinning?",
+     "start": 0.35,
+     "end": 2.203
+    }
+   ]
+  },
+  {
+   "text": "At the equator, you're moving at about one thousand six hundred seventy kilometers an hour.",
+   "start": 3.253,
+   "end": 8.933,
+   "phrases": [
+    {
+     "text": "At the equator,",
+     "start": 3.253,
+     "end": 4.197
+    },
+    {
+     "text": "you're moving at about one thousand six hundred seventy kilometers an hour.",
+     "start": 4.697,
+     "end": 8.933
+    }
+   ]
+  },
+  {
+   "text": "You don't feel it, because everything moves with you.",
+   "start": 9.583,
+   "end": 12.068,
+   "phrases": [
+    {
+     "text": "You don't feel it, because everything moves with you.",
+     "start": 9.583,
+     "end": 12.068
+    }
+   ]
+  },
+  {
+   "text": "Stop the planet suddenly, and anything not bolted down keeps going east, at that speed.",
+   "start": 12.718,
+   "end": 18.399,
+   "phrases": [
+    {
+     "text": "Stop the planet suddenly,",
+     "start": 12.718,
+     "end": 14.202
+    },
+    {
+     "text": "and anything not bolted down keeps going east, at that speed.",
+     "start": 14.702,
+     "end": 18.399
+    }
+   ]
+  },
+  {
+   "text": "So does the air: winds of more than a thousand kilometers an hour.",
+   "start": 19.049,
+   "end": 23.122,
+   "phrases": [
+    {
+     "text": "So does the air: winds of more than a thousand kilometers an hour.",
+     "start": 19.049,
+     "end": 23.122
+    }
+   ]
+  },
+  {
+   "text": "Over time, the oceans would start to move.",
+   "start": 23.772,
+   "end": 26.225,
+   "phrases": [
+    {
+     "text": "Over time, the oceans would start to move.",
+     "start": 23.772,
+     "end": 26.225
+    }
+   ]
+  },
+  {
+   "text": "Spinning makes Earth bulge about twenty-one kilometers at the equator.",
+   "start": 26.875,
+   "end": 30.799,
+   "phrases": [
+    {
+     "text": "Spinning makes Earth bulge about twenty-one kilometers at the equator.",
+     "start": 26.875,
+     "end": 30.799
+    }
+   ]
+  },
+  {
+   "text": "Without it, that water slides toward the poles.",
+   "start": 31.449,
+   "end": 34.015,
+   "phrases": [
+    {
+     "text": "Without it, that water slides toward the poles.",
+     "start": 31.449,
+     "end": 34.015
+    }
+   ]
+  },
+  {
+   "text": "Two polar oceans, and one giant continent wrapped around the middle.",
+   "start": 34.665,
+   "end": 38.607,
+   "phrases": [
+    {
+     "text": "Two polar oceans, and one giant continent wrapped around the middle.",
+     "start": 34.665,
+     "end": 38.607
+    }
+   ]
+  },
+  {
+   "text": "And one day would last a whole year: six months of daylight, six months of night.",
+   "start": 39.257,
+   "end": 44.012,
+   "phrases": [
+    {
+     "text": "And one day would last a whole year:",
+     "start": 39.257,
+     "end": 41.056
+    },
+    {
+     "text": "six months of daylight, six months of night.",
+     "start": 41.556,
+     "end": 44.012
+    }
+   ]
+  },
+  {
+   "text": "The strange part? Earth really is slowing down.",
+   "start": 44.662,
+   "end": 47.797,
+   "phrases": [
+    {
+     "text": "The strange part?",
+     "start": 44.662,
+     "end": 45.799
+    },
+    {
+     "text": "Earth really is slowing down.",
+     "start": 46.299,
+     "end": 47.797
+    }
+   ]
+  },
+  {
+   "text": "About four hundred million years ago, a year had roughly four hundred days.",
+   "start": 48.447,
+   "end": 53.056,
+   "phrases": [
+    {
+     "text": "About four hundred million years ago,",
+     "start": 48.447,
+     "end": 50.458
+    },
+    {
+     "text": "a year had roughly four hundred days.",
+     "start": 50.958,
+     "end": 53.056
+    }
+   ]
+  },
+  {
+   "text": "Fossil corals recorded it, in their daily growth rings.",
+   "start": 53.706,
+   "end": 57.34,
+   "phrases": [
+    {
+     "text": "Fossil corals recorded it,",
+     "start": 53.706,
+     "end": 55.33
+    },
+    {
+     "text": "in their daily growth rings.",
+     "start": 55.83,
+     "end": 57.34
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 3.103
+  },
+  {
+   "start": 3.103,
+   "end": 9.433
+  },
+  {
+   "start": 9.433,
+   "end": 12.568
+  },
+  {
+   "start": 12.568,
+   "end": 18.899
+  },
+  {
+   "start": 18.899,
+   "end": 23.622
+  },
+  {
+   "start": 23.622,
+   "end": 26.725
+  },
+  {
+   "start": 26.725,
+   "end": 31.299
+  },
+  {
+   "start": 31.299,
+   "end": 34.515
+  },
+  {
+   "start": 34.515,
+   "end": 39.107
+  },
+  {
+   "start": 39.107,
+   "end": 44.512
+  },
+  {
+   "start": 44.512,
+   "end": 48.297
+  },
+  {
+   "start": 48.297,
+   "end": 53.556
+  },
+  {
+   "start": 53.556,
+   "end": 60.14
+  }
+ ]
+}

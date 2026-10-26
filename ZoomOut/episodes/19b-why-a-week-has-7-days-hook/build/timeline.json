@@ -1,0 +1,426 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 105.398,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "In 1793, France tried to replace the week with 10 days.",
+   "start": 0.35,
+   "end": 4.564,
+   "phrases": [
+    {
+     "text": "In 1793, France tried to replace the week with 10 days.",
+     "start": 0.35,
+     "end": 4.564
+    }
+   ]
+  },
+  {
+   "text": "Why does a week have 7 days?",
+   "start": 5.164,
+   "end": 6.9,
+   "phrases": [
+    {
+     "text": "Why does a week have 7 days?",
+     "start": 5.164,
+     "end": 6.9
+    }
+   ]
+  },
+  {
+   "text": "Almost everything on your calendar comes from the sky. Except the week.",
+   "start": 7.8,
+   "end": 11.995,
+   "phrases": [
+    {
+     "text": "Almost everything on your calendar comes from the sky.",
+     "start": 7.8,
+     "end": 10.666
+    },
+    {
+     "text": "Except the week.",
+     "start": 10.986,
+     "end": 11.995
+    }
+   ]
+  },
+  {
+   "text": "A day is one spin/ of the Earth.",
+   "start": 12.395,
+   "end": 14.153,
+   "phrases": [
+    {
+     "text": "A day is one spin/ of the Earth.",
+     "start": 12.395,
+     "end": 14.153
+    }
+   ]
+  },
+  {
+   "text": "A month is roughly one lunar cycle, about 29.5 days.",
+   "start": 14.553,
+   "end": 18.732,
+   "phrases": [
+    {
+     "text": "A month is roughly one lunar cycle, about 29.5 days.",
+     "start": 14.553,
+     "end": 18.732
+    }
+   ]
+  },
+  {
+   "text": "A year is one trip around the Sun.",
+   "start": 19.132,
+   "end": 21.031,
+   "phrases": [
+    {
+     "text": "A year is one trip around the Sun.",
+     "start": 19.132,
+     "end": 21.031
+    }
+   ]
+  },
+  {
+   "text": "But nothing up there/ takes a week. And twice, whole countries/ tried to abolish it.",
+   "start": 21.431,
+   "end": 26.091,
+   "phrases": [
+    {
+     "text": "But nothing up there/ takes a week.",
+     "start": 21.431,
+     "end": 23.162
+    },
+    {
+     "text": "And twice, whole countries/ tried to abolish it.",
+     "start": 23.482,
+     "end": 26.091
+    }
+   ]
+  },
+  {
+   "text": "One theory: each of the Moon's 4 phases lasts a little over 7 days.",
+   "start": 26.491,
+   "end": 31.057,
+   "phrases": [
+    {
+     "text": "One theory: each of the Moon's 4 phases lasts a little over 7 days.",
+     "start": 26.491,
+     "end": 31.057
+    }
+   ]
+  },
+  {
+   "text": "But historians trace the seven back to Babylon, where sky-watchers tracked seven moving lights.",
+   "start": 31.457,
+   "end": 36.841,
+   "phrases": [
+    {
+     "text": "But historians trace the seven back to Babylon, where sky-watchers tracked seven moving lights.",
+     "start": 31.457,
+     "end": 36.841
+    }
+   ]
+  },
+  {
+   "text": "The Sun, the Moon, Mercury, Venus, Mars, Jupiter and Saturn.",
+   "start": 37.241,
+   "end": 41.092,
+   "phrases": [
+    {
+     "text": "The Sun, the Moon, Mercury, Venus, Mars, Jupiter and Saturn.",
+     "start": 37.241,
+     "end": 41.092
+    }
+   ]
+  },
+  {
+   "text": "Seven wanderers, and seven became a sacred number.",
+   "start": 41.492,
+   "end": 44.992,
+   "phrases": [
+    {
+     "text": "Seven wanderers,",
+     "start": 41.492,
+     "end": 42.643
+    },
+    {
+     "text": "and seven became a sacred number.",
+     "start": 42.963,
+     "end": 44.992
+    }
+   ]
+  },
+  {
+   "text": "The Jewish week, six days of work, then a Sabbath, made seven a steady rhythm.",
+   "start": 45.392,
+   "end": 49.945,
+   "phrases": [
+    {
+     "text": "The Jewish week, six days of work, then a Sabbath,",
+     "start": 45.392,
+     "end": 48.095
+    },
+    {
+     "text": "made seven a steady rhythm.",
+     "start": 48.415,
+     "end": 49.945
+    }
+   ]
+  },
+  {
+   "text": "Christianity and Islam later carried it across the world.",
+   "start": 50.345,
+   "end": 53.652,
+   "phrases": [
+    {
+     "text": "Christianity and Islam later carried it across the world.",
+     "start": 50.345,
+     "end": 53.652
+    }
+   ]
+  },
+  {
+   "text": "Meanwhile, Roman astrologers gave each day/ to one of those lights. The names survive.",
+   "start": 54.052,
+   "end": 59.529,
+   "phrases": [
+    {
+     "text": "Meanwhile, Roman astrologers gave each day/ to one of those lights.",
+     "start": 54.052,
+     "end": 58.111
+    },
+    {
+     "text": "The names survive.",
+     "start": 58.431,
+     "end": 59.529
+    }
+   ]
+  },
+  {
+   "text": "Saturday is Saturn's day. Sunday, the Sun's. Monday, the Moon's.",
+   "start": 59.929,
+   "end": 64.323,
+   "phrases": [
+    {
+     "text": "Saturday is Saturn's day.",
+     "start": 59.929,
+     "end": 61.495
+    },
+    {
+     "text": "Sunday, the Sun's.",
+     "start": 61.815,
+     "end": 62.897
+    },
+    {
+     "text": "Monday, the Moon's.",
+     "start": 63.217,
+     "end": 64.323
+    }
+   ]
+  },
+  {
+   "text": "French keeps the rest: mardi, Mars. Mercredi, Mercury. Jeudi, Jupiter. Vendredi, Venus.",
+   "start": 64.723,
+   "end": 71.483,
+   "phrases": [
+    {
+     "text": "French keeps the rest:",
+     "start": 64.723,
+     "end": 66.022
+    },
+    {
+     "text": "mardi, Mars. Mercredi, Mercury.",
+     "start": 66.342,
+     "end": 68.7
+    },
+    {
+     "text": "Jeudi, Jupiter. Vendredi, Venus.",
+     "start": 69.02,
+     "end": 71.483
+    }
+   ]
+  },
+  {
+   "text": "English swapped in Norse gods: Tyr, Woden, Thor and Frigg.",
+   "start": 71.883,
+   "end": 75.833,
+   "phrases": [
+    {
+     "text": "English swapped in Norse gods:",
+     "start": 71.883,
+     "end": 73.567
+    },
+    {
+     "text": "Tyr, Woden, Thor and Frigg.",
+     "start": 73.887,
+     "end": 75.833
+    }
+   ]
+  },
+  {
+   "text": "Revolutionary France tried a 10-day week in 1793. It lasted 12 years.",
+   "start": 76.233,
+   "end": 82.255,
+   "phrases": [
+    {
+     "text": "Revolutionary France tried a 10-day week in 1793.",
+     "start": 76.233,
+     "end": 80.547
+    },
+    {
+     "text": "It lasted 12 years.",
+     "start": 80.867,
+     "end": 82.255
+    }
+   ]
+  },
+  {
+   "text": "The Soviets tried/ 5- and 6-day weeks. By 1940, seven was back.",
+   "start": 82.655,
+   "end": 87.604,
+   "phrases": [
+    {
+     "text": "The Soviets tried/ 5- and 6-day weeks.",
+     "start": 82.655,
+     "end": 85.157
+    },
+    {
+     "text": "By 1940, seven was back.",
+     "start": 85.477,
+     "end": 87.604
+    }
+   ]
+  },
+  {
+   "text": "Empires fell. Calendars changed. The seven-day week outlived them all.",
+   "start": 88.004,
+   "end": 92.691,
+   "phrases": [
+    {
+     "text": "Empires fell. Calendars changed.",
+     "start": 88.004,
+     "end": 90.327
+    },
+    {
+     "text": "The seven-day week outlived them all.",
+     "start": 90.647,
+     "end": 92.691
+    }
+   ]
+  },
+  {
+   "text": "Under the Soviet 5-day week, did everyone get the same day off? Yes, one shared day off, or no, it rotated? Tell me in the comments.",
+   "start": 95.441,
+   "end": 104.398,
+   "phrases": [
+    {
+     "text": "Under the Soviet 5-day week, did everyone get the same day off?",
+     "start": 95.441,
+     "end": 99.329
+    },
+    {
+     "text": "Yes, one shared day off,",
+     "start": 99.649,
+     "end": 101.288
+    },
+    {
+     "text": "or no, it rotated?",
+     "start": 101.608,
+     "end": 102.898
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 103.218,
+     "end": 104.398
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.014
+  },
+  {
+   "start": 5.014,
+   "end": 7.65
+  },
+  {
+   "start": 7.65,
+   "end": 12.245
+  },
+  {
+   "start": 12.245,
+   "end": 14.403
+  },
+  {
+   "start": 14.403,
+   "end": 18.982
+  },
+  {
+   "start": 18.982,
+   "end": 21.281
+  },
+  {
+   "start": 21.281,
+   "end": 26.341
+  },
+  {
+   "start": 26.341,
+   "end": 31.307
+  },
+  {
+   "start": 31.307,
+   "end": 37.091
+  },
+  {
+   "start": 37.091,
+   "end": 41.342
+  },
+  {
+   "start": 41.342,
+   "end": 45.242
+  },
+  {
+   "start": 45.242,
+   "end": 50.195
+  },
+  {
+   "start": 50.195,
+   "end": 53.902
+  },
+  {
+   "start": 53.902,
+   "end": 59.779
+  },
+  {
+   "start": 59.779,
+   "end": 64.573
+  },
+  {
+   "start": 64.573,
+   "end": 71.733
+  },
+  {
+   "start": 71.733,
+   "end": 76.083
+  },
+  {
+   "start": 76.083,
+   "end": 82.505
+  },
+  {
+   "start": 82.505,
+   "end": 87.854
+  },
+  {
+   "start": 87.854,
+   "end": 95.291
+  },
+  {
+   "start": 95.291,
+   "end": 105.398
+  }
+ ]
+}

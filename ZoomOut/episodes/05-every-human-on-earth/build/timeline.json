@@ -1,0 +1,242 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 60.276,
+ "lines": [
+  {
+   "text": "Could every human on Earth fit in one place?",
+   "start": 0.35,
+   "end": 2.657,
+   "phrases": [
+    {
+     "text": "Could every human on Earth fit in one place?",
+     "start": 0.35,
+     "end": 2.657
+    }
+   ]
+  },
+  {
+   "text": "There are about eight billion of us.",
+   "start": 4.057,
+   "end": 5.816,
+   "phrases": [
+    {
+     "text": "There are about eight billion of us.",
+     "start": 4.057,
+     "end": 5.816
+    }
+   ]
+  },
+  {
+   "text": "Give everyone a square meter, and we'd cover an area the size of Puerto Rico.",
+   "start": 6.616,
+   "end": 11.667,
+   "phrases": [
+    {
+     "text": "Give everyone a square meter,",
+     "start": 6.616,
+     "end": 8.179
+    },
+    {
+     "text": "and we'd cover an area the size of Puerto Rico.",
+     "start": 8.779,
+     "end": 11.667
+    }
+   ]
+  },
+  {
+   "text": "Pack in like a concert crowd, four per square meter, and we'd all fit inside Rhode Island, with room to spare.",
+   "start": 12.467,
+   "end": 19.105,
+   "phrases": [
+    {
+     "text": "Pack in like a concert crowd, four per square meter,",
+     "start": 12.467,
+     "end": 15.387
+    },
+    {
+     "text": "and we'd all fit inside Rhode Island, with room to spare.",
+     "start": 15.987,
+     "end": 19.105
+    }
+   ]
+  },
+  {
+   "text": "Now pack everyone, by volume, into a single cube.",
+   "start": 19.905,
+   "end": 23.054,
+   "phrases": [
+    {
+     "text": "Now pack everyone, by volume, into a single cube.",
+     "start": 19.905,
+     "end": 23.054
+    }
+   ]
+  },
+  {
+   "text": "It's about eight hundred meters tall. Shorter than the Burj Khalifa.",
+   "start": 23.854,
+   "end": 27.905,
+   "phrases": [
+    {
+     "text": "It's about eight hundred meters tall.",
+     "start": 23.854,
+     "end": 25.712
+    },
+    {
+     "text": "Shorter than the Burj Khalifa.",
+     "start": 26.312,
+     "end": 27.905
+    }
+   ]
+  },
+  {
+   "text": "Drop it into the Grand Canyon, and you'd barely find it.",
+   "start": 28.705,
+   "end": 31.79,
+   "phrases": [
+    {
+     "text": "Drop it into the Grand Canyon, and you'd barely find it.",
+     "start": 28.705,
+     "end": 31.79
+    }
+   ]
+  },
+  {
+   "text": "Spread us evenly over the whole planet, and we'd be a film seventy times thinner than a human hair.",
+   "start": 32.59,
+   "end": 38.584,
+   "phrases": [
+    {
+     "text": "Spread us evenly over the whole planet,",
+     "start": 32.59,
+     "end": 34.708
+    },
+    {
+     "text": "and we'd be a film seventy times thinner than a human hair.",
+     "start": 35.308,
+     "end": 38.584
+    }
+   ]
+  },
+  {
+   "text": "Physically, humanity is almost nothing.",
+   "start": 39.384,
+   "end": 41.732,
+   "phrases": [
+    {
+     "text": "Physically, humanity is almost nothing.",
+     "start": 39.384,
+     "end": 41.732
+    }
+   ]
+  },
+  {
+   "text": "But there's one more number.",
+   "start": 42.532,
+   "end": 43.893,
+   "phrases": [
+    {
+     "text": "But there's one more number.",
+     "start": 42.532,
+     "end": 43.893
+    }
+   ]
+  },
+  {
+   "text": "About a hundred and seventeen billion humans have ever lived.",
+   "start": 44.693,
+   "end": 48.326,
+   "phrases": [
+    {
+     "text": "About a hundred and seventeen billion humans have ever lived.",
+     "start": 44.693,
+     "end": 48.326
+    }
+   ]
+  },
+  {
+   "text": "Everyone alive today is just seven percent of them.",
+   "start": 49.126,
+   "end": 52.148,
+   "phrases": [
+    {
+     "text": "Everyone alive today is just seven percent of them.",
+     "start": 49.126,
+     "end": 52.148
+    }
+   ]
+  },
+  {
+   "text": "For every one of us, about thirteen people have already come and gone.",
+   "start": 52.948,
+   "end": 57.276,
+   "phrases": [
+    {
+     "text": "For every one of us,",
+     "start": 52.948,
+     "end": 54.148
+    },
+    {
+     "text": "about thirteen people have already come and gone.",
+     "start": 54.748,
+     "end": 57.276
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 3.907
+  },
+  {
+   "start": 3.907,
+   "end": 6.466
+  },
+  {
+   "start": 6.466,
+   "end": 12.317
+  },
+  {
+   "start": 12.317,
+   "end": 19.755
+  },
+  {
+   "start": 19.755,
+   "end": 23.704
+  },
+  {
+   "start": 23.704,
+   "end": 28.555
+  },
+  {
+   "start": 28.555,
+   "end": 32.44
+  },
+  {
+   "start": 32.44,
+   "end": 39.234
+  },
+  {
+   "start": 39.234,
+   "end": 42.382
+  },
+  {
+   "start": 42.382,
+   "end": 44.543
+  },
+  {
+   "start": 44.543,
+   "end": 48.976
+  },
+  {
+   "start": 48.976,
+   "end": 52.798
+  },
+  {
+   "start": 52.798,
+   "end": 60.276
+  }
+ ]
+}

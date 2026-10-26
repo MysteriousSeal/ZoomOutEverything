@@ -1,0 +1,242 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 59.517,
+ "lines": [
+  {
+   "text": "How small is an atom, really?",
+   "start": 0.35,
+   "end": 2.006,
+   "phrases": [
+    {
+     "text": "How small is an atom, really?",
+     "start": 0.35,
+     "end": 2.006
+    }
+   ]
+  },
+  {
+   "text": "Start with a single human hair, about seventy micrometers wide.",
+   "start": 3.406,
+   "end": 7.282,
+   "phrases": [
+    {
+     "text": "Start with a single human hair, about seventy micrometers wide.",
+     "start": 3.406,
+     "end": 7.282
+    }
+   ]
+  },
+  {
+   "text": "Ten red blood cells, side by side, would just span it.",
+   "start": 8.082,
+   "end": 11.295,
+   "phrases": [
+    {
+     "text": "Ten red blood cells, side by side, would just span it.",
+     "start": 8.082,
+     "end": 11.295
+    }
+   ]
+  },
+  {
+   "text": "Each of those cells is about seven times wider than a bacterium.",
+   "start": 12.095,
+   "end": 16.086,
+   "phrases": [
+    {
+     "text": "Each of those cells is about seven times wider than a bacterium.",
+     "start": 12.095,
+     "end": 16.086
+    }
+   ]
+  },
+  {
+   "text": "A virus is roughly ten times smaller still.",
+   "start": 16.886,
+   "end": 19.414,
+   "phrases": [
+    {
+     "text": "A virus is roughly ten times smaller still.",
+     "start": 16.886,
+     "end": 19.414
+    }
+   ]
+  },
+  {
+   "text": "Inside your cells, DNA is a strand just two nanometers wide.",
+   "start": 20.214,
+   "end": 24.256,
+   "phrases": [
+    {
+     "text": "Inside your cells, DNA is a strand just two nanometers wide.",
+     "start": 20.214,
+     "end": 24.256
+    }
+   ]
+  },
+  {
+   "text": "And an atom? About a tenth of a nanometer.",
+   "start": 25.056,
+   "end": 28.271,
+   "phrases": [
+    {
+     "text": "And an atom?",
+     "start": 25.056,
+     "end": 25.901
+    },
+    {
+     "text": "About a tenth of a nanometer.",
+     "start": 26.501,
+     "end": 28.271
+    }
+   ]
+  },
+  {
+   "text": "It would take half a million atoms, side by side, to cross that one hair.",
+   "start": 29.071,
+   "end": 33.865,
+   "phrases": [
+    {
+     "text": "It would take half a million atoms, side by side,",
+     "start": 29.071,
+     "end": 32.036
+    },
+    {
+     "text": "to cross that one hair.",
+     "start": 32.636,
+     "end": 33.865
+    }
+   ]
+  },
+  {
+   "text": "But here's the strange part: an atom is almost entirely empty.",
+   "start": 34.665,
+   "end": 39.015,
+   "phrases": [
+    {
+     "text": "But here's the strange part:",
+     "start": 34.665,
+     "end": 36.136
+    },
+    {
+     "text": "an atom is almost entirely empty.",
+     "start": 36.736,
+     "end": 39.015
+    }
+   ]
+  },
+  {
+   "text": "Blow one up to the size of a football stadium, and its nucleus would be a grain of sand on the center spot.",
+   "start": 39.815,
+   "end": 46.229,
+   "phrases": [
+    {
+     "text": "Blow one up to the size of a football stadium,",
+     "start": 39.815,
+     "end": 42.219
+    },
+    {
+     "text": "and its nucleus would be a grain of sand on the center spot.",
+     "start": 42.819,
+     "end": 46.229
+    }
+   ]
+  },
+  {
+   "text": "The electrons? Just a faint haze, out in the stands.",
+   "start": 47.029,
+   "end": 50.829,
+   "phrases": [
+    {
+     "text": "The electrons?",
+     "start": 47.029,
+     "end": 48.02
+    },
+    {
+     "text": "Just a faint haze, out in the stands.",
+     "start": 48.62,
+     "end": 50.829
+    }
+   ]
+  },
+  {
+   "text": "Everything in between is empty space.",
+   "start": 51.629,
+   "end": 53.843,
+   "phrases": [
+    {
+     "text": "Everything in between is empty space.",
+     "start": 51.629,
+     "end": 53.843
+    }
+   ]
+  },
+  {
+   "text": "Including the atoms that make up you.",
+   "start": 54.643,
+   "end": 56.517,
+   "phrases": [
+    {
+     "text": "Including the atoms that make up you.",
+     "start": 54.643,
+     "end": 56.517
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 3.256
+  },
+  {
+   "start": 3.256,
+   "end": 7.932
+  },
+  {
+   "start": 7.932,
+   "end": 11.945
+  },
+  {
+   "start": 11.945,
+   "end": 16.736
+  },
+  {
+   "start": 16.736,
+   "end": 20.064
+  },
+  {
+   "start": 20.064,
+   "end": 24.906
+  },
+  {
+   "start": 24.906,
+   "end": 28.921
+  },
+  {
+   "start": 28.921,
+   "end": 34.515
+  },
+  {
+   "start": 34.515,
+   "end": 39.665
+  },
+  {
+   "start": 39.665,
+   "end": 46.879
+  },
+  {
+   "start": 46.879,
+   "end": 51.479
+  },
+  {
+   "start": 51.479,
+   "end": 54.493
+  },
+  {
+   "start": 54.493,
+   "end": 59.517
+  }
+ ]
+}

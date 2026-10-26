@@ -1,0 +1,275 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 78.259,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Squeeze the whole universe into one year, and all of recorded history fits in the last twelve seconds.",
+   "start": 0.35,
+   "end": 6.796,
+   "phrases": [
+    {
+     "text": "Squeeze the whole universe into one year,",
+     "start": 0.35,
+     "end": 2.55
+    },
+    {
+     "text": "and all of recorded history fits in the last twelve seconds.",
+     "start": 3.35,
+     "end": 6.796
+    }
+   ]
+  },
+  {
+   "text": "What if the whole history of the universe fit into one year?",
+   "start": 8.296,
+   "end": 11.391,
+   "phrases": [
+    {
+     "text": "What if the whole history of the universe fit into one year?",
+     "start": 8.296,
+     "end": 11.391
+    }
+   ]
+  },
+  {
+   "text": "The Big Bang happens on January 1, at midnight.",
+   "start": 13.291,
+   "end": 16.348,
+   "phrases": [
+    {
+     "text": "The Big Bang happens on January 1, at midnight.",
+     "start": 13.291,
+     "end": 16.348
+    }
+   ]
+  },
+  {
+   "text": "Each day stands for about 38 million years.",
+   "start": 17.648,
+   "end": 20.394,
+   "phrases": [
+    {
+     "text": "Each day stands for about 38 million years.",
+     "start": 17.648,
+     "end": 20.394
+    }
+   ]
+  },
+  {
+   "text": "Our Sun doesn't ignite until early September.",
+   "start": 21.694,
+   "end": 24.501,
+   "phrases": [
+    {
+     "text": "Our Sun doesn't ignite until early September.",
+     "start": 21.694,
+     "end": 24.501
+    }
+   ]
+  },
+  {
+   "text": "The first life on Earth appears in late September.",
+   "start": 25.801,
+   "end": 28.631,
+   "phrases": [
+    {
+     "text": "The first life on Earth appears in late September.",
+     "start": 25.801,
+     "end": 28.631
+    }
+   ]
+  },
+  {
+   "text": "Then, for months, almost nothing but microbes.",
+   "start": 29.931,
+   "end": 32.751,
+   "phrases": [
+    {
+     "text": "Then, for months, almost nothing but microbes.",
+     "start": 29.931,
+     "end": 32.751
+    }
+   ]
+  },
+  {
+   "text": "The dinosaurs arrive around Christmas, and they're wiped out on December 30.",
+   "start": 34.051,
+   "end": 39.034,
+   "phrases": [
+    {
+     "text": "The dinosaurs arrive around Christmas,",
+     "start": 34.051,
+     "end": 36.07
+    },
+    {
+     "text": "and they're wiped out on December 30.",
+     "start": 36.87,
+     "end": 39.034
+    }
+   ]
+  },
+  {
+   "text": "Humans like us? We show up at about 11:48 PM, on New Year's Eve.",
+   "start": 40.334,
+   "end": 46.384,
+   "phrases": [
+    {
+     "text": "Humans like us?",
+     "start": 40.334,
+     "end": 41.503
+    },
+    {
+     "text": "We show up at about 11:48 PM, on New Year's Eve.",
+     "start": 42.303,
+     "end": 46.384
+    }
+   ]
+  },
+  {
+   "text": "All of recorded history/ fits in the last 12 seconds.",
+   "start": 47.684,
+   "end": 50.898,
+   "phrases": [
+    {
+     "text": "All of recorded history/ fits in the last 12 seconds.",
+     "start": 47.684,
+     "end": 50.898
+    }
+   ]
+  },
+  {
+   "text": "Columbus sails just over one second before midnight.",
+   "start": 52.198,
+   "end": 55.341,
+   "phrases": [
+    {
+     "text": "Columbus sails just over one second before midnight.",
+     "start": 52.198,
+     "end": 55.341
+    }
+   ]
+  },
+  {
+   "text": "And your whole life?",
+   "start": 56.641,
+   "end": 57.685,
+   "phrases": [
+    {
+     "text": "And your whole life?",
+     "start": 56.641,
+     "end": 57.685
+    }
+   ]
+  },
+  {
+   "text": "Less than a fifth of a second.",
+   "start": 58.985,
+   "end": 60.629,
+   "phrases": [
+    {
+     "text": "Less than a fifth of a second.",
+     "start": 58.985,
+     "end": 60.629
+    }
+   ]
+  },
+  {
+   "text": "We only just arrived.",
+   "start": 61.929,
+   "end": 63.349,
+   "phrases": [
+    {
+     "text": "We only just arrived.",
+     "start": 61.929,
+     "end": 63.349
+    }
+   ]
+  },
+  {
+   "text": "On this calendar, when were the pyramids built? 10 seconds to midnight, or 10 minutes? Tell me in the comments.",
+   "start": 67.099,
+   "end": 74.659,
+   "phrases": [
+    {
+     "text": "On this calendar, when were the pyramids built?",
+     "start": 67.099,
+     "end": 69.599
+    },
+    {
+     "text": "10 seconds to midnight, or 10 minutes?",
+     "start": 70.399,
+     "end": 72.68
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 73.48,
+     "end": 74.659
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 8.146
+  },
+  {
+   "start": 8.146,
+   "end": 13.141
+  },
+  {
+   "start": 13.141,
+   "end": 17.498
+  },
+  {
+   "start": 17.498,
+   "end": 21.544
+  },
+  {
+   "start": 21.544,
+   "end": 25.651
+  },
+  {
+   "start": 25.651,
+   "end": 29.781
+  },
+  {
+   "start": 29.781,
+   "end": 33.901
+  },
+  {
+   "start": 33.901,
+   "end": 40.184
+  },
+  {
+   "start": 40.184,
+   "end": 47.534
+  },
+  {
+   "start": 47.534,
+   "end": 52.048
+  },
+  {
+   "start": 52.048,
+   "end": 56.491
+  },
+  {
+   "start": 56.491,
+   "end": 58.835
+  },
+  {
+   "start": 58.835,
+   "end": 61.779
+  },
+  {
+   "start": 61.779,
+   "end": 66.949
+  },
+  {
+   "start": 66.949,
+   "end": 78.259
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+  "voice": "af_heart",
+  "total": 28.79266666666667,
+  "lines": [
+    {
+      "text": "Why is the sky blue?",
+      "start": 0.3,
+      "end": 1.5250833333333333
+    },
+    {
+      "text": "Sunlight looks white, but it's actually every color mixed together.",
+      "start": 1.8250833333333334,
+      "end": 5.4005833333333335
+    },
+    {
+      "text": "In the atmosphere, it crashes into trillions of tiny air molecules.",
+      "start": 5.700583333333333,
+      "end": 9.688166666666667
+    },
+    {
+      "text": "Blue light travels in short, choppy waves, so it gets scattered everywhere.",
+      "start": 9.988166666666666,
+      "end": 14.044104166666667
+    },
+    {
+      "text": "Red light's long, lazy waves mostly pass straight through.",
+      "start": 14.344104166666666,
+      "end": 17.605416666666667
+    },
+    {
+      "text": "So wherever you look, scattered blue light is coming at you.",
+      "start": 17.905416666666667,
+      "end": 20.85954166666667
+    },
+    {
+      "text": "At sunset, light crosses so much more air that the blue scatters away, leaving the reds and oranges.",
+      "start": 21.159541666666666,
+      "end": 27.192666666666668
+    }
+  ],
+  "scenes": [
+    {
+      "start": 0.0,
+      "end": 1.6750833333333335
+    },
+    {
+      "start": 1.6750833333333335,
+      "end": 5.550583333333333
+    },
+    {
+      "start": 5.550583333333333,
+      "end": 9.838166666666666
+    },
+    {
+      "start": 9.838166666666666,
+      "end": 14.194104166666666
+    },
+    {
+      "start": 14.194104166666666,
+      "end": 17.75541666666667
+    },
+    {
+      "start": 17.75541666666667,
+      "end": 21.009541666666667
+    },
+    {
+      "start": 21.009541666666667,
+      "end": 28.79266666666667
+    }
+  ]
+}

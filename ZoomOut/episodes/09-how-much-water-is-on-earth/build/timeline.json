@@ -1,0 +1,237 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 59.771,
+ "lines": [
+  {
+   "text": "How much water is there on Earth, really?",
+   "start": 0.35,
+   "end": 2.357,
+   "phrases": [
+    {
+     "text": "How much water is there on Earth, really?",
+     "start": 0.35,
+     "end": 2.357
+    }
+   ]
+  },
+  {
+   "text": "Oceans cover seventy-one percent of the planet.",
+   "start": 4.007,
+   "end": 6.798,
+   "phrases": [
+    {
+     "text": "Oceans cover seventy-one percent of the planet.",
+     "start": 4.007,
+     "end": 6.798
+    }
+   ]
+  },
+  {
+   "text": "Now gather every drop: the oceans, the ice caps, the lakes, the rivers, even the clouds.",
+   "start": 7.848,
+   "end": 13.666,
+   "phrases": [
+    {
+     "text": "Now gather every drop:",
+     "start": 7.848,
+     "end": 9.35
+    },
+    {
+     "text": "the oceans, the ice caps, the lakes, the rivers, even the clouds.",
+     "start": 10.05,
+     "end": 13.666
+    }
+   ]
+  },
+  {
+   "text": "Pull it all together into one ball.",
+   "start": 14.716,
+   "end": 16.554,
+   "phrases": [
+    {
+     "text": "Pull it all together into one ball.",
+     "start": 14.716,
+     "end": 16.554
+    }
+   ]
+  },
+  {
+   "text": "It would be just one thousand three hundred eighty-five kilometers across.",
+   "start": 17.604,
+   "end": 21.406,
+   "phrases": [
+    {
+     "text": "It would be just one thousand three hundred eighty-five kilometers across.",
+     "start": 17.604,
+     "end": 21.406
+    }
+   ]
+  },
+  {
+   "text": "That's less than half the width of the Moon.",
+   "start": 22.456,
+   "end": 24.415,
+   "phrases": [
+    {
+     "text": "That's less than half the width of the Moon.",
+     "start": 22.456,
+     "end": 24.415
+    }
+   ]
+  },
+  {
+   "text": "Next to Earth, it's a small blue bead.",
+   "start": 25.465,
+   "end": 27.667,
+   "phrases": [
+    {
+     "text": "Next to Earth, it's a small blue bead.",
+     "start": 25.465,
+     "end": 27.667
+    }
+   ]
+  },
+  {
+   "text": "Now keep only the liquid fresh water: the lakes, the rivers, the swamps, the groundwater.",
+   "start": 28.717,
+   "end": 34.348,
+   "phrases": [
+    {
+     "text": "Now keep only the liquid fresh water:",
+     "start": 28.717,
+     "end": 30.83
+    },
+    {
+     "text": "the lakes, the rivers, the swamps, the groundwater.",
+     "start": 31.53,
+     "end": 34.348
+    }
+   ]
+  },
+  {
+   "text": "That ball is just two hundred seventy-three kilometers wide.",
+   "start": 35.398,
+   "end": 38.717,
+   "phrases": [
+    {
+     "text": "That ball is just two hundred seventy-three kilometers wide.",
+     "start": 35.398,
+     "end": 38.717
+    }
+   ]
+  },
+  {
+   "text": "And the water in every lake and river on the planet?",
+   "start": 39.767,
+   "end": 42.429,
+   "phrases": [
+    {
+     "text": "And the water in every lake and river on the planet?",
+     "start": 39.767,
+     "end": 42.429
+    }
+   ]
+  },
+  {
+   "text": "A tiny drop, about fifty-six kilometers across. Roughly the width of London.",
+   "start": 43.479,
+   "end": 49.01,
+   "phrases": [
+    {
+     "text": "A tiny drop, about fifty-six kilometers across.",
+     "start": 43.479,
+     "end": 46.813
+    },
+    {
+     "text": "Roughly the width of London.",
+     "start": 47.513,
+     "end": 49.01
+    }
+   ]
+  },
+  {
+   "text": "That's what so much of life depends on.",
+   "start": 50.06,
+   "end": 52.044,
+   "phrases": [
+    {
+     "text": "That's what so much of life depends on.",
+     "start": 50.06,
+     "end": 52.044
+    }
+   ]
+  },
+  {
+   "text": "A blue planet, with surprisingly little water.",
+   "start": 53.094,
+   "end": 56.371,
+   "phrases": [
+    {
+     "text": "A blue planet,",
+     "start": 53.094,
+     "end": 54.064
+    },
+    {
+     "text": "with surprisingly little water.",
+     "start": 54.764,
+     "end": 56.371
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 3.857
+  },
+  {
+   "start": 3.857,
+   "end": 7.698
+  },
+  {
+   "start": 7.698,
+   "end": 14.566
+  },
+  {
+   "start": 14.566,
+   "end": 17.454
+  },
+  {
+   "start": 17.454,
+   "end": 22.306
+  },
+  {
+   "start": 22.306,
+   "end": 25.315
+  },
+  {
+   "start": 25.315,
+   "end": 28.567
+  },
+  {
+   "start": 28.567,
+   "end": 35.248
+  },
+  {
+   "start": 35.248,
+   "end": 39.617
+  },
+  {
+   "start": 39.617,
+   "end": 43.329
+  },
+  {
+   "start": 43.329,
+   "end": 49.91
+  },
+  {
+   "start": 49.91,
+   "end": 52.944
+  },
+  {
+   "start": 52.944,
+   "end": 59.771
+  }
+ ]
+}

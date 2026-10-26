@@ -1,0 +1,126 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 30.103,
+ "lines": [
+  {
+   "text": "How deep is the ocean, really?",
+   "start": 0.35,
+   "end": 2.017,
+   "phrases": [
+    {
+     "text": "How deep is the ocean, really?",
+     "start": 0.35,
+     "end": 2.017
+    }
+   ]
+  },
+  {
+   "text": "At two hundred meters, sunlight is basically gone.",
+   "start": 2.917,
+   "end": 6.085,
+   "phrases": [
+    {
+     "text": "At two hundred meters, sunlight is basically gone.",
+     "start": 2.917,
+     "end": 6.085
+    }
+   ]
+  },
+  {
+   "text": "At three hundred thirty-two: the deepest scuba dive ever.",
+   "start": 6.485,
+   "end": 9.896,
+   "phrases": [
+    {
+     "text": "At three hundred thirty-two: the deepest scuba dive ever.",
+     "start": 6.485,
+     "end": 9.896
+    }
+   ]
+  },
+  {
+   "text": "Sink the Burj Khalifa here, and it vanishes completely.",
+   "start": 10.296,
+   "end": 13.582,
+   "phrases": [
+    {
+     "text": "Sink the Burj Khalifa here, and it vanishes completely.",
+     "start": 10.296,
+     "end": 13.582
+    }
+   ]
+  },
+  {
+   "text": "At three thousand meters, a whale is still hunting, on a single breath.",
+   "start": 13.982,
+   "end": 18.198,
+   "phrases": [
+    {
+     "text": "At three thousand meters, a whale is still hunting, on a single breath.",
+     "start": 13.982,
+     "end": 18.198
+    }
+   ]
+  },
+  {
+   "text": "At three thousand eight hundred, the Titanic.",
+   "start": 18.598,
+   "end": 20.964,
+   "phrases": [
+    {
+     "text": "At three thousand eight hundred, the Titanic.",
+     "start": 18.598,
+     "end": 20.964
+    }
+   ]
+  },
+  {
+   "text": "And at eleven thousand, the bottom. Drop Everest in, and there's still two kilometers of water above it.",
+   "start": 21.364,
+   "end": 27.903,
+   "phrases": [
+    {
+     "text": "And at eleven thousand, the bottom.",
+     "start": 21.364,
+     "end": 23.232
+    },
+    {
+     "text": "Drop Everest in, and there's still two kilometers of water above it.",
+     "start": 24.132,
+     "end": 27.903
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 2.767
+  },
+  {
+   "start": 2.767,
+   "end": 6.335
+  },
+  {
+   "start": 6.335,
+   "end": 10.146
+  },
+  {
+   "start": 10.146,
+   "end": 13.832
+  },
+  {
+   "start": 13.832,
+   "end": 18.448
+  },
+  {
+   "start": 18.448,
+   "end": 21.214
+  },
+  {
+   "start": 21.214,
+   "end": 30.103
+  }
+ ]
+}

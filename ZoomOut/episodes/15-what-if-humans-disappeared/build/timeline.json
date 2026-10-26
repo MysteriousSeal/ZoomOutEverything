@@ -1,0 +1,262 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 59.844,
+ "lines": [
+  {
+   "text": "What if every human on Earth disappeared tomorrow?",
+   "start": 0.35,
+   "end": 2.922,
+   "phrases": [
+    {
+     "text": "What if every human on Earth disappeared tomorrow?",
+     "start": 0.35,
+     "end": 2.922
+    }
+   ]
+  },
+  {
+   "text": "At first, the lights would stay on, for no one.",
+   "start": 4.172,
+   "end": 7.423,
+   "phrases": [
+    {
+     "text": "At first, the lights would stay on,",
+     "start": 4.172,
+     "end": 6.098
+    },
+    {
+     "text": "for no one.",
+     "start": 6.598,
+     "end": 7.423
+    }
+   ]
+  },
+  {
+   "text": "Within hours, with no one to run them, power plants would shut down.",
+   "start": 8.073,
+   "end": 12.348,
+   "phrases": [
+    {
+     "text": "Within hours, with no one to run them,",
+     "start": 8.073,
+     "end": 10.276
+    },
+    {
+     "text": "power plants would shut down.",
+     "start": 10.776,
+     "end": 12.348
+    }
+   ]
+  },
+  {
+   "text": "One by one, the lights would go out.",
+   "start": 12.998,
+   "end": 15.626,
+   "phrases": [
+    {
+     "text": "One by one,",
+     "start": 12.998,
+     "end": 13.873
+    },
+    {
+     "text": "the lights would go out.",
+     "start": 14.373,
+     "end": 15.626
+    }
+   ]
+  },
+  {
+   "text": "Beneath New York, pumps keep the subway dry.",
+   "start": 16.276,
+   "end": 18.93,
+   "phrases": [
+    {
+     "text": "Beneath New York, pumps keep the subway dry.",
+     "start": 16.276,
+     "end": 18.93
+    }
+   ]
+  },
+  {
+   "text": "Without them, the tunnels would flood in about two days.",
+   "start": 19.58,
+   "end": 22.949,
+   "phrases": [
+    {
+     "text": "Without them,",
+     "start": 19.58,
+     "end": 20.411
+    },
+    {
+     "text": "the tunnels would flood in about two days.",
+     "start": 20.911,
+     "end": 22.949
+    }
+   ]
+  },
+  {
+   "text": "In about twenty years, cracked streets would turn to forest.",
+   "start": 23.599,
+   "end": 27.17,
+   "phrases": [
+    {
+     "text": "In about twenty years,",
+     "start": 23.599,
+     "end": 24.859
+    },
+    {
+     "text": "cracked streets would turn to forest.",
+     "start": 25.359,
+     "end": 27.17
+    }
+   ]
+  },
+  {
+   "text": "Within a few centuries, steel bridges and towers would rust and fall.",
+   "start": 27.82,
+   "end": 32.33,
+   "phrases": [
+    {
+     "text": "Within a few centuries,",
+     "start": 27.82,
+     "end": 29.152
+    },
+    {
+     "text": "steel bridges and towers would rust and fall.",
+     "start": 29.652,
+     "end": 32.33
+    }
+   ]
+  },
+  {
+   "text": "Plastic could outlast them, perhaps for a thousand years or more.",
+   "start": 32.98,
+   "end": 36.76,
+   "phrases": [
+    {
+     "text": "Plastic could outlast them,",
+     "start": 32.98,
+     "end": 34.405
+    },
+    {
+     "text": "perhaps for a thousand years or more.",
+     "start": 34.905,
+     "end": 36.76
+    }
+   ]
+  },
+  {
+   "text": "Some bronze statues might keep their shape for millions of years.",
+   "start": 37.41,
+   "end": 41.149,
+   "phrases": [
+    {
+     "text": "Some bronze statues might keep their shape for millions of years.",
+     "start": 37.41,
+     "end": 41.149
+    }
+   ]
+  },
+  {
+   "text": "But our most lasting trace has already left the planet.",
+   "start": 41.799,
+   "end": 44.643,
+   "phrases": [
+    {
+     "text": "But our most lasting trace has already left the planet.",
+     "start": 41.799,
+     "end": 44.643
+    }
+   ]
+  },
+  {
+   "text": "For about a century, our radio and TV signals have raced outward at light speed.",
+   "start": 45.293,
+   "end": 50.757,
+   "phrases": [
+    {
+     "text": "For about a century,",
+     "start": 45.293,
+     "end": 46.479
+    },
+    {
+     "text": "our radio and TV signals have raced outward at light speed.",
+     "start": 46.979,
+     "end": 50.757
+    }
+   ]
+  },
+  {
+   "text": "Today they reach about a hundred light-years in every direction, and they're still spreading.",
+   "start": 51.407,
+   "end": 56.844,
+   "phrases": [
+    {
+     "text": "Today they reach about a hundred light-years in every direction,",
+     "start": 51.407,
+     "end": 55.08
+    },
+    {
+     "text": "and they're still spreading.",
+     "start": 55.58,
+     "end": 56.844
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 4.022
+  },
+  {
+   "start": 4.022,
+   "end": 7.923
+  },
+  {
+   "start": 7.923,
+   "end": 12.848
+  },
+  {
+   "start": 12.848,
+   "end": 16.126
+  },
+  {
+   "start": 16.126,
+   "end": 19.43
+  },
+  {
+   "start": 19.43,
+   "end": 23.449
+  },
+  {
+   "start": 23.449,
+   "end": 27.67
+  },
+  {
+   "start": 27.67,
+   "end": 32.83
+  },
+  {
+   "start": 32.83,
+   "end": 37.26
+  },
+  {
+   "start": 37.26,
+   "end": 41.649
+  },
+  {
+   "start": 41.649,
+   "end": 45.143
+  },
+  {
+   "start": 45.143,
+   "end": 51.257
+  },
+  {
+   "start": 51.257,
+   "end": 59.844
+  }
+ ]
+}

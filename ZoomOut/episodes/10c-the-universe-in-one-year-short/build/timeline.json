@@ -1,0 +1,206 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 52.373,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Squeeze the universe into one year, and all of recorded history fits in the last twelve seconds.",
+   "start": 0.35,
+   "end": 5.979,
+   "phrases": [
+    {
+     "text": "Squeeze the universe into one year, and all of recorded history fits in the last twelve seconds.",
+     "start": 0.35,
+     "end": 5.979
+    }
+   ]
+  },
+  {
+   "text": "What if the whole history of the universe fit into one year?",
+   "start": 7.029,
+   "end": 10.124,
+   "phrases": [
+    {
+     "text": "What if the whole history of the universe fit into one year?",
+     "start": 7.029,
+     "end": 10.124
+    }
+   ]
+  },
+  {
+   "text": "The Big Bang happens on January 1, at midnight.",
+   "start": 11.174,
+   "end": 14.231,
+   "phrases": [
+    {
+     "text": "The Big Bang happens on January 1, at midnight.",
+     "start": 11.174,
+     "end": 14.231
+    }
+   ]
+  },
+  {
+   "text": "Our Sun doesn't ignite until early September.",
+   "start": 15.081,
+   "end": 17.888,
+   "phrases": [
+    {
+     "text": "Our Sun doesn't ignite until early September.",
+     "start": 15.081,
+     "end": 17.888
+    }
+   ]
+  },
+  {
+   "text": "The dinosaurs arrive around Christmas, and they're wiped out on December 30.",
+   "start": 18.738,
+   "end": 23.571,
+   "phrases": [
+    {
+     "text": "The dinosaurs arrive around Christmas,",
+     "start": 18.738,
+     "end": 20.757
+    },
+    {
+     "text": "and they're wiped out on December 30.",
+     "start": 21.407,
+     "end": 23.571
+    }
+   ]
+  },
+  {
+   "text": "Humans like us? We show up at about 11:48 PM, on New Year's Eve.",
+   "start": 24.421,
+   "end": 30.321,
+   "phrases": [
+    {
+     "text": "Humans like us?",
+     "start": 24.421,
+     "end": 25.59
+    },
+    {
+     "text": "We show up at about 11:48 PM, on New Year's Eve.",
+     "start": 26.24,
+     "end": 30.321
+    }
+   ]
+  },
+  {
+   "text": "All of recorded history/ fits in the last 12 seconds.",
+   "start": 31.171,
+   "end": 34.385,
+   "phrases": [
+    {
+     "text": "All of recorded history/ fits in the last 12 seconds.",
+     "start": 31.171,
+     "end": 34.385
+    }
+   ]
+  },
+  {
+   "text": "And your whole life?",
+   "start": 35.685,
+   "end": 36.728,
+   "phrases": [
+    {
+     "text": "And your whole life?",
+     "start": 35.685,
+     "end": 36.728
+    }
+   ]
+  },
+  {
+   "text": "Less than a fifth of a second.",
+   "start": 37.578,
+   "end": 39.223,
+   "phrases": [
+    {
+     "text": "Less than a fifth of a second.",
+     "start": 37.578,
+     "end": 39.223
+    }
+   ]
+  },
+  {
+   "text": "We only just arrived.",
+   "start": 40.073,
+   "end": 41.493,
+   "phrases": [
+    {
+     "text": "We only just arrived.",
+     "start": 40.073,
+     "end": 41.493
+    }
+   ]
+  },
+  {
+   "text": "When were the pyramids built? 10 seconds to midnight, or 10 minutes? Tell me in the comments.",
+   "start": 43.743,
+   "end": 49.973,
+   "phrases": [
+    {
+     "text": "When were the pyramids built?",
+     "start": 43.743,
+     "end": 45.213
+    },
+    {
+     "text": "10 seconds to midnight, or 10 minutes?",
+     "start": 45.863,
+     "end": 48.144
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 48.794,
+     "end": 49.973
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 6.879
+  },
+  {
+   "start": 6.879,
+   "end": 11.024
+  },
+  {
+   "start": 11.024,
+   "end": 14.931
+  },
+  {
+   "start": 14.931,
+   "end": 18.588
+  },
+  {
+   "start": 18.588,
+   "end": 24.271
+  },
+  {
+   "start": 24.271,
+   "end": 31.021
+  },
+  {
+   "start": 31.021,
+   "end": 35.535
+  },
+  {
+   "start": 35.535,
+   "end": 37.428
+  },
+  {
+   "start": 37.428,
+   "end": 39.923
+  },
+  {
+   "start": 39.923,
+   "end": 43.593
+  },
+  {
+   "start": 43.593,
+   "end": 52.373
+  }
+ ]
+}

@@ -1,0 +1,310 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 78.327,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Melt all the ice on Earth, and the sea rises about 70 meters.",
+   "start": 0.35,
+   "end": 4.779,
+   "phrases": [
+    {
+     "text": "Melt all the ice on Earth,",
+     "start": 0.35,
+     "end": 1.824
+    },
+    {
+     "text": "and the sea rises about 70 meters.",
+     "start": 2.474,
+     "end": 4.779
+    }
+   ]
+  },
+  {
+   "text": "What if all the ice on Earth melted?",
+   "start": 5.779,
+   "end": 7.576,
+   "phrases": [
+    {
+     "text": "What if all the ice on Earth melted?",
+     "start": 5.779,
+     "end": 7.576
+    }
+   ]
+  },
+  {
+   "text": "Now zoom out/ from a single ice cube,/ all the way to Antarctica.",
+   "start": 8.876,
+   "end": 13.168,
+   "phrases": [
+    {
+     "text": "Now zoom out/ from a single ice cube,/",
+     "start": 8.876,
+     "end": 10.993
+    },
+    {
+     "text": "all the way to Antarctica.",
+     "start": 11.643,
+     "end": 13.168
+    }
+   ]
+  },
+  {
+   "text": "Antarctica holds about 90 percent of the world's ice.",
+   "start": 13.968,
+   "end": 17.39,
+   "phrases": [
+    {
+     "text": "Antarctica holds about 90 percent of the world's ice.",
+     "start": 13.968,
+     "end": 17.39
+    }
+   ]
+  },
+  {
+   "text": "In places, it's more than 4 kilometers thick.",
+   "start": 18.19,
+   "end": 21.056,
+   "phrases": [
+    {
+     "text": "In places, it's more than 4 kilometers thick.",
+     "start": 18.19,
+     "end": 21.056
+    }
+   ]
+  },
+  {
+   "text": "If all the ice on land melted, the oceans would rise about 70 meters.",
+   "start": 21.856,
+   "end": 26.845,
+   "phrases": [
+    {
+     "text": "If all the ice on land melted,",
+     "start": 21.856,
+     "end": 23.692
+    },
+    {
+     "text": "the oceans would rise about 70 meters.",
+     "start": 24.342,
+     "end": 26.845
+    }
+   ]
+  },
+  {
+   "text": "That's almost up to the chest of the Statue of Liberty./",
+   "start": 27.645,
+   "end": 30.669,
+   "phrases": [
+    {
+     "text": "That's almost up to the chest of the Statue of Liberty./",
+     "start": 27.645,
+     "end": 30.669
+    }
+   ]
+  },
+  {
+   "text": "Most of Florida would be underwater.",
+   "start": 31.469,
+   "end": 34.405,
+   "phrases": [
+    {
+     "text": "Most of Florida",
+     "start": 31.469,
+     "end": 32.565
+    },
+    {
+     "text": "would be underwater.",
+     "start": 33.215,
+     "end": 34.405
+    }
+   ]
+  },
+  {
+   "text": "Venice would vanish. So would Amsterdam.",
+   "start": 35.205,
+   "end": 38.095,
+   "phrases": [
+    {
+     "text": "Venice would vanish.",
+     "start": 35.205,
+     "end": 36.373
+    },
+    {
+     "text": "So would Amsterdam.",
+     "start": 37.023,
+     "end": 38.095
+    }
+   ]
+  },
+  {
+   "text": "Shanghai, too. Every coastline on Earth would have to be redrawn.",
+   "start": 38.895,
+   "end": 43.148,
+   "phrases": [
+    {
+     "text": "Shanghai, too.",
+     "start": 38.895,
+     "end": 39.833
+    },
+    {
+     "text": "Every coastline on Earth would have to be redrawn.",
+     "start": 40.483,
+     "end": 43.148
+    }
+   ]
+  },
+  {
+   "text": "But the sea has moved/ the other way, too.",
+   "start": 43.948,
+   "end": 46.015,
+   "phrases": [
+    {
+     "text": "But the sea has moved/ the other way, too.",
+     "start": 43.948,
+     "end": 46.015
+    }
+   ]
+  },
+  {
+   "text": "20,000 years ago, at the peak of the last ice age,/ the sea was about 120 meters lower.",
+   "start": 46.815,
+   "end": 53.606,
+   "phrases": [
+    {
+     "text": "20,000 years ago, at the peak of the last ice age,/",
+     "start": 46.815,
+     "end": 50.352
+    },
+    {
+     "text": "the sea was about 120 meters lower.",
+     "start": 51.002,
+     "end": 53.606
+    }
+   ]
+  },
+  {
+   "text": "You could have walked from France to England, or from Siberia to Alaska.",
+   "start": 54.406,
+   "end": 58.7,
+   "phrases": [
+    {
+     "text": "You could have walked from France to England,",
+     "start": 54.406,
+     "end": 56.321
+    },
+    {
+     "text": "or from Siberia to Alaska.",
+     "start": 56.971,
+     "end": 58.7
+    }
+   ]
+  },
+  {
+   "text": "Coastlines aren't fixed. The ice decides where they are.",
+   "start": 59.5,
+   "end": 63.289,
+   "phrases": [
+    {
+     "text": "Coastlines aren't fixed.",
+     "start": 59.5,
+     "end": 60.975
+    },
+    {
+     "text": "The ice decides where they are.",
+     "start": 61.625,
+     "end": 63.289
+    }
+   ]
+  },
+  {
+   "text": "How much has the sea already risen since 1900? About 20 centimeters, or about 2 meters? Tell me in the comments.",
+   "start": 66.439,
+   "end": 75.327,
+   "phrases": [
+    {
+     "text": "How much has the sea already risen since 1900?",
+     "start": 66.439,
+     "end": 69.546
+    },
+    {
+     "text": "About 20 centimeters,",
+     "start": 70.196,
+     "end": 71.61
+    },
+    {
+     "text": "or about 2 meters?",
+     "start": 72.26,
+     "end": 73.498
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 74.148,
+     "end": 75.327
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.629
+  },
+  {
+   "start": 5.629,
+   "end": 8.726
+  },
+  {
+   "start": 8.726,
+   "end": 13.818
+  },
+  {
+   "start": 13.818,
+   "end": 18.04
+  },
+  {
+   "start": 18.04,
+   "end": 21.706
+  },
+  {
+   "start": 21.706,
+   "end": 27.495
+  },
+  {
+   "start": 27.495,
+   "end": 31.319
+  },
+  {
+   "start": 31.319,
+   "end": 35.055
+  },
+  {
+   "start": 35.055,
+   "end": 38.745
+  },
+  {
+   "start": 38.745,
+   "end": 43.798
+  },
+  {
+   "start": 43.798,
+   "end": 46.665
+  },
+  {
+   "start": 46.665,
+   "end": 54.256
+  },
+  {
+   "start": 54.256,
+   "end": 59.35
+  },
+  {
+   "start": 59.35,
+   "end": 66.289
+  },
+  {
+   "start": 66.289,
+   "end": 78.327
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 71.835,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "The Sun you see right now is eight minutes old.",
+   "start": 0.35,
+   "end": 3.473,
+   "phrases": [
+    {
+     "text": "The Sun you see right now",
+     "start": 0.35,
+     "end": 1.659
+    },
+    {
+     "text": "is eight minutes old.",
+     "start": 2.26,
+     "end": 3.473
+    }
+   ]
+  },
+  {
+   "text": "How fast is light, really?",
+   "start": 4.473,
+   "end": 5.961,
+   "phrases": [
+    {
+     "text": "How fast is light, really?",
+     "start": 4.473,
+     "end": 5.961
+    }
+   ]
+  },
+  {
+   "text": "Three hundred thousand kilometers, every single second.",
+   "start": 7.361,
+   "end": 10.627,
+   "phrases": [
+    {
+     "text": "Three hundred thousand kilometers, every single second.",
+     "start": 7.361,
+     "end": 10.627
+    }
+   ]
+  },
+  {
+   "text": "In one second, light could circle the Earth seven and a half times.",
+   "start": 11.427,
+   "end": 15.144,
+   "phrases": [
+    {
+     "text": "In one second, light could circle the Earth seven and a half times.",
+     "start": 11.427,
+     "end": 15.144
+    }
+   ]
+  },
+  {
+   "text": "It reaches the Moon in just over a second.",
+   "start": 15.944,
+   "end": 18.344,
+   "phrases": [
+    {
+     "text": "It reaches the Moon in just over a second.",
+     "start": 15.944,
+     "end": 18.344
+    }
+   ]
+  },
+  {
+   "text": "Sunlight takes about eight minutes to get here.",
+   "start": 19.144,
+   "end": 21.431,
+   "phrases": [
+    {
+     "text": "Sunlight takes about eight minutes to get here.",
+     "start": 19.144,
+     "end": 21.431
+    }
+   ]
+  },
+  {
+   "text": "So when you look at the Sun, you're seeing it as it was eight minutes ago.",
+   "start": 22.231,
+   "end": 26.384,
+   "phrases": [
+    {
+     "text": "So when you look at the Sun,",
+     "start": 22.231,
+     "end": 23.59
+    },
+    {
+     "text": "you're seeing it as it was eight minutes ago.",
+     "start": 24.19,
+     "end": 26.384
+    }
+   ]
+  },
+  {
+   "text": "Light from Neptune takes about four hours.",
+   "start": 27.184,
+   "end": 29.545,
+   "phrases": [
+    {
+     "text": "Light from Neptune takes about four hours.",
+     "start": 27.184,
+     "end": 29.545
+    }
+   ]
+  },
+  {
+   "text": "Voyager 1, our most distant spacecraft, is almost a full day away at light speed.",
+   "start": 30.345,
+   "end": 35.951,
+   "phrases": [
+    {
+     "text": "Voyager 1, our most distant spacecraft,",
+     "start": 30.345,
+     "end": 33.012
+    },
+    {
+     "text": "is almost a full day away at light speed.",
+     "start": 33.612,
+     "end": 35.951
+    }
+   ]
+  },
+  {
+   "text": "The nearest star? Its light travels for more than four years to reach us.",
+   "start": 36.751,
+   "end": 41.318,
+   "phrases": [
+    {
+     "text": "The nearest star?",
+     "start": 36.751,
+     "end": 37.72
+    },
+    {
+     "text": "Its light travels for more than four years to reach us.",
+     "start": 38.32,
+     "end": 41.318
+    }
+   ]
+  },
+  {
+   "text": "From the far side of our galaxy, the light has been traveling for tens of thousands of years.",
+   "start": 42.118,
+   "end": 47.621,
+   "phrases": [
+    {
+     "text": "From the far side of our galaxy,",
+     "start": 42.118,
+     "end": 43.932
+    },
+    {
+     "text": "the light has been traveling for tens of thousands of years.",
+     "start": 44.532,
+     "end": 47.621
+    }
+   ]
+  },
+  {
+   "text": "And the most distant galaxies we've seen? Their light set off more than thirteen billion years ago.",
+   "start": 48.421,
+   "end": 54.044,
+   "phrases": [
+    {
+     "text": "And the most distant galaxies we've seen?",
+     "start": 48.421,
+     "end": 50.553
+    },
+    {
+     "text": "Their light set off more than thirteen billion years ago.",
+     "start": 51.153,
+     "end": 54.044
+    }
+   ]
+  },
+  {
+   "text": "Light is the fastest thing in the universe.",
+   "start": 54.844,
+   "end": 57.197,
+   "phrases": [
+    {
+     "text": "Light is the fastest thing in the universe.",
+     "start": 54.844,
+     "end": 57.197
+    }
+   ]
+  },
+  {
+   "text": "And the universe is still too big for it.",
+   "start": 57.997,
+   "end": 60.031,
+   "phrases": [
+    {
+     "text": "And the universe is still too big for it.",
+     "start": 57.997,
+     "end": 60.031
+    }
+   ]
+  },
+  {
+   "text": "Starlight is a time machine. Which era would you look back at? Tell me in the comments.",
+   "start": 63.181,
+   "end": 68.835,
+   "phrases": [
+    {
+     "text": "Starlight is a time machine.",
+     "start": 63.181,
+     "end": 64.818
+    },
+    {
+     "text": "Which era would you look back at?",
+     "start": 65.418,
+     "end": 67.055
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 67.655,
+     "end": 68.835
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 4.323
+  },
+  {
+   "start": 4.323,
+   "end": 7.211
+  },
+  {
+   "start": 7.211,
+   "end": 11.277
+  },
+  {
+   "start": 11.277,
+   "end": 15.794
+  },
+  {
+   "start": 15.794,
+   "end": 18.994
+  },
+  {
+   "start": 18.994,
+   "end": 22.081
+  },
+  {
+   "start": 22.081,
+   "end": 27.034
+  },
+  {
+   "start": 27.034,
+   "end": 30.195
+  },
+  {
+   "start": 30.195,
+   "end": 36.601
+  },
+  {
+   "start": 36.601,
+   "end": 41.968
+  },
+  {
+   "start": 41.968,
+   "end": 48.271
+  },
+  {
+   "start": 48.271,
+   "end": 54.694
+  },
+  {
+   "start": 54.694,
+   "end": 57.847
+  },
+  {
+   "start": 57.847,
+   "end": 63.031
+  },
+  {
+   "start": 63.031,
+   "end": 71.835
+  }
+ ]
+}

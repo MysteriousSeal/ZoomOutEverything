@@ -1,0 +1,247 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 53.431,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Melt all the ice on Earth, and the sea rises about 70 meters.",
+   "start": 0.35,
+   "end": 4.479,
+   "phrases": [
+    {
+     "text": "Melt all the ice on Earth,",
+     "start": 0.35,
+     "end": 1.824
+    },
+    {
+     "text": "and the sea rises about 70 meters.",
+     "start": 2.174,
+     "end": 4.479
+    }
+   ]
+  },
+  {
+   "text": "What if all the ice on Earth melted?",
+   "start": 5.099,
+   "end": 6.896,
+   "phrases": [
+    {
+     "text": "What if all the ice on Earth melted?",
+     "start": 5.099,
+     "end": 6.896
+    }
+   ]
+  },
+  {
+   "text": "Antarctica holds about 90 percent of the world's ice.",
+   "start": 8.216,
+   "end": 11.638,
+   "phrases": [
+    {
+     "text": "Antarctica holds about 90 percent of the world's ice.",
+     "start": 8.216,
+     "end": 11.638
+    }
+   ]
+  },
+  {
+   "text": "If all the ice on land melted, the oceans would rise about 70 meters.",
+   "start": 12.058,
+   "end": 16.746,
+   "phrases": [
+    {
+     "text": "If all the ice on land melted,",
+     "start": 12.058,
+     "end": 13.894
+    },
+    {
+     "text": "the oceans would rise about 70 meters.",
+     "start": 14.244,
+     "end": 16.746
+    }
+   ]
+  },
+  {
+   "text": "That's almost up to the chest of the Statue of Liberty./",
+   "start": 17.166,
+   "end": 20.191,
+   "phrases": [
+    {
+     "text": "That's almost up to the chest of the Statue of Liberty./",
+     "start": 17.166,
+     "end": 20.191
+    }
+   ]
+  },
+  {
+   "text": "Most of Florida would be underwater.",
+   "start": 20.611,
+   "end": 23.247,
+   "phrases": [
+    {
+     "text": "Most of Florida",
+     "start": 20.611,
+     "end": 21.707
+    },
+    {
+     "text": "would be underwater.",
+     "start": 22.057,
+     "end": 23.247
+    }
+   ]
+  },
+  {
+   "text": "Venice would vanish. So would Amsterdam.",
+   "start": 23.667,
+   "end": 26.257,
+   "phrases": [
+    {
+     "text": "Venice would vanish.",
+     "start": 23.667,
+     "end": 24.835
+    },
+    {
+     "text": "So would Amsterdam.",
+     "start": 25.185,
+     "end": 26.257
+    }
+   ]
+  },
+  {
+   "text": "But the sea has moved/ the other way, too.",
+   "start": 26.677,
+   "end": 28.743,
+   "phrases": [
+    {
+     "text": "But the sea has moved/ the other way, too.",
+     "start": 26.677,
+     "end": 28.743
+    }
+   ]
+  },
+  {
+   "text": "20,000 years ago, in the last ice age,/ the sea was about 120 meters lower.",
+   "start": 29.163,
+   "end": 34.98,
+   "phrases": [
+    {
+     "text": "20,000 years ago, in the last ice age,/",
+     "start": 29.163,
+     "end": 32.025
+    },
+    {
+     "text": "the sea was about 120 meters lower.",
+     "start": 32.375,
+     "end": 34.98
+    }
+   ]
+  },
+  {
+   "text": "You could have walked from France to England, or from Siberia to Alaska.",
+   "start": 35.4,
+   "end": 39.393,
+   "phrases": [
+    {
+     "text": "You could have walked from France to England,",
+     "start": 35.4,
+     "end": 37.315
+    },
+    {
+     "text": "or from Siberia to Alaska.",
+     "start": 37.665,
+     "end": 39.393
+    }
+   ]
+  },
+  {
+   "text": "Coastlines aren't fixed. The ice decides where they are.",
+   "start": 39.813,
+   "end": 43.302,
+   "phrases": [
+    {
+     "text": "Coastlines aren't fixed.",
+     "start": 39.813,
+     "end": 41.289
+    },
+    {
+     "text": "The ice decides where they are.",
+     "start": 41.639,
+     "end": 43.302
+    }
+   ]
+  },
+  {
+   "text": "How much has the sea risen since 1900? About 20 centimeters, or about 2 meters? Tell me in the comments.",
+   "start": 44.722,
+   "end": 52.031,
+   "phrases": [
+    {
+     "text": "How much has the sea risen since 1900?",
+     "start": 44.722,
+     "end": 47.492
+    },
+    {
+     "text": "About 20 centimeters, or about 2 meters?",
+     "start": 47.842,
+     "end": 50.502
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 50.852,
+     "end": 52.031
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 4.949
+  },
+  {
+   "start": 4.949,
+   "end": 8.066
+  },
+  {
+   "start": 8.066,
+   "end": 11.908
+  },
+  {
+   "start": 11.908,
+   "end": 17.016
+  },
+  {
+   "start": 17.016,
+   "end": 20.461
+  },
+  {
+   "start": 20.461,
+   "end": 23.517
+  },
+  {
+   "start": 23.517,
+   "end": 26.527
+  },
+  {
+   "start": 26.527,
+   "end": 29.013
+  },
+  {
+   "start": 29.013,
+   "end": 35.25
+  },
+  {
+   "start": 35.25,
+   "end": 39.663
+  },
+  {
+   "start": 39.663,
+   "end": 44.572
+  },
+  {
+   "start": 44.572,
+   "end": 53.431
+  }
+ ]
+}

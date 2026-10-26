@@ -1,0 +1,242 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 53.93,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "The Moon is already leaving us.",
+   "start": 0.35,
+   "end": 2.014,
+   "phrases": [
+    {
+     "text": "The Moon is already leaving us.",
+     "start": 0.35,
+     "end": 2.014
+    }
+   ]
+  },
+  {
+   "text": "What if the Moon suddenly disappeared?",
+   "start": 2.714,
+   "end": 4.688,
+   "phrases": [
+    {
+     "text": "What if the Moon suddenly disappeared?",
+     "start": 2.714,
+     "end": 4.688
+    }
+   ]
+  },
+  {
+   "text": "Without it, moonlit nights would be about 100 times darker.",
+   "start": 5.588,
+   "end": 9.63,
+   "phrases": [
+    {
+     "text": "Without it,",
+     "start": 5.588,
+     "end": 6.34
+    },
+    {
+     "text": "moonlit nights would be about 100 times darker.",
+     "start": 6.79,
+     "end": 9.63
+    }
+   ]
+  },
+  {
+   "text": "Then the tides. The Moon does most of the pulling.",
+   "start": 10.13,
+   "end": 13.427,
+   "phrases": [
+    {
+     "text": "Then the tides.",
+     "start": 10.13,
+     "end": 11.138
+    },
+    {
+     "text": "The Moon does most of the pulling.",
+     "start": 11.588,
+     "end": 13.427
+    }
+   ]
+  },
+  {
+   "text": "With only the Sun left, tides would shrink to about a third of today's biggest.",
+   "start": 13.927,
+   "end": 18.555,
+   "phrases": [
+    {
+     "text": "With only the Sun left,",
+     "start": 13.927,
+     "end": 15.265
+    },
+    {
+     "text": "tides would shrink to about a third of today's biggest.",
+     "start": 15.715,
+     "end": 18.555
+    }
+   ]
+  },
+  {
+   "text": "And total solar eclipses/ would be gone, forever.",
+   "start": 19.055,
+   "end": 21.889,
+   "phrases": [
+    {
+     "text": "And total solar eclipses/ would be gone, forever.",
+     "start": 19.055,
+     "end": 21.889
+    }
+   ]
+  },
+  {
+   "text": "The Moon also steadies Earth's tilt.",
+   "start": 22.389,
+   "end": 24.325,
+   "phrases": [
+    {
+     "text": "The Moon also steadies Earth's tilt.",
+     "start": 22.389,
+     "end": 24.325
+    }
+   ]
+  },
+  {
+   "text": "Without it, many models say that tilt/ could wobble far more,/ and seasons could go haywire.",
+   "start": 24.825,
+   "end": 30.593,
+   "phrases": [
+    {
+     "text": "Without it,",
+     "start": 24.825,
+     "end": 25.576
+    },
+    {
+     "text": "many models say that tilt/ could wobble far more,/ and seasons could go haywire.",
+     "start": 26.026,
+     "end": 30.593
+    }
+   ]
+  },
+  {
+   "text": "But here's the twist: the Moon is already slowly leaving us.",
+   "start": 31.093,
+   "end": 34.901,
+   "phrases": [
+    {
+     "text": "But here's the twist:",
+     "start": 31.093,
+     "end": 32.332
+    },
+    {
+     "text": "the Moon is already slowly leaving us.",
+     "start": 32.782,
+     "end": 34.901
+    }
+   ]
+  },
+  {
+   "text": "Every year, it drifts about 3.8 centimeters farther away.",
+   "start": 35.401,
+   "end": 39.57,
+   "phrases": [
+    {
+     "text": "Every year,",
+     "start": 35.401,
+     "end": 36.148
+    },
+    {
+     "text": "it drifts about 3.8 centimeters farther away.",
+     "start": 36.598,
+     "end": 39.57
+    }
+   ]
+  },
+  {
+   "text": "That's about as fast as your fingernails grow.",
+   "start": 40.07,
+   "end": 42.407,
+   "phrases": [
+    {
+     "text": "That's about as fast as your fingernails grow.",
+     "start": 40.07,
+     "end": 42.407
+    }
+   ]
+  },
+  {
+   "text": "How long until total solar eclipses end? About 6,000 years, or about 600 million years? Tell me in the comments.",
+   "start": 44.007,
+   "end": 52.33,
+   "phrases": [
+    {
+     "text": "How long until total solar eclipses end?",
+     "start": 44.007,
+     "end": 46.655
+    },
+    {
+     "text": "About 6,000 years, or about 600 million years?",
+     "start": 47.105,
+     "end": 50.701
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 51.151,
+     "end": 52.33
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 2.564
+  },
+  {
+   "start": 2.564,
+   "end": 5.438
+  },
+  {
+   "start": 5.438,
+   "end": 9.98
+  },
+  {
+   "start": 9.98,
+   "end": 13.777
+  },
+  {
+   "start": 13.777,
+   "end": 18.905
+  },
+  {
+   "start": 18.905,
+   "end": 22.239
+  },
+  {
+   "start": 22.239,
+   "end": 24.675
+  },
+  {
+   "start": 24.675,
+   "end": 30.943
+  },
+  {
+   "start": 30.943,
+   "end": 35.251
+  },
+  {
+   "start": 35.251,
+   "end": 39.92
+  },
+  {
+   "start": 39.92,
+   "end": 43.857
+  },
+  {
+   "start": 43.857,
+   "end": 53.93
+  }
+ ]
+}

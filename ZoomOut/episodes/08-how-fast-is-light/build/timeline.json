@@ -1,0 +1,242 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 58.909,
+ "lines": [
+  {
+   "text": "How fast is light, really?",
+   "start": 0.35,
+   "end": 1.839,
+   "phrases": [
+    {
+     "text": "How fast is light, really?",
+     "start": 0.35,
+     "end": 1.839
+    }
+   ]
+  },
+  {
+   "text": "Three hundred thousand kilometers, every single second.",
+   "start": 3.239,
+   "end": 6.504,
+   "phrases": [
+    {
+     "text": "Three hundred thousand kilometers, every single second.",
+     "start": 3.239,
+     "end": 6.504
+    }
+   ]
+  },
+  {
+   "text": "In one second, light could circle the Earth seven and a half times.",
+   "start": 7.304,
+   "end": 11.022,
+   "phrases": [
+    {
+     "text": "In one second, light could circle the Earth seven and a half times.",
+     "start": 7.304,
+     "end": 11.022
+    }
+   ]
+  },
+  {
+   "text": "It reaches the Moon in just over a second.",
+   "start": 11.822,
+   "end": 14.221,
+   "phrases": [
+    {
+     "text": "It reaches the Moon in just over a second.",
+     "start": 11.822,
+     "end": 14.221
+    }
+   ]
+  },
+  {
+   "text": "Sunlight takes about eight minutes to get here.",
+   "start": 15.021,
+   "end": 17.308,
+   "phrases": [
+    {
+     "text": "Sunlight takes about eight minutes to get here.",
+     "start": 15.021,
+     "end": 17.308
+    }
+   ]
+  },
+  {
+   "text": "So when you look at the Sun, you're seeing it as it was eight minutes ago.",
+   "start": 18.108,
+   "end": 22.262,
+   "phrases": [
+    {
+     "text": "So when you look at the Sun,",
+     "start": 18.108,
+     "end": 19.467
+    },
+    {
+     "text": "you're seeing it as it was eight minutes ago.",
+     "start": 20.067,
+     "end": 22.262
+    }
+   ]
+  },
+  {
+   "text": "Light from Neptune takes about four hours.",
+   "start": 23.062,
+   "end": 25.423,
+   "phrases": [
+    {
+     "text": "Light from Neptune takes about four hours.",
+     "start": 23.062,
+     "end": 25.423
+    }
+   ]
+  },
+  {
+   "text": "Voyager 1, our most distant spacecraft, is almost a full day away at light speed.",
+   "start": 26.223,
+   "end": 31.828,
+   "phrases": [
+    {
+     "text": "Voyager 1, our most distant spacecraft,",
+     "start": 26.223,
+     "end": 28.889
+    },
+    {
+     "text": "is almost a full day away at light speed.",
+     "start": 29.489,
+     "end": 31.828
+    }
+   ]
+  },
+  {
+   "text": "The nearest star? Its light travels for more than four years to reach us.",
+   "start": 32.628,
+   "end": 37.196,
+   "phrases": [
+    {
+     "text": "The nearest star?",
+     "start": 32.628,
+     "end": 33.597
+    },
+    {
+     "text": "Its light travels for more than four years to reach us.",
+     "start": 34.197,
+     "end": 37.196
+    }
+   ]
+  },
+  {
+   "text": "From the far side of our galaxy, the light has been traveling for tens of thousands of years.",
+   "start": 37.996,
+   "end": 43.499,
+   "phrases": [
+    {
+     "text": "From the far side of our galaxy,",
+     "start": 37.996,
+     "end": 39.81
+    },
+    {
+     "text": "the light has been traveling for tens of thousands of years.",
+     "start": 40.41,
+     "end": 43.499
+    }
+   ]
+  },
+  {
+   "text": "And the most distant galaxies we've seen? Their light set off more than thirteen billion years ago.",
+   "start": 44.299,
+   "end": 49.921,
+   "phrases": [
+    {
+     "text": "And the most distant galaxies we've seen?",
+     "start": 44.299,
+     "end": 46.431
+    },
+    {
+     "text": "Their light set off more than thirteen billion years ago.",
+     "start": 47.031,
+     "end": 49.921
+    }
+   ]
+  },
+  {
+   "text": "Light is the fastest thing in the universe.",
+   "start": 50.721,
+   "end": 53.074,
+   "phrases": [
+    {
+     "text": "Light is the fastest thing in the universe.",
+     "start": 50.721,
+     "end": 53.074
+    }
+   ]
+  },
+  {
+   "text": "And the universe is still too big for it.",
+   "start": 53.874,
+   "end": 55.909,
+   "phrases": [
+    {
+     "text": "And the universe is still too big for it.",
+     "start": 53.874,
+     "end": 55.909
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 3.089
+  },
+  {
+   "start": 3.089,
+   "end": 7.154
+  },
+  {
+   "start": 7.154,
+   "end": 11.672
+  },
+  {
+   "start": 11.672,
+   "end": 14.871
+  },
+  {
+   "start": 14.871,
+   "end": 17.958
+  },
+  {
+   "start": 17.958,
+   "end": 22.912
+  },
+  {
+   "start": 22.912,
+   "end": 26.073
+  },
+  {
+   "start": 26.073,
+   "end": 32.478
+  },
+  {
+   "start": 32.478,
+   "end": 37.846
+  },
+  {
+   "start": 37.846,
+   "end": 44.149
+  },
+  {
+   "start": 44.149,
+   "end": 50.571
+  },
+  {
+   "start": 50.571,
+   "end": 53.724
+  },
+  {
+   "start": 53.724,
+   "end": 58.909
+  }
+ ]
+}

@@ -1,0 +1,305 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 78.004,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "The Moon is already leaving us, a little farther every single year.",
+   "start": 0.35,
+   "end": 4.487,
+   "phrases": [
+    {
+     "text": "The Moon is already leaving us,",
+     "start": 0.35,
+     "end": 2.014
+    },
+    {
+     "text": "a little farther every single year.",
+     "start": 2.614,
+     "end": 4.487
+    }
+   ]
+  },
+  {
+   "text": "What if the Moon suddenly disappeared?",
+   "start": 5.487,
+   "end": 7.462,
+   "phrases": [
+    {
+     "text": "What if the Moon suddenly disappeared?",
+     "start": 5.487,
+     "end": 7.462
+    }
+   ]
+  },
+  {
+   "text": "The first thing you'd notice would be the nights.",
+   "start": 9.361,
+   "end": 11.504,
+   "phrases": [
+    {
+     "text": "The first thing you'd notice would be the nights.",
+     "start": 9.361,
+     "end": 11.504
+    }
+   ]
+  },
+  {
+   "text": "Today, a full Moon lights the land with reflected sunlight.",
+   "start": 12.304,
+   "end": 15.787,
+   "phrases": [
+    {
+     "text": "Today, a full Moon lights the land with reflected sunlight.",
+     "start": 12.304,
+     "end": 15.787
+    }
+   ]
+  },
+  {
+   "text": "Without it, those nights would be about a hundred times darker.",
+   "start": 16.587,
+   "end": 20.713,
+   "phrases": [
+    {
+     "text": "Without it,",
+     "start": 16.587,
+     "end": 17.338
+    },
+    {
+     "text": "those nights would be about a hundred times darker.",
+     "start": 17.939,
+     "end": 20.713
+    }
+   ]
+  },
+  {
+   "text": "Then the tides. The Moon does most of the pulling on our oceans.",
+   "start": 21.513,
+   "end": 25.712,
+   "phrases": [
+    {
+     "text": "Then the tides.",
+     "start": 21.513,
+     "end": 22.52
+    },
+    {
+     "text": "The Moon does most of the pulling on our oceans.",
+     "start": 23.12,
+     "end": 25.712
+    }
+   ]
+  },
+  {
+   "text": "With only the Sun left, tides would shrink to about a third of today's biggest.",
+   "start": 26.512,
+   "end": 31.29,
+   "phrases": [
+    {
+     "text": "With only the Sun left,",
+     "start": 26.512,
+     "end": 27.85
+    },
+    {
+     "text": "tides would shrink to about a third of today's biggest.",
+     "start": 28.45,
+     "end": 31.29
+    }
+   ]
+  },
+  {
+   "text": "And total solar eclipses would be gone, forever.",
+   "start": 32.09,
+   "end": 34.924,
+   "phrases": [
+    {
+     "text": "And total solar eclipses would be gone, forever.",
+     "start": 32.09,
+     "end": 34.924
+    }
+   ]
+  },
+  {
+   "text": "The Moon also steadies Earth's tilt, the reason we have seasons.",
+   "start": 35.724,
+   "end": 39.816,
+   "phrases": [
+    {
+     "text": "The Moon also steadies Earth's tilt,",
+     "start": 35.724,
+     "end": 37.676
+    },
+    {
+     "text": "the reason we have seasons.",
+     "start": 38.276,
+     "end": 39.816
+    }
+   ]
+  },
+  {
+   "text": "Without it, many models say that tilt could wobble far more.",
+   "start": 40.616,
+   "end": 44.555,
+   "phrases": [
+    {
+     "text": "Without it,",
+     "start": 40.616,
+     "end": 41.367
+    },
+    {
+     "text": "many models say that tilt could wobble far more.",
+     "start": 41.967,
+     "end": 44.555
+    }
+   ]
+  },
+  {
+   "text": "Over millions of years, seasons could go haywire.",
+   "start": 45.355,
+   "end": 48.948,
+   "phrases": [
+    {
+     "text": "Over millions of years,",
+     "start": 45.355,
+     "end": 46.763
+    },
+    {
+     "text": "seasons could go haywire.",
+     "start": 47.363,
+     "end": 48.948
+    }
+   ]
+  },
+  {
+   "text": "But here's the twist: the Moon is already slowly leaving us.",
+   "start": 49.748,
+   "end": 53.706,
+   "phrases": [
+    {
+     "text": "But here's the twist:",
+     "start": 49.748,
+     "end": 50.987
+    },
+    {
+     "text": "the Moon is already slowly leaving us.",
+     "start": 51.587,
+     "end": 53.706
+    }
+   ]
+  },
+  {
+   "text": "Every year, it drifts about 3.8 centimeters farther away.",
+   "start": 54.506,
+   "end": 58.825,
+   "phrases": [
+    {
+     "text": "Every year,",
+     "start": 54.506,
+     "end": 55.253
+    },
+    {
+     "text": "it drifts about 3.8 centimeters farther away.",
+     "start": 55.853,
+     "end": 58.825
+    }
+   ]
+  },
+  {
+   "text": "That's about as fast as your fingernails grow.",
+   "start": 59.625,
+   "end": 61.962,
+   "phrases": [
+    {
+     "text": "That's about as fast as your fingernails grow.",
+     "start": 59.625,
+     "end": 61.962
+    }
+   ]
+  },
+  {
+   "text": "How long until the Moon is too far away for total solar eclipses? About 6,000 years, or about 600 million years? Tell me in the comments.",
+   "start": 65.112,
+   "end": 75.004,
+   "phrases": [
+    {
+     "text": "How long until the Moon is too far away for total solar eclipses?",
+     "start": 65.112,
+     "end": 69.028
+    },
+    {
+     "text": "About 6,000 years, or about 600 million years?",
+     "start": 69.628,
+     "end": 73.224
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 73.824,
+     "end": 75.004
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.337
+  },
+  {
+   "start": 5.337,
+   "end": 9.211
+  },
+  {
+   "start": 9.211,
+   "end": 12.154
+  },
+  {
+   "start": 12.154,
+   "end": 16.437
+  },
+  {
+   "start": 16.437,
+   "end": 21.363
+  },
+  {
+   "start": 21.363,
+   "end": 26.362
+  },
+  {
+   "start": 26.362,
+   "end": 31.94
+  },
+  {
+   "start": 31.94,
+   "end": 35.574
+  },
+  {
+   "start": 35.574,
+   "end": 40.466
+  },
+  {
+   "start": 40.466,
+   "end": 45.205
+  },
+  {
+   "start": 45.205,
+   "end": 49.598
+  },
+  {
+   "start": 49.598,
+   "end": 54.356
+  },
+  {
+   "start": 54.356,
+   "end": 59.475
+  },
+  {
+   "start": 59.475,
+   "end": 64.962
+  },
+  {
+   "start": 64.962,
+   "end": 78.004
+  }
+ ]
+}

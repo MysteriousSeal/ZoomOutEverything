@@ -1,0 +1,290 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 73.734,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Every atom in your body is almost entirely empty space.",
+   "start": 0.35,
+   "end": 4.452,
+   "phrases": [
+    {
+     "text": "Every atom in your body",
+     "start": 0.35,
+     "end": 1.735
+    },
+    {
+     "text": "is almost entirely empty space.",
+     "start": 2.335,
+     "end": 4.452
+    }
+   ]
+  },
+  {
+   "text": "How small is an atom, really?",
+   "start": 5.452,
+   "end": 7.109,
+   "phrases": [
+    {
+     "text": "How small is an atom, really?",
+     "start": 5.452,
+     "end": 7.109
+    }
+   ]
+  },
+  {
+   "text": "Start with a single human hair, about seventy micrometers wide.",
+   "start": 8.509,
+   "end": 12.384,
+   "phrases": [
+    {
+     "text": "Start with a single human hair, about seventy micrometers wide.",
+     "start": 8.509,
+     "end": 12.384
+    }
+   ]
+  },
+  {
+   "text": "Ten red blood cells, side by side, would just span it.",
+   "start": 13.184,
+   "end": 16.398,
+   "phrases": [
+    {
+     "text": "Ten red blood cells, side by side, would just span it.",
+     "start": 13.184,
+     "end": 16.398
+    }
+   ]
+  },
+  {
+   "text": "Each of those cells is about seven times wider than a bacterium.",
+   "start": 17.198,
+   "end": 21.188,
+   "phrases": [
+    {
+     "text": "Each of those cells is about seven times wider than a bacterium.",
+     "start": 17.198,
+     "end": 21.188
+    }
+   ]
+  },
+  {
+   "text": "A virus is roughly ten times smaller still.",
+   "start": 21.988,
+   "end": 24.516,
+   "phrases": [
+    {
+     "text": "A virus is roughly ten times smaller still.",
+     "start": 21.988,
+     "end": 24.516
+    }
+   ]
+  },
+  {
+   "text": "Inside your cells, DNA is a strand just two nanometers wide.",
+   "start": 25.316,
+   "end": 29.358,
+   "phrases": [
+    {
+     "text": "Inside your cells, DNA is a strand just two nanometers wide.",
+     "start": 25.316,
+     "end": 29.358
+    }
+   ]
+  },
+  {
+   "text": "And an atom? About a tenth of a nanometer.",
+   "start": 30.158,
+   "end": 33.373,
+   "phrases": [
+    {
+     "text": "And an atom?",
+     "start": 30.158,
+     "end": 31.004
+    },
+    {
+     "text": "About a tenth of a nanometer.",
+     "start": 31.604,
+     "end": 33.373
+    }
+   ]
+  },
+  {
+   "text": "It would take half a million atoms, side by side, to cross that one hair.",
+   "start": 34.173,
+   "end": 38.967,
+   "phrases": [
+    {
+     "text": "It would take half a million atoms, side by side,",
+     "start": 34.173,
+     "end": 37.139
+    },
+    {
+     "text": "to cross that one hair.",
+     "start": 37.739,
+     "end": 38.967
+    }
+   ]
+  },
+  {
+   "text": "But here's the strange part: an atom is almost entirely empty.",
+   "start": 39.767,
+   "end": 44.118,
+   "phrases": [
+    {
+     "text": "But here's the strange part:",
+     "start": 39.767,
+     "end": 41.239
+    },
+    {
+     "text": "an atom is almost entirely empty.",
+     "start": 41.839,
+     "end": 44.118
+    }
+   ]
+  },
+  {
+   "text": "Scale one up to the size of a football stadium, and its nucleus would be a grain of sand on the center spot.",
+   "start": 44.918,
+   "end": 51.526,
+   "phrases": [
+    {
+     "text": "Scale one up to the size of a football stadium,",
+     "start": 44.918,
+     "end": 47.515
+    },
+    {
+     "text": "and its nucleus would be a grain of sand on the center spot.",
+     "start": 48.115,
+     "end": 51.526
+    }
+   ]
+  },
+  {
+   "text": "The electrons? Just a faint haze, out in the stands.",
+   "start": 52.326,
+   "end": 56.126,
+   "phrases": [
+    {
+     "text": "The electrons?",
+     "start": 52.326,
+     "end": 53.316
+    },
+    {
+     "text": "Just a faint haze, out in the stands.",
+     "start": 53.916,
+     "end": 56.126
+    }
+   ]
+  },
+  {
+   "text": "Everything in between is empty space.",
+   "start": 56.926,
+   "end": 59.14,
+   "phrases": [
+    {
+     "text": "Everything in between is empty space.",
+     "start": 56.926,
+     "end": 59.14
+    }
+   ]
+  },
+  {
+   "text": "Including the atoms that make up you.",
+   "start": 59.94,
+   "end": 61.813,
+   "phrases": [
+    {
+     "text": "Including the atoms that make up you.",
+     "start": 59.94,
+     "end": 61.813
+    }
+   ]
+  },
+  {
+   "text": "Does knowing you're mostly empty space change how you see yourself? Tell me in the comments.",
+   "start": 64.953,
+   "end": 70.734,
+   "phrases": [
+    {
+     "text": "Does knowing you're mostly empty space",
+     "start": 64.953,
+     "end": 66.904
+    },
+    {
+     "text": "change how you see yourself?",
+     "start": 67.504,
+     "end": 68.954
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 69.554,
+     "end": 70.734
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.302
+  },
+  {
+   "start": 5.302,
+   "end": 8.359
+  },
+  {
+   "start": 8.359,
+   "end": 13.034
+  },
+  {
+   "start": 13.034,
+   "end": 17.048
+  },
+  {
+   "start": 17.048,
+   "end": 21.838
+  },
+  {
+   "start": 21.838,
+   "end": 25.166
+  },
+  {
+   "start": 25.166,
+   "end": 30.008
+  },
+  {
+   "start": 30.008,
+   "end": 34.023
+  },
+  {
+   "start": 34.023,
+   "end": 39.617
+  },
+  {
+   "start": 39.617,
+   "end": 44.768
+  },
+  {
+   "start": 44.768,
+   "end": 52.176
+  },
+  {
+   "start": 52.176,
+   "end": 56.776
+  },
+  {
+   "start": 56.776,
+   "end": 59.79
+  },
+  {
+   "start": 59.79,
+   "end": 64.803
+  },
+  {
+   "start": 64.803,
+   "end": 73.734
+  }
+ ]
+}

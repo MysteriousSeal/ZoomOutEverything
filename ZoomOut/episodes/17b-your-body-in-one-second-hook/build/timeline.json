@@ -1,0 +1,416 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 104.008,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "Right now, your body is replacing almost 4 million cells, every second.",
+   "start": 0.35,
+   "end": 4.964,
+   "phrases": [
+    {
+     "text": "Right now, your body is replacing almost 4 million cells, every second.",
+     "start": 0.35,
+     "end": 4.964
+    }
+   ]
+  },
+  {
+   "text": "What happens inside your body in a single second?",
+   "start": 5.964,
+   "end": 8.751,
+   "phrases": [
+    {
+     "text": "What happens inside your body in a single second?",
+     "start": 5.964,
+     "end": 8.751
+    }
+   ]
+  },
+  {
+   "text": "Start the clock. The strangest part comes last.",
+   "start": 10.151,
+   "end": 13.627,
+   "phrases": [
+    {
+     "text": "Start the clock.",
+     "start": 10.151,
+     "end": 11.123
+    },
+    {
+     "text": "The strangest part comes last.",
+     "start": 11.723,
+     "end": 13.627
+    }
+   ]
+  },
+  {
+   "text": "In that second, your heart beats about once.",
+   "start": 14.427,
+   "end": 16.866,
+   "phrases": [
+    {
+     "text": "In that second, your heart beats about once.",
+     "start": 14.427,
+     "end": 16.866
+    }
+   ]
+  },
+  {
+   "text": "Each beat pushes out about 70 milliliters of blood.",
+   "start": 17.666,
+   "end": 20.545,
+   "phrases": [
+    {
+     "text": "Each beat pushes out about 70 milliliters of blood.",
+     "start": 17.666,
+     "end": 20.545
+    }
+   ]
+  },
+  {
+   "text": "Your fastest nerve signals/ travel at up to/ 120 meters per second.",
+   "start": 21.345,
+   "end": 26.078,
+   "phrases": [
+    {
+     "text": "Your fastest nerve signals/ travel at up to/ 120 meters per second.",
+     "start": 21.345,
+     "end": 26.078
+    }
+   ]
+  },
+  {
+   "text": "Fast enough to cross a soccer field in under 1 second.",
+   "start": 26.878,
+   "end": 30.585,
+   "phrases": [
+    {
+     "text": "Fast enough to cross a soccer field",
+     "start": 26.878,
+     "end": 28.829
+    },
+    {
+     "text": "in under 1 second.",
+     "start": 29.429,
+     "end": 30.585
+    }
+   ]
+  },
+  {
+   "text": "Now dive into a blood vessel. It's crowded with/ red blood cells.",
+   "start": 31.385,
+   "end": 35.482,
+   "phrases": [
+    {
+     "text": "Now dive into a blood vessel.",
+     "start": 31.385,
+     "end": 33.064
+    },
+    {
+     "text": "It's crowded with/ red blood cells.",
+     "start": 33.664,
+     "end": 35.482
+    }
+   ]
+  },
+  {
+   "text": "You have about 25 trillion of them, most of the cells in your body.",
+   "start": 36.282,
+   "end": 40.67,
+   "phrases": [
+    {
+     "text": "You have about 25 trillion of them,",
+     "start": 36.282,
+     "end": 38.428
+    },
+    {
+     "text": "most of the cells in your body.",
+     "start": 39.028,
+     "end": 40.67
+    }
+   ]
+  },
+  {
+   "text": "Each one laps your whole body in about a minute.",
+   "start": 41.47,
+   "end": 43.992,
+   "phrases": [
+    {
+     "text": "Each one laps your whole body in about a minute.",
+     "start": 41.47,
+     "end": 43.992
+    }
+   ]
+  },
+  {
+   "text": "To replace them, your bone marrow never stops.",
+   "start": 44.792,
+   "end": 47.489,
+   "phrases": [
+    {
+     "text": "To replace them, your bone marrow never stops.",
+     "start": 44.792,
+     "end": 47.489
+    }
+   ]
+  },
+  {
+   "text": "It makes 2 to 3 million/ red cells, every single second.",
+   "start": 48.289,
+   "end": 52.23,
+   "phrases": [
+    {
+     "text": "It makes 2 to 3 million/ red cells,",
+     "start": 48.289,
+     "end": 50.368
+    },
+    {
+     "text": "every single second.",
+     "start": 50.968,
+     "end": 52.23
+    }
+   ]
+  },
+  {
+   "text": "Each one lives about 120 days, then it's recycled.",
+   "start": 53.03,
+   "end": 57.532,
+   "phrases": [
+    {
+     "text": "Each one lives about 120 days,",
+     "start": 53.03,
+     "end": 55.689
+    },
+    {
+     "text": "then it's recycled.",
+     "start": 56.289,
+     "end": 57.532
+    }
+   ]
+  },
+  {
+   "text": "Zoom back out. Every few seconds, you breathe in/ about half a liter of air.",
+   "start": 58.332,
+   "end": 63.133,
+   "phrases": [
+    {
+     "text": "Zoom back out.",
+     "start": 58.332,
+     "end": 59.353
+    },
+    {
+     "text": "Every few seconds, you breathe in/ about half a liter of air.",
+     "start": 59.953,
+     "end": 63.133
+    }
+   ]
+  },
+  {
+   "text": "And your body runs on about 100 watts, like a bright old light bulb.",
+   "start": 63.933,
+   "end": 68.884,
+   "phrases": [
+    {
+     "text": "And your body runs on about 100 watts,",
+     "start": 63.933,
+     "end": 66.635
+    },
+    {
+     "text": "like a bright old light bulb.",
+     "start": 67.235,
+     "end": 68.884
+    }
+   ]
+  },
+  {
+   "text": "Now, the strangest part.",
+   "start": 69.684,
+   "end": 71.276,
+   "phrases": [
+    {
+     "text": "Now, the strangest part.",
+     "start": 69.684,
+     "end": 71.276
+    }
+   ]
+  },
+  {
+   "text": "Every day, you replace roughly/ 330 billion/ of your own cells.",
+   "start": 72.076,
+   "end": 76.251,
+   "phrases": [
+    {
+     "text": "Every day, you replace roughly/ 330 billion/ of your own cells.",
+     "start": 72.076,
+     "end": 76.251
+    }
+   ]
+  },
+  {
+   "text": "That's about 1% of you, almost 4 million cells every second.",
+   "start": 77.051,
+   "end": 81.589,
+   "phrases": [
+    {
+     "text": "That's about 1% of you,",
+     "start": 77.051,
+     "end": 78.627
+    },
+    {
+     "text": "almost 4 million cells every second.",
+     "start": 79.227,
+     "end": 81.589
+    }
+   ]
+  },
+  {
+   "text": "Mostly blood and gut. In about 3 months, most of your blood is new.",
+   "start": 82.389,
+   "end": 86.943,
+   "phrases": [
+    {
+     "text": "Mostly blood and gut.",
+     "start": 82.389,
+     "end": 83.753
+    },
+    {
+     "text": "In about 3 months, most of your blood is new.",
+     "start": 84.353,
+     "end": 86.943
+    }
+   ]
+  },
+  {
+   "text": "By the end of this/ video, you're not quite the same/ person who started it.",
+   "start": 87.743,
+   "end": 91.912,
+   "phrases": [
+    {
+     "text": "By the end of this/ video,",
+     "start": 87.743,
+     "end": 89.072
+    },
+    {
+     "text": "you're not quite the same/ person who started it.",
+     "start": 89.672,
+     "end": 91.912
+    }
+   ]
+  },
+  {
+   "text": "How many times will your heart beat in a lifetime? About 3 million, or about 3 billion? Tell me in the comments.",
+   "start": 95.062,
+   "end": 103.008,
+   "phrases": [
+    {
+     "text": "How many times will your heart beat in a lifetime?",
+     "start": 95.062,
+     "end": 97.567
+    },
+    {
+     "text": "About 3 million,",
+     "start": 98.167,
+     "end": 99.31
+    },
+    {
+     "text": "or about 3 billion?",
+     "start": 99.91,
+     "end": 101.229
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 101.829,
+     "end": 103.008
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.814
+  },
+  {
+   "start": 5.814,
+   "end": 10.001
+  },
+  {
+   "start": 10.001,
+   "end": 14.277
+  },
+  {
+   "start": 14.277,
+   "end": 17.516
+  },
+  {
+   "start": 17.516,
+   "end": 21.195
+  },
+  {
+   "start": 21.195,
+   "end": 26.728
+  },
+  {
+   "start": 26.728,
+   "end": 31.235
+  },
+  {
+   "start": 31.235,
+   "end": 36.132
+  },
+  {
+   "start": 36.132,
+   "end": 41.32
+  },
+  {
+   "start": 41.32,
+   "end": 44.642
+  },
+  {
+   "start": 44.642,
+   "end": 48.139
+  },
+  {
+   "start": 48.139,
+   "end": 52.88
+  },
+  {
+   "start": 52.88,
+   "end": 58.182
+  },
+  {
+   "start": 58.182,
+   "end": 63.783
+  },
+  {
+   "start": 63.783,
+   "end": 69.534
+  },
+  {
+   "start": 69.534,
+   "end": 71.926
+  },
+  {
+   "start": 71.926,
+   "end": 76.901
+  },
+  {
+   "start": 76.901,
+   "end": 82.239
+  },
+  {
+   "start": 82.239,
+   "end": 87.593
+  },
+  {
+   "start": 87.593,
+   "end": 94.912
+  },
+  {
+   "start": 94.912,
+   "end": 104.008
+  }
+ ]
+}

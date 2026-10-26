@@ -1,0 +1,136 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 29.57,
+ "lines": [
+  {
+   "text": "How long is a million seconds?",
+   "start": 0.35,
+   "end": 2.073,
+   "phrases": [
+    {
+     "text": "How long is a million seconds?",
+     "start": 0.35,
+     "end": 2.073
+    }
+   ]
+  },
+  {
+   "text": "About eleven and a half days. A short vacation.",
+   "start": 2.923,
+   "end": 6.24,
+   "phrases": [
+    {
+     "text": "About eleven and a half days.",
+     "start": 2.923,
+     "end": 4.479
+    },
+    {
+     "text": "A short vacation.",
+     "start": 5.079,
+     "end": 6.24
+    }
+   ]
+  },
+  {
+   "text": "A billion seconds is almost thirty-two years.",
+   "start": 6.69,
+   "end": 9.27,
+   "phrases": [
+    {
+     "text": "A billion seconds is almost thirty-two years.",
+     "start": 6.69,
+     "end": 9.27
+    }
+   ]
+  },
+  {
+   "text": "That's the difference between a million and a billion.",
+   "start": 9.72,
+   "end": 12.293,
+   "phrases": [
+    {
+     "text": "That's the difference between a million and a billion.",
+     "start": 9.72,
+     "end": 12.293
+    }
+   ]
+  },
+  {
+   "text": "A trillion seconds ago, mammoths still roamed the Earth, and humans were painting caves.",
+   "start": 12.743,
+   "end": 18.196,
+   "phrases": [
+    {
+     "text": "A trillion seconds ago, mammoths still roamed the Earth,",
+     "start": 12.743,
+     "end": 15.851
+    },
+    {
+     "text": "and humans were painting caves.",
+     "start": 16.451,
+     "end": 18.196
+    }
+   ]
+  },
+  {
+   "text": "That's thirty-one thousand, seven hundred years.",
+   "start": 18.646,
+   "end": 21.243,
+   "phrases": [
+    {
+     "text": "That's thirty-one thousand, seven hundred years.",
+     "start": 18.646,
+     "end": 21.243
+    }
+   ]
+  },
+  {
+   "text": "And counting the US national debt, one dollar per second, would take over a million years.",
+   "start": 21.693,
+   "end": 27.37,
+   "phrases": [
+    {
+     "text": "And counting the US national debt, one dollar per second,",
+     "start": 21.693,
+     "end": 25.096
+    },
+    {
+     "text": "would take over a million years.",
+     "start": 25.696,
+     "end": 27.37
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 2.773
+  },
+  {
+   "start": 2.773,
+   "end": 6.54
+  },
+  {
+   "start": 6.54,
+   "end": 9.57
+  },
+  {
+   "start": 9.57,
+   "end": 12.593
+  },
+  {
+   "start": 12.593,
+   "end": 18.496
+  },
+  {
+   "start": 18.496,
+   "end": 21.543
+  },
+  {
+   "start": 21.543,
+   "end": 29.57
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+  "voice": "af_heart",
+  "total": 29.828770833333333,
+  "lines": [
+    {
+      "text": "Where does this video actually come from?",
+      "start": 0.3,
+      "end": 2.2283749999999998
+    },
+    {
+      "text": "Every file online gets chopped into thousands of tiny pieces, called packets.",
+      "start": 2.5283749999999996,
+      "end": 7.133937499999999
+    },
+    {
+      "text": "Each one is labeled with where it's going, and where it fits.",
+      "start": 7.433937499999999,
+      "end": 10.395791666666666
+    },
+    {
+      "text": "They travel as pulses of light through fiber-optic cables, even across the ocean floor.",
+      "start": 10.695791666666665,
+      "end": 15.796687499999997
+    },
+    {
+      "text": "Every packet can take a different route, so some arrive out of order.",
+      "start": 16.096687499999998,
+      "end": 19.645291666666665
+    },
+    {
+      "text": "Your phone sorts them, asks again for anything missing, and rebuilds the file.",
+      "start": 19.945291666666666,
+      "end": 24.334041666666664
+    },
+    {
+      "text": "All of that happens in milliseconds, just to show you this sentence.",
+      "start": 24.634041666666665,
+      "end": 28.228770833333332
+    }
+  ],
+  "scenes": [
+    {
+      "start": 0.0,
+      "end": 2.3783749999999997
+    },
+    {
+      "start": 2.3783749999999997,
+      "end": 7.283937499999999
+    },
+    {
+      "start": 7.283937499999999,
+      "end": 10.545791666666664
+    },
+    {
+      "start": 10.545791666666664,
+      "end": 15.946687499999998
+    },
+    {
+      "start": 15.946687499999998,
+      "end": 19.795291666666667
+    },
+    {
+      "start": 19.795291666666667,
+      "end": 24.484041666666666
+    },
+    {
+      "start": 24.484041666666666,
+      "end": 29.828770833333333
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+ "voice": "af_heart",
+ "speed": 0.94,
+ "total": 53.851,
+ "preroll": 1,
+ "lines": [
+  {
+   "text": "If Earth stopped spinning, winds would blow at over 1,000 kilometers an hour.",
+   "start": 0.35,
+   "end": 5.272,
+   "phrases": [
+    {
+     "text": "If Earth stopped spinning,",
+     "start": 0.35,
+     "end": 1.665
+    },
+    {
+     "text": "winds would blow at over 1,000 kilometers an hour.",
+     "start": 2.015,
+     "end": 5.272
+    }
+   ]
+  },
+  {
+   "text": "What if Earth suddenly stopped spinning?",
+   "start": 5.892,
+   "end": 7.624,
+   "phrases": [
+    {
+     "text": "What if Earth suddenly stopped spinning?",
+     "start": 5.892,
+     "end": 7.624
+    }
+   ]
+  },
+  {
+   "text": "At the equator, you're moving at about/ 1,670 kilometers an hour.",
+   "start": 8.244,
+   "end": 13.684,
+   "phrases": [
+    {
+     "text": "At the equator,",
+     "start": 8.244,
+     "end": 9.167
+    },
+    {
+     "text": "you're moving at about/ 1,670 kilometers an hour.",
+     "start": 9.517,
+     "end": 13.684
+    }
+   ]
+  },
+  {
+   "text": "Stop the planet suddenly, and anything/ not bolted down/ flies east.",
+   "start": 14.104,
+   "end": 18.336,
+   "phrases": [
+    {
+     "text": "Stop the planet suddenly,",
+     "start": 14.104,
+     "end": 15.569
+    },
+    {
+     "text": "and anything/ not bolted down/ flies east.",
+     "start": 15.919,
+     "end": 18.336
+    }
+   ]
+  },
+  {
+   "text": "So does the air, at more than/ 1,000 kilometers an hour.",
+   "start": 18.756,
+   "end": 22.195,
+   "phrases": [
+    {
+     "text": "So does the air, at more than/ 1,000 kilometers an hour.",
+     "start": 18.756,
+     "end": 22.195
+    }
+   ]
+  },
+  {
+   "text": "Without spin, the water bulging at the equator/ slides to the poles.",
+   "start": 22.615,
+   "end": 26.855,
+   "phrases": [
+    {
+     "text": "Without spin,",
+     "start": 22.615,
+     "end": 23.543
+    },
+    {
+     "text": "the water bulging at the equator/ slides to the poles.",
+     "start": 23.893,
+     "end": 26.855
+    }
+   ]
+  },
+  {
+   "text": "2 polar oceans, one giant continent/ around the middle.",
+   "start": 27.275,
+   "end": 30.693,
+   "phrases": [
+    {
+     "text": "2 polar oceans, one giant continent/ around the middle.",
+     "start": 27.275,
+     "end": 30.693
+    }
+   ]
+  },
+  {
+   "text": "One day would last a whole year: 6 months of daylight, 6 months of night.",
+   "start": 31.113,
+   "end": 35.503,
+   "phrases": [
+    {
+     "text": "One day would last a whole year:",
+     "start": 31.113,
+     "end": 32.74
+    },
+    {
+     "text": "6 months of daylight, 6 months of night.",
+     "start": 33.09,
+     "end": 35.503
+    }
+   ]
+  },
+  {
+   "text": "Strangely, Earth really is slowing down./",
+   "start": 35.923,
+   "end": 38.269,
+   "phrases": [
+    {
+     "text": "Strangely, Earth really is slowing down./",
+     "start": 35.923,
+     "end": 38.269
+    }
+   ]
+  },
+  {
+   "text": "400 million years ago,/ a year had about 400 days.",
+   "start": 38.689,
+   "end": 42.628,
+   "phrases": [
+    {
+     "text": "400 million years ago,/ a year had about 400 days.",
+     "start": 38.689,
+     "end": 42.628
+    }
+   ]
+  },
+  {
+   "text": "At today's rate, how long until a day lasts 25 hours? About 20,000 years, or about 200 million years? Tell me in the comments.",
+   "start": 43.048,
+   "end": 52.251,
+   "phrases": [
+    {
+     "text": "At today's rate, how long until a day lasts 25 hours?",
+     "start": 43.048,
+     "end": 46.668
+    },
+    {
+     "text": "About 20,000 years,",
+     "start": 47.018,
+     "end": 48.528
+    },
+    {
+     "text": "or about 200 million years?",
+     "start": 48.878,
+     "end": 50.774
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 51.124,
+     "end": 52.251
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.742
+  },
+  {
+   "start": 5.742,
+   "end": 8.094
+  },
+  {
+   "start": 8.094,
+   "end": 13.954
+  },
+  {
+   "start": 13.954,
+   "end": 18.606
+  },
+  {
+   "start": 18.606,
+   "end": 22.465
+  },
+  {
+   "start": 22.465,
+   "end": 27.125
+  },
+  {
+   "start": 27.125,
+   "end": 30.963
+  },
+  {
+   "start": 30.963,
+   "end": 35.773
+  },
+  {
+   "start": 35.773,
+   "end": 38.539
+  },
+  {
+   "start": 38.539,
+   "end": 42.898
+  },
+  {
+   "start": 42.898,
+   "end": 53.851
+  }
+ ]
+}

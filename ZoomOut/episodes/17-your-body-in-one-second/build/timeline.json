@@ -1,0 +1,368 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 89.298,
+ "lines": [
+  {
+   "text": "What happens inside your body in a single second?",
+   "start": 0.35,
+   "end": 3.137,
+   "phrases": [
+    {
+     "text": "What happens inside your body in a single second?",
+     "start": 0.35,
+     "end": 3.137
+    }
+   ]
+  },
+  {
+   "text": "Start the clock. The strangest part comes last.",
+   "start": 4.537,
+   "end": 8.012,
+   "phrases": [
+    {
+     "text": "Start the clock.",
+     "start": 4.537,
+     "end": 5.509
+    },
+    {
+     "text": "The strangest part comes last.",
+     "start": 6.109,
+     "end": 8.012
+    }
+   ]
+  },
+  {
+   "text": "In that second, your heart beats about once.",
+   "start": 8.812,
+   "end": 11.251,
+   "phrases": [
+    {
+     "text": "In that second, your heart beats about once.",
+     "start": 8.812,
+     "end": 11.251
+    }
+   ]
+  },
+  {
+   "text": "Each beat pushes out about seventy milliliters of blood.",
+   "start": 12.051,
+   "end": 14.93,
+   "phrases": [
+    {
+     "text": "Each beat pushes out about seventy milliliters of blood.",
+     "start": 12.051,
+     "end": 14.93
+    }
+   ]
+  },
+  {
+   "text": "Your fastest nerve signals travel at up to a hundred and twenty meters per second.",
+   "start": 15.73,
+   "end": 20.464,
+   "phrases": [
+    {
+     "text": "Your fastest nerve signals travel at up to a hundred and twenty meters per second.",
+     "start": 15.73,
+     "end": 20.464
+    }
+   ]
+  },
+  {
+   "text": "Fast enough to cross a soccer field in under one second.",
+   "start": 21.264,
+   "end": 24.971,
+   "phrases": [
+    {
+     "text": "Fast enough to cross a soccer field",
+     "start": 21.264,
+     "end": 23.215
+    },
+    {
+     "text": "in under one second.",
+     "start": 23.815,
+     "end": 24.971
+    }
+   ]
+  },
+  {
+   "text": "Now dive into a blood vessel. It's crowded with red blood cells.",
+   "start": 25.771,
+   "end": 29.868,
+   "phrases": [
+    {
+     "text": "Now dive into a blood vessel.",
+     "start": 25.771,
+     "end": 27.45
+    },
+    {
+     "text": "It's crowded with red blood cells.",
+     "start": 28.05,
+     "end": 29.868
+    }
+   ]
+  },
+  {
+   "text": "You have about twenty-five trillion of them, most of the cells in your body.",
+   "start": 30.668,
+   "end": 35.056,
+   "phrases": [
+    {
+     "text": "You have about twenty-five trillion of them,",
+     "start": 30.668,
+     "end": 32.813
+    },
+    {
+     "text": "most of the cells in your body.",
+     "start": 33.413,
+     "end": 35.056
+    }
+   ]
+  },
+  {
+   "text": "Each one laps your whole body in about a minute.",
+   "start": 35.856,
+   "end": 38.378,
+   "phrases": [
+    {
+     "text": "Each one laps your whole body in about a minute.",
+     "start": 35.856,
+     "end": 38.378
+    }
+   ]
+  },
+  {
+   "text": "To replace them, your bone marrow never stops.",
+   "start": 39.178,
+   "end": 41.875,
+   "phrases": [
+    {
+     "text": "To replace them, your bone marrow never stops.",
+     "start": 39.178,
+     "end": 41.875
+    }
+   ]
+  },
+  {
+   "text": "It makes two to three million red cells, every single second.",
+   "start": 42.675,
+   "end": 46.615,
+   "phrases": [
+    {
+     "text": "It makes two to three million red cells,",
+     "start": 42.675,
+     "end": 44.754
+    },
+    {
+     "text": "every single second.",
+     "start": 45.354,
+     "end": 46.615
+    }
+   ]
+  },
+  {
+   "text": "Each one lives about a hundred and twenty days, then it's recycled.",
+   "start": 47.415,
+   "end": 51.917,
+   "phrases": [
+    {
+     "text": "Each one lives about a hundred and twenty days,",
+     "start": 47.415,
+     "end": 50.075
+    },
+    {
+     "text": "then it's recycled.",
+     "start": 50.675,
+     "end": 51.917
+    }
+   ]
+  },
+  {
+   "text": "Zoom back out. Every few seconds, you breathe in about half a liter of air.",
+   "start": 52.717,
+   "end": 57.519,
+   "phrases": [
+    {
+     "text": "Zoom back out.",
+     "start": 52.717,
+     "end": 53.739
+    },
+    {
+     "text": "Every few seconds, you breathe in about half a liter of air.",
+     "start": 54.339,
+     "end": 57.519
+    }
+   ]
+  },
+  {
+   "text": "And your body runs on about a hundred watts, like a bright old light bulb.",
+   "start": 58.319,
+   "end": 63.27,
+   "phrases": [
+    {
+     "text": "And your body runs on about a hundred watts,",
+     "start": 58.319,
+     "end": 61.021
+    },
+    {
+     "text": "like a bright old light bulb.",
+     "start": 61.621,
+     "end": 63.27
+    }
+   ]
+  },
+  {
+   "text": "Now, the strangest part.",
+   "start": 64.07,
+   "end": 65.662,
+   "phrases": [
+    {
+     "text": "Now, the strangest part.",
+     "start": 64.07,
+     "end": 65.662
+    }
+   ]
+  },
+  {
+   "text": "Every day, you replace roughly three hundred thirty billion of your own cells.",
+   "start": 66.462,
+   "end": 70.637,
+   "phrases": [
+    {
+     "text": "Every day, you replace roughly three hundred thirty billion of your own cells.",
+     "start": 66.462,
+     "end": 70.637
+    }
+   ]
+  },
+  {
+   "text": "That's about one percent of you, almost four million cells every second.",
+   "start": 71.437,
+   "end": 75.974,
+   "phrases": [
+    {
+     "text": "That's about one percent of you,",
+     "start": 71.437,
+     "end": 73.013
+    },
+    {
+     "text": "almost four million cells every second.",
+     "start": 73.613,
+     "end": 75.974
+    }
+   ]
+  },
+  {
+   "text": "Mostly blood and gut. In about three months, most of your blood is new.",
+   "start": 76.774,
+   "end": 81.329,
+   "phrases": [
+    {
+     "text": "Mostly blood and gut.",
+     "start": 76.774,
+     "end": 78.139
+    },
+    {
+     "text": "In about three months, most of your blood is new.",
+     "start": 78.739,
+     "end": 81.329
+    }
+   ]
+  },
+  {
+   "text": "By the end of this video, you're not quite the same person who started it.",
+   "start": 82.129,
+   "end": 86.298,
+   "phrases": [
+    {
+     "text": "By the end of this video,",
+     "start": 82.129,
+     "end": 83.458
+    },
+    {
+     "text": "you're not quite the same person who started it.",
+     "start": 84.058,
+     "end": 86.298
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 4.387
+  },
+  {
+   "start": 4.387,
+   "end": 8.662
+  },
+  {
+   "start": 8.662,
+   "end": 11.901
+  },
+  {
+   "start": 11.901,
+   "end": 15.58
+  },
+  {
+   "start": 15.58,
+   "end": 21.114
+  },
+  {
+   "start": 21.114,
+   "end": 25.621
+  },
+  {
+   "start": 25.621,
+   "end": 30.518
+  },
+  {
+   "start": 30.518,
+   "end": 35.706
+  },
+  {
+   "start": 35.706,
+   "end": 39.028
+  },
+  {
+   "start": 39.028,
+   "end": 42.525
+  },
+  {
+   "start": 42.525,
+   "end": 47.265
+  },
+  {
+   "start": 47.265,
+   "end": 52.567
+  },
+  {
+   "start": 52.567,
+   "end": 58.169
+  },
+  {
+   "start": 58.169,
+   "end": 63.92
+  },
+  {
+   "start": 63.92,
+   "end": 66.312
+  },
+  {
+   "start": 66.312,
+   "end": 71.287
+  },
+  {
+   "start": 71.287,
+   "end": 76.624
+  },
+  {
+   "start": 76.624,
+   "end": 81.979
+  },
+  {
+   "start": 81.979,
+   "end": 89.298
+  }
+ ]
+}

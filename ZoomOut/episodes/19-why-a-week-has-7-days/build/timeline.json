@@ -1,0 +1,378 @@
+{
+ "voice": "af_heart",
+ "speed": 0.92,
+ "total": 90.477,
+ "lines": [
+  {
+   "text": "Why does a week have seven days?",
+   "start": 0.35,
+   "end": 2.086,
+   "phrases": [
+    {
+     "text": "Why does a week have seven days?",
+     "start": 0.35,
+     "end": 2.086
+    }
+   ]
+  },
+  {
+   "text": "Almost everything on your calendar comes from the sky. Except the week.",
+   "start": 2.986,
+   "end": 7.181,
+   "phrases": [
+    {
+     "text": "Almost everything on your calendar comes from the sky.",
+     "start": 2.986,
+     "end": 5.852
+    },
+    {
+     "text": "Except the week.",
+     "start": 6.172,
+     "end": 7.181
+    }
+   ]
+  },
+  {
+   "text": "A day is one spin of the Earth.",
+   "start": 7.581,
+   "end": 9.339,
+   "phrases": [
+    {
+     "text": "A day is one spin of the Earth.",
+     "start": 7.581,
+     "end": 9.339
+    }
+   ]
+  },
+  {
+   "text": "A month is roughly one lunar cycle, about twenty-nine and a half days.",
+   "start": 9.739,
+   "end": 13.918,
+   "phrases": [
+    {
+     "text": "A month is roughly one lunar cycle, about twenty-nine and a half days.",
+     "start": 9.739,
+     "end": 13.918
+    }
+   ]
+  },
+  {
+   "text": "A year is one trip around the Sun.",
+   "start": 14.318,
+   "end": 16.218,
+   "phrases": [
+    {
+     "text": "A year is one trip around the Sun.",
+     "start": 14.318,
+     "end": 16.218
+    }
+   ]
+  },
+  {
+   "text": "But nothing up there takes a week. And twice, whole countries tried to abolish it.",
+   "start": 16.618,
+   "end": 21.277,
+   "phrases": [
+    {
+     "text": "But nothing up there takes a week.",
+     "start": 16.618,
+     "end": 18.348
+    },
+    {
+     "text": "And twice, whole countries tried to abolish it.",
+     "start": 18.668,
+     "end": 21.277
+    }
+   ]
+  },
+  {
+   "text": "One theory: each of the Moon's four phases lasts a little over seven days.",
+   "start": 21.677,
+   "end": 26.244,
+   "phrases": [
+    {
+     "text": "One theory: each of the Moon's four phases lasts a little over seven days.",
+     "start": 21.677,
+     "end": 26.244
+    }
+   ]
+  },
+  {
+   "text": "But historians trace the seven back to Babylon, where sky-watchers tracked seven moving lights.",
+   "start": 26.644,
+   "end": 32.027,
+   "phrases": [
+    {
+     "text": "But historians trace the seven back to Babylon, where sky-watchers tracked seven moving lights.",
+     "start": 26.644,
+     "end": 32.027
+    }
+   ]
+  },
+  {
+   "text": "The Sun, the Moon, Mercury, Venus, Mars, Jupiter and Saturn.",
+   "start": 32.427,
+   "end": 36.278,
+   "phrases": [
+    {
+     "text": "The Sun, the Moon, Mercury, Venus, Mars, Jupiter and Saturn.",
+     "start": 32.427,
+     "end": 36.278
+    }
+   ]
+  },
+  {
+   "text": "Seven wanderers, and seven became a sacred number.",
+   "start": 36.678,
+   "end": 40.178,
+   "phrases": [
+    {
+     "text": "Seven wanderers,",
+     "start": 36.678,
+     "end": 37.829
+    },
+    {
+     "text": "and seven became a sacred number.",
+     "start": 38.149,
+     "end": 40.178
+    }
+   ]
+  },
+  {
+   "text": "The Jewish week, six days of work, then a Sabbath, made seven a steady rhythm.",
+   "start": 40.578,
+   "end": 45.131,
+   "phrases": [
+    {
+     "text": "The Jewish week, six days of work, then a Sabbath,",
+     "start": 40.578,
+     "end": 43.282
+    },
+    {
+     "text": "made seven a steady rhythm.",
+     "start": 43.602,
+     "end": 45.131
+    }
+   ]
+  },
+  {
+   "text": "Christianity and Islam later carried it across the world.",
+   "start": 45.531,
+   "end": 48.838,
+   "phrases": [
+    {
+     "text": "Christianity and Islam later carried it across the world.",
+     "start": 45.531,
+     "end": 48.838
+    }
+   ]
+  },
+  {
+   "text": "Meanwhile, Roman astrologers gave each day to one of those lights. The names survive.",
+   "start": 49.238,
+   "end": 54.715,
+   "phrases": [
+    {
+     "text": "Meanwhile, Roman astrologers gave each day to one of those lights.",
+     "start": 49.238,
+     "end": 53.297
+    },
+    {
+     "text": "The names survive.",
+     "start": 53.617,
+     "end": 54.715
+    }
+   ]
+  },
+  {
+   "text": "Saturday is Saturn's day. Sunday, the Sun's. Monday, the Moon's.",
+   "start": 55.115,
+   "end": 59.509,
+   "phrases": [
+    {
+     "text": "Saturday is Saturn's day.",
+     "start": 55.115,
+     "end": 56.681
+    },
+    {
+     "text": "Sunday, the Sun's.",
+     "start": 57.001,
+     "end": 58.083
+    },
+    {
+     "text": "Monday, the Moon's.",
+     "start": 58.403,
+     "end": 59.509
+    }
+   ]
+  },
+  {
+   "text": "French keeps the rest: mardi, Mars. Mercredi, Mercury. Jeudi, Jupiter. Vendredi, Venus.",
+   "start": 59.909,
+   "end": 66.669,
+   "phrases": [
+    {
+     "text": "French keeps the rest:",
+     "start": 59.909,
+     "end": 61.208
+    },
+    {
+     "text": "mardi, Mars. Mercredi, Mercury.",
+     "start": 61.528,
+     "end": 63.886
+    },
+    {
+     "text": "Jeudi, Jupiter. Vendredi, Venus.",
+     "start": 64.206,
+     "end": 66.669
+    }
+   ]
+  },
+  {
+   "text": "English swapped in Norse gods: Tyr, Woden, Thor and Frigg.",
+   "start": 67.069,
+   "end": 71.019,
+   "phrases": [
+    {
+     "text": "English swapped in Norse gods:",
+     "start": 67.069,
+     "end": 68.753
+    },
+    {
+     "text": "Tyr, Woden, Thor and Frigg.",
+     "start": 69.073,
+     "end": 71.019
+    }
+   ]
+  },
+  {
+   "text": "Revolutionary France tried a ten-day week in seventeen ninety-three. It lasted twelve years.",
+   "start": 71.419,
+   "end": 77.442,
+   "phrases": [
+    {
+     "text": "Revolutionary France tried a ten-day week in seventeen ninety-three.",
+     "start": 71.419,
+     "end": 75.733
+    },
+    {
+     "text": "It lasted twelve years.",
+     "start": 76.053,
+     "end": 77.442
+    }
+   ]
+  },
+  {
+   "text": "The Soviets tried five- and six-day weeks. By nineteen forty, seven was back.",
+   "start": 77.842,
+   "end": 82.79,
+   "phrases": [
+    {
+     "text": "The Soviets tried five- and six-day weeks.",
+     "start": 77.842,
+     "end": 80.343
+    },
+    {
+     "text": "By nineteen forty, seven was back.",
+     "start": 80.663,
+     "end": 82.79
+    }
+   ]
+  },
+  {
+   "text": "Empires fell. Calendars changed. The seven-day week outlived them all.",
+   "start": 83.191,
+   "end": 87.877,
+   "phrases": [
+    {
+     "text": "Empires fell. Calendars changed.",
+     "start": 83.191,
+     "end": 85.513
+    },
+    {
+     "text": "The seven-day week outlived them all.",
+     "start": 85.833,
+     "end": 87.877
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 2.836
+  },
+  {
+   "start": 2.836,
+   "end": 7.431
+  },
+  {
+   "start": 7.431,
+   "end": 9.589
+  },
+  {
+   "start": 9.589,
+   "end": 14.168
+  },
+  {
+   "start": 14.168,
+   "end": 16.468
+  },
+  {
+   "start": 16.468,
+   "end": 21.527
+  },
+  {
+   "start": 21.527,
+   "end": 26.494
+  },
+  {
+   "start": 26.494,
+   "end": 32.277
+  },
+  {
+   "start": 32.277,
+   "end": 36.528
+  },
+  {
+   "start": 36.528,
+   "end": 40.428
+  },
+  {
+   "start": 40.428,
+   "end": 45.381
+  },
+  {
+   "start": 45.381,
+   "end": 49.088
+  },
+  {
+   "start": 49.088,
+   "end": 54.965
+  },
+  {
+   "start": 54.965,
+   "end": 59.759
+  },
+  {
+   "start": 59.759,
+   "end": 66.919
+  },
+  {
+   "start": 66.919,
+   "end": 71.269
+  },
+  {
+   "start": 71.269,
+   "end": 77.692
+  },
+  {
+   "start": 77.692,
+   "end": 83.041
+  },
+  {
+   "start": 83.041,
+   "end": 90.477
+  }
+ ]
+}
