@@ -1,0 +1,44 @@
+{
+ "slug": "30-the-heaviest-spoon-in-the-universe",
+ "channel": "ZOOM OUT",
+ "title": "The Heaviest Spoon in the Universe",
+ "series": "True Scale",
+ "accent": [
+  120,
+  180,
+  255
+ ],
+ "music": "deep",
+ "coverTime": 1.5,
+ "voice": {
+  "lineGap": 0.6,
+  "lead": 0.3,
+  "tail": 2.4,
+  "hookHold": 0.3,
+  "phraseGap": 0.45,
+  "retake": {
+   "2.1": 3
+  }
+ },
+ "lines": [
+  "One teaspoon of this weighs more than every human on Earth. | Combined.",
+  "It's a neutron star: | what's left when a giant star dies and its core collapses.",
+  "More mass than our Sun, | crushed into a ball twenty kilometres wide: the size of a city.",
+  "Atoms are crushed so hard | that protons and electrons merge into neutrons, packed shoulder to shoulder.",
+  "So one teaspoon weighs about a billion tonnes. | All eight billion of us together weigh less.",
+  "And some of them spin over seven hundred times a second.",
+  "Drop a marshmallow on one, | and it hits with the energy of an atomic bomb.",
+  "What's the wildest space fact you know? | Tell me in the comments."
+ ],
+ "scenes": [
+  "scenes/s00-hook.js",
+  "scenes/s01-neutron-star.js",
+  "scenes/s02-mass-city.js",
+  "scenes/s03-neutrons.js",
+  "scenes/s04-teaspoon.js",
+  "scenes/s05-spin.js",
+  "scenes/s06-marshmallow.js",
+  "scenes/s07-question.js"
+ ],
+ "captionY": 1450
+}

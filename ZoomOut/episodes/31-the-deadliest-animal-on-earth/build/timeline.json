@@ -1,0 +1,603 @@
+{
+ "voice": "kPzsL2i3teMYv0FxEYQ6",
+ "speed": 0.92,
+ "total": 53.163,
+ "preroll": 0,
+ "lines": [
+  {
+   "text": "The deadliest animal on Earth isn't a shark. It's not even close.",
+   "start": 0.3,
+   "end": 5.641,
+   "phrases": [
+    {
+     "text": "The deadliest animal on Earth isn't a shark.",
+     "start": 0.3,
+     "end": 3.207,
+     "words": [
+      [
+       0.3,
+       "The"
+      ],
+      [
+       0.507,
+       "deadliest"
+      ],
+      [
+       1.067,
+       "animal"
+      ],
+      [
+       1.467,
+       "on"
+      ],
+      [
+       1.707,
+       "Earth"
+      ],
+      [
+       2.267,
+       "isn't"
+      ],
+      [
+       2.587,
+       "a"
+      ],
+      [
+       2.747,
+       "shark."
+      ]
+     ]
+    },
+    {
+     "text": "It's not even close.",
+     "start": 3.707,
+     "end": 5.641,
+     "words": [
+      [
+       3.707,
+       "It's"
+      ],
+      [
+       4.067,
+       "not"
+      ],
+      [
+       4.267,
+       "even"
+      ],
+      [
+       4.587,
+       "close."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Sharks kill about six people a year.",
+   "start": 6.791,
+   "end": 9.396,
+   "phrases": [
+    {
+     "text": "Sharks kill about six people a year.",
+     "start": 6.791,
+     "end": 9.396,
+     "words": [
+      [
+       6.791,
+       "Sharks"
+      ],
+      [
+       7.256,
+       "kill"
+      ],
+      [
+       7.576,
+       "about"
+      ],
+      [
+       7.896,
+       "six"
+      ],
+      [
+       8.216,
+       "people"
+      ],
+      [
+       8.536,
+       "a"
+      ],
+      [
+       9.056,
+       "year."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Snakes kill up to a hundred and thirty-eight thousand. Many of them farmers,/ far from a hospital.",
+   "start": 10.246,
+   "end": 17.072,
+   "phrases": [
+    {
+     "text": "Snakes kill up to a hundred and thirty-eight thousand.",
+     "start": 10.246,
+     "end": 13.286,
+     "words": [
+      [
+       10.246,
+       "Snakes"
+      ],
+      [
+       10.806,
+       "kill"
+      ],
+      [
+       11.046,
+       "up"
+      ],
+      [
+       11.206,
+       "to"
+      ],
+      [
+       11.366,
+       "a"
+      ],
+      [
+       11.526,
+       "hundred"
+      ],
+      [
+       11.846,
+       "and"
+      ],
+      [
+       12.086,
+       "thirty-eight"
+      ],
+      [
+       12.726,
+       "thousand."
+      ]
+     ]
+    },
+    {
+     "text": "Many of them farmers,/ far from a hospital.",
+     "start": 13.786,
+     "end": 17.072,
+     "words": [
+      [
+       13.786,
+       "Many"
+      ],
+      [
+       14.139,
+       "of"
+      ],
+      [
+       14.259,
+       "them"
+      ],
+      [
+       14.499,
+       "farmers,"
+      ],
+      [
+       15.459,
+       "far"
+      ],
+      [
+       15.779,
+       "from"
+      ],
+      [
+       15.939,
+       "a"
+      ],
+      [
+       16.019,
+       "hospital."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Dogs: about sixty thousand, almost all from rabies.",
+   "start": 17.922,
+   "end": 22.466,
+   "phrases": [
+    {
+     "text": "Dogs: about sixty thousand,",
+     "start": 17.922,
+     "end": 20.242,
+     "words": [
+      [
+       17.922,
+       "Dogs:"
+      ],
+      [
+       19.042,
+       "about"
+      ],
+      [
+       19.282,
+       "sixty"
+      ],
+      [
+       19.762,
+       "thousand,"
+      ]
+     ]
+    },
+    {
+     "text": "almost all from rabies.",
+     "start": 20.742,
+     "end": 22.466,
+     "words": [
+      [
+       20.742,
+       "almost"
+      ],
+      [
+       21.297,
+       "all"
+      ],
+      [
+       21.617,
+       "from"
+      ],
+      [
+       21.857,
+       "rabies."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Humans kill more than four hundred thousand/ of each other every year.",
+   "start": 23.316,
+   "end": 27.722,
+   "phrases": [
+    {
+     "text": "Humans kill more than four hundred thousand/ of each other every year.",
+     "start": 23.316,
+     "end": 27.722,
+     "words": [
+      [
+       23.316,
+       "Humans"
+      ],
+      [
+       23.906,
+       "kill"
+      ],
+      [
+       24.106,
+       "more"
+      ],
+      [
+       24.346,
+       "than"
+      ],
+      [
+       24.666,
+       "four"
+      ],
+      [
+       24.866,
+       "hundred"
+      ],
+      [
+       25.386,
+       "thousand"
+      ],
+      [
+       25.866,
+       "of"
+      ],
+      [
+       26.026,
+       "each"
+      ],
+      [
+       26.186,
+       "other"
+      ],
+      [
+       26.506,
+       "every"
+      ],
+      [
+       26.906,
+       "year."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "But number one is tiny. The mosquito. It also spreads dengue, Zika and yellow fever.",
+   "start": 28.572,
+   "end": 36.995,
+   "phrases": [
+    {
+     "text": "But number one is tiny.",
+     "start": 28.572,
+     "end": 30.965,
+     "words": [
+      [
+       28.572,
+       "But"
+      ],
+      [
+       28.8,
+       "number"
+      ],
+      [
+       29.2,
+       "one"
+      ],
+      [
+       29.6,
+       "is"
+      ],
+      [
+       30.4,
+       "tiny."
+      ]
+     ]
+    },
+    {
+     "text": "The mosquito.",
+     "start": 31.465,
+     "end": 32.746,
+     "words": [
+      [
+       31.465,
+       "The"
+      ],
+      [
+       31.625,
+       "mosquito."
+      ]
+     ]
+    },
+    {
+     "text": "It also spreads dengue, Zika and yellow fever.",
+     "start": 33.246,
+     "end": 36.995,
+     "words": [
+      [
+       33.246,
+       "It"
+      ],
+      [
+       33.473,
+       "also"
+      ],
+      [
+       33.793,
+       "spreads"
+      ],
+      [
+       34.193,
+       "dengue,"
+      ],
+      [
+       34.993,
+       "Zika"
+      ],
+      [
+       35.673,
+       "and"
+      ],
+      [
+       35.873,
+       "yellow"
+      ],
+      [
+       36.193,
+       "fever."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Malaria alone killed six hundred and ten thousand people in 2024, most of them children under five.",
+   "start": 37.845,
+   "end": 46.071,
+   "phrases": [
+    {
+     "text": "Malaria alone killed six hundred and ten thousand people in 2024,",
+     "start": 37.845,
+     "end": 43.088,
+     "words": [
+      [
+       37.845,
+       "Malaria"
+      ],
+      [
+       38.468,
+       "alone"
+      ],
+      [
+       39.028,
+       "killed"
+      ],
+      [
+       39.428,
+       "six"
+      ],
+      [
+       39.708,
+       "hundred"
+      ],
+      [
+       40.108,
+       "and"
+      ],
+      [
+       40.308,
+       "ten"
+      ],
+      [
+       40.628,
+       "thousand"
+      ],
+      [
+       41.188,
+       "people"
+      ],
+      [
+       41.588,
+       "in"
+      ],
+      [
+       41.828,
+       "twenty"
+      ],
+      [
+       42.108,
+       "twenty-four,"
+      ]
+     ]
+    },
+    {
+     "text": "most of them children under five.",
+     "start": 43.588,
+     "end": 46.071,
+     "words": [
+      [
+       43.588,
+       "most"
+      ],
+      [
+       43.948,
+       "of"
+      ],
+      [
+       44.068,
+       "them"
+      ],
+      [
+       44.308,
+       "children"
+      ],
+      [
+       44.948,
+       "under"
+      ],
+      [
+       45.588,
+       "five."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Which animal scares you the most? Tell me in the comments.",
+   "start": 46.921,
+   "end": 50.763,
+   "phrases": [
+    {
+     "text": "Which animal scares you the most?",
+     "start": 46.921,
+     "end": 49.033,
+     "words": [
+      [
+       46.921,
+       "Which"
+      ],
+      [
+       47.293,
+       "animal"
+      ],
+      [
+       47.773,
+       "scares"
+      ],
+      [
+       48.213,
+       "you"
+      ],
+      [
+       48.333,
+       "the"
+      ],
+      [
+       48.573,
+       "most?"
+      ]
+     ]
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 49.533,
+     "end": 50.763,
+     "words": [
+      [
+       49.533,
+       "Tell"
+      ],
+      [
+       49.773,
+       "me"
+      ],
+      [
+       49.893,
+       "in"
+      ],
+      [
+       50.013,
+       "the"
+      ],
+      [
+       50.413,
+       "comments."
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 6.641
+  },
+  {
+   "start": 6.641,
+   "end": 10.096
+  },
+  {
+   "start": 10.096,
+   "end": 17.772
+  },
+  {
+   "start": 17.772,
+   "end": 23.166
+  },
+  {
+   "start": 23.166,
+   "end": 28.422
+  },
+  {
+   "start": 28.422,
+   "end": 37.695
+  },
+  {
+   "start": 37.695,
+   "end": 46.771
+  },
+  {
+   "start": 46.771,
+   "end": 53.163
+  }
+ ]
+}

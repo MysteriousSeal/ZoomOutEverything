@@ -244,7 +244,10 @@ function captionGroups(tl) {
     const weights = words.map((w) => spokenLen(w) + 1.5 + (/[,.?!:]$/.test(w.replace(/\/$/, '')) ? 3 : 0));
     const total = weights.reduce((a, b) => a + b, 0);
     let acc = 0;
-    const timed = words.map((w, i) => { const st = ln.start + (ln.end - ln.start) * acc / total; acc += weights[i]; return [st, w.replace(/\/$/, '').replace(/[,.:]$/, '')]; });   // "{history/~history}" = caption-only break after the word
+    // real word starts from the voice's character alignment (voice.py "words") when they line up with the shown words;
+    // otherwise spread the words over the phrase by spoken length
+    const real = ln.words && ln.words.length === words.length ? ln.words : null;
+    const timed = words.map((w, i) => { const st = real ? real[i][0] : ln.start + (ln.end - ln.start) * acc / total; acc += weights[i]; return [st, w.replace(/\/$/, '').replace(/[,.:]$/, '')]; });   // "{history/~history}" = caption-only break after the word
     let chunk = [];
     const mine = [];
     timed.forEach(([st, w], i) => {

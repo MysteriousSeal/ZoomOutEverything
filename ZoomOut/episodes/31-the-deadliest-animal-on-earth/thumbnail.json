@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 33.5,
+  "zoom": 1.08,
+  "fx": 0.44,
+  "fy": 0.4,
+  "tx": 0.5,
+  "ty": 0.5,
+  "lines": [
+    "THE DEADLIEST",
+    "ANIMAL IS *TINY*"
+  ],
+  "stat": {
+    "big": "610,000",
+    "small": "MALARIA DEATHS IN 2024 ALONE",
+    "x": 540,
+    "y": 1450
+  }
+}

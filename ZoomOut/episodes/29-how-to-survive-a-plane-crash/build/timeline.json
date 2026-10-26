@@ -1,0 +1,664 @@
+{
+ "voice": "kPzsL2i3teMYv0FxEYQ6",
+ "speed": 0.92,
+ "total": 52.429,
+ "preroll": 0,
+ "lines": [
+  {
+   "text": "Most plane crashes are survivable. What you do in the next ninety seconds decides if you walk away.",
+   "start": 0.3,
+   "end": 7.011,
+   "phrases": [
+    {
+     "text": "Most plane crashes are survivable.",
+     "start": 0.3,
+     "end": 2.523,
+     "words": [
+      [
+       0.3,
+       "Most"
+      ],
+      [
+       0.723,
+       "plane"
+      ],
+      [
+       1.043,
+       "crashes"
+      ],
+      [
+       1.603,
+       "are"
+      ],
+      [
+       1.763,
+       "survivable."
+      ]
+     ]
+    },
+    {
+     "text": "What you do in the next ninety seconds decides if you walk away.",
+     "start": 2.973,
+     "end": 7.011,
+     "words": [
+      [
+       2.973,
+       "What"
+      ],
+      [
+       3.271,
+       "you"
+      ],
+      [
+       3.431,
+       "do"
+      ],
+      [
+       3.591,
+       "in"
+      ],
+      [
+       3.671,
+       "the"
+      ],
+      [
+       3.831,
+       "next"
+      ],
+      [
+       4.191,
+       "ninety"
+      ],
+      [
+       4.551,
+       "seconds"
+      ],
+      [
+       5.111,
+       "decides"
+      ],
+      [
+       5.711,
+       "if"
+      ],
+      [
+       5.831,
+       "you"
+      ],
+      [
+       5.991,
+       "walk"
+      ],
+      [
+       6.231,
+       "away."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Seventy percent of fatal crashes happen during takeoff, climb-out, approach and landing: barely six percent of the flight.",
+   "start": 7.911,
+   "end": 17.008,
+   "phrases": [
+    {
+     "text": "Seventy percent of fatal crashes happen during takeoff, climb-out, approach and landing:",
+     "start": 7.911,
+     "end": 13.999,
+     "words": [
+      [
+       7.911,
+       "Seventy"
+      ],
+      [
+       8.391,
+       "percent"
+      ],
+      [
+       8.871,
+       "of"
+      ],
+      [
+       9.191,
+       "fatal"
+      ],
+      [
+       9.431,
+       "crashes"
+      ],
+      [
+       9.991,
+       "happen"
+      ],
+      [
+       10.311,
+       "during"
+      ],
+      [
+       10.631,
+       "takeoff,"
+      ],
+      [
+       11.458,
+       "climb-out,"
+      ],
+      [
+       12.231,
+       "approach"
+      ],
+      [
+       12.871,
+       "and"
+      ],
+      [
+       13.511,
+       "landing:"
+      ]
+     ]
+    },
+    {
+     "text": "barely six percent of the flight.",
+     "start": 14.449,
+     "end": 17.008,
+     "words": [
+      [
+       14.449,
+       "barely"
+      ],
+      [
+       15.167,
+       "six"
+      ],
+      [
+       15.407,
+       "percent"
+      ],
+      [
+       15.887,
+       "of"
+      ],
+      [
+       16.047,
+       "the"
+      ],
+      [
+       16.567,
+       "flight."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "So when you sit down, count the rows to your nearest exit. In smoke, you'll find it by touch.",
+   "start": 17.608,
+   "end": 24.43,
+   "phrases": [
+    {
+     "text": "So when you sit down, count the rows to your nearest exit.",
+     "start": 17.608,
+     "end": 21.37,
+     "words": [
+      [
+       17.608,
+       "So"
+      ],
+      [
+       17.848,
+       "when"
+      ],
+      [
+       18.008,
+       "you"
+      ],
+      [
+       18.288,
+       "sit"
+      ],
+      [
+       18.728,
+       "down,"
+      ],
+      [
+       19.208,
+       "count"
+      ],
+      [
+       19.368,
+       "the"
+      ],
+      [
+       19.528,
+       "rows"
+      ],
+      [
+       19.848,
+       "to"
+      ],
+      [
+       20.008,
+       "your"
+      ],
+      [
+       20.168,
+       "nearest"
+      ],
+      [
+       20.648,
+       "exit."
+      ]
+     ]
+    },
+    {
+     "text": "In smoke, you'll find it by touch.",
+     "start": 21.82,
+     "end": 24.43,
+     "words": [
+      [
+       21.82,
+       "In"
+      ],
+      [
+       22.169,
+       "smoke,"
+      ],
+      [
+       22.77,
+       "you'll"
+      ],
+      [
+       23.009,
+       "find"
+      ],
+      [
+       23.249,
+       "it"
+      ],
+      [
+       23.409,
+       "by"
+      ],
+      [
+       23.649,
+       "touch."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Keep your seatbelt low and tight, and keep your shoes on.",
+   "start": 25.03,
+   "end": 28.954,
+   "phrases": [
+    {
+     "text": "Keep your seatbelt low and tight,",
+     "start": 25.03,
+     "end": 27.184,
+     "words": [
+      [
+       25.03,
+       "Keep"
+      ],
+      [
+       25.335,
+       "your"
+      ],
+      [
+       25.495,
+       "seatbelt"
+      ],
+      [
+       26.055,
+       "low"
+      ],
+      [
+       26.375,
+       "and"
+      ],
+      [
+       26.615,
+       "tight,"
+      ]
+     ]
+    },
+    {
+     "text": "and keep your shoes on.",
+     "start": 27.634,
+     "end": 28.954,
+     "words": [
+      [
+       27.634,
+       "and"
+      ],
+      [
+       27.874,
+       "keep"
+      ],
+      [
+       28.114,
+       "your"
+      ],
+      [
+       28.354,
+       "shoes"
+      ],
+      [
+       28.674,
+       "on."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "If the crew shouts \u201cbrace\u201d, head down against the seat in front, feet flat on the floor.",
+   "start": 29.554,
+   "end": 35.455,
+   "phrases": [
+    {
+     "text": "If the crew shouts \u201cbrace\u201d,",
+     "start": 29.554,
+     "end": 31.164,
+     "words": [
+      [
+       29.554,
+       "If"
+      ],
+      [
+       29.754,
+       "the"
+      ],
+      [
+       29.874,
+       "crew"
+      ],
+      [
+       30.194,
+       "shouts"
+      ],
+      [
+       30.554,
+       "\"brace\","
+      ]
+     ]
+    },
+    {
+     "text": "head down against the seat in front, feet flat on the floor.",
+     "start": 31.614,
+     "end": 35.455,
+     "words": [
+      [
+       31.614,
+       "head"
+      ],
+      [
+       31.974,
+       "down"
+      ],
+      [
+       32.174,
+       "against"
+      ],
+      [
+       32.574,
+       "the"
+      ],
+      [
+       32.734,
+       "seat"
+      ],
+      [
+       32.974,
+       "in"
+      ],
+      [
+       33.214,
+       "front,"
+      ],
+      [
+       33.694,
+       "feet"
+      ],
+      [
+       34.094,
+       "flat"
+      ],
+      [
+       34.494,
+       "on"
+      ],
+      [
+       34.614,
+       "the"
+      ],
+      [
+       34.734,
+       "floor."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "When the plane stops,/ leave your bag. Planes are built so everyone can get out in ninety seconds. Grabbing luggage has cost lives.",
+   "start": 36.055,
+   "end": 45.933,
+   "phrases": [
+    {
+     "text": "When the plane stops,/ leave your bag.",
+     "start": 36.055,
+     "end": 38.6,
+     "words": [
+      [
+       36.055,
+       "When"
+      ],
+      [
+       36.239,
+       "the"
+      ],
+      [
+       36.359,
+       "plane"
+      ],
+      [
+       36.759,
+       "stops,"
+      ],
+      [
+       37.479,
+       "leave"
+      ],
+      [
+       37.719,
+       "your"
+      ],
+      [
+       38.199,
+       "bag."
+      ]
+     ]
+    },
+    {
+     "text": "Planes are built so everyone can get out in ninety seconds.",
+     "start": 39.05,
+     "end": 42.715,
+     "words": [
+      [
+       39.05,
+       "Planes"
+      ],
+      [
+       39.431,
+       "are"
+      ],
+      [
+       39.631,
+       "built"
+      ],
+      [
+       39.831,
+       "so"
+      ],
+      [
+       40.151,
+       "everyone"
+      ],
+      [
+       40.631,
+       "can"
+      ],
+      [
+       40.791,
+       "get"
+      ],
+      [
+       40.951,
+       "out"
+      ],
+      [
+       41.111,
+       "in"
+      ],
+      [
+       41.351,
+       "ninety"
+      ],
+      [
+       42.231,
+       "seconds."
+      ]
+     ]
+    },
+    {
+     "text": "Grabbing luggage has cost lives.",
+     "start": 43.165,
+     "end": 45.933,
+     "words": [
+      [
+       43.165,
+       "Grabbing"
+      ],
+      [
+       43.713,
+       "luggage"
+      ],
+      [
+       44.313,
+       "has"
+      ],
+      [
+       44.513,
+       "cost"
+      ],
+      [
+       44.993,
+       "lives."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Where do you sit when you fly? Tell me in the comments.",
+   "start": 46.533,
+   "end": 50.029,
+   "phrases": [
+    {
+     "text": "Where do you sit when you fly?",
+     "start": 46.533,
+     "end": 48.364,
+     "words": [
+      [
+       46.533,
+       "Where"
+      ],
+      [
+       46.748,
+       "do"
+      ],
+      [
+       46.908,
+       "you"
+      ],
+      [
+       47.068,
+       "sit"
+      ],
+      [
+       47.308,
+       "when"
+      ],
+      [
+       47.468,
+       "you"
+      ],
+      [
+       47.628,
+       "fly?"
+      ]
+     ]
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 48.814,
+     "end": 50.029,
+     "words": [
+      [
+       48.814,
+       "Tell"
+      ],
+      [
+       49.079,
+       "me"
+      ],
+      [
+       49.199,
+       "in"
+      ],
+      [
+       49.279,
+       "the"
+      ],
+      [
+       49.439,
+       "comments."
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 7.761
+  },
+  {
+   "start": 7.761,
+   "end": 17.458
+  },
+  {
+   "start": 17.458,
+   "end": 24.88
+  },
+  {
+   "start": 24.88,
+   "end": 29.404
+  },
+  {
+   "start": 29.404,
+   "end": 35.905
+  },
+  {
+   "start": 35.905,
+   "end": 46.383
+  },
+  {
+   "start": 46.383,
+   "end": 52.429
+  }
+ ]
+}

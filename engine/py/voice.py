@@ -28,6 +28,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 MODELS = os.path.join(ROOT, "TheShortAnswer", "models")
 CACHE = os.path.join(ROOT, ".tts_cache")
 EL_DEFAULT = {"id": "kPzsL2i3teMYv0FxEYQ6", "model": "eleven_v4", "settings": {}}  # Brittney, natural pace (v4 ignores speed)
+LAST_WORDS = []
 EL_SETTINGS = {"stability": 0.5, "similarity_boost": 0.75, "style": 0.0, "use_speaker_boost": True}
 
 
@@ -50,6 +51,8 @@ def eleven(text, cfg, prev="", nxt=""):
         body["previous_text"] = prev
     if nxt:
         body["next_text"] = nxt
+    if cfg.get("seed") is not None:   # a fresh take for one phrase: voice.retake {"line.phrase": seed} in episode.json
+        body["seed"] = int(cfg["seed"])
     key = hashlib.sha1(json.dumps([cfg["id"], body, "ts"], sort_keys=True).encode()).hexdigest()
     os.makedirs(CACHE, exist_ok=True)
     path = os.path.join(CACHE, key + ".json")
@@ -101,6 +104,17 @@ def eleven(text, cfg, prev="", nxt=""):
                 if run >= 25 and (db[k + 1:] > -36).any():
                     a = a[: tail0 + (k - run + 1) * fr + int(0.04 * SR)]
                     break
+        # word start times (s, relative to the cut) from the character alignment, for captions that follow the voice
+        global LAST_WORDS
+        LAST_WORDS = []
+        for i, ch in enumerate(chars):
+            if ch.strip() and (i == 0 or not chars[i - 1].strip()):
+                j = i
+                while j < len(chars) and chars[j].strip():
+                    j += 1
+                w = "".join(chars[i:j])
+                if any(c.isalnum() for c in w):
+                    LAST_WORDS.append([round(max(0.0, t0s[i] - i0 / SR), 3), w])
     return a
 
 
@@ -191,7 +205,9 @@ def main(ep_dir):
                 if engine == "elevenlabs":
                     prev = " ".join(spoken(q) for q in ([all_lines[li - 2]] if li > 1 else []) + parts[:pi]).replace("|", "")
                     nxt = " ".join(spoken(q) for q in parts[pi + 1:] + ([all_lines[li]] if li < len(all_lines) else [])).replace("|", "")
-                    a = level(edge_fades(eleven(spoken(part), {**cfg, "id": voice}, prev[-600:], nxt[:600])))
+                    seed = cfg.get("retake", {}).get(f"{li - 1 - pre}.{pi}")   # 0-based film line index . phrase index
+                    a = level(edge_fades(eleven(spoken(part), {**cfg, "id": voice, "seed": seed}, prev[-600:], nxt[:600])))
+                    words = [w for w in LAST_WORDS if w[0] < len(a) / SR]
                 else:
                     if tts is None:
                         from kokoro_onnx import Kokoro
@@ -199,10 +215,13 @@ def main(ep_dir):
                     samples, sr = tts.create(spoken(part), voice=voice, speed=speed, lang="en-gb" if voice[0] == "b" else "en-us")
                     a = trim(to_48k(samples, sr))
                     a /= max(1e-6, np.max(np.abs(a))) / 0.9
+                    words = None
                 if pi:
                     t += phrase_gap
                 segments.append((t, a))
                 phrases.append({"text": shown(part), "start": round(t, 3), "end": round(t + len(a) / SR, 3)})
+                if words:   # spoken words with their start times (main.js captions use them when they match the shown words)
+                    phrases[-1]["words"] = [[round(t + ws, 3), w] for ws, w in words]
                 t += len(a) / SR
         lines.append({"text": " ".join(ph["text"] for ph in phrases), "start": phrases[0]["start"], "end": phrases[-1]["end"],
                       "phrases": phrases})

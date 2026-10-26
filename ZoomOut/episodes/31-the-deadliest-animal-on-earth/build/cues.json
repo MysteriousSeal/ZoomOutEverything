@@ -1,0 +1,170 @@
+[
+ {
+  "t": 0,
+  "name": "deep",
+  "gain": 0.34,
+  "pitch": 0.7,
+  "scene": "env"
+ },
+ {
+  "t": 3.377,
+  "name": "impact",
+  "gain": 0.24,
+  "pitch": 0.85,
+  "scene": "env"
+ },
+ {
+  "t": 6.041,
+  "name": "swish",
+  "gain": 0.15,
+  "pitch": 0.595,
+  "scene": "env"
+ },
+ {
+  "t": 7.105860000000001,
+  "name": "count",
+  "gain": 0.07,
+  "pitch": 1.2,
+  "scene": "env"
+ },
+ {
+  "t": 9.646,
+  "name": "swish",
+  "gain": 0.15,
+  "pitch": 0.7,
+  "scene": "env"
+ },
+ {
+  "t": 11.138,
+  "name": "count",
+  "gain": 0.07,
+  "pitch": 1,
+  "scene": "env"
+ },
+ {
+  "t": 14.35821,
+  "name": "blip",
+  "gain": 0.1,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 15.903339999999998,
+  "name": "ping",
+  "gain": 0.1,
+  "pitch": 1.1,
+  "scene": "env"
+ },
+ {
+  "t": 17.322,
+  "name": "swish",
+  "gain": 0.15,
+  "pitch": 0.595,
+  "scene": "env"
+ },
+ {
+  "t": 18.81552,
+  "name": "count",
+  "gain": 0.07,
+  "pitch": 1,
+  "scene": "env"
+ },
+ {
+  "t": 21.335720000000002,
+  "name": "shimmer",
+  "gain": 0.1,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 22.715999999999998,
+  "name": "swish",
+  "gain": 0.15,
+  "pitch": 0.7,
+  "scene": "env"
+ },
+ {
+  "t": 24.458492,
+  "name": "count",
+  "gain": 0.07,
+  "pitch": 1,
+  "scene": "env"
+ },
+ {
+  "t": 29.809434,
+  "name": "dive",
+  "gain": 0.16,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 31.095,
+  "name": "impact",
+  "gain": 0.26,
+  "pitch": 0.75,
+  "scene": "env"
+ },
+ {
+  "t": 34.098238,
+  "name": "tick",
+  "gain": 0.09,
+  "pitch": 1.25,
+  "scene": "env"
+ },
+ {
+  "t": 34.773058,
+  "name": "tick",
+  "gain": 0.09,
+  "pitch": 1.25,
+  "scene": "env"
+ },
+ {
+  "t": 35.52034,
+  "name": "tick",
+  "gain": 0.09,
+  "pitch": 1.25,
+  "scene": "env"
+ },
+ {
+  "t": 37.015,
+  "name": "whoosh",
+  "gain": 0.2,
+  "pitch": 0.75,
+  "scene": "env"
+ },
+ {
+  "t": 39.205367,
+  "name": "count",
+  "gain": 0.07,
+  "pitch": 1,
+  "scene": "env"
+ },
+ {
+  "t": 44.48086,
+  "name": "blip",
+  "gain": 0.1,
+  "pitch": 0.8,
+  "scene": "env"
+ },
+ {
+  "t": 46.321,
+  "name": "swish",
+  "gain": 0.15,
+  "pitch": 0.595,
+  "scene": "env"
+ },
+ {
+  "t": 46.671,
+  "name": "bloom",
+  "gain": 0.16,
+  "pitch": 1.1,
+  "scene": "env"
+ },
+ {
+  "t": 49.183,
+  "name": "ping",
+  "gain": 0.18,
+  "pitch": 1,
+  "scene": "env"
+ }
+]

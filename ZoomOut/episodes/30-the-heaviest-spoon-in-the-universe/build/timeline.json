@@ -1,0 +1,659 @@
+{
+ "voice": "kPzsL2i3teMYv0FxEYQ6",
+ "speed": 0.92,
+ "total": 53.008,
+ "preroll": 0,
+ "lines": [
+  {
+   "text": "One teaspoon of this weighs more than every human on Earth. Combined.",
+   "start": 0.3,
+   "end": 5.205,
+   "phrases": [
+    {
+     "text": "One teaspoon of this weighs more than every human on Earth.",
+     "start": 0.3,
+     "end": 4.085,
+     "words": [
+      [
+       0.3,
+       "One"
+      ],
+      [
+       0.665,
+       "teaspoon"
+      ],
+      [
+       1.145,
+       "of"
+      ],
+      [
+       1.385,
+       "this"
+      ],
+      [
+       1.625,
+       "weighs"
+      ],
+      [
+       2.025,
+       "more"
+      ],
+      [
+       2.185,
+       "than"
+      ],
+      [
+       2.705,
+       "every"
+      ],
+      [
+       2.985,
+       "human"
+      ],
+      [
+       3.385,
+       "on"
+      ],
+      [
+       3.705,
+       "Earth."
+      ]
+     ]
+    },
+    {
+     "text": "Combined.",
+     "start": 4.535,
+     "end": 5.205,
+     "words": [
+      [
+       4.535,
+       "Combined."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "It's a neutron star: what's left when a giant star dies and its core collapses.",
+   "start": 6.105,
+   "end": 11.808,
+   "phrases": [
+    {
+     "text": "It's a neutron star:",
+     "start": 6.105,
+     "end": 7.394,
+     "words": [
+      [
+       6.105,
+       "It's"
+      ],
+      [
+       6.334,
+       "a"
+      ],
+      [
+       6.494,
+       "neutron"
+      ],
+      [
+       7.054,
+       "star:"
+      ]
+     ]
+    },
+    {
+     "text": "what's left when a giant star dies and its core collapses.",
+     "start": 7.844,
+     "end": 11.808,
+     "words": [
+      [
+       7.844,
+       "what's"
+      ],
+      [
+       8.221,
+       "left"
+      ],
+      [
+       8.541,
+       "when"
+      ],
+      [
+       8.741,
+       "a"
+      ],
+      [
+       8.941,
+       "giant"
+      ],
+      [
+       9.341,
+       "star"
+      ],
+      [
+       9.661,
+       "dies"
+      ],
+      [
+       10.221,
+       "and"
+      ],
+      [
+       10.421,
+       "its"
+      ],
+      [
+       10.621,
+       "core"
+      ],
+      [
+       11.061,
+       "collapses."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "More mass than our Sun, crushed into a ball twenty kilometres wide: the size of a city.",
+   "start": 12.408,
+   "end": 19.302,
+   "phrases": [
+    {
+     "text": "More mass than our Sun,",
+     "start": 12.408,
+     "end": 13.888,
+     "words": [
+      [
+       12.408,
+       "More"
+      ],
+      [
+       12.728,
+       "mass"
+      ],
+      [
+       13.048,
+       "than"
+      ],
+      [
+       13.208,
+       "our"
+      ],
+      [
+       13.528,
+       "Sun,"
+      ]
+     ]
+    },
+    {
+     "text": "crushed into a ball twenty kilometres wide: the size of a city.",
+     "start": 14.338,
+     "end": 19.302,
+     "words": [
+      [
+       14.338,
+       "crushed"
+      ],
+      [
+       14.738,
+       "into"
+      ],
+      [
+       15.058,
+       "a"
+      ],
+      [
+       15.298,
+       "ball"
+      ],
+      [
+       15.698,
+       "twenty"
+      ],
+      [
+       16.018,
+       "kilometres"
+      ],
+      [
+       16.738,
+       "wide:"
+      ],
+      [
+       17.618,
+       "the"
+      ],
+      [
+       17.858,
+       "size"
+      ],
+      [
+       18.098,
+       "of"
+      ],
+      [
+       18.338,
+       "a"
+      ],
+      [
+       18.418,
+       "city."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Atoms are crushed so hard that protons and electrons merge into neutrons, packed shoulder to shoulder.",
+   "start": 19.902,
+   "end": 27.526,
+   "phrases": [
+    {
+     "text": "Atoms are crushed so hard",
+     "start": 19.902,
+     "end": 21.836,
+     "words": [
+      [
+       19.902,
+       "Atoms"
+      ],
+      [
+       20.302,
+       "are"
+      ],
+      [
+       20.462,
+       "crushed"
+      ],
+      [
+       21.022,
+       "so"
+      ],
+      [
+       21.342,
+       "hard"
+      ]
+     ]
+    },
+    {
+     "text": "that protons and electrons merge into neutrons, packed shoulder to shoulder.",
+     "start": 22.286,
+     "end": 27.526,
+     "words": [
+      [
+       22.286,
+       "that"
+      ],
+      [
+       22.526,
+       "protons"
+      ],
+      [
+       23.166,
+       "and"
+      ],
+      [
+       23.326,
+       "electrons"
+      ],
+      [
+       24.206,
+       "merge"
+      ],
+      [
+       24.686,
+       "into"
+      ],
+      [
+       24.926,
+       "neutrons,"
+      ],
+      [
+       26.046,
+       "packed"
+      ],
+      [
+       26.366,
+       "shoulder"
+      ],
+      [
+       26.766,
+       "to"
+      ],
+      [
+       27.086,
+       "shoulder."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "So one teaspoon weighs about a billion tonnes. All eight billion of us together weigh less.",
+   "start": 28.126,
+   "end": 35.347,
+   "phrases": [
+    {
+     "text": "So one teaspoon weighs about a billion tonnes.",
+     "start": 28.126,
+     "end": 31.526,
+     "words": [
+      [
+       28.126,
+       "So"
+      ],
+      [
+       28.526,
+       "one"
+      ],
+      [
+       28.766,
+       "teaspoon"
+      ],
+      [
+       29.486,
+       "weighs"
+      ],
+      [
+       29.726,
+       "about"
+      ],
+      [
+       30.046,
+       "a"
+      ],
+      [
+       30.366,
+       "billion"
+      ],
+      [
+       30.926,
+       "tonnes."
+      ]
+     ]
+    },
+    {
+     "text": "All eight billion of us together weigh less.",
+     "start": 31.976,
+     "end": 35.347,
+     "words": [
+      [
+       31.976,
+       "All"
+      ],
+      [
+       32.376,
+       "eight"
+      ],
+      [
+       32.696,
+       "billion"
+      ],
+      [
+       33.056,
+       "of"
+      ],
+      [
+       33.176,
+       "us"
+      ],
+      [
+       33.456,
+       "together"
+      ],
+      [
+       34.256,
+       "weigh"
+      ],
+      [
+       34.456,
+       "less."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "And some of them spin over seven hundred times a second.",
+   "start": 35.947,
+   "end": 39.847,
+   "phrases": [
+    {
+     "text": "And some of them spin over seven hundred times a second.",
+     "start": 35.947,
+     "end": 39.847,
+     "words": [
+      [
+       35.947,
+       "And"
+      ],
+      [
+       36.187,
+       "some"
+      ],
+      [
+       36.387,
+       "of"
+      ],
+      [
+       36.507,
+       "them"
+      ],
+      [
+       36.747,
+       "spin"
+      ],
+      [
+       37.067,
+       "over"
+      ],
+      [
+       37.627,
+       "seven"
+      ],
+      [
+       37.867,
+       "hundred"
+      ],
+      [
+       38.187,
+       "times"
+      ],
+      [
+       38.587,
+       "a"
+      ],
+      [
+       39.347,
+       "second."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Drop a marshmallow on one, and it hits with the energy of an atomic bomb.",
+   "start": 40.447,
+   "end": 45.838,
+   "phrases": [
+    {
+     "text": "Drop a marshmallow on one,",
+     "start": 40.447,
+     "end": 42.017,
+     "words": [
+      [
+       40.447,
+       "Drop"
+      ],
+      [
+       40.767,
+       "a"
+      ],
+      [
+       40.927,
+       "marshmallow"
+      ],
+      [
+       41.567,
+       "on"
+      ],
+      [
+       41.727,
+       "one,"
+      ]
+     ]
+    },
+    {
+     "text": "and it hits with the energy of an atomic bomb.",
+     "start": 42.467,
+     "end": 45.838,
+     "words": [
+      [
+       42.467,
+       "and"
+      ],
+      [
+       42.707,
+       "it"
+      ],
+      [
+       42.867,
+       "hits"
+      ],
+      [
+       43.187,
+       "with"
+      ],
+      [
+       43.387,
+       "the"
+      ],
+      [
+       43.587,
+       "energy"
+      ],
+      [
+       44.067,
+       "of"
+      ],
+      [
+       44.187,
+       "an"
+      ],
+      [
+       44.547,
+       "atomic"
+      ],
+      [
+       44.947,
+       "bomb."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "What's the wildest space fact you know? Tell me in the comments.",
+   "start": 46.438,
+   "end": 50.608,
+   "phrases": [
+    {
+     "text": "What's the wildest space fact you know?",
+     "start": 46.438,
+     "end": 49.01,
+     "words": [
+      [
+       46.438,
+       "What's"
+      ],
+      [
+       46.83,
+       "the"
+      ],
+      [
+       47.03,
+       "wildest"
+      ],
+      [
+       47.67,
+       "space"
+      ],
+      [
+       47.91,
+       "fact"
+      ],
+      [
+       48.23,
+       "you"
+      ],
+      [
+       48.39,
+       "know?"
+      ]
+     ]
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 49.46,
+     "end": 50.608,
+     "words": [
+      [
+       49.46,
+       "Tell"
+      ],
+      [
+       49.678,
+       "me"
+      ],
+      [
+       49.798,
+       "in"
+      ],
+      [
+       49.918,
+       "the"
+      ],
+      [
+       50.278,
+       "comments."
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 5.955
+  },
+  {
+   "start": 5.955,
+   "end": 12.258
+  },
+  {
+   "start": 12.258,
+   "end": 19.752
+  },
+  {
+   "start": 19.752,
+   "end": 27.976
+  },
+  {
+   "start": 27.976,
+   "end": 35.797
+  },
+  {
+   "start": 35.797,
+   "end": 40.297
+  },
+  {
+   "start": 40.297,
+   "end": 46.288
+  },
+  {
+   "start": 46.288,
+   "end": 53.008
+  }
+ ]
+}

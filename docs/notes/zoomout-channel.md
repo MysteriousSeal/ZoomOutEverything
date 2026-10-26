@@ -167,3 +167,7 @@ Engine: kit.js/thumb.js top bar uses title when no episodeLabel; main.js caption
 
 ## Voice trim rewrite (2026-10-26, after a voice audit of 26–28)
 voice.py eleven(): 0.12 s pre-roll + onset search (30 ms clipped consonants), tail cut at first −40 dB silence after the last char, plus a safety net cutting a ≥250 ms gap followed by sound (ElevenLabs alignment can stretch the last chars across the gap, leaking the next phrase's first sound as a blip). level() soft-limits instead of capping gain. render.mjs: alimiter after loudnorm (an AAC left-channel over at +1.9 dBTP was measured). main.js captions weight numerals by spoken length. Re-running voice.py now re-cuts timing: do NOT re-voice posted episodes (09b, 25) casually.
+
+## Eps 29–31 + engine (2026-10-26 evening)
+29 Plane Crash (How to Survive #3), 30 Heaviest Spoon (neutron star; "heavier than Everest" is a myth: teaspoon ≈1–3 Gt vs Everest ≈160 Gt, so compare with all humans ≈0.4–0.5 Gt), 31 Deadliest Animal (WHO/ISAF/UNODC). Process that works: one builder agent per episode (reads tools/briefs/build-lessons.md) → 2 read-only reviewers (full-res detail visual; voice+facts with STT/pitch) → fixer → my contact-sheet check.
+Engine: voice.py writes phrases[].words (real word starts from ElevenLabs alignment); main.js captions use them. episode.json voice.retake {"line.phrase": seed} re-takes one phrase (used to fix question-like rising endings; check with librosa pyin in the stt2 venv). Closing "Tell me in the comments" is systematically perky (+7 st): user not yet asked about re-taking.

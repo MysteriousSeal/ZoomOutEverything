@@ -1,0 +1,20 @@
+{
+  "mode": "world",
+  "time": 41.2,
+  "zoom": 1.25,
+  "fx": 0.5,
+  "fy": 0.55,
+  "tx": 0.5,
+  "ty": 0.535,
+  "lines": [
+    "HOW TO SURVIVE",
+    "A *PLANE CRASH*"
+  ],
+  "stat": {
+    "big": "BUILT TO EMPTY",
+    "small": "IN 90 SECONDS",
+    "x": 540,
+    "y": 1420,
+    "size": 88
+  }
+}
