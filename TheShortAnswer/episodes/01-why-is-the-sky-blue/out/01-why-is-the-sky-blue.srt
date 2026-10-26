@@ -1,0 +1,28 @@
+1
+00:00:00,300 --> 00:00:01,725
+Why is the sky blue?
+
+2
+00:00:01,825 --> 00:00:05,601
+Sunlight looks white, but it's actually every color mixed together.
+
+3
+00:00:05,701 --> 00:00:09,888
+In the atmosphere, it crashes into trillions of tiny air molecules.
+
+4
+00:00:09,988 --> 00:00:14,244
+Blue light travels in short, choppy waves, so it gets scattered everywhere.
+
+5
+00:00:14,344 --> 00:00:17,805
+Red light's long, lazy waves mostly pass straight through.
+
+6
+00:00:17,905 --> 00:00:21,060
+So wherever you look, scattered blue light is coming at you.
+
+7
+00:00:21,160 --> 00:00:27,393
+At sunset, light crosses so much more air that the blue scatters away, leaving the reds and oranges.
+

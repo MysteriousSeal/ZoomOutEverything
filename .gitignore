@@ -8,10 +8,10 @@ node_modules/
 venv/
 __pycache__/
 build/
-out/
 TheShortAnswer/models/
 ZoomOut/voice-samples/
-*.mp4
 *.mov
 # OS
 .DS_Store
+# over GitHub's 100 MB file limit
+ZoomOut/long/01-from-your-hand-to-the-edge-of-the-universe/out/01-from-your-hand-to-the-edge-of-the-universe.mp4

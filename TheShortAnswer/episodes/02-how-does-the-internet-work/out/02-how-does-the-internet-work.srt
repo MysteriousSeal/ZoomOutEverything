@@ -1,0 +1,28 @@
+1
+00:00:00,300 --> 00:00:02,428
+Where does this video actually come from?
+
+2
+00:00:02,528 --> 00:00:07,334
+Every file online gets chopped into thousands of tiny pieces, called packets.
+
+3
+00:00:07,434 --> 00:00:10,596
+Each one is labeled with where it's going, and where it fits.
+
+4
+00:00:10,696 --> 00:00:15,997
+They travel as pulses of light through fiber-optic cables, even across the ocean floor.
+
+5
+00:00:16,097 --> 00:00:19,845
+Every packet can take a different route, so some arrive out of order.
+
+6
+00:00:19,945 --> 00:00:24,534
+Your phone sorts them, asks again for anything missing, and rebuilds the file.
+
+7
+00:00:24,634 --> 00:00:28,429
+All of that happens in milliseconds, just to show you this sentence.
+

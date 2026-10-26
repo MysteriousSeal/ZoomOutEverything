@@ -1,0 +1,391 @@
+1
+00:00:01,200 --> 00:00:02,931
+This is a human hand.
+
+2
+00:00:03,131 --> 00:00:05,294
+About ten centimeters across.
+
+3
+00:00:06,194 --> 00:00:09,801
+Now let's zoom out, ten times wider at
+every step,
+
+4
+00:00:10,001 --> 00:00:12,926
+until we reach the edge of everything we
+can see.
+
+5
+00:00:13,426 --> 00:00:16,780
+A person, lying in the grass on a summer
+afternoon.
+
+6
+00:00:17,280 --> 00:00:20,023
+A blanket, a few trees, and a footpath.
+
+7
+00:00:20,523 --> 00:00:22,348
+This is the Sheep Meadow,
+
+8
+00:00:22,548 --> 00:00:24,479
+in New York's Central Park.
+
+9
+00:00:24,979 --> 00:00:27,291
+The park is four kilometers long,
+
+10
+00:00:27,491 --> 00:00:30,239
+a green rectangle cut out of the city
+grid.
+
+11
+00:00:30,739 --> 00:00:34,172
+Manhattan: an island twenty-one kilometers
+long,
+
+12
+00:00:34,372 --> 00:00:37,204
+home to more than one and a half million
+people.
+
+13
+00:00:37,704 --> 00:00:38,999
+The whole city,
+
+14
+00:00:39,199 --> 00:00:42,877
+wrapped around one of the largest natural
+harbors in the world.
+
+15
+00:00:43,377 --> 00:00:45,600
+The east coast of North America,
+
+16
+00:00:45,800 --> 00:00:48,220
+and the curve of the planet starts to
+show.
+
+17
+00:00:49,720 --> 00:00:50,806
+The Earth.
+
+18
+00:00:51,006 --> 00:00:54,268
+Twelve thousand seven hundred kilometers
+across.
+
+19
+00:00:55,968 --> 00:01:00,570
+The International Space Station orbits
+just four hundred kilometers up,
+
+20
+00:01:00,770 --> 00:01:03,136
+barely above the surface at this scale.
+
+21
+00:01:03,636 --> 00:01:04,709
+The Moon,
+
+22
+00:01:04,909 --> 00:01:08,214
+three hundred eighty-four thousand
+kilometers away.
+
+23
+00:01:08,414 --> 00:01:11,134
+Light makes the trip in just over a
+second.
+
+24
+00:01:11,634 --> 00:01:15,631
+Only a handful of humans have ever
+traveled this far from home.
+
+25
+00:01:16,131 --> 00:01:17,204
+The Sun.
+
+26
+00:01:17,404 --> 00:01:20,420
+A hundred and fifty million kilometers
+away.
+
+27
+00:01:20,620 --> 00:01:23,379
+Its light takes about eight minutes to
+reach us.
+
+28
+00:01:23,879 --> 00:01:26,363
+Mercury, Venus, Earth, Mars:
+
+29
+00:01:26,563 --> 00:01:28,310
+the rocky inner planets,
+
+30
+00:01:28,510 --> 00:01:30,989
+and past them, the asteroid belt.
+
+31
+00:01:31,489 --> 00:01:32,945
+Then the giants:
+
+32
+00:01:33,145 --> 00:01:35,394
+Jupiter, Saturn, Uranus,
+
+33
+00:01:35,594 --> 00:01:38,933
+and Neptune, four and a half billion
+kilometers out.
+
+34
+00:01:39,433 --> 00:01:42,948
+Voyager 1, launched in nineteen
+seventy-seven,
+
+35
+00:01:43,148 --> 00:01:46,107
+is the farthest object humans have ever
+built.
+
+36
+00:01:46,307 --> 00:01:48,510
+It's nearly a full light-day away.
+
+37
+00:01:49,010 --> 00:01:52,238
+A light-year is nearly ten trillion
+kilometers.
+
+38
+00:01:52,438 --> 00:01:56,776
+Around the Sun, the Oort cloud may hold
+trillions of icy comets,
+
+39
+00:01:56,976 --> 00:01:59,315
+stretching more than a light-year out.
+
+40
+00:01:59,815 --> 00:02:01,541
+Four light-years away:
+
+41
+00:02:01,741 --> 00:02:04,221
+Proxima Centauri, the nearest star.
+
+42
+00:02:04,421 --> 00:02:08,276
+Voyager would need more than seventy
+thousand years to get there.
+
+43
+00:02:08,776 --> 00:02:10,545
+Within ten light-years,
+
+44
+00:02:10,745 --> 00:02:13,038
+there are only about a dozen stars.
+
+45
+00:02:13,538 --> 00:02:16,057
+Nearly every star you can see at night
+
+46
+00:02:16,257 --> 00:02:18,798
+lies within a few thousand light-years.
+
+47
+00:02:20,098 --> 00:02:21,409
+The Milky Way.
+
+48
+00:02:21,609 --> 00:02:24,107
+A hundred thousand light-years across,
+
+49
+00:02:24,307 --> 00:02:26,647
+with hundreds of billions of stars.
+
+50
+00:02:28,647 --> 00:02:33,573
+We're out here, in a quiet arm, twenty-six
+thousand light-years from the center.
+
+51
+00:02:33,773 --> 00:02:38,637
+There, a black hole four million times
+heavier than the Sun sits waiting.
+
+52
+00:02:39,137 --> 00:02:43,605
+The Sun takes about two hundred thirty
+million years to go around once.
+
+53
+00:02:43,805 --> 00:02:45,576
+The last time we were here,
+
+54
+00:02:45,776 --> 00:02:48,279
+the first dinosaurs were just appearing.
+
+55
+00:02:48,779 --> 00:02:50,211
+The Local Group:
+
+56
+00:02:50,411 --> 00:02:52,536
+the Milky Way, Andromeda,
+
+57
+00:02:52,736 --> 00:02:55,007
+and dozens of smaller galaxies.
+
+58
+00:02:55,507 --> 00:02:58,883
+Andromeda is two and a half million
+light-years away.
+
+59
+00:02:59,083 --> 00:03:02,237
+On a dark night you can see it with your
+naked eye,
+
+60
+00:03:02,437 --> 00:03:06,090
+as light that set off long before our
+species existed.
+
+61
+00:03:06,590 --> 00:03:08,639
+Galaxies gather in groups,
+
+62
+00:03:08,839 --> 00:03:10,565
+groups into clusters,
+
+63
+00:03:10,765 --> 00:03:13,138
+and clusters into superclusters.
+
+64
+00:03:13,638 --> 00:03:17,253
+Ours is called Laniakea, Hawaiian for
+immense heaven:
+
+65
+00:03:17,453 --> 00:03:19,844
+about a hundred thousand galaxies,
+
+66
+00:03:20,044 --> 00:03:22,864
+spread across five hundred million
+light-years.
+
+67
+00:03:23,364 --> 00:03:24,741
+Zoom out again,
+
+68
+00:03:24,941 --> 00:03:28,213
+and the galaxies line up into filaments
+and walls,
+
+69
+00:03:28,413 --> 00:03:30,570
+around enormous empty voids.
+
+70
+00:03:30,770 --> 00:03:32,191
+The cosmic web.
+
+71
+00:03:33,691 --> 00:03:36,093
+Every point of light here is a galaxy.
+
+72
+00:03:36,593 --> 00:03:38,430
+The observable universe.
+
+73
+00:03:38,630 --> 00:03:41,205
+Ninety-three billion light-years across,
+
+74
+00:03:41,405 --> 00:03:44,225
+holding hundreds of billions of galaxies.
+
+75
+00:03:46,725 --> 00:03:50,091
+The universe is thirteen point eight
+billion years old,
+
+76
+00:03:50,291 --> 00:03:52,936
+but space has been stretching the whole
+time,
+
+77
+00:03:53,136 --> 00:03:58,092
+so the farthest light we see came from
+places that are now much farther away.
+
+78
+00:03:58,592 --> 00:04:01,229
+At the edge is the oldest light there is:
+
+79
+00:04:01,429 --> 00:04:03,505
+the afterglow of the Big Bang.
+
+80
+00:04:04,005 --> 00:04:07,194
+Beyond it, light hasn't had time to reach
+us yet.
+
+81
+00:04:07,394 --> 00:04:10,774
+Nobody knows how far the universe really
+goes.
+
+82
+00:04:11,274 --> 00:04:15,140
+And since light reaches us from every
+direction at the same speed,
+
+83
+00:04:15,340 --> 00:04:18,070
+the center of the observable universe
+
+84
+00:04:18,270 --> 00:04:19,858
+is right where you are.
+
+85
+00:04:20,958 --> 00:04:22,461
+So let's go back.
+
+86
+00:04:29,461 --> 00:04:30,870
+A human hand.
+
+87
+00:04:31,070 --> 00:04:33,124
+About twenty-eight steps of ten
+
+88
+00:04:33,324 --> 00:04:35,720
+from the edge of everything we can see.
+
+89
+00:04:36,220 --> 00:04:37,622
+Let's zoom out.
