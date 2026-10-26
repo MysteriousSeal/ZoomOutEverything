@@ -12,3 +12,4 @@ metadata:
 
 **Why:** user's explicit requests on 2026-10-26.
 **How to apply:** every new short. See [[zoomout-channel]] for the build process.
+- Every episode ships with a `youtube.md` (title, description ending "Tell me in the comments", sources, hashtags, tags, pinned comment with the A/B choices). The user had to ask for 25–28's: write it as part of the build, not after.

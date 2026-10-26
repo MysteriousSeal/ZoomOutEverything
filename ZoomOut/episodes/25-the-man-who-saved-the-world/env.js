@@ -220,7 +220,7 @@ export function seg7(c, str, x, y, h, on = AMBER, { offA = 0.08, alpha = 1, glow
     c.fill();
   };
   c.save();
-  c.transform(1, 0, -sk / h, 1, sk, 0);   // slight italic, like real LED digits
+  c.transform(1, 0, -sk / h, 1, (sk / h) * (y + h), 0);   // slight italic, like real LED digits (pivot on the digits' baseline, not the canvas origin)
   let cx = x;
   for (const ch of String(str)) {
     if (ch === ':' || ch === '.') {
@@ -527,7 +527,7 @@ function drawClock(c, str, R) {
   c.strokeStyle = 'rgb(60,62,60)';
   c.lineWidth = 0.02;
   c.strokeRect(R.x - R.w / 2, R.y - R.h / 2, R.w, R.h);
-  const h = R.h * 0.62, wd = seg7Width(str, h);
+  const h = Math.min(R.h * 0.62, (R.w * 0.84 - R.h * 0.06) / (seg7Width(str, 1) || 1)), wd = seg7Width(str, h);   // fit inside the panel
   seg7(c, str, R.x - wd / 2, R.y - h / 2, h, AMBER, { offA: 0.07, glow: 18 });
 }
 
