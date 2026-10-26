@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 1.5,
+  "zoom": 1.0,
+  "fx": 0.5,
+  "fy": 0.55,
+  "tx": 0.5,
+  "ty": 0.6,
+  "lines": [
+    "1 MAN STOPPED",
+    "A *NUCLEAR WAR*"
+  ],
+  "stat": {
+    "big": "26 SEP 1983",
+    "small": "THE COMPUTER SAID: LAUNCH",
+    "x": 540,
+    "y": 1640
+  }
+}

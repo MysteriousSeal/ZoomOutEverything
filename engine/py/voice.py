@@ -3,7 +3,7 @@
   <venv>/python engine/py/voice.py <episodeDir>
 
 Reads episode.json ("lines", "voice": {name, speed, lineGap, lead, tail, hookHold, phraseGap, holds}),
-The default voice is ElevenLabs Brittney (eleven_multilingual_v2, speed 1.1); "id", "model" and "settings" override it.
+The default voice is ElevenLabs Brittney on eleven_v4 at its natural pace; "id", "model" and "settings" override it.
 A "voice" block with a Kokoro "name" (or "engine": "kokoro") uses Kokoro instead. ElevenLabs needs ELEVENLABS_API_KEY in the
 environment or the project .env; each phrase is cached in .tts_cache/ by its text, voice, model and settings, so re-runs
 never spend credits twice.
@@ -27,7 +27,7 @@ SR = 48000
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 MODELS = os.path.join(ROOT, "TheShortAnswer", "models")
 CACHE = os.path.join(ROOT, ".tts_cache")
-EL_DEFAULT = {"id": "kPzsL2i3teMYv0FxEYQ6", "model": "eleven_multilingual_v2", "settings": {"speed": 1.1}}  # Brittney
+EL_DEFAULT = {"id": "kPzsL2i3teMYv0FxEYQ6", "model": "eleven_v4", "settings": {}}  # Brittney, natural pace (v4 ignores speed)
 EL_SETTINGS = {"stability": 0.5, "similarity_boost": 0.75, "style": 0.0, "use_speaker_boost": True}
 
 

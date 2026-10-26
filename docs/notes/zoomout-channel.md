@@ -157,3 +157,7 @@ User found SFX too loud (only 4–6 dB under voice). audio.py now: tanh soft-cap
 
 ## Default voice (2026-10-26)
 User made Brittney the default for future episodes. voice.py: no "voice.name" → ElevenLabs with EL_DEFAULT (Brittney kPzsL2i3teMYv0FxEYQ6, eleven_multilingual_v2, speed 1.1). All 51 older episodes have a Kokoro "name" so they stay Kokoro. Pacing ≈ Kokoro 0.92 (09b: 52.0 s vs 53.0 s of speech), so word-count guidance is unchanged.
+
+## Eps 25–28 (2026-10-26, ~60 s, Brittney v4, title in top bar)
+25 The Man Who Saved the World (Petrov, 67.4 s), 26 The Monster in the Pacific (2026 super El Niño news, 63.6 s, date-sensitive: publish soon), 27 How to Survive a Nuclear Blast (60.1 s), 28 How to Survive a Riot (59.0 s). "How to Survive" = new series: STEP badges + ISO-style pictograms (drawFigure in 27/28 env.js; 28's curl pose is a hand-built CURL_J). Process per ep: setup agent → 2 builders → finisher+render → 1 content + 2 visual auditors → fixer → my own contact-sheet check (I caught misses each time: empty hook bottom, kneeling "curl", count-up numbers, head poking out of card).
+Engine: kit.js/thumb.js top bar uses title when no episodeLabel; main.js captions never merge across a sentence end (stop flag) and EL/YOUR/MY… are joiners. Open choices left with user: 25 hook "STOPPED" vs "PREVENTED", "satellites" plural.

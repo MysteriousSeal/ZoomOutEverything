@@ -30,7 +30,7 @@ Inside each folder: `script.md`, `episode.json` (lines, voice, timing, music), `
 
 ## Voice
 
-New episodes use **ElevenLabs Brittney** (`eleven_multilingual_v2`, speed 1.1) by default. Older episodes name a Kokoro voice in `episode.json` and keep it. Every generated line is cached in `.tts_cache/`, so re-running `voice.py` reuses the same takes and spends no credits. The key goes in `.env` as `ELEVENLABS_API_KEY` and is never committed.
+New episodes use **ElevenLabs Brittney** on the **Eleven v4** model at its natural pace (no speed setting) by default. Older episodes name a Kokoro voice in `episode.json` and keep it. Every generated line is cached in `.tts_cache/`, so re-running `voice.py` reuses the same takes and spends no credits. The key goes in `.env` as `ELEVENLABS_API_KEY` and is never committed.
 
 ## Making a video
 

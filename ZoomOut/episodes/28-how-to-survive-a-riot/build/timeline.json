@@ -1,0 +1,214 @@
+{
+ "voice": "kPzsL2i3teMYv0FxEYQ6",
+ "speed": 0.92,
+ "total": 59.001,
+ "preroll": 0,
+ "lines": [
+  {
+   "text": "If a crowd turns into a riot, the biggest danger often isn't the violence. It's the crowd itself.",
+   "start": 0.3,
+   "end": 7.522,
+   "phrases": [
+    {
+     "text": "If a crowd turns into a riot,",
+     "start": 0.3,
+     "end": 2.391
+    },
+    {
+     "text": "the biggest danger often isn't the violence.",
+     "start": 2.741,
+     "end": 5.642
+    },
+    {
+     "text": "It's the crowd itself.",
+     "start": 5.992,
+     "end": 7.522
+    }
+   ]
+  },
+  {
+   "text": "Step one: leave early. The moment it turns,/ walk away. Don't stop to film.",
+   "start": 8.172,
+   "end": 14.715,
+   "phrases": [
+    {
+     "text": "Step one: leave early.",
+     "start": 8.172,
+     "end": 10.342
+    },
+    {
+     "text": "The moment it turns,/ walk away. Don't stop to film.",
+     "start": 10.692,
+     "end": 14.715
+    }
+   ]
+  },
+  {
+   "text": "Stay at the edges. Avoid walls, fences and narrow streets: that's where people get crushed.",
+   "start": 15.065,
+   "end": 22.418,
+   "phrases": [
+    {
+     "text": "Stay at the edges.",
+     "start": 15.065,
+     "end": 16.686
+    },
+    {
+     "text": "Avoid walls, fences and narrow streets: that's where people get crushed.",
+     "start": 17.036,
+     "end": 22.418
+    }
+   ]
+  },
+  {
+   "text": "If the crowd surges, don't fight it. Go with it, and drift sideways between waves.",
+   "start": 22.768,
+   "end": 29.098,
+   "phrases": [
+    {
+     "text": "If the crowd surges,",
+     "start": 22.768,
+     "end": 24.218
+    },
+    {
+     "text": "don't fight it.",
+     "start": 24.568,
+     "end": 25.538
+    },
+    {
+     "text": "Go with it, and drift sideways between waves.",
+     "start": 25.888,
+     "end": 29.098
+    }
+   ]
+  },
+  {
+   "text": "Arms up, like a boxer. Protect your chest, so you can keep breathing.",
+   "start": 29.448,
+   "end": 34.633,
+   "phrases": [
+    {
+     "text": "Arms up, like a boxer.",
+     "start": 29.448,
+     "end": 31.383
+    },
+    {
+     "text": "Protect your chest, so you can keep breathing.",
+     "start": 31.733,
+     "end": 34.633
+    }
+   ]
+  },
+  {
+   "text": "If you fall, get up fast. If you can't, curl up on your side and cover your head.",
+   "start": 34.983,
+   "end": 41.265,
+   "phrases": [
+    {
+     "text": "If you fall, get up fast.",
+     "start": 34.983,
+     "end": 37.309
+    },
+    {
+     "text": "If you can't, curl up on your side and cover your head.",
+     "start": 37.659,
+     "end": 41.265
+    }
+   ]
+  },
+  {
+   "text": "Tear gas? Move upwind and uphill. Don't rub your eyes: flush them with water.",
+   "start": 41.615,
+   "end": 48.025,
+   "phrases": [
+    {
+     "text": "Tear gas?",
+     "start": 41.615,
+     "end": 42.505
+    },
+    {
+     "text": "Move upwind and uphill.",
+     "start": 42.855,
+     "end": 45.105
+    },
+    {
+     "text": "Don't rub your eyes: flush them with water.",
+     "start": 45.455,
+     "end": 48.025
+    }
+   ]
+  },
+  {
+   "text": "Once you're out, get indoors, away from windows.",
+   "start": 48.375,
+   "end": 52.025,
+   "phrases": [
+    {
+     "text": "Once you're out, get indoors,",
+     "start": 48.375,
+     "end": 50.385
+    },
+    {
+     "text": "away from windows.",
+     "start": 50.735,
+     "end": 52.025
+    }
+   ]
+  },
+  {
+   "text": "Have you ever been in a crowd that turned? Tell me in the comments.",
+   "start": 52.375,
+   "end": 56.601,
+   "phrases": [
+    {
+     "text": "Have you ever been in a crowd that turned?",
+     "start": 52.375,
+     "end": 55.041
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 55.391,
+     "end": 56.601
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 8.022
+  },
+  {
+   "start": 8.022,
+   "end": 14.915
+  },
+  {
+   "start": 14.915,
+   "end": 22.618
+  },
+  {
+   "start": 22.618,
+   "end": 29.298
+  },
+  {
+   "start": 29.298,
+   "end": 34.833
+  },
+  {
+   "start": 34.833,
+   "end": 41.465
+  },
+  {
+   "start": 41.465,
+   "end": 48.225
+  },
+  {
+   "start": 48.225,
+   "end": 52.225
+  },
+  {
+   "start": 52.225,
+   "end": 59.001
+  }
+ ]
+}

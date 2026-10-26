@@ -53,10 +53,14 @@ export function makeCamera(KEYS, { anchor = 0.47, hookFrom = 0.85, drift = 4 } =
 /** Top bar: channel · episode label, timecode, progress line. */
 export function topBar(c, v, accent, ink = [235, 230, 222]) {
   c.save();
-  c.font = L.font(20, 600, L.FONT.body);
+  // label: the episode number, or the title for episodes released out of order (no episodeLabel); shrinks to clear the timecode
+  const label = `${v.ep.channel}  ·  ${v.ep.episodeLabel ?? v.ep.title.toUpperCase()}`;
+  let px = 20;
+  for (; px > 14; px--) { c.font = L.font(px, 600, L.FONT.body); c.letterSpacing = '4px'; const w = c.measureText(label).width; c.letterSpacing = '0px'; if (w <= W - 2 * TOP.m - 170) break; }
+  c.font = L.font(px, 600, L.FONT.body);
   c.fillStyle = L.rgba(ink, 0.75);
   c.textBaseline = 'middle';
-  L.trackedText(c, `${v.ep.channel}  ·  ${v.ep.episodeLabel}`, TOP.m, TOP.bar, 4);
+  L.trackedText(c, label, TOP.m, TOP.bar, 4);
   const n30 = Math.round(v.gt * 30), s = Math.floor(n30 / 30), f = n30 % 30;   // integer frames: no float floor jitter
   c.font = L.font(20, 400, L.FONT.mono);
   c.textAlign = 'right';

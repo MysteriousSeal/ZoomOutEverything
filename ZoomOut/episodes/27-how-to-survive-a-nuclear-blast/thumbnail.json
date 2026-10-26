@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 14.6,
+  "zoom": 1.0,
+  "fx": 0.5,
+  "fy": 0.6,
+  "tx": 0.5,
+  "ty": 0.6,
+  "lines": [
+    "HOW TO SURVIVE",
+    "A *NUCLEAR BLAST*"
+  ],
+  "stat": {
+    "big": "≈ 10 MINUTES",
+    "small": "TO GET INSIDE",
+    "x": 540,
+    "y": 1640
+  }
+}

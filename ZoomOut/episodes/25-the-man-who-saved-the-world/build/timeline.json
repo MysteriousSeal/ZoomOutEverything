@@ -1,0 +1,208 @@
+{
+ "voice": "kPzsL2i3teMYv0FxEYQ6",
+ "speed": 0.92,
+ "total": 67.385,
+ "preroll": 0,
+ "lines": [
+  {
+   "text": "In 1983, one man stopped a nuclear war by refusing to believe a computer.",
+   "start": 0.3,
+   "end": 6.903,
+   "phrases": [
+    {
+     "text": "In 1983, one man stopped a nuclear war",
+     "start": 0.3,
+     "end": 4.063
+    },
+    {
+     "text": "by refusing to believe a computer.",
+     "start": 4.413,
+     "end": 6.903
+    }
+   ]
+  },
+  {
+   "text": "September twenty-sixth. A secret bunker near Moscow. Just after midnight. Three weeks earlier, the Soviets had shot down a passenger jet. Tension is at its peak.",
+   "start": 7.553,
+   "end": 19.715,
+   "phrases": [
+    {
+     "text": "September twenty-sixth. A secret bunker near Moscow.",
+     "start": 7.553,
+     "end": 11.323
+    },
+    {
+     "text": "Just after midnight.",
+     "start": 11.673,
+     "end": 13.043
+    },
+    {
+     "text": "Three weeks earlier, the Soviets had shot down a passenger jet. Tension is at its peak.",
+     "start": 13.393,
+     "end": 19.715
+    }
+   ]
+  },
+  {
+   "text": "The alarm goes off: a US missile launch. Then another. Five in total. The computer rates it: high reliability.",
+   "start": 20.065,
+   "end": 29.886,
+   "phrases": [
+    {
+     "text": "The alarm goes off: a US missile launch.",
+     "start": 20.065,
+     "end": 23.195
+    },
+    {
+     "text": "Then another.",
+     "start": 23.545,
+     "end": 24.675
+    },
+    {
+     "text": "Five in total.",
+     "start": 25.025,
+     "end": 26.646
+    },
+    {
+     "text": "The computer rates it: high reliability.",
+     "start": 26.996,
+     "end": 29.886
+    }
+   ]
+  },
+  {
+   "text": "Stanislav Petrov has minutes to report it. A report could trigger a counterstrike, and a full nuclear war.",
+   "start": 30.236,
+   "end": 38.163,
+   "phrases": [
+    {
+     "text": "Stanislav Petrov has minutes to report it.",
+     "start": 30.236,
+     "end": 33.046
+    },
+    {
+     "text": "A report could trigger a counterstrike,",
+     "start": 33.396,
+     "end": 35.722
+    },
+    {
+     "text": "and a full nuclear war.",
+     "start": 36.072,
+     "end": 38.163
+    }
+   ]
+  },
+  {
+   "text": "But a real attack would be hundreds of missiles, not five. And the ground radar/ sees nothing.",
+   "start": 38.513,
+   "end": 44.978,
+   "phrases": [
+    {
+     "text": "But a real attack would be hundreds of missiles, not five.",
+     "start": 38.513,
+     "end": 42.458
+    },
+    {
+     "text": "And the ground radar/ sees nothing.",
+     "start": 42.808,
+     "end": 44.978
+    }
+   ]
+  },
+  {
+   "text": "He calls it a false alarm. And waits. Twenty-three minutes later, nothing has happened.",
+   "start": 45.328,
+   "end": 52.301,
+   "phrases": [
+    {
+     "text": "He calls it a false alarm.",
+     "start": 45.328,
+     "end": 47.419
+    },
+    {
+     "text": "And waits.",
+     "start": 47.769,
+     "end": 48.659
+    },
+    {
+     "text": "Twenty-three minutes later, nothing has happened.",
+     "start": 49.009,
+     "end": 52.301
+    }
+   ]
+  },
+  {
+   "text": "He was right. Sunlight on high clouds/ had fooled the satellites. The story stayed secret for fifteen years.",
+   "start": 52.651,
+   "end": 60.983,
+   "phrases": [
+    {
+     "text": "He was right.",
+     "start": 52.651,
+     "end": 53.541
+    },
+    {
+     "text": "Sunlight on high clouds/ had fooled the satellites.",
+     "start": 53.891,
+     "end": 57.262
+    },
+    {
+     "text": "The story stayed secret for fifteen years.",
+     "start": 57.612,
+     "end": 60.983
+    }
+   ]
+  },
+  {
+   "text": "Would you have trusted the computer? Tell me in the comments.",
+   "start": 61.333,
+   "end": 64.985,
+   "phrases": [
+    {
+     "text": "Would you have trusted the computer?",
+     "start": 61.333,
+     "end": 63.345
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 63.695,
+     "end": 64.985
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 7.403
+  },
+  {
+   "start": 7.403,
+   "end": 19.915
+  },
+  {
+   "start": 19.915,
+   "end": 30.086
+  },
+  {
+   "start": 30.086,
+   "end": 38.363
+  },
+  {
+   "start": 38.363,
+   "end": 45.178
+  },
+  {
+   "start": 45.178,
+   "end": 52.501
+  },
+  {
+   "start": 52.501,
+   "end": 61.183
+  },
+  {
+   "start": 61.183,
+   "end": 67.385
+  }
+ ]
+}

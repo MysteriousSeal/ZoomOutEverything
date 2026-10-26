@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 18.5,
+  "zoom": 1.0,
+  "fx": 0.5,
+  "fy": 0.5,
+  "tx": 0.5,
+  "ty": 0.52,
+  "lines": [
+    "THE *MONSTER*",
+    "IN THE PACIFIC"
+  ],
+  "stat": {
+    "big": "+3.3 °C",
+    "small": "CENTRAL PACIFIC, ABOVE NORMAL",
+    "x": 540,
+    "y": 1420
+  }
+}

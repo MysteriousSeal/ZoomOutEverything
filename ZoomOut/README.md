@@ -51,7 +51,7 @@ ZoomOut/
 
 Every episode ships `out/<slug>.mp4`, `out/cover.png` (the video frame at `coverTime`) and `out/thumbnail.png` (designed YouTube thumbnail, from `thumbnail.json` via `engine/node/thumb.mjs`).
 
-Each episode folder starts with a `script.md`. Production uses the shared [motion engine](../engine/README.md) (headless-Chrome Canvas, motion blur, ElevenLabs voice: Brittney by default). An episode in production adds `episode.json` (7 lines + settings), `BRIEF.md` (creative brief for the builder agents), `camera.js` and `env.js` (shared, orchestrator-owned), and `scenes/` (one file per beat). Episode 03 is the template.
+Each episode folder starts with a `script.md`. Production uses the shared [motion engine](../engine/README.md) (headless-Chrome Canvas, motion blur, ElevenLabs voice: Brittney on Eleven v4 by default). An episode in production adds `episode.json` (7 lines + settings), `BRIEF.md` (creative brief for the builder agents), `camera.js` and `env.js` (shared, orchestrator-owned), and `scenes/` (one file per beat). Episode 03 is the template.
 
 ## Guiding principle
 
@@ -61,7 +61,9 @@ The concrete rules (pacing, camera, transitions, checklist) are in [`../MOTION-P
 
 ## Script rules (the "ladder", used by every series)
 
-- **Length:** 55–70 words for 30 s, or 130–145 words (13 lines) for 60 s (voice at `SPEED=0.92`). Visuals do the heavy lifting, so leave room for them.
+- **Length:** new Shorts run **about 60 s**: roughly 120–135 words over 7–8 lines with Brittney on Eleven v4 at natural pace. Visuals do the heavy lifting, so leave room for them.
+- **Ending:** the last line always ends with a call to comment, e.g. "Tell me in the comments."
+- **Top bar:** episodes are released out of order, so leave `episodeLabel` out; the top bar then reads ZOOM OUT · <TITLE>.
 - **Structure:** 7 lines, one scene each:
   1. **Hook:** a question or a familiar object, shown immediately. No intro.
   2–6. **The ladder:** 4–5 steps, each clearly bigger (or deeper, or older) than the last. One number per line.

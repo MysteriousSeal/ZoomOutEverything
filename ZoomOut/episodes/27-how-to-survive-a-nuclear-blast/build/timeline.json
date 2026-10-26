@@ -1,0 +1,198 @@
+{
+ "voice": "kPzsL2i3teMYv0FxEYQ6",
+ "speed": 0.92,
+ "total": 60.061,
+ "preroll": 0,
+ "lines": [
+  {
+   "text": "If a nuclear bomb goes off near you, you have about ten minutes to save your life. Here's exactly what to do.",
+   "start": 0.3,
+   "end": 7.761,
+   "phrases": [
+    {
+     "text": "If a nuclear bomb goes off near you,",
+     "start": 0.3,
+     "end": 2.47
+    },
+    {
+     "text": "you have about ten minutes to save your life.",
+     "start": 2.82,
+     "end": 5.721
+    },
+    {
+     "text": "Here's exactly what to do.",
+     "start": 6.071,
+     "end": 7.761
+    }
+   ]
+  },
+  {
+   "text": "First, the flash. Don't look: it can blind you. Drop face down and cover your head.",
+   "start": 8.411,
+   "end": 14.981,
+   "phrases": [
+    {
+     "text": "First, the flash.",
+     "start": 8.411,
+     "end": 9.941
+    },
+    {
+     "text": "Don't look: it can blind you.",
+     "start": 10.291,
+     "end": 12.381
+    },
+    {
+     "text": "Drop face down and cover your head.",
+     "start": 12.731,
+     "end": 14.981
+    }
+   ]
+  },
+  {
+   "text": "Seconds later, the blast wave hits. Stay down until it passes. Then stay away from windows: flying glass kills.",
+   "start": 15.331,
+   "end": 24.533,
+   "phrases": [
+    {
+     "text": "Seconds later, the blast wave hits.",
+     "start": 15.331,
+     "end": 17.813
+    },
+    {
+     "text": "Stay down until it passes.",
+     "start": 18.163,
+     "end": 20.333
+    },
+    {
+     "text": "Then stay away from windows: flying glass kills.",
+     "start": 20.683,
+     "end": 24.533
+    }
+   ]
+  },
+  {
+   "text": "Then get inside. Brick or concrete, in the basement or the middle of the building. Not your car: it barely protects you.",
+   "start": 24.883,
+   "end": 33.956,
+   "phrases": [
+    {
+     "text": "Then get inside.",
+     "start": 24.883,
+     "end": 26.253
+    },
+    {
+     "text": "Brick or concrete, in the basement or the middle of the building.",
+     "start": 26.603,
+     "end": 30.627
+    },
+    {
+     "text": "Not your car: it barely protects you.",
+     "start": 30.977,
+     "end": 33.956
+    }
+   ]
+  },
+  {
+   "text": "Because the fallout is coming: radioactive dust, deadliest in the first hours.",
+   "start": 34.306,
+   "end": 40.118,
+   "phrases": [
+    {
+     "text": "Because the fallout is coming:",
+     "start": 34.306,
+     "end": 36.318
+    },
+    {
+     "text": "radioactive dust, deadliest in the first hours.",
+     "start": 36.668,
+     "end": 40.118
+    }
+   ]
+  },
+  {
+   "text": "After seven hours, it's ten times weaker. After two days, a hundred times.",
+   "start": 40.468,
+   "end": 46.452,
+   "phrases": [
+    {
+     "text": "After seven hours, it's ten times weaker.",
+     "start": 40.468,
+     "end": 43.358
+    },
+    {
+     "text": "After two days, a hundred times.",
+     "start": 43.708,
+     "end": 46.452
+    }
+   ]
+  },
+  {
+   "text": "So stay inside for at least twenty-four hours. Don't go looking for family: they should shelter where they are.",
+   "start": 46.802,
+   "end": 54.129,
+   "phrases": [
+    {
+     "text": "So stay inside for at least twenty-four hours.",
+     "start": 46.802,
+     "end": 50.016
+    },
+    {
+     "text": "Don't go looking for family: they should shelter where they are.",
+     "start": 50.366,
+     "end": 54.129
+    }
+   ]
+  },
+  {
+   "text": "Would you know where to go? Tell me in the comments.",
+   "start": 54.479,
+   "end": 57.661,
+   "phrases": [
+    {
+     "text": "Would you know where to go?",
+     "start": 54.479,
+     "end": 56.021
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 56.371,
+     "end": 57.661
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 8.261
+  },
+  {
+   "start": 8.261,
+   "end": 15.181
+  },
+  {
+   "start": 15.181,
+   "end": 24.733
+  },
+  {
+   "start": 24.733,
+   "end": 34.156
+  },
+  {
+   "start": 34.156,
+   "end": 40.318
+  },
+  {
+   "start": 40.318,
+   "end": 46.652
+  },
+  {
+   "start": 46.652,
+   "end": 54.329
+  },
+  {
+   "start": 54.329,
+   "end": 60.061
+  }
+ ]
+}

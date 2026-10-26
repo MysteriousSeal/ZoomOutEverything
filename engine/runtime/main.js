@@ -243,23 +243,24 @@ function captionGroups(tl) {
     timed.forEach(([st, w], i) => {
       chunk.push([st, w]);
       // never split inside a spoken number ("A HUNDRED AND | THIRTY" would read as 30): joiner/number words extend the chunk
-      const joiner = /^(A|AN|AND|THE|OF|ON|IN|AT|TO|BY|FOR|FROM|WITH|INTO|OUT|THAN|AS|ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN|ELEVEN|TWELVE|TWENTY|THIRTY|FORTY|FIFTY|SIXTY|SEVENTY|EIGHTY|NINETY|HUNDRED|HUNDREDS|THOUSAND|THOUSANDS|MILLION|BILLION|HALF|QUARTER|TENS|NEW|DOESNT|DONT|DIDNT|WOULD|COULD|WILL|JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)$/.test(w.replace(/[^A-Z]/g, ''))
+      const joiner = /^(A|AN|AND|THE|EL|LA|YOUR|MY|HIS|HER|OUR|THEIR|ITS|OF|ON|IN|AT|TO|BY|FOR|FROM|WITH|INTO|OUT|THAN|AS|ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN|ELEVEN|TWELVE|TWENTY|THIRTY|FORTY|FIFTY|SIXTY|SEVENTY|EIGHTY|NINETY|HUNDRED|HUNDREDS|THOUSAND|THOUSANDS|MILLION|BILLION|HALF|QUARTER|TENS|NEW|DOESNT|DONT|DIDNT|WOULD|COULD|WILL|JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)$/.test(w.replace(/[^A-Z]/g, ''))
         || (chunk.length < 5 && [1, 2].some((o) => /\/$/.test(words[i + o] ?? '')))   // a caption break marker just ahead wins
         || /\d/.test(w)                                      // a numeral keeps its unit: "38 | MILLION YEARS", "11:48 | P.M."
         || (((/\d/.test(timed[i + 1]?.[1] ?? '') && chunk.length < 5) || /^(OUT|UP|OFF|DOWN|AWAY|BACK)$/.test(timed[i + 1]?.[1] ?? '')
           || (/^(YOU|IT|THEM|US|ME)$/.test(timed[i + 1]?.[1] ?? '') && /^(OUT|UP|OFF|DOWN|AWAY|BACK)\W*$/.test(timed[i + 2]?.[1] ?? ''))) && chunk.length < 6);   // …and phrasal verbs: "WIPED | OUT"    // …and its lead-in: "DECEMBER | 30" must not split
       if ((chunk.length >= 3 && !joiner) || chunk.length === 7 || /[,.?!:/]$/.test(words[i]) || i === timed.length - 1) {
-        mine.push({ words: chunk, start: chunk[0][0], lineEnd: ln.end, beat: li });
+        mine.push({ words: chunk, start: chunk[0][0], lineEnd: ln.end, beat: li, stop: /[.?!:]$/.test(words[i]) });   // stop: ends a sentence
         chunk = [];
       }
     });
     // no lone-word groups ("…A HUNDRED TIMES | DARKER", "THEN, | FOR MONTHS"): a single word joins its neighbour
-    // (a 6-word result is re-broken by the splitter below)
+    // (a 6-word result is re-broken by the splitter below), never across a sentence end ("…A PASSENGER JET. | TENSION IS…")
     for (let k = 0; k < mine.length; k++) {
       if (mine.length < 2 || mine[k].words.length !== 1) continue;
-      const nx = mine[k + 1], pv = mine[k - 1];
-      if (nx && nx.words.length <= 5) { nx.words.unshift(...mine[k].words); nx.start = mine[k].start; mine.splice(k--, 1); }
-      else if (pv && pv.words.length <= 5) { pv.words.push(...mine[k].words); mine.splice(k--, 1); }
+      const g = mine[k], nx = mine[k + 1], pv = mine[k - 1];
+      const toNx = nx && nx.words.length <= 5 && !g.stop, toPv = pv && pv.words.length <= 5 && !pv.stop;
+      if (toNx) { nx.words.unshift(...g.words); nx.start = g.start; mine.splice(k--, 1); }
+      else if (toPv || (pv && pv.words.length <= 5)) { pv.words.push(...g.words); pv.stop = g.stop; mine.splice(k--, 1); }
     }
     // long groups shrink the type: split anything over 6 words at the most natural point (never after an article,
     // preposition or number word, never before a numeral), keeping at least 2 words a side
@@ -278,6 +279,7 @@ function captionGroups(tl) {
       if (bestP >= 8) continue;   // no clean break: a slightly smaller line beats a bad split
       const tail = { ...g, words: g.words.slice(best), start: g.words[best][0] };
       g.words = g.words.slice(0, best);
+      g.stop = false;
       mine.splice(k + 1, 0, tail);
     }
     // a group up under 0.8 s can't be read: it joins its neighbour if the line stays short (≤ 6 words, ≤ 28 chars)
@@ -285,8 +287,8 @@ function captionGroups(tl) {
     for (let k = 0; k < mine.length; k++) {
       const g = mine[k], nx = mine[k + 1], pv = mine[k - 1];
       if ((nx ? nx.start : ln.end) - g.start >= 0.8) continue;
-      if (nx && g.words.length + nx.words.length <= 6 && len([...g.words, ...nx.words]) <= 28) { nx.words.unshift(...g.words); nx.start = g.start; mine.splice(k--, 1); }
-      else if (pv && pv.words.length + g.words.length <= 6 && len([...pv.words, ...g.words]) <= 28) { pv.words.push(...g.words); mine.splice(k--, 1); }
+      if (nx && !g.stop && g.words.length + nx.words.length <= 6 && len([...g.words, ...nx.words]) <= 28) { nx.words.unshift(...g.words); nx.start = g.start; mine.splice(k--, 1); }
+      else if (pv && !pv.stop && pv.words.length + g.words.length <= 6 && len([...pv.words, ...g.words]) <= 28) { pv.words.push(...g.words); pv.stop = g.stop; mine.splice(k--, 1); }
     }
     out.push(...mine);
   }

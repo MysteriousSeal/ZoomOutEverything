@@ -1,0 +1,177 @@
+{
+ "voice": "kPzsL2i3teMYv0FxEYQ6",
+ "speed": 0.92,
+ "total": 63.592,
+ "preroll": 0,
+ "lines": [
+  {
+   "text": "Something is waking up in the Pacific. And it could break the world's heat record.",
+   "start": 0.3,
+   "end": 5.726,
+   "phrases": [
+    {
+     "text": "Something is waking up in the Pacific.",
+     "start": 0.3,
+     "end": 2.71
+    },
+    {
+     "text": "And it could break the world's heat record.",
+     "start": 3.06,
+     "end": 5.726
+    }
+   ]
+  },
+  {
+   "text": "It's called El Ni\u00f1o: when the trade winds weaken, a giant pool of warm water spreads east across the ocean.",
+   "start": 6.376,
+   "end": 14.405,
+   "phrases": [
+    {
+     "text": "It's called El Ni\u00f1o:",
+     "start": 6.376,
+     "end": 7.826
+    },
+    {
+     "text": "when the trade winds weaken,",
+     "start": 8.176,
+     "end": 9.796
+    },
+    {
+     "text": "a giant pool of warm water spreads east across the ocean.",
+     "start": 10.146,
+     "end": 14.405
+    }
+   ]
+  },
+  {
+   "text": "Right now, parts of the Pacific are three degrees hotter than normal. A warm stripe more than 10,000 km long.",
+   "start": 14.755,
+   "end": 23.218,
+   "phrases": [
+    {
+     "text": "Right now, parts of the Pacific are three degrees hotter than normal.",
+     "start": 14.755,
+     "end": 18.765
+    },
+    {
+     "text": "A warm stripe more than 10,000 km long.",
+     "start": 19.115,
+     "end": 23.218
+    }
+   ]
+  },
+  {
+   "text": "Most forecasts say it will become the strongest El Ni\u00f1o ever measured. Even stronger than the \"Godzilla\" El Ni\u00f1o of 2015.",
+   "start": 23.568,
+   "end": 32.827,
+   "phrases": [
+    {
+     "text": "Most forecasts say it will become the strongest El Ni\u00f1o ever measured.",
+     "start": 23.568,
+     "end": 28.218
+    },
+    {
+     "text": "Even stronger than the \"Godzilla\" El Ni\u00f1o of 2015.",
+     "start": 28.568,
+     "end": 32.827
+    }
+   ]
+  },
+  {
+   "text": "It moves rain around the planet: droughts in Australia and the Amazon, floods in the Americas and East Africa. Crops can fail, and food prices can climb.",
+   "start": 33.177,
+   "end": 45.543,
+   "phrases": [
+    {
+     "text": "It moves rain around the planet:",
+     "start": 33.177,
+     "end": 35.66
+    },
+    {
+     "text": "droughts in Australia and the Amazon,",
+     "start": 36.01,
+     "end": 38.493
+    },
+    {
+     "text": "floods in the Americas and East Africa.",
+     "start": 38.843,
+     "end": 41.822
+    },
+    {
+     "text": "Crops can fail, and food prices can climb.",
+     "start": 42.172,
+     "end": 45.543
+    }
+   ]
+  },
+  {
+   "text": "And on top of global warming, it could make 2027 the hottest year ever recorded. One leading climate scientist puts the odds at 95%.",
+   "start": 45.893,
+   "end": 56.956,
+   "phrases": [
+    {
+     "text": "And on top of global warming,",
+     "start": 45.893,
+     "end": 47.827
+    },
+    {
+     "text": "it could make 2027 the hottest year ever recorded.",
+     "start": 48.177,
+     "end": 52.436
+    },
+    {
+     "text": "One leading climate scientist puts the odds at 95%.",
+     "start": 52.786,
+     "end": 56.956
+    }
+   ]
+  },
+  {
+   "text": "Is your weather already strange? Tell me in the comments.",
+   "start": 57.306,
+   "end": 61.192,
+   "phrases": [
+    {
+     "text": "Is your weather already strange?",
+     "start": 57.306,
+     "end": 59.632
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 59.982,
+     "end": 61.192
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 6.226
+  },
+  {
+   "start": 6.226,
+   "end": 14.605
+  },
+  {
+   "start": 14.605,
+   "end": 23.418
+  },
+  {
+   "start": 23.418,
+   "end": 33.027
+  },
+  {
+   "start": 33.027,
+   "end": 45.743
+  },
+  {
+   "start": 45.743,
+   "end": 57.156
+  },
+  {
+   "start": 57.156,
+   "end": 63.592
+  }
+ ]
+}

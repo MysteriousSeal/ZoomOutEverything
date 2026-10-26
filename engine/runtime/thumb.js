@@ -58,8 +58,10 @@ export async function drawThumb(c, canvas, spec, ep) {
   c.textBaseline = 'alphabetic';
   c.textAlign = 'left';
   const ky = 226;
-  c.font = L.font(30, 700, L.FONT.body);
-  const kick = `${ep.channel}  ·  ${ep.episodeLabel}`;
+  const kick = `${ep.channel}  ·  ${ep.episodeLabel ?? ep.title.toUpperCase()}`;
+  let kpx = 30;
+  for (; kpx > 20; kpx--) { c.font = L.font(kpx, 700, L.FONT.body); if (c.measureText(kick).width + kick.length * 5 + 76 <= 960) break; }
+  c.font = L.font(kpx, 700, L.FONT.body);
   const kw = c.measureText(kick).width + kick.length * 5;
   const kx = W / 2 - (kw + 76) / 2;
   c.fillStyle = L.rgba(accent);
