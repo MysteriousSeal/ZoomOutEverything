@@ -5,7 +5,7 @@ Every item below is a real defect that reached a render and had to be fixed. Che
 ## Text and readouts
 - Every text, number, readout (7-segment clocks, counters, dates) must sit fully INSIDE its plate/box with even padding. Fit with `L.fitSize` or measure; never assume a string fits. (Ep 25: a clock's digits spilled out of their panel.)
 - Skewed/italic text: transform around the text's own baseline, never the canvas origin.
-- Count-ups: never show in-between values that read as data ("≈ 1.03 °C"): reveal the value as the bar lands, or count only in whole, frame-quantised steps with "≈" shown only once landed.
+- Count-ups: a fast (≈ 1 s), crisp, eased count that visibly progresses and lands on the spoken number is GOOD (the user asked for it). What's bad: a slow count that parks on a believable wrong number, blurred digits, or blank-then-final. Show "≈" / "UP TO" from the start.
 - No placeholder text that reads as broken ("≈ ··%"). No label sitting alone without the number it qualifies.
 - Labels must not repeat the caption word for word right above it; add information instead.
 - Leader lines must touch their label and their target.
@@ -39,3 +39,7 @@ Every item below is a real defect that reached a render and had to be fixed. Che
 - Check every beat with shots (`--sub 8` at moves) and READ them at full resolution, zoomed in on each element.
 - Determinism: no Math.random; seeded RNG only; frame-stable digits.
 - After rendering: contact sheet (1 frame / 2.5 s) + full-res frames at every element; the final MP4 is what counts.
+
+## User feedback (ep 31)
+- Counters must visibly COUNT (a fast, crisp, eased count-up landing on the spoken number). Never blur digits (reads as "censored") and never show blank-then-final (reads as "not progressing").
+- Breathing room: at most three stacked blocks on screen, ≥ 40 px between them; retire an element when another needs its space (the leaderboard row keeps the value).

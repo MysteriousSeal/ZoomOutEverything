@@ -57,7 +57,7 @@ export default {
       const e = L.ease.outBack(nk, 2.2);
       c.save();
       c.globalAlpha = L.clamp(nk * 3) * cOut;
-      c.translate(W / 2, 1236);
+      c.translate(W / 2, 1130);
       const s = L.lerp(1.35, 1, L.clamp(e));
       c.scale(s, s);
       c.textAlign = 'center'; c.textBaseline = 'alphabetic';
@@ -67,13 +67,13 @@ export default {
       c.fillText('#1', 0, 0);
       c.restore();
       const fl = L.prog(gt, p1 - 0.02, 0.6);
-      if (fl > 0 && fl < 1) L.lightBlob(c, W / 2, 1176, 220 + 220 * fl, RED, 0.2 * (1 - fl));
+      if (fl > 0 && fl < 1) L.lightBlob(c, W / 2, 1070, 220 + 220 * fl, RED, 0.2 * (1 - fl));
       c.save();
       c.globalAlpha = L.clamp(nk * 2 - 0.4) * cOut;
       c.font = L.font(26, 600, L.FONT.body);
       c.fillStyle = L.rgba(INKW, 0.92);
       c.shadowColor = 'rgba(0,0,0,0.7)'; c.shadowBlur = 10;
-      L.trackedText(c, 'DEADLIEST ANIMAL ON EARTH', W / 2, 1286, 5, 'center');
+      L.trackedText(c, 'DEADLIEST ANIMAL ON EARTH', W / 2, 1180, 5, 'center');
       c.restore();
     }
     // ---- phrase 2: tags on their words
@@ -90,7 +90,7 @@ export default {
       if (k > 0 && pOut > 0) {
         const e = L.ease.outBack(k, 2);
         c.save();
-        c.translate(x + pw / 2, 1352 + (1 - L.clamp(e)) * 14);
+        c.translate(x + pw / 2, 1262 + (1 - L.clamp(e)) * 14);
         const so = L.lerp(0.85, 1, pOut);
         c.scale(L.lerp(0.7, 1, L.clamp(e)) * so, L.lerp(0.7, 1, L.clamp(e)) * so);
         c.globalAlpha = pOut;

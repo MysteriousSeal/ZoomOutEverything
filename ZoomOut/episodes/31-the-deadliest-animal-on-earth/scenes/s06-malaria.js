@@ -7,11 +7,13 @@
 // ≈ 3 IN 4 WERE CHILDREN UNDER 5.
 import * as L from '../../../../engine/runtime/lib.js';
 import { drawEarth, project, isLand } from '../../../../engine/runtime/earth.js';
-import { RED, INKW, GREYT, B, BE, PH, W8, countE, bigNumber, subLine, rowT } from '../env.js';
-import { NUM_Y, SUB_Y } from '../layout.js';
+import { RED, INKW, GREYT, B, BE, PH, W8, countE, statBlock, rowT } from '../env.js';
 
 const { W } = L;
-const G = { cx: 540, cy: 532, r: 188, lat0: 4, lon0: 22 };
+// vertical budget: globe 355–695 · number cells 737–859 · source line 918 · board from 960. On "under five" the number
+// + source line drop away and the pill takes their place (centred at PILL_Y), so never more than three blocks.
+const G = { cx: 540, cy: 525, r: 170, lat0: 4, lon0: 22 };
+const PILL_Y = 826;
 
 // approximate shares of 2024 malaria deaths (WHO World Malaria Report 2025: ≈ 95 % in the WHO African Region; Nigeria
 // ≈ 3 in 10, DR Congo ≈ 1 in 9 ...). Used only to PLACE the 610 dots (1 dot ≈ 1,000 deaths); no country is labelled.
@@ -84,36 +86,30 @@ export default {
   },
   drawOverlay(c, v) {
     const tl = v.tl, gt = v.gt;
-    // ---- stat: count lands ON "thousand"; the sub line hands over to the under-5 pill on "under five"
+    // ---- stat: count lands ON "thousand"; on "under five" the number + source drop away and the pill takes their place
     const t0 = rowT(tl, 'mosq').pre;
-    const a = L.ease.outCubic(L.prog(gt, t0, 0.3));
     const uk = L.ease.outCubic(L.prog(gt, W8(tl, 'under', -0.15), 0.4));
-    if (a > 0) {
+    statBlock(c, v, 'mosq', 'MALARIA DEATHS IN 2024 · WHO WORLD MALARIA REPORT 2025', { color: RED, exit: [W8(tl, 'under', -0.45), 0.3] });
+    if (uk > 0) {
+      // pill: opaque plate scaled in, text fades
+      const txt = '≈ 3 IN 4 WERE CHILDREN UNDER 5';
       c.save();
       c.globalAlpha *= v.k;
-      bigNumber(c, { id: 'mosq', tl, gt, y: NUM_Y + (1 - a) * 12, size: 124, color: RED, k: a });
-      subLine(c, 'MALARIA DEATHS IN 2024 · WHO WORLD MALARIA REPORT 2025', SUB_Y, { k: a * (1 - L.clamp(uk * 2)) });
-      if (uk > 0) {
-        // pill: opaque plate scaled in, text fades
-        const txt = '≈ 3 IN 4 WERE CHILDREN UNDER 5';
-        c.font = L.font(28, 800, L.FONT.display);
-        c.letterSpacing = '3px';
-        const tw = c.measureText(txt).width - 3;
-        c.letterSpacing = '0px';
-        const pw = tw + 56, ph = 50, s = L.lerp(0.75, 1, L.ease.outBack(L.clamp(uk), 2));
-        c.save();
-        c.translate(W / 2, SUB_Y);
-        c.scale(s, s);
-        c.fillStyle = L.rgba(RED);
-        L.roundRect(c, -pw / 2, -ph / 2, pw, ph, ph / 2); c.fill();
-        c.globalAlpha *= L.clamp(uk * 2);
-        c.fillStyle = 'rgb(18,8,10)';
-        c.textBaseline = 'middle';
-        c.letterSpacing = '3px';
-        c.fillText(txt, -tw / 2, 2);
-        c.letterSpacing = '0px';
-        c.restore();
-      }
+      c.font = L.font(34, 800, L.FONT.display);
+      c.letterSpacing = '3px';
+      const tw = c.measureText(txt).width - 3;
+      c.letterSpacing = '0px';
+      const pw = tw + 64, ph = 64, s = L.lerp(0.75, 1, L.ease.outBack(L.clamp(uk), 2));
+      c.translate(W / 2, PILL_Y);
+      c.scale(s, s);
+      c.fillStyle = L.rgba(RED);
+      L.roundRect(c, -pw / 2, -ph / 2, pw, ph, ph / 2); c.fill();
+      c.globalAlpha *= L.clamp(uk * 2);
+      c.fillStyle = 'rgb(18,8,10)';
+      c.textBaseline = 'middle';
+      c.letterSpacing = '3px';
+      c.fillText(txt, -tw / 2, 2);
+      c.letterSpacing = '0px';
       c.restore();
     }
     // ---- ≈ 95 % WHO African Region (after the number lands) + the dot key
@@ -142,17 +138,14 @@ export default {
       c.save();
       c.globalAlpha = dk;
       c.fillStyle = L.rgba(RED, 0.9);
-      // the dot key, centred under the globe with clear space above the number
-      const key = '1 DOT ≈ 1,000 DEATHS';
+      // the dot key, upper left of the globe (mirrors the ≈ 95 % label): no extra block between globe and number
       c.font = L.font(19, 700, L.FONT.body);
-      c.letterSpacing = '2px';
-      const kw = c.measureText(key).width - 2;
-      c.letterSpacing = '0px';
-      const x0 = 540 - (kw + 16) / 2, ky = 745;
+      const x0 = 96, ky = 404;
       c.beginPath(); c.arc(x0 + 5, ky, 5, 0, Math.PI * 2); c.fill();
       c.fillStyle = L.rgba(GREYT, 0.95);
       c.textBaseline = 'middle';
-      L.trackedText(c, key, x0 + 16, ky + 1, 2);
+      L.trackedText(c, '1 DOT ≈', x0 + 18, ky + 1, 2);
+      L.trackedText(c, '1,000 DEATHS', x0, ky + 27, 2);
       c.restore();
     }
     void PH;

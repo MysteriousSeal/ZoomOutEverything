@@ -2,12 +2,13 @@
 // Phrase 0: the snake hero (env) glides in; the shark row moves down, the snake row slides in, the axis rescales
 // 10 → 150,000 (shark bar → loupe) BEFORE the snake bar grows; "UP TO" arrives with "up to" and the value 138,000 is
 // revealed ON "thousand" (WHO 81,000–138,000). The snake docks into its row.
-// Phrase 1: an opaque map card in the hero zone: a rural landscape seen from above, a FARM marker (on "farmers"), a long
+// Phrase 1: the big number + source line drop away (value stays on the board row); an opaque map card takes the space: a rural landscape seen from above, a FARM marker (on "farmers"), a long
 // winding track that draws itself (on "far") to the NEAREST HOSPITAL marker (on "hospital"). No invented distance.
 import * as L from '../../../../engine/runtime/lib.js';
 import { statBlock, RED, INKW, GREYT, PH, BE, W8 } from '../env.js';
 
 const CARD = { x: 110, y: 372, w: 860, h: 384, r: 26 };
+const MAP_S = 940 / 860, MAP_CY = 645;   // card drawn in its own coords, placed by this transform
 const FARM = { x: 236, y: 646 }, HOSP = { x: 846, y: 474 };
 // the track: a winding rural road farm → hospital (screen px)
 const ROAD = [[236, 646], [300, 640], [352, 606], [372, 560], [430, 534], [508, 552], [566, 590], [630, 586], [672, 548],
@@ -145,10 +146,12 @@ export default {
   layer: 5,
   drawOverlay(c, v) {
     const tl = v.tl, gt = v.gt;
-    statBlock(c, v, 'snake', 'SNAKEBITE DEATHS PER YEAR · WHO ESTIMATE 81,000–138,000');
-    // ---- the map card (phrase 1)
     const p1 = PH(tl, 2, 1, 'start');
-    const win = L.ease.outCubic(L.prog(gt, p1 - 0.12, 0.45));
+    // the number + its source line make way (the value stays on the board's row) before the map card opens
+    statBlock(c, v, 'snake', 'SNAKEBITE DEATHS PER YEAR · WHO ESTIMATE 81,000–138,000', { exit: [p1 - 0.1, 0.28] });
+    // ---- the map card (phrase 1): it takes the freed space, scaled to the board's width (940), centred between the
+    // HUD and the board (screen y 435–855: ≥ 100 px clear of the board)
+    const win = L.ease.outCubic(L.prog(gt, p1 + 0.12, 0.45));
     if (win <= 0) return;
     const end = BE(tl, 2);
     // exit: markers/track/labels first (0.15 s), then the plate wipes shut WITH its terrain, done before the beat's fade
@@ -157,6 +160,7 @@ export default {
     const hh = CARD.h * win * (1 - pOut);
     if (hh <= 1) return;
     c.save();
+    c.translate(540, MAP_CY); c.scale(MAP_S, MAP_S); c.translate(-(CARD.x + CARD.w / 2), -(CARD.y + CARD.h / 2));
     // plate + terrain: opaque from the first frame, wiped open (and shut) from the centre line together
     const cy = CARD.y + CARD.h / 2;
     c.shadowColor = 'rgba(0,0,0,0.6)'; c.shadowBlur = 36; c.shadowOffsetY = 10;

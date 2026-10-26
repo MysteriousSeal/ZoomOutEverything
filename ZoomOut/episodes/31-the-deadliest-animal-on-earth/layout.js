@@ -46,24 +46,26 @@ export const W8 = (tl, name, dt = 0) => { const [i, j, f] = WORDS[name]; return 
 export const gq = (gt) => Math.round(gt * 30) / 30;
 
 // ------------------------------------------------------------------ screen layout (1080 × 1920)
-export const HERO = { cx: 540, cy: 560 };          // hero visuals live in y ≈ 360–760
-export const NUM_Y = 862;                          // big number baseline
-export const SUB_Y = 910;                          // its source / unit line
+// vertical budget (≥ 40 px between stacked blocks): hero 363–693 · number cells 737–859 · source line (cap top 899,
+// baseline 918) · board from 960 (5 rows end 1370, clear of the captions band 1380–1520)
+export const HERO = { cx: 540, cy: 528 };          // hero visuals live in y ≈ 363–693 (box h ≤ 330)
+export const NUM_Y = 844;                          // big number baseline (size 124: flap cells 737–859)
+export const SUB_Y = 918;                          // its source / unit line
+export const MID_Y = 650;                          // centre of the free zone between the HUD (340) and the board (960)
 // leaderboard panel (WORLD space = screen space at rest)
 export const CH = {
-  x: 70, w: 940, top: 942, h: 440,
-  headY: 978,                                       // header baseline
-  row0: 998, pitch: 68,                             // row tops
+  x: 70, w: 940, top: 960, h: 410,
+  headY: 996,                                       // header baseline
+  row0: 1016, pitch: 62,                            // row tops
   rankX: 96, iconX: 162, nameX: 200, bx0: 200, bx1: 900, valX: 900,
-  barDy: 37, barH: 18, nameDy: 25,
-  tickY: 1366,
+  barDy: 35, barH: 18, nameDy: 25,
 };
 /** icon centre of rank slot r (0 = #1) */
 export const iconAt = (r) => ({ x: CH.iconX, y: CH.row0 + r * CH.pitch + 30 });
 /** world position of the mosquito (the #1 icon slot) */
 export const MOSQ = iconAt(0);
 /** where the camera puts the mosquito on screen at macro scale */
-export const MACRO_SCREEN = { x: 540, y: 735 };
+export const MACRO_SCREEN = { x: 540, y: 645 };   // macro mosquito ≈ y 390–930, clear of the #1 group below
 export const MACRO_Z = 19;
 
 export const ANCHOR = 0.47;
