@@ -113,11 +113,16 @@ export default {
       const ck = L.enter(t, 0.45, 0.6) * out0;
       if (ck > 0) {
         const f = L.ease.inOutCubic(L.prog(t, 0.75, 1.9));
-        const X = 64, Y = 552 + (1 - ck) * -12, Wc = 406, Hc = 206;
+        // width from the measured readout: the right margin matches the ring's left margin (29 px)
+        c.font = L.font(24, 700, L.FONT.body); c.letterSpacing = '3px';
+        const wt = Math.max(c.measureText('AT LEAST').width, c.measureText('HOURS').width) - 3;
+        c.font = L.font(112, 700, L.FONT.din); c.letterSpacing = '0px';
+        const w24 = c.measureText('24').width;
+        const X = 64, Y = 552 + (1 - ck) * -12, Wc = Math.round(206 + Math.max(wt, w24) + 29), Hc = 206;
         c.save();
         c.globalAlpha *= ck;
         c.shadowColor = 'rgba(0,0,0,0.55)'; c.shadowBlur = 22; c.shadowOffsetY = 6;
-        c.fillStyle = L.rgba(CD.black, 0.93);
+        c.fillStyle = L.rgba(CD.black);   // opaque: no tower windows ghosting through
         L.roundRect(c, X, Y, Wc, Hc, 16); c.fill();
         c.shadowColor = 'transparent';
         // ring

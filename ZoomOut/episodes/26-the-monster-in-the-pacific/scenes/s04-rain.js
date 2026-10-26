@@ -34,20 +34,13 @@ function dest(lat, lon, d, b) {
   return [la2 / DEG, ((lo2 / DEG + 540) % 360) - 180];
 }
 const circlePts = (lat, lon, d, n = 36) => Array.from({ length: n }, (_, i) => dest(lat, lon, d, (i / n) * 360));
-/** fixed crack pattern per site (deterministic) */
-// a crack network in a local tangent plane (x east, y north, degrees), clipped to the patch radius when drawn
-function cracks(seed) {
-  const r = L.rng(seed), out = [];
-  for (let i = 0; i < 9; i++) {
-    const a0 = r() * Math.PI * 2, d0 = Math.sqrt(r()) * 4.5;
-    let x = Math.cos(a0) * d0, y = Math.sin(a0) * d0, h = r() * Math.PI * 2;
-    const pts = [[x, y]];
-    for (let j = 0; j < 4; j++) { h += (r() - 0.5) * 1.4; const s = 0.9 + r() * 1.1; x += Math.cos(h) * s; y += Math.sin(h) * s; pts.push([x, y]); }
-    out.push(pts);
-  }
-  return out;
-}
-const CRACKS = { australia: cracks(11), amazon: cracks(23) };
+// the card icon's zig-zag crack motif, in a local tangent plane (x east, y north, degrees; patch radius 6.4°):
+// two bold zig-zags running down the patch (no hair-thin random lines)
+const CRACK_MOTIF = [
+  [[-1.8, 4.6], [-0.5, 2.4], [-2.4, 0.6], [-0.8, -1.5], [-2.0, -3.4]],
+  [[2.2, 3.4], [3.3, 1.2], [1.7, -0.4], [2.9, -2.4]],
+];
+const CRACKS = { australia: CRACK_MOTIF, amazon: CRACK_MOTIF.map((cr) => cr.map(([x, y]) => [-x, y])) };
 const zFade = (z) => L.smoothstep(clamp((z - 0.03) / 0.17));
 
 // ------------------------------------------------------------------ icons (drawn, centred at x, y; size s)
@@ -99,7 +92,7 @@ function floodIcon(c, x, y, s, col, t = 0) {
 }
 
 // ------------------------------------------------------------------ label cards + leaders
-function card(c, box, { kind, place, sub, col, k, flash, icon, t }) {
+function card(c, box, { kind, place, sub, subFs = 18, col, k, flash, icon, t }) {
   if (k <= 0) return;
   c.save();
   c.globalAlpha *= clamp(k);
@@ -121,16 +114,15 @@ function card(c, box, { kind, place, sub, col, k, flash, icon, t }) {
   c.textAlign = 'left';
   c.font = L.font(20, 700, L.FONT.body);
   c.fillStyle = L.rgba(col);
-  L.trackedText(c, kind, tx, box.y + (sub ? 36 : 44), 4);
+  // baselines: no sub (h 112) 44 / 92; with a sub line (h 132) 37 / 83 / 111 (≈ 22 px top and bottom padding)
+  L.trackedText(c, kind, tx, box.y + (sub ? 37 : 44), 4);
   c.font = L.font(L.fitSize(c, place, tw, 46, 800, L.FONT.display, 28), 800, L.FONT.display);
   c.fillStyle = L.rgba(INKW);
-  c.fillText(place, tx, box.y + (sub ? 80 : 92));
+  c.fillText(place, tx, box.y + (sub ? 83 : 92));
   if (sub) {
-    let fs = 18;
-    for (; fs > 12; fs--) { c.font = L.font(fs, 600, L.FONT.body); c.letterSpacing = '1px'; const w = c.measureText(sub).width; c.letterSpacing = '0px'; if (w <= tw) break; }
-    c.font = L.font(fs, 600, L.FONT.body);
+    c.font = L.font(subFs, 600, L.FONT.body);
     c.fillStyle = L.rgba(INKW, 0.6);
-    L.trackedText(c, sub, tx, box.y + 100, 1);
+    L.trackedText(c, sub, tx, box.y + 111, 1);
   }
   c.restore();
 }
@@ -157,10 +149,32 @@ function leader(c, pts, k, a, col) {
   if (k >= 0.98) { c.beginPath(); c.arc(end[0], end[1], 4.5, 0, Math.PI * 2); c.fill(); }
   c.restore();
 }
-const elbow = (box, p, side) => {
-  const gap = 16;
-  return [[box.lane, box.y + box.h], [box.lane, p.y], [p.x + (side < 0 ? -gap : gap), p.y]];
+/** elbow leader that ends ON the marker's ring (radius rad°): the horizontal run stops where it meets the ring */
+const elbow = (v, box, key, rad, side) => {
+  const im = IMPACTS[key], p = geo(v, im.lat, im.lon);
+  const ring = circlePts(im.lat, im.lon, rad, 72).map(([la, lo]) => geo(v, la, lo));
+  let ex = p.x;
+  for (let i = 0; i < ring.length; i++) {
+    const a = ring[i], b = ring[(i + 1) % ring.length];
+    if ((a.y - p.y) * (b.y - p.y) > 0 || a.y === b.y) continue;
+    const x = L.lerp(a.x, b.x, (p.y - a.y) / (b.y - a.y));
+    if (side < 0 ? x < ex : x > ex) ex = x;
+  }
+  return [[box.lane, box.y + box.h], [box.lane, p.y], [ex, p.y]];
 };
+/** largest sub-line size (≤ 18 px) at which every given string fits width w (shared, so paired cards match) */
+function subSize(c, strs, w) {
+  let fs = 18;
+  for (; fs > 12; fs--) {
+    c.font = L.font(fs, 600, L.FONT.body); c.letterSpacing = '1px';
+    const ok = strs.every((s) => c.measureText(s).width <= w);
+    c.letterSpacing = '0px';
+    if (ok) break;
+  }
+  return fs;
+}
+const FLEFT = { ...LEFT, h: 132 }, FRIGHT = { ...RIGHT, h: 132 };   // flood cards: both carry a sub line, same height
+const SUB_AM = 'PERU · ECUADOR · SOUTHERN US', SUB_EA = 'OCT–DEC SHORT RAINS';
 
 // ------------------------------------------------------------------ on-globe markers
 function droughtMarker(c, v, key, k, lit) {
@@ -180,7 +194,7 @@ function droughtMarker(c, v, key, k, lit) {
   // cracks (clipped to the patch)
   c.save();
   c.beginPath(); geoTrace(c, v, circlePts(im.lat, im.lon, Math.max(0.1, rad - 0.3))); c.clip();
-  c.strokeStyle = L.rgba([70, 36, 12], 0.75); c.lineWidth = 1.8; c.lineJoin = 'round';
+  c.strokeStyle = L.rgba([70, 36, 12], 0.85); c.lineWidth = 3.4; c.lineJoin = 'miter'; c.lineCap = 'round';
   for (const cr of CRACKS[key]) {
     c.beginPath(); geoTrace(c, v, cr.map(([x, y]) => [im.lat + y, im.lon + x / Math.cos(im.lat * DEG)]), false, 1);
     c.stroke();
@@ -370,13 +384,15 @@ export default {
   layer: 4,
   cues(d) {
     return [
+      // times for the 62.49 s timeline (beat 32.60): AUSTRALIA card ≈ 36.03, AMAZON ≈ 36.81 (dip before "Amazon"
+      // 37.06), floods from the 38.02 → 38.37 gap, EAST AFRICA ≈ 39.76 (dip before "East")
       { t: 0.9, name: 'swish', gain: 0.2, pitch: 1.1 },
-      { t: 3.45, name: 'blip', gain: 0.22, pitch: 0.85 },
-      { t: 4.45, name: 'blip', gain: 0.22, pitch: 0.95 },
-      { t: 6.35, name: 'splash', gain: 0.2, pitch: 1.1 },
-      { t: 7.3, name: 'blip', gain: 0.22, pitch: 1.15 },
+      { t: 3.45, name: 'blip', gain: 0.2, pitch: 0.85 },
+      { t: 4.2, name: 'blip', gain: 0.18, pitch: 0.95 },
+      { t: 5.47, name: 'splash', gain: 0.18, pitch: 1.1 },
+      { t: 7.16, name: 'blip', gain: 0.16, pitch: 1.15 },
       { t: 9.5, name: 'creak', gain: 0.18, pitch: 1 },
-      { t: 10.6, name: 'riser', gain: 0.2, pitch: 1.2 },
+      { t: 10.6, name: 'riser', gain: 0.12, pitch: 1.2 },   // peaks on "climb": kept low
     ];
   },
   drawOverlay(c, v) {
@@ -384,7 +400,7 @@ export default {
     const p1 = phrase(v, 1), p2 = phrase(v, 2), p3 = phrase(v, 3);
     const rot = shotStart('rain-b', v.tl) - v.tl.scenes[v.index ?? v.beat].start;   // ≈ 5.31
     const T = {
-      australia: p1 + 0.47, amazon: p1 + 1.35, americas: p2 + 0.2, eastAfrica: p2 + 1.48,
+      australia: p1 + 0.47, amazon: p1 + 1.3, americas: p2 - 0.05, eastAfrica: p2 + 1.48,
       dOut: p2 + 0.15, fOut: p3 - 0.45,
     };
     c.save();
@@ -412,8 +428,9 @@ export default {
     {
       const pa = geo(v, IMPACTS.australia.lat, IMPACTS.australia.lon), pz = geo(v, IMPACTS.amazon.lat, IMPACTS.amazon.lon);
       const ka = cardK(T.australia, p2 - 0.3), kz = cardK(T.amazon, p2 - 0.25);
-      if (ka > 0) leader(c, elbow(LEFT, pa, -1), prog(t, T.australia, 0.5), ka * legOutA * zFade(pa.z), DROUGHT);
-      if (kz > 0) leader(c, elbow(RIGHT, pz, 1), prog(t, T.amazon, 0.5), kz * legOut * zFade(pz.z), DROUGHT);
+      const ra = 6.4 * ease.outBack(clamp(mk(T.australia, T.dOut)), 1.4), rz = 6.4 * ease.outBack(clamp(mk(T.amazon, T.dOut)), 1.4);
+      if (ka > 0) leader(c, elbow(v, LEFT, 'australia', Math.max(0.1, ra), -1), prog(t, T.australia, 0.5), ka * legOutA * zFade(pa.z), DROUGHT);
+      if (kz > 0) leader(c, elbow(v, RIGHT, 'amazon', Math.max(0.1, rz), 1), prog(t, T.amazon, 0.5), kz * legOut * zFade(pz.z), DROUGHT);
       card(c, LEFT, { kind: 'DROUGHT', place: IMPACTS.australia.label, col: DROUGHT, k: ka, flash: flash(T.australia), icon: 'drought', t });
       card(c, RIGHT, { kind: 'DROUGHT', place: IMPACTS.amazon.label, col: DROUGHT, k: kz, flash: flash(T.amazon), icon: 'drought', t });
     }
@@ -423,12 +440,13 @@ export default {
       const pe = geo(v, IMPACTS.eastAfrica.lat, IMPACTS.eastAfrica.lon);
       const km = cardK(T.americas, T.fOut), ke = cardK(T.eastAfrica, T.fOut + 0.05);
       if (km > 0) {
-        leader(c, elbow(LEFT, pu, -1), prog(t, T.americas, 0.45), km * zFade(pu.z), FLOOD);
-        leader(c, elbow(LEFT, pp, -1), prog(t, T.americas + 0.1, 0.55), km * zFade(pp.z), FLOOD);
+        leader(c, elbow(v, FLEFT, 'usSouth', 3.2, -1), prog(t, T.americas, 0.45), km * zFade(pu.z), FLOOD);
+        leader(c, elbow(v, FLEFT, 'peru', 3.2, -1), prog(t, T.americas + 0.1, 0.55), km * zFade(pp.z), FLOOD);
       }
-      if (ke > 0) leader(c, elbow(RIGHT, pe, 1), prog(t, T.eastAfrica, 0.5), ke * zFade(pe.z), FLOOD);
-      card(c, LEFT, { kind: 'FLOODS', place: 'THE AMERICAS', sub: 'PERU · ECUADOR · SOUTHERN US', col: FLOOD, k: km, flash: flash(T.americas), icon: 'flood', t });
-      card(c, RIGHT, { kind: 'FLOODS', place: IMPACTS.eastAfrica.label, col: FLOOD, k: ke, flash: flash(T.eastAfrica), icon: 'flood', t });
+      if (ke > 0) leader(c, elbow(v, FRIGHT, 'eastAfrica', 3.2, 1), prog(t, T.eastAfrica, 0.5), ke * zFade(pe.z), FLOOD);
+      const sfs = subSize(c, [SUB_AM, SUB_EA], LEFT.w - 152);
+      card(c, FLEFT, { kind: 'FLOODS', place: 'THE AMERICAS', sub: SUB_AM, subFs: sfs, col: FLOOD, k: km, flash: flash(T.americas), icon: 'flood', t });
+      card(c, FRIGHT, { kind: 'FLOODS', place: IMPACTS.eastAfrica.label, sub: SUB_EA, subFs: sfs, col: FLOOD, k: ke, flash: flash(T.eastAfrica), icon: 'flood', t });
     }
     // phrase 3: crops / prices
     cropsCard(c, v, ease.outCubic(prog(t, p3 - 0.05, 0.45)), p3);

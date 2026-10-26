@@ -4,7 +4,7 @@
 // LOOK: a night city block seen from directly above, deep blue-black, warm sodium pools, the crowd as thousands of
 //   glowing particles (1 particle = 1 person) coloured by their MEASURED local density (DENS ramp: cool ≤ 1.2 → warm
 //   white 2.4 → pale amber 3.6 → amber 4.4 → red ≥ 5 people/m²). Safe/exit = SAFE green, crush/hazard = DANGER red, civil-defence yellow
-//   STEP badges (CD) — the How to Survive series system copied from ep 27 (stepBadge, badgeSub, hazardTile, safetyCard)
+//   STEP badges (CD) — the How to Survive series system copied from ep 27 (stepBadge, stepSub, hazardTile, safetyCard)
 //   + the safety-card pictogram (POSE, joints, drawPicto, picLayer, motionArc; used by s04/s05). No human figures anywhere except the safety-card pictograms.
 //
 // WORLD (metres, x east/right, y SOUTH/down; camera.js header has the story layout):
@@ -47,7 +47,7 @@
 //
 // LAYERS: drawBackground = ground, plaza, park (+ contours), site, lamp pools, buildings, trees, cars, refuge (roof /
 //   plan), heat glow, crowd particles. drawForeground = gas, the viaduct (over the narrow street), YOU.
-//   drawHud = top bar + a CROWD DENSITY legend (top right, y 246–334, from T.youOn to beat 8) with a YOU marker.
+//   drawHud = top bar (title on a dark pill) + a CROWD DENSITY legend (top right, y 222–344, from T.youOn to beat 4) with a YOU marker.
 //   Scenes draw everything beat-specific: headline (s00), STEP badges + glyphs, zone highlights (s02, from ZONES),
 //   wave labels / zig-zag path (s03), pictogram cards (s04, s05), wind arrow + contour labels + eye/water glyph (s06),
 //   window marks (s07), the question card (s08).
@@ -873,7 +873,8 @@ export function drawYou(c, v, { k = 1, label = true } = {}) {
     // the chip fades out before the drift shot's zoom (no ghosting through the move), then comes back below-left of the
     // ring (clear of the zig-zag, which runs west and slightly south) through beats 4–5; from beat 6 it is back upper-right
     const mv = T.drift0 - 0.55, b6 = S(v.tl, 6), low = v.gt >= mv && v.gt < b6;   // below-left from the drift shot to beat 6
-    const lk = label ? (1 - L.smoothstep(L.prog(v.gt, mv - 0.32, 0.26)) + L.smoothstep(L.prog(v.gt, mv + 0.95, 0.35)) * (1 - L.smoothstep(L.prog(v.gt, b6 - 0.3, 0.25)))
+    // (hidden while the s04/s05 safety card is up: the chip would sit on the card's top edge)
+    const lk = label ? (1 - L.smoothstep(L.prog(v.gt, mv - 0.32, 0.26)) + L.smoothstep(L.prog(v.gt, mv + 0.95, 0.35)) * (1 - L.smoothstep(L.prog(v.gt, S(v.tl, 4) - 0.25, 0.25)))
       + L.smoothstep(L.prog(v.gt, b6 + 0.35, 0.35))) : 0;
     if (lk > 0.01) {
       c.save();
@@ -909,18 +910,23 @@ export function drawForeground(c, v) {
   sync(v.tl);
   drawGas(c, v);
   drawViaduct(c, v);
-  drawYou(c, v);
+  // beat 3: s03 draws YOU itself, OVER its surge fronts (the red fronts must never cross the YOU ring or chip)
+  if (!youInSurge(v)) drawYou(c, v);
 }
+/** inside beat 3 (with 0.05 s margins, where s03's overlay is surely drawn): s03 owns the YOU draw */
+export const youInSurge = (v) => v.gt >= S(v.tl, 3) + 0.05 && v.gt < S(v.tl, 4) - 0.05;
 
 // ------------------------------------------------------------------ STEP badge (How to Survive series system, ep 27)
 export const BADGE = { x: 64, y: 372, h: 104 };
+export const SUB_Y = 490;                           // the sub chip's top (ep 27)
 /**
  * STEP badge: a civil-defence yellow tile ("STEP" + big numeral) joined to a black plate with the instruction in white,
  * a fine yellow keyline and a hazard-stripe foot. Screen space. Returns its box {x, y, w, h} (null when k ≤ 0).
  *   n     step number (1…)        text   'LEAVE EARLY' (upper case recommended)
  *   opts  x, y (top-left; align 'center' → x is the centre) · k 0..1 (staged entrance: tile pops 0–0.6, plate wipes
  *         0.25–1; pass an eased in/out value) · size (1 = 104 px tall) · maxW (whole badge, default 940 − x) ·
- *         sub (optional small grey line under the plate) · accent (tile colour, default CD.yellow) · dim (0..1 grey-out)
+ *         accent (tile colour, default CD.yellow) · dim (0..1 grey-out) · sub (string or stepSub parts: the series sub
+ *         chip, enters with subK, default follows the plate) · subK · subCol (sub text colour)
  */
 export function stepBadge(c, v, n, text, opts = {}) {
   const { y = BADGE.y, k = 1, size = 1, align = 'left', sub = null, accent = CD.yellow, dim = 0 } = opts;
@@ -983,34 +989,53 @@ export function stepBadge(c, v, n, text, opts = {}) {
   c.font = L.font(Math.round(66 * size), 700, L.FONT.din);
   c.fillText(String(n), 0, h / 2 - 14 * size);
   c.restore();
-  if (sub && kp > 0) {
-    c.globalAlpha *= kp;
-    c.font = L.font(Math.round(24 * size), 600, L.FONT.body);
-    c.fillStyle = 'rgba(214,218,226,0.92)';
-    c.shadowColor = 'rgba(0,0,0,0.8)'; c.shadowBlur = 10;
-    c.textBaseline = 'alphabetic';
-    L.trackedText(c, sub, x + 4, y + h + 40 * size, 3 * size);
-  }
+  if (sub) stepSub(c, sub, opts.subK ?? kp, { bar: accent, col: opts.subCol, x: x });
   c.restore();
   return { x, y, w, h };
 }
 
-/** the small grey line under a badge, on a soft dark chip so it reads over the busy map (ep 27 s01) */
-export function badgeSub(c, text, k, col = [214, 218, 226], { x = BADGE.x + 4, y = BADGE.y + BADGE.h + 40 } = {}) {
-  if (k <= 0) return;
+/**
+ * The series sub line (ep 27 stepSub): an opaque chip under the slot card. Screen space. Returns its box (null when k ≤ 0).
+ *   parts  a string, or an array of { t: 'TEXT', col?: [r,g,b] } and { sw: (c, x, cy) => widthPx } (a drawn swatch)
+ *   k      0..1 entrance (fades + settles 8 px down)
+ *   opts   bar (accent bar colour, default CD.yellow) · col (text colour) · x (64) · y (top, SUB_Y) · size (26)
+ */
+export function stepSub(c, parts, k, opts = {}) {
+  if (k <= 0) return null;
+  const { bar = CD.yellow, col = [226, 228, 234], x = BADGE.x, y = SUB_Y, size = 26 } = opts;
+  const P = typeof parts === 'string' ? [{ t: parts }] : parts;
+  const h = Math.round(size * 1.77), padL = 22, padR = 20, track = 3;
   c.save();
   c.globalAlpha *= L.clamp(k);
-  c.font = L.font(24, 600, L.FONT.body);
-  c.letterSpacing = '3px';
-  const w = c.measureText(text).width - 3;
+  c.font = L.font(size, 700, L.FONT.body);
+  c.letterSpacing = `${track}px`;
+  const ws = P.map((p) => (p.sw ? null : c.measureText(p.t).width));
   c.letterSpacing = '0px';
-  const yy = y + (1 - k) * 8;
-  c.fillStyle = 'rgba(8,8,12,0.62)';
-  L.roundRect(c, x - 12, yy - 27, w + 24, 38, 8); c.fill();
-  c.fillStyle = L.rgba(col, 0.95);
-  c.textBaseline = 'alphabetic';
-  L.trackedText(c, text, x, yy, 3);
+  let w = padL + padR - track;
+  P.forEach((p, i) => { w += p.sw ? 0 : ws[i]; });
+  const swW = P.map((p) => (p.sw ? p.sw(null, 0, 0) : 0));
+  w += swW.reduce((a, b) => a + b, 0);
+  const yy = y + (1 - L.clamp(k)) * -8;
+  c.shadowColor = 'rgba(0,0,0,0.5)'; c.shadowBlur = 16; c.shadowOffsetY = 4;
+  c.fillStyle = L.rgba(CD.black, 0.93);
+  L.roundRect(c, x, yy, w, h, 9); c.fill();
+  c.shadowColor = 'transparent';
+  c.fillStyle = L.rgba(bar);
+  c.fillRect(x, yy + 10, 4, h - 20);
+  c.textBaseline = 'middle';
+  c.textAlign = 'left';
+  let cx = x + padL;
+  P.forEach((p, i) => {
+    if (p.sw) { p.sw(c, cx, yy + h / 2); cx += swW[i]; return; }
+    c.font = L.font(size, 700, L.FONT.body);
+    c.letterSpacing = `${track}px`;
+    c.fillStyle = L.rgba(p.col ?? col, 0.96);
+    c.fillText(p.t, cx, yy + h / 2 + 1);
+    c.letterSpacing = '0px';
+    cx += ws[i];
+  });
   c.restore();
+  return { x, y: yy, w, h };
 }
 
 /** a hazard tile (same size/pop as a STEP tile, red by default) with a glyph(c, s) drawn white at its centre */
@@ -1030,14 +1055,14 @@ export function hazardTile(c, k, glyph, { x = BADGE.x, y = BADGE.y, h = BADGE.h,
 }
 
 // ------------------------------------------------------------------ glyphs + ISO prohibition sign
-/** smartphone seen front-on, with a record dot (centred, height s) — uses the current fill/stroke */
+/** smartphone seen front-on, with a record dot low-left on the screen (off the prohibition slash's diagonal), height s */
 export function glyphPhone(c, s) {
   const w = s * 0.52, h = s;
   c.save();
   c.lineWidth = s * 0.08; c.lineJoin = 'round';
   L.roundRect(c, -w / 2, -h / 2, w, h, s * 0.1); c.stroke();
   c.fillRect(-w * 0.16, -h / 2 + s * 0.07, w * 0.32, s * 0.035);
-  c.beginPath(); c.arc(0, s * 0.06, Math.max(0, s * 0.12), 0, TAU); c.fill();
+  c.beginPath(); c.arc(-s * 0.1, s * 0.28, Math.max(0, s * 0.085), 0, TAU); c.fill();
   c.restore();
 }
 /** an open eye (almond + iris), width s */
@@ -1214,7 +1239,7 @@ export function joints(q) {
 const P_ = (x, y) => ({ x, y });
 export const CURL_J = {
   hip: P_(0.215, -0.08), sh: P_(-0.075, -0.08), mid: P_(0.07, -0.06), head: P_(-0.228, -0.094),
-  nK: P_(0.04, -0.262), nA: P_(0.255, -0.14), fK: P_(-0.005, -0.235), fA: P_(0.225, -0.096),
+  nK: P_(0.04, -0.262), nA: P_(0.27, -0.212), fK: P_(0.0, -0.235), fA: P_(0.232, -0.19),   // knees bent open: the shins clear the thighs and the torso
   nE: P_(-0.16, -0.25), nH: P_(-0.295, -0.128), fE: P_(-0.1, -0.262), fH: P_(-0.265, -0.205),
   face: -60, nFoot: 12, fFoot: 15, over: 1, legKO: 1, ox: 0,
 };
@@ -1303,6 +1328,11 @@ export function drawPicto(c, x, y, s, pose, { ink = INK, gap = CARD_BG, shadow =
   const line = (pts, w, col) => { c.strokeStyle = col; c.lineWidth = w * s; c.beginPath(); pts.forEach((p, i) => (i ? c.lineTo(...P(p)) : c.moveTo(...P(p)))); c.stroke(); };
   const disc = (p, r, col) => { const [px, py] = P(p); c.fillStyle = col; c.beginPath(); c.arc(px, py, Math.max(0, r * s), 0, TAU); c.fill(); };
   const foot = (A, K, ang, col) => {   // a wedge: heel under the ankle, toe along the foot direction, sole flat
+    if (J.legKO > 0.5) {   // lying: a short rounded foot (no sharp wedge sliver)
+      const a = ang * RAD;
+      line([A, { x: A.x + Math.cos(a) * 0.05, y: A.y + Math.sin(a) * 0.05 }], 0.062, col);
+      return;
+    }
     const a = ang * RAD, ax = Math.cos(a), ay = Math.sin(a), px = Math.sin(a), py = -Math.cos(a);
     const pt = (fx, fy) => P({ x: A.x + ax * fx + px * fy, y: A.y + ay * fx + py * fy });
     c.fillStyle = col;
@@ -1322,11 +1352,8 @@ export function drawPicto(c, x, y, s, pose, { ink = INK, gap = CARD_BG, shadow =
   if (!farOver) { line([J.sh, J.fE], WID.arm, farS); line([J.fE, J.fH], WID.arm, fHi); disc(J.fH, WID.fist, fHi); }
   // the body: torso, near leg + foot — one ink, merged (no knock-out seams)
   spine(WID.torso, inkS);
-  if (J.legKO > 0.5) {   // lying on the side: the near leg is drawn up over the body — a thin knock-out keeps it a separate shape
-    line([J.nK, J.nA], WID.leg + 2 * WID.gap * 0.8, gapS);
-    line([J.hip, J.nK], WID.leg + 2 * WID.gap * 0.8, gapS);
-    disc(J.hip, WID.torso * 0.5, inkS);
-  }
+  // (lying on the side, the curl's legs no longer cross the torso: the thigh merges into the hip like a standing leg and
+  //  the open knee keeps the shin a separate shape, so no knock-out seam is needed)
   line([J.hip, J.nK, J.nA], WID.leg, inkS);
   foot(J.nA, J.nK, J.nFoot, inkS);
   afterTorso?.(c, (p) => P(p), J);
@@ -1402,24 +1429,35 @@ export function drawHud(c, v) {
   const sg = c.createLinearGradient(0, 0, 0, 360);   // a soft scrim keeps the top bar + legend readable over the bright crowd
   sg.addColorStop(0, 'rgba(4,6,12,0.62)'); sg.addColorStop(0.6, 'rgba(4,6,12,0.3)'); sg.addColorStop(1, 'rgba(4,6,12,0)');
   c.fillStyle = sg; c.fillRect(0, 0, W, 360);
+  // a dark pill behind the top-bar title (it otherwise sits on bright crowd dots); same label + size rule as kit topBar
+  {
+    const label = `${v.ep.channel}  ·  ${v.ep.episodeLabel ?? v.ep.title.toUpperCase()}`;
+    let px = 20, tw = 0;
+    for (; px > 14; px--) { c.font = L.font(px, 600, L.FONT.body); c.letterSpacing = '4px'; tw = c.measureText(label).width; c.letterSpacing = '0px'; if (tw <= W - 2 * 64 - 170) break; }
+    c.fillStyle = 'rgba(4,6,12,0.72)';
+    L.roundRect(c, 64 - 16, 160 - 21, tw + 28, 42, 21); c.fill();
+  }
   topBar(c, v, ACCENT, [236, 232, 224]);
-  const k = L.ease.outCubic(L.prog(v.gt, T.youOn + 0.2, 0.6)) * (1 - L.ease.inCubic(L.prog(v.gt, S(v.tl, 8) - 0.35, 0.35)));
+  // the legend: from YOU's reveal through beat 3 (the surge); it leaves as the s04/s05 safety cards take over (it would
+  // read < 1 person/m² beside "fall" and "crush")
+  const k = L.ease.outCubic(L.prog(v.gt, T.youOn + 0.2, 0.6)) * (1 - L.ease.inCubic(L.prog(v.gt, S(v.tl, 4) - 0.1, 0.35)));
   if (k <= 0) return;
   const { x1, w, y } = LEGEND, x0 = x1 - w, MAX = 7;
   c.save();
   c.globalAlpha = k;
-  // an opaque plate keeps the legend readable over the brightest crowd
-  c.fillStyle = 'rgba(8,10,16,0.82)';
-  L.roundRect(c, x0 - 20, y - 64, w + 40, 108, 12); c.fill();
+  // an opaque plate keeps the legend readable over the brightest crowd (14 px taller on top: the header clears the
+  // YOU label at any pointer position)
+  c.fillStyle = 'rgba(8,10,16,0.96)';
+  L.roundRect(c, x0 - 20, y - 78, w + 40, 122, 12); c.fill();
   c.strokeStyle = 'rgba(255,255,255,0.08)'; c.lineWidth = 1.5; c.stroke();
   c.shadowColor = 'rgba(2,6,14,0.85)'; c.shadowBlur = 8;
   c.font = L.font(18, 700, L.FONT.body);
   c.fillStyle = 'rgba(232,228,220,0.92)';
   c.textBaseline = 'alphabetic';
-  L.trackedText(c, 'CROWD DENSITY', x0, y - 41, 3);
+  L.trackedText(c, 'CROWD DENSITY', x0, y - 52, 3);
   c.font = L.font(16, 600, L.FONT.body);
   c.fillStyle = 'rgba(232,228,220,0.62)';
-  L.trackedText(c, 'PEOPLE / m²', x1, y - 41, 2, 'right');
+  L.trackedText(c, 'PEOPLE / m²', x1, y - 52, 2, 'right');
   c.shadowBlur = 0;
   const g = c.createLinearGradient(x0, 0, x1, 0);
   for (let i = 0; i <= 14; i++) g.addColorStop(i / 14, L.rgba(densColor((i / 14) * MAX)));
@@ -1441,7 +1479,7 @@ export function drawHud(c, v) {
   c.font = L.font(13, 800, L.FONT.body);
   c.textAlign = 'center';
   c.fillStyle = '#fff';
-  L.trackedText(c, 'YOU', mx, y - 23, 2, 'center');
+  L.trackedText(c, 'YOU', L.clamp(mx, x0 + 16, x1 - 16), y - 23, 2, 'center');   // label clamped inside the plate
   c.restore();
 }
 /** the density the HUD reports for YOU at gt: max over a 2 m radius around YOU, peak-held over 0.4 s */
@@ -1463,7 +1501,7 @@ export function youDensity(gt, tl) {
 export const cues = (tl) => (sync(tl), [
   ...beatCues(tl, { gain: 0.16, pitch: 0.9 }),
   ...T.surgeHits.map((h, i) => ({ t: h - 0.15, name: 'deep', gain: 0.3 - 0.03 * i, pitch: 0.65 + 0.04 * i })),
-  { t: T.mood0, name: 'riser', gain: 0.18, pitch: 0.7 },
-  { t: T.gas0, name: 'swish', gain: 0.22, pitch: 0.5 },
+  { t: T.mood0 - 0.3, name: 'riser', gain: 0.18, pitch: 0.7 },   // builds in the pause before "The moment it turns"
+  { t: T.gas0 + 0.2, name: 'swish', gain: 0.22, pitch: 0.5 },     // off the onset of "Tear"
   { t: T.door, name: 'tick', gain: 0.2, pitch: 0.9 },
 ]);

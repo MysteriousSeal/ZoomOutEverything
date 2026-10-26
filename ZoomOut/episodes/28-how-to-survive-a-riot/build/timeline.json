@@ -1,174 +1,174 @@
 {
  "voice": "kPzsL2i3teMYv0FxEYQ6",
  "speed": 0.92,
- "total": 59.001,
+ "total": 57.655,
  "preroll": 0,
  "lines": [
   {
    "text": "If a crowd turns into a riot, the biggest danger often isn't the violence. It's the crowd itself.",
    "start": 0.3,
-   "end": 7.522,
+   "end": 7.325,
    "phrases": [
     {
      "text": "If a crowd turns into a riot,",
      "start": 0.3,
-     "end": 2.391
+     "end": 2.362
     },
     {
      "text": "the biggest danger often isn't the violence.",
-     "start": 2.741,
-     "end": 5.642
+     "start": 2.712,
+     "end": 5.555
     },
     {
      "text": "It's the crowd itself.",
-     "start": 5.992,
-     "end": 7.522
+     "start": 5.905,
+     "end": 7.325
     }
    ]
   },
   {
    "text": "Step one: leave early. The moment it turns,/ walk away. Don't stop to film.",
-   "start": 8.172,
-   "end": 14.715,
+   "start": 7.975,
+   "end": 14.118,
    "phrases": [
     {
      "text": "Step one: leave early.",
-     "start": 8.172,
-     "end": 10.342
+     "start": 7.975,
+     "end": 10.084
     },
     {
      "text": "The moment it turns,/ walk away. Don't stop to film.",
-     "start": 10.692,
-     "end": 14.715
+     "start": 10.434,
+     "end": 14.118
     }
    ]
   },
   {
    "text": "Stay at the edges. Avoid walls, fences and narrow streets: that's where people get crushed.",
-   "start": 15.065,
-   "end": 22.418,
+   "start": 14.468,
+   "end": 21.722,
    "phrases": [
     {
      "text": "Stay at the edges.",
-     "start": 15.065,
-     "end": 16.686
+     "start": 14.468,
+     "end": 16.048
     },
     {
      "text": "Avoid walls, fences and narrow streets: that's where people get crushed.",
-     "start": 17.036,
-     "end": 22.418
+     "start": 16.398,
+     "end": 21.722
     }
    ]
   },
   {
    "text": "If the crowd surges, don't fight it. Go with it, and drift sideways between waves.",
-   "start": 22.768,
-   "end": 29.098,
+   "start": 22.072,
+   "end": 28.229,
    "phrases": [
     {
      "text": "If the crowd surges,",
-     "start": 22.768,
-     "end": 24.218
+     "start": 22.072,
+     "end": 23.479
     },
     {
      "text": "don't fight it.",
-     "start": 24.568,
-     "end": 25.538
+     "start": 23.829,
+     "end": 24.729
     },
     {
      "text": "Go with it, and drift sideways between waves.",
-     "start": 25.888,
-     "end": 29.098
+     "start": 25.079,
+     "end": 28.229
     }
    ]
   },
   {
    "text": "Arms up, like a boxer. Protect your chest, so you can keep breathing.",
-   "start": 29.448,
-   "end": 34.633,
+   "start": 28.579,
+   "end": 33.699,
    "phrases": [
     {
      "text": "Arms up, like a boxer.",
-     "start": 29.448,
-     "end": 31.383
+     "start": 28.579,
+     "end": 30.501
     },
     {
      "text": "Protect your chest, so you can keep breathing.",
-     "start": 31.733,
-     "end": 34.633
+     "start": 30.851,
+     "end": 33.699
     }
    ]
   },
   {
    "text": "If you fall, get up fast. If you can't, curl up on your side and cover your head.",
-   "start": 34.983,
-   "end": 41.265,
+   "start": 34.049,
+   "end": 40.289,
    "phrases": [
     {
      "text": "If you fall, get up fast.",
-     "start": 34.983,
-     "end": 37.309
+     "start": 34.049,
+     "end": 36.348
     },
     {
      "text": "If you can't, curl up on your side and cover your head.",
-     "start": 37.659,
-     "end": 41.265
+     "start": 36.698,
+     "end": 40.289
     }
    ]
   },
   {
    "text": "Tear gas? Move upwind and uphill. Don't rub your eyes: flush them with water.",
-   "start": 41.615,
-   "end": 48.025,
+   "start": 40.639,
+   "end": 46.824,
    "phrases": [
     {
      "text": "Tear gas?",
-     "start": 41.615,
-     "end": 42.505
+     "start": 40.639,
+     "end": 41.485
     },
     {
      "text": "Move upwind and uphill.",
-     "start": 42.855,
-     "end": 45.105
+     "start": 41.835,
+     "end": 43.975
     },
     {
      "text": "Don't rub your eyes: flush them with water.",
-     "start": 45.455,
-     "end": 48.025
+     "start": 44.325,
+     "end": 46.824
     }
    ]
   },
   {
    "text": "Once you're out, get indoors, away from windows.",
-   "start": 48.375,
-   "end": 52.025,
+   "start": 47.174,
+   "end": 50.78,
    "phrases": [
     {
      "text": "Once you're out, get indoors,",
-     "start": 48.375,
-     "end": 50.385
+     "start": 47.174,
+     "end": 49.19
     },
     {
      "text": "away from windows.",
-     "start": 50.735,
-     "end": 52.025
+     "start": 49.54,
+     "end": 50.78
     }
    ]
   },
   {
    "text": "Have you ever been in a crowd that turned? Tell me in the comments.",
-   "start": 52.375,
-   "end": 56.601,
+   "start": 51.13,
+   "end": 55.255,
    "phrases": [
     {
      "text": "Have you ever been in a crowd that turned?",
-     "start": 52.375,
-     "end": 55.041
+     "start": 51.13,
+     "end": 53.735
     },
     {
      "text": "Tell me in the comments.",
-     "start": 55.391,
-     "end": 56.601
+     "start": 54.085,
+     "end": 55.255
     }
    ]
   }
@@ -176,39 +176,39 @@
  "scenes": [
   {
    "start": 0.0,
-   "end": 8.022
+   "end": 7.825
   },
   {
-   "start": 8.022,
-   "end": 14.915
+   "start": 7.825,
+   "end": 14.318
   },
   {
-   "start": 14.915,
-   "end": 22.618
+   "start": 14.318,
+   "end": 21.922
   },
   {
-   "start": 22.618,
-   "end": 29.298
+   "start": 21.922,
+   "end": 28.429
   },
   {
-   "start": 29.298,
-   "end": 34.833
+   "start": 28.429,
+   "end": 33.899
   },
   {
-   "start": 34.833,
-   "end": 41.465
+   "start": 33.899,
+   "end": 40.489
   },
   {
-   "start": 41.465,
-   "end": 48.225
+   "start": 40.489,
+   "end": 47.024
   },
   {
-   "start": 48.225,
-   "end": 52.225
+   "start": 47.024,
+   "end": 50.98
   },
   {
-   "start": 52.225,
-   "end": 59.001
+   "start": 50.98,
+   "end": 57.655
   }
  ]
 }

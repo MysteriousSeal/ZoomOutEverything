@@ -6,14 +6,14 @@
 //            (≈ 110 seeded puffs, pure function of time: each born at a fixed time, drifting with the wind + noise
 //            meander, growing, fading; they pile and spread along the wall at x 25.5); plus faint WIND STREAKS (short
 //            dashes gliding east over the whole map, ramping in with the gas).
-//   phrase 0 (41.62) STEP 6 badge TEAR GAS: UPWIND · UPHILL; at + 0.4 a WIND chip with a long arrow (east) above the
+//   phrase 0 (41.62) STEP 6 badge UPWIND · UPHILL (full 76 px; TEAR GAS is in the caption); at + 0.4 a WIND chip with a long arrow (east) above the
 //            plume (screen y ≈ 800, x 600–930).
 //   phrase 1 (42.86) contour labels +1 m … +4 m on dark chips along y = 14 (env CONTOUR_LABELS) + an UPHILL arrow
 //            (pointing west) above them; a green dashed route from YOU up the footpath to (−41, −2) with arrowhead.
 //   phrase 2 (45.46) sub DON'T RUB YOUR EYES · FLUSH WITH WATER; a safety card (x 600–930, y 570–750) with an eye
 //            (red ✕ badge: don't rub) and a water drop with falling droplets (green ✓ badge: flush).
 import * as L from '../../../../engine/runtime/lib.js';
-import { stepBadge, badgeSub, youAt, CONTOUR_LABELS, FOOTPATH, SAFE, DANGER, GAS, GAS_SRC, WIND, WALL, glyphEye, glyphDrop, safetyCard, timesFor, toWorld, drawPuff, elevation } from '../env.js';
+import { stepBadge, stepSub, youAt, CONTOUR_LABELS, FOOTPATH, SAFE, DANGER, GAS, GAS_SRC, WIND, WALL, glyphEye, glyphDrop, safetyCard, timesFor, toWorld, drawPuff, elevation } from '../env.js';
 
 const TAU = Math.PI * 2;
 const ph = (v, j) => v.tl.lines[v.index].phrases[j].start - v.tl.scenes[v.index].start;
@@ -133,12 +133,12 @@ export default {
       // chips evenly spaced between the +1 m and +4 m crossings, each nudged onto its own contour line
       const L4 = CONTOUR_LABELS.slice(0, 4), xa0 = L4[0].x, xb0 = L4[3].x;
       const labs = L4.map((lb, i) => {
-        const x = L.lerp(xa0, xb0, i / 3);
-        let y = lb.y;
-        for (let k = 0; k <= 40; k++) {   // nearest crossing of this level to y 14 along x = const
-          let hitY = null;
-          for (const sg of [1, -1]) { const y0 = 14 + sg * k * 0.25, y1 = y0 + sg * 0.25; if ((elevation(x, y0) - lb.level) * (elevation(x, y1) - lb.level) <= 0) { hitY = (y0 + y1) / 2; break; } }
-          if (hitY != null) { y = hitY; break; }
+        const y = i % 2 ? 16.6 : 13;   // two staggered rows (+1/+3 high, +2/+4 low): neighbours never crowd each other
+        let x = L.lerp(xa0, xb0, i / 3);
+        for (let k = 0; k <= 60; k++) {   // nearest crossing of this level along the row
+          let hitX = null;
+          for (const sg of [1, -1]) { const x0 = x + sg * k * 0.25, x1 = x0 + sg * 0.25; if ((elevation(x0, y) - lb.level) * (elevation(x1, y) - lb.level) <= 0) { hitX = (x0 + x1) / 2; break; } }
+          if (hitX != null) { x = hitX; break; }
         }
         return [v.wx(x), v.wy(y), lb.level];
       }).filter(([x]) => x > 70 && x < 1000);
@@ -200,24 +200,37 @@ export default {
     }
 
     // ---- badge, sub, eye/water card
-    stepBadge(c, v, 6, 'TEAR GAS: UPWIND · UPHILL', { k: L.enter(v.t, ph(v, 0) - 0.1, 0.75) });
+    stepBadge(c, v, 6, 'UPWIND · UPHILL', { k: L.enter(v.t, ph(v, 0) - 0.1, 0.75) });
     const fk = L.enter(v.t, ph(v, 2) + 0.05, 0.5);
-    badgeSub(c, "DON'T RUB YOUR EYES · FLUSH WITH WATER", fk);
+    stepSub(c, "DON'T RUB YOUR EYES · FLUSH WITH WATER", fk);
     const box = { x: 606, y: 572, w: 324, h: 176 };
     safetyCard(c, fk, box, () => {
       const cy = box.y + box.h / 2 + 4, ex = box.x + 92, dx = box.x + 240;
+      // divider first (under everything), stopping short above the finger's level
+      c.fillStyle = 'rgba(255,204,0,0.25)'; c.fillRect(box.x + box.w / 2 - 1, box.y + 30, 2, box.h - 88);
       // eye + red ✕ badge
       c.fillStyle = 'rgb(246,244,238)'; c.strokeStyle = 'rgb(246,244,238)';
       c.save(); c.translate(ex, cy); glyphEye(c, 120); c.restore();
-      // a fingertip reaching for the eye (what NOT to do), under the red ✕
+      // a fingertip reaching up into the lower lid (what NOT to do), under the red ✕: it enters from the card's bottom
+      // edge, stays left of the divider; its knock-out is clipped to the almond (the lid line is never notched elsewhere)
+      const fx0 = ex + 50, fy0 = cy + 84, fx1 = ex + 32, fy1 = cy + 18;
       c.save();
       c.lineCap = 'round';
+      c.save();
+      { const ew = 60, eh = 120 * 0.27, R = (ew * ew + eh * eh) / (2 * eh);   // glyphEye(120) almond
+        c.translate(ex, cy); c.scale(1.08, 1.22);   // the almond + its lid line: the finger is cut free where it crosses the lid
+        c.beginPath();
+        c.arc(0, -eh + R, R, -Math.PI / 2 - Math.asin(ew / R), -Math.PI / 2 + Math.asin(ew / R));
+        c.arc(0, eh - R, R, Math.PI / 2 - Math.asin(ew / R), Math.PI / 2 + Math.asin(ew / R));
+        c.closePath(); c.scale(1 / 1.08, 1 / 1.22); c.translate(-ex, -cy); c.clip(); }
       c.strokeStyle = 'rgb(16,17,21)'; c.lineWidth = 30;
-      c.beginPath(); c.moveTo(ex + 78, cy + 62); c.lineTo(ex + 36, cy + 14); c.stroke();
+      c.beginPath(); c.moveTo(fx0, fy0); c.lineTo(fx1, fy1); c.stroke();
+      c.restore();
       c.strokeStyle = 'rgb(246,244,238)'; c.lineWidth = 20;
-      c.beginPath(); c.moveTo(ex + 78, cy + 62); c.lineTo(ex + 36, cy + 14); c.stroke();
-      c.strokeStyle = 'rgb(16,17,21)'; c.lineWidth = 3;   // nail line
-      c.beginPath(); c.moveTo(ex + 40, cy + 26); c.lineTo(ex + 49, cy + 18); c.stroke();
+      c.beginPath(); c.moveTo(fx0, fy0); c.lineTo(fx1, fy1); c.stroke();
+      { const a = Math.atan2(fy0 - fy1, fx0 - fx1), nx = -Math.sin(a), ny = Math.cos(a), bx = fx1 + Math.cos(a) * 13, by = fy1 + Math.sin(a) * 13;
+        c.strokeStyle = 'rgb(16,17,21)'; c.lineWidth = 3;   // nail line across the fingertip
+        c.beginPath(); c.moveTo(bx + nx * 6, by + ny * 6); c.lineTo(bx - nx * 6, by - ny * 6); c.stroke(); }
       c.restore();
       const xk = L.ease.outBack(L.clamp((v.t - ph(v, 2) - 0.25) / 0.35), 2);
       if (xk > 0) {
@@ -227,8 +240,6 @@ export default {
         c.beginPath(); c.moveTo(-6.5, -6.5); c.lineTo(6.5, 6.5); c.moveTo(6.5, -6.5); c.lineTo(-6.5, 6.5); c.stroke();
         c.restore();
       }
-      // divider
-      c.fillStyle = 'rgba(255,204,0,0.25)'; c.fillRect(box.x + box.w / 2 - 1, box.y + 30, 2, box.h - 60);
       // water drop + falling droplets + green ✓ badge
       c.fillStyle = 'rgb(110,190,255)';
       c.save(); c.translate(dx, cy - 4); glyphDrop(c, 96); c.restore();
@@ -236,7 +247,7 @@ export default {
         const u = ((v.t - ph(v, 2)) * 1.4 + i / 3) % 1;
         if (u < 0) continue;
         c.fillStyle = `rgba(150,210,255,${0.9 * Math.sin(Math.PI * u)})`;
-        c.save(); c.translate(dx - 22 + i * 22, cy + 48 + u * 26); glyphDrop(c, 14); c.restore();
+        c.save(); c.translate(dx - 22 + i * 22, cy + 48 + u * 12); glyphDrop(c, 14); c.restore();   // travel capped: never clipped by the card edge
       }
       const ck = L.ease.outBack(L.clamp((v.t - ph(v, 2) - 1.0) / 0.35), 2);
       if (ck > 0) {

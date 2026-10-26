@@ -164,3 +164,6 @@ Engine: kit.js/thumb.js top bar uses title when no episodeLabel; main.js caption
 
 ## Posting tracker
 `ZoomOut/PUBLISHED.md` lists which version of each topic is posted (one version per topic). As of 2026-10-26 posted: 01, 02, 03b–08b, 25. Update it (and push) whenever the user says they posted something.
+
+## Voice trim rewrite (2026-10-26, after a voice audit of 26–28)
+voice.py eleven(): 0.12 s pre-roll + onset search (30 ms clipped consonants), tail cut at first −40 dB silence after the last char, plus a safety net cutting a ≥250 ms gap followed by sound (ElevenLabs alignment can stretch the last chars across the gap, leaking the next phrase's first sound as a blip). level() soft-limits instead of capping gain. render.mjs: alimiter after loudnorm (an AAC left-channel over at +1.9 dBTP was measured). main.js captions weight numerals by spoken length. Re-running voice.py now re-cuts timing: do NOT re-voice posted episodes (09b, 25) casually.

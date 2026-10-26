@@ -57,13 +57,14 @@ function head(c, x, y, dx, dy, s) {
   c.closePath();
   c.fill();
 }
-/** film time when the arrow head (front − 6°) first reaches the coast (east-lon 276.5): scanned, cached per timeline */
+const HEAD_MAX = 274;   // east-lon where the arrow's base stops (its tip must stay inside the globe limb)
+/** film time when the arrow head (front − 6°) first reaches the coast (east-lon HEAD_MAX): scanned, cached per timeline */
 let hitTl = null, hitT = 0;
 function hitTime(tl) {
   if (hitTl === tl) return hitT;
   hitTl = tl; hitT = tl.lines[1].end;
   for (let gt = tl.scenes[1].start; gt < tl.scenes[2].start; gt += 1 / 60) {
-    if (frontLon(0, fieldState(gt, tl).front) - 6 >= 276.5) { hitT = gt; break; }
+    if (frontLon(0, fieldState(gt, tl).front) - 6 >= HEAD_MAX) { hitT = gt; break; }
   }
   return hitT;
 }
@@ -76,10 +77,10 @@ export default {
   layer: 1,
   cues(d) {
     return [
-      { t: 0.0, name: 'whoosh', gain: 0.3, pitch: 0.8 },
-      { t: 0.2, name: 'impact', gain: 0.22, pitch: 0.75 },   // the name card
-      { t: 1.85, name: 'swish', gain: 0.22, pitch: 0.7 },    // the trade winds
-      { t: 3.9, name: 'swell', gain: 0.28, pitch: 0.85 },    // the spread
+      // (the pull-out whoosh is env's, centred in the 5.53 → 6.18 s gap.) Times for the 62.49 s timeline (beat 6.03):
+      { t: -0.05, name: 'impact', gain: 0.22, pitch: 0.75 },  // the name card, 0.2 s before "It's" (6.18)
+      { t: 1.85, name: 'swish', gain: 0.22, pitch: 0.7 },     // the trade winds (peak ≈ 8.06, quiet "the")
+      { t: 2.22, name: 'swell', gain: 0.15, pitch: 0.85 },    // the spread: swells into the 9.50 → 9.85 s gap (peak ≈ 9.68)
     ];
   },
   drawOverlay(c, v) {
@@ -199,7 +200,7 @@ export default {
     const ak = L.enter(t, p2 - 0.3, 0.5);
     if (ak > 0.001 && st.front > 0.02) {
       const frontX = frontLon(0, st.front);              // east-lon where env's front mask is 0.5 (on the equator)
-      const headX = Math.min(frontX - 6, 276.5);          // stop at the coast of Ecuador
+      const headX = Math.min(frontX - 6, HEAD_MAX);        // stop short of the coast / limb (the head's tip reaches ≈ 1.5° further)
       const tailX = 166;
       c.save();
       // warm comets surging east inside the tongue
@@ -226,7 +227,8 @@ export default {
       c.globalCompositeOperation = 'source-over';
       // the eastward arrow along the equator (drawn shapes, above the field)
       const pts = [];
-      for (let x = tailX; x <= headX; x += 2) { const p = geo(v, 0.5, signed(x), 0.025); if (p.z > 0.08) pts.push(p); }
+      // strictly before the head point (no duplicate → no zero-length arrowhead direction)
+      for (let x = tailX; x < headX - 0.5; x += 2) { const p = geo(v, 0.5, signed(x), 0.025); if (p.z > 0.08) pts.push(p); }
       { const p = geo(v, 0.5, signed(headX), 0.025); if (p.z > 0.08) pts.push(p); }
       if (pts.length >= 2) {
         const a0 = pts[0], a1 = pts[pts.length - 1], a2 = pts[pts.length - 2];

@@ -5,11 +5,11 @@
 //   phrase 1 (10.69)  "the moment it turns": thin red sonar rings ripple out of the three HOTSPOTS (world space, fade in
 //                     0.6 s); on "walk away" (≈ 11.9) a green dashed heading (≤ 8.5 m, arrowhead) points from YOU toward
 //                     the plaza's west exit, and a fading white trail grows behind YOU as it walks.
-//                     sub WALK AWAY · DON'T STOP TO FILM (badgeSub) at phrase 1 + 0.3.
+//                     sub WALK AWAY · DON'T STOP TO FILM (stepSub) at phrase 1 + 0.3.
 //   "Don't stop to film" (≈ 13.2)  an ISO prohibition sign with a phone pops at (190, 690) over the dark park edge
 //                     (clear of YOU, its heading and the HUD legend); the slash wipes 0.35 s later. Holds ≥ 1.5 s.
 import * as L from '../../../../engine/runtime/lib.js';
-import { stepBadge, badgeSub, prohibition, glyphPhone, HOTSPOTS, EXIT, SAFE, DANGER, youAt, youTrail, timesFor } from '../env.js';
+import { stepBadge, stepSub, prohibition, glyphPhone, HOTSPOTS, EXIT, SAFE, DANGER, youAt, youTrail, timesFor } from '../env.js';
 
 const TAU = Math.PI * 2;
 /** STEP 1 badge entry (film time): starts 0.15 s before beat 1 (s00 draws its first frames) */
@@ -30,7 +30,7 @@ export default {
   chapter: null,
   captions: true,
   layer: 5,
-  cues(d) { return [{ t: 0.2, name: 'blip', gain: 0.16, pitch: 1 }]; },
+  cues(d) { return [{ t: -0.13, name: 'blip', gain: 0.16, pitch: 1 }]; },   // with the STEP 1 tile pop (b1 − 0.15), before "Step"
   drawOverlay(c, v) {
     const T = timesFor(v.tl);
     c.save();
@@ -100,7 +100,7 @@ export default {
     c.globalAlpha = v.t < v.d / 2 ? 1 : v.k;
     stepBadge(c, v, 1, 'LEAVE EARLY', { k: step1K(v) });
     c.restore();
-    badgeSub(c, "WALK AWAY · DON'T STOP TO FILM", L.enter(v.t, ph(v, 1) + 0.3, 0.45));
+    stepSub(c, "WALK AWAY · DON'T STOP TO FILM", L.enter(v.t, ph(v, 1) + 0.3, 0.45));
 
     // ---- don't stop to film
     const tf = wordT(v, 1, 6);   // "Don't"

@@ -77,7 +77,7 @@ if (from === 0 && to === frames) {
   fs.mkdirSync(path.join(dir, 'out'), { recursive: true });
   const out = path.join(dir, 'out', `${ep.slug}.mp4`);
   const mix = path.join(dir, 'build/mix.wav');
-  const audio = fs.existsSync(mix) ? ['-i', mix, '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k'] : [];
+  const audio = fs.existsSync(mix) ? ['-i', mix, '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.8:level=false:attack=1:release=50', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k'] : [];
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', '30', '-i', path.join(framesDir, 'f_%05d.png'), ...audio,
     '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', '-shortest', out], { stdio: 'inherit' });
   const cover = ep.coverTime ?? 1.0;
@@ -126,7 +126,7 @@ async function renderPiped() {
   await closeAll(pages, server);
   const out = path.join(dir, 'out', `${ep.slug}.mp4`);
   const mix = path.join(dir, 'build/mix.wav');
-  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', silent, ...(fs.existsSync(mix) ? ['-i', mix, '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k'] : []),
+  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', silent, ...(fs.existsSync(mix) ? ['-i', mix, '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.8:level=false:attack=1:release=50', '-ar', '48000', '-c:a', 'aac', '-b:a', '192k'] : []),
     '-c:v', 'copy', '-movflags', '+faststart', '-shortest', out], { stdio: 'inherit' });
   fs.rmSync(silent, { force: true });
   console.log(`rendered ${frames} frames in ${((performance.now() - t0) / 1000).toFixed(1)}s -> ${out}`);

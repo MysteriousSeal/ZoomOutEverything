@@ -103,7 +103,7 @@ export async function drawThumb(c, canvas, spec, ep) {
     const fs = st.size ?? 120;
     const pw = Math.max(bw, sw) + 80;
     const base = 58 + fs * 0.74;                       // number baseline, from the plate top (clear of the accent rule)
-    const ph = base + (st.small ? 62 : 34);
+    const ph = base + (st.small ? 78 : 34);            // small line sits 46 below the number: leave ≈ 32 px under it
     const al = st.align ?? 'center';
     const px = al === 'center' ? st.x - pw / 2 : al === 'left' ? st.x : st.x - pw;
     const py = st.y - ph / 2;

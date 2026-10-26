@@ -12,7 +12,7 @@
 // Layout: WALL chip right of the wall (y ≈ 640, above y 1100 so it may pass x 940); FENCE chip under the fence over
 // the site (x ≤ 520, y ≈ 1125); NARROW STREET chip right of the street (x 600–≈ 830, y ≈ 1290): all clear of captions.
 import * as L from '../../../../engine/runtime/lib.js';
-import { stepBadge, badgeSub, ZONES, EXIT, FOOTPATH, DANGER, SAFE, AMBER, youAt } from '../env.js';
+import { stepBadge, stepSub, ZONES, EXIT, FOOTPATH, DANGER, SAFE, AMBER, youAt } from '../env.js';
 
 const ph = (v, j) => v.tl.lines[v.index].phrases[j].start - v.tl.scenes[v.index].start;
 function wordT(v, j, n) {
@@ -145,8 +145,8 @@ export default {
     // ---- badge + sub
     stepBadge(c, v, 2, 'STAY AT THE EDGES', { k: L.enter(v.t, ph(v, 0) - 0.1, 0.75) });
     // phrase 0: where to be; on "that's where people get crushed" it hands over to the red warning (sequential, no overlap)
-    badgeSub(c, 'EDGE OF THE CROWD · NEAR AN EXIT', L.ease.outCubic(L.prog(v.t, ph(v, 0) + 0.5, 0.45)) * (1 - L.ease.inCubic(L.prog(v.t, tHot - 0.1, 0.2))), [170, 236, 196]);
-    badgeSub(c, 'AVOID CRUSH ZONES', L.enter(v.t, tHot + 0.15, 0.45), [255, 150, 136]);
+    stepSub(c, 'EDGE OF THE CROWD · NEAR AN EXIT', L.ease.outCubic(L.prog(v.t, ph(v, 0) + 0.5, 0.45)) * (1 - L.ease.inCubic(L.prog(v.t, tHot - 0.1, 0.2))), { col: [170, 236, 196], bar: SAFE });
+    stepSub(c, 'AVOID CRUSH ZONES', L.enter(v.t, tHot + 0.15, 0.45), { col: [255, 150, 136], bar: DANGER });
     c.restore();
   },
 };

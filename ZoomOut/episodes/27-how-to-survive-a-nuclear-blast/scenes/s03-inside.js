@@ -106,7 +106,7 @@ function checkPill(c, x, y, text, k, col = SAFE) {
 }
 
 /** a small car silhouette (side view, facing left) centred at (x, y), width w */
-function carGlyph(c, x, y, w) {
+function carGlyph(c, x, y, w, gap = null) {
   const s = w / 44;
   c.save();
   c.translate(x, y);
@@ -115,7 +115,15 @@ function carGlyph(c, x, y, w) {
   c.moveTo(-22, 5); c.lineTo(-22, -2); c.quadraticCurveTo(-21, -5, -15, -5.5); c.lineTo(-9, -6);
   c.quadraticCurveTo(-5, -13, 1, -13); c.lineTo(8, -13); c.quadraticCurveTo(13, -12, 16, -6);
   c.quadraticCurveTo(22, -5.5, 22, -1); c.lineTo(22, 5); c.closePath(); c.fill();
-  c.beginPath(); c.arc(-12, 6, 4.4, 0, TAU); c.arc(12, 6, 4.4, 0, TAU); c.fill();
+  // wheels: one subpath each (no connecting segment between the two arcs), a card-colour arch ring separates them
+  // from the body
+  if (gap) {
+    const ink = c.fillStyle;
+    c.fillStyle = gap;
+    c.beginPath(); c.moveTo(-12 + 6.4, 6); c.arc(-12, 6, 6.4, 0, TAU); c.moveTo(12 + 6.4, 6); c.arc(12, 6, 6.4, 0, TAU); c.fill();
+    c.fillStyle = ink;
+  }
+  c.beginPath(); c.moveTo(-12 + 4.4, 6); c.arc(-12, 6, 4.4, 0, TAU); c.moveTo(12 + 4.4, 6); c.arc(12, 6, 4.4, 0, TAU); c.fill();
   c.restore();
 }
 
@@ -220,7 +228,9 @@ export default {
     if (ck > 0) {
       const e = L.ease.outCubic(ck);
       const r = toScreen(v, CAR_ZONE);
-      const cw = 360, chh = 156, cx1 = 930, cx0 = cx1 - cw, cy0 = 840 + (1 - e) * 24;
+      // x 622–960: clear of the building's right wall (≈ 590 once the 'car' camera lands; it slides in from the right
+      // while the camera is still travelling)
+      const cw = 338, chh = 156, cx1 = 960 + (1 - e) * 70, cx0 = cx1 - cw, cy0 = 840 + (1 - e) * 24;
       // leader: from card bottom (above the car) down to the bracket top
       const lx = L.clamp(r.cx, cx0 + 40, cx1 - 40);
       c.save();
@@ -245,7 +255,7 @@ export default {
       // prohibition sign with a car inside
       const ix = cx0 + 62, iy = cy0 + 66, ir = 38;
       c.fillStyle = 'rgba(245,245,240,0.95)';
-      carGlyph(c, ix, iy + 2, 50);
+      carGlyph(c, ix, iy + 2, 50, 'rgb(16,8,10)');
       c.strokeStyle = L.rgba(DANGER); c.lineWidth = 8;
       c.beginPath(); c.arc(ix, iy, ir, 0, TAU); c.stroke();
       c.beginPath(); c.moveTo(ix - ir * 0.7, iy - ir * 0.7); c.lineTo(ix + ir * 0.7, iy + ir * 0.7); c.stroke();

@@ -1,162 +1,162 @@
 {
  "voice": "kPzsL2i3teMYv0FxEYQ6",
  "speed": 0.92,
- "total": 60.061,
+ "total": 58.523,
  "preroll": 0,
  "lines": [
   {
    "text": "If a nuclear bomb goes off near you, you have about ten minutes to save your life. Here's exactly what to do.",
    "start": 0.3,
-   "end": 7.761,
+   "end": 7.589,
    "phrases": [
     {
      "text": "If a nuclear bomb goes off near you,",
      "start": 0.3,
-     "end": 2.47
+     "end": 2.422
     },
     {
      "text": "you have about ten minutes to save your life.",
-     "start": 2.82,
-     "end": 5.721
+     "start": 2.772,
+     "end": 5.616
     },
     {
      "text": "Here's exactly what to do.",
-     "start": 6.071,
-     "end": 7.761
+     "start": 5.966,
+     "end": 7.589
     }
    ]
   },
   {
    "text": "First, the flash. Don't look: it can blind you. Drop face down and cover your head.",
-   "start": 8.411,
-   "end": 14.981,
+   "start": 8.239,
+   "end": 14.609,
    "phrases": [
     {
      "text": "First, the flash.",
-     "start": 8.411,
-     "end": 9.941
+     "start": 8.239,
+     "end": 9.739
     },
     {
      "text": "Don't look: it can blind you.",
-     "start": 10.291,
-     "end": 12.381
+     "start": 10.089,
+     "end": 12.099
     },
     {
      "text": "Drop face down and cover your head.",
-     "start": 12.731,
-     "end": 14.981
+     "start": 12.449,
+     "end": 14.609
     }
    ]
   },
   {
    "text": "Seconds later, the blast wave hits. Stay down until it passes. Then stay away from windows: flying glass kills.",
-   "start": 15.331,
-   "end": 24.533,
+   "start": 14.959,
+   "end": 23.609,
    "phrases": [
     {
      "text": "Seconds later, the blast wave hits.",
-     "start": 15.331,
-     "end": 17.813
+     "start": 14.959,
+     "end": 17.359
     },
     {
      "text": "Stay down until it passes.",
-     "start": 18.163,
-     "end": 20.333
+     "start": 17.709,
+     "end": 19.539
     },
     {
      "text": "Then stay away from windows: flying glass kills.",
-     "start": 20.683,
-     "end": 24.533
+     "start": 19.889,
+     "end": 23.609
     }
    ]
   },
   {
-   "text": "Then get inside. Brick or concrete, in the basement or the middle of the building. Not your car: it barely protects you.",
-   "start": 24.883,
-   "end": 33.956,
+   "text": "Then get inside. Brick or concrete. In the basement, or the middle of the building. Not your car: it barely protects you.",
+   "start": 23.959,
+   "end": 33.176,
    "phrases": [
     {
      "text": "Then get inside.",
-     "start": 24.883,
-     "end": 26.253
+     "start": 23.959,
+     "end": 25.229
     },
     {
-     "text": "Brick or concrete, in the basement or the middle of the building.",
-     "start": 26.603,
-     "end": 30.627
+     "text": "Brick or concrete. In the basement, or the middle of the building.",
+     "start": 25.579,
+     "end": 29.769
     },
     {
      "text": "Not your car: it barely protects you.",
-     "start": 30.977,
-     "end": 33.956
+     "start": 30.119,
+     "end": 33.176
     }
    ]
   },
   {
    "text": "Because the fallout is coming: radioactive dust, deadliest in the first hours.",
-   "start": 34.306,
-   "end": 40.118,
+   "start": 33.526,
+   "end": 39.196,
    "phrases": [
     {
      "text": "Because the fallout is coming:",
-     "start": 34.306,
-     "end": 36.318
+     "start": 33.526,
+     "end": 35.438
     },
     {
      "text": "radioactive dust, deadliest in the first hours.",
-     "start": 36.668,
-     "end": 40.118
+     "start": 35.788,
+     "end": 39.196
     }
    ]
   },
   {
    "text": "After seven hours, it's ten times weaker. After two days, a hundred times.",
-   "start": 40.468,
-   "end": 46.452,
+   "start": 39.546,
+   "end": 45.416,
    "phrases": [
     {
      "text": "After seven hours, it's ten times weaker.",
-     "start": 40.468,
-     "end": 43.358
+     "start": 39.546,
+     "end": 42.366
     },
     {
      "text": "After two days, a hundred times.",
-     "start": 43.708,
-     "end": 46.452
+     "start": 42.716,
+     "end": 45.416
     }
    ]
   },
   {
    "text": "So stay inside for at least twenty-four hours. Don't go looking for family: they should shelter where they are.",
-   "start": 46.802,
-   "end": 54.129,
+   "start": 45.766,
+   "end": 52.723,
    "phrases": [
     {
      "text": "So stay inside for at least twenty-four hours.",
-     "start": 46.802,
-     "end": 50.016
+     "start": 45.766,
+     "end": 48.61
     },
     {
      "text": "Don't go looking for family: they should shelter where they are.",
-     "start": 50.366,
-     "end": 54.129
+     "start": 48.96,
+     "end": 52.723
     }
    ]
   },
   {
    "text": "Would you know where to go? Tell me in the comments.",
-   "start": 54.479,
-   "end": 57.661,
+   "start": 53.073,
+   "end": 56.123,
    "phrases": [
     {
      "text": "Would you know where to go?",
-     "start": 54.479,
-     "end": 56.021
+     "start": 53.073,
+     "end": 54.556
     },
     {
      "text": "Tell me in the comments.",
-     "start": 56.371,
-     "end": 57.661
+     "start": 54.906,
+     "end": 56.123
     }
    ]
   }
@@ -164,35 +164,35 @@
  "scenes": [
   {
    "start": 0.0,
-   "end": 8.261
+   "end": 8.089
   },
   {
-   "start": 8.261,
-   "end": 15.181
+   "start": 8.089,
+   "end": 14.809
   },
   {
-   "start": 15.181,
-   "end": 24.733
+   "start": 14.809,
+   "end": 23.809
   },
   {
-   "start": 24.733,
-   "end": 34.156
+   "start": 23.809,
+   "end": 33.376
   },
   {
-   "start": 34.156,
-   "end": 40.318
+   "start": 33.376,
+   "end": 39.396
   },
   {
-   "start": 40.318,
-   "end": 46.652
+   "start": 39.396,
+   "end": 45.616
   },
   {
-   "start": 46.652,
-   "end": 54.329
+   "start": 45.616,
+   "end": 52.923
   },
   {
-   "start": 54.329,
-   "end": 60.061
+   "start": 52.923,
+   "end": 58.523
   }
  ]
 }

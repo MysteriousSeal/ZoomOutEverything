@@ -1566,8 +1566,9 @@ const FIG_KEYS = [
   { hip: [0, -0.5], torso: -90, neck: -90, face: 180, nA: [-0.035, -0.042], fA: [0.03, -0.042], foot: 180, hang: 1 },
   // kneel: both knees down, leaning forward, hands rising to the back of the head
   { hip: [0.06, -0.27], torso: -122, neck: -140, face: 125, nA: [0.31, -0.046], fA: [0.285, -0.06], foot: 0, hang: 0 },
-  // face down, flat, hands clasped over the back of the head
-  { hip: [0.15, -0.072], torso: -180, neck: -180, face: 90, nA: [0.628, -0.074], fA: [0.625, -0.096], foot: 72, hang: 0 },
+  // face down, flat, hands clasped over the back of the head (neck tipped 4° up: the head rests on the ground rule,
+  // not through it)
+  { hip: [0.15, -0.072], torso: -180, neck: -176, face: 90, nA: [0.628, -0.074], fA: [0.625, -0.096], foot: 72, hang: 0 },
 ];
 const RAD = Math.PI / 180;
 const FD = (p, a, l) => ({ x: p.x + Math.cos(a * RAD) * l, y: p.y + Math.sin(a * RAD) * l });
@@ -1650,13 +1651,18 @@ export function drawFigure(c, x, y, s, u, { ink = [246, 244, 238], gap = CARD_BG
     c.restore();
   }
   if (arc != null && arc > 0.02) {
+    // the arc starts once the figure is bending (the standing head sits at the card top: an arc there would clip) and
+    // hugs the head path (offset 0.1 s), its tip just ahead of the head; ends clear of the card's left edge
+    const U0 = 0.35, U1 = 0.92, tip = U0 + (U1 - U0) * L.clamp((arc - 0.3) / 0.65);
     const px0 = x + 0.25 * s, py0 = y, pts = [], n = 28;
     for (let i = 0; i <= n; i++) {
-      const uu = 0.03 + 0.9 * (i / n) * arc;
+      const uu = U0 + (tip - U0) * (i / n);
       const h = figureJoints(uu).head, hx = shift(uu) + h.x * s, hy = y + h.y * s;
       const dx = hx - px0, dy = hy - py0, d = Math.hypot(dx, dy) || 1;
-      pts.push([hx + (dx / d) * 0.17 * s, hy + (dy / d) * 0.17 * s]);
+      pts.push([hx + (dx / d) * 0.1 * s, hy + (dy / d) * 0.1 * s]);
     }
+    if (tip - U0 < 0.02) pts.length = 0;
+    if (pts.length) {
     c.save();
     c.globalAlpha *= arcAlpha;
     c.strokeStyle = L.rgba(CD.yellow, 0.9);
@@ -1673,6 +1679,7 @@ export function drawFigure(c, x, y, s, u, { ink = [246, 244, 238], gap = CARD_BG
     c.lineTo(ax + Math.cos(a - 2.5) * hs, ay + Math.sin(a - 2.5) * hs);
     c.closePath(); c.fill();
     c.restore();
+    }
   }
   // far side (one tone down): leg + foot, arm + hand
   line([J.hip, J.fK, J.fA], FIG_WID.leg, farS);
@@ -1684,13 +1691,24 @@ export function drawFigure(c, x, y, s, u, { ink = [246, 244, 238], gap = CARD_BG
   line([J.hip, J.nK, J.nA], FIG_WID.leg, inkS);
   foot(J.nA, inkS);
   // head: knock-out ring (separates the far hand behind it), disc, nose cue toward the face direction
+  // (the ring stops at the ground rule: prone, it must not notch the rule under the head)
+  c.save();
+  if (ground) { c.beginPath(); c.rect(-1e4, -1e4, 2e4, y + 0.006 * s + 1e4); c.clip(); }
   disc(J.head, FIG_WID.head + FIG_WID.gap, gapS);
+  c.restore();
   disc(J.head, FIG_WID.head, inkS);
   {
     const a = J.face * RAD, r = FIG_WID.head;
     const pt = (ang, rr) => P({ x: J.head.x + Math.cos(ang) * rr, y: J.head.y + Math.sin(ang) * rr });
-    c.fillStyle = inkS;
-    c.beginPath(); c.moveTo(...pt(a - 0.5, r * 0.92)); c.lineTo(...pt(a, r * 1.34)); c.lineTo(...pt(a + 0.5, r * 0.92)); c.closePath(); c.fill();
+    // the nose fades out as the face turns to the ground (prone: it would poke through the floor)
+    const noseA = 1 - L.smoothstep(L.clamp((Math.sin(a) - 0.85) / 0.12));
+    if (noseA > 0.01) {
+      c.save();
+      c.globalAlpha *= noseA;
+      c.fillStyle = inkS;
+      c.beginPath(); c.moveTo(...pt(a - 0.5, r * 0.92)); c.lineTo(...pt(a, r * 1.34)); c.lineTo(...pt(a + 0.5, r * 0.92)); c.closePath(); c.fill();
+      c.restore();
+    }
   }
   // near arm over everything, with a thin knock-out edge
   line([J.sh, J.nE, J.nH], FIG_WID.arm + 2 * FIG_WID.gap * 0.8, gapS);
@@ -1730,10 +1748,18 @@ export function drawHud(c, v) {
   c.save();
   c.globalAlpha = out;
   // legible through the flash: a soft dark chip that rises with the white-out (invisible otherwise)
+  // sized from the measured readout + label: even 22 px padding left/right, ≈ 21 px above the digits / below the label
   const fk = L.clamp(flashK(gt) * 2.2);
   if (fk > 0.01) {
+    c.font = L.font(64, 700, L.FONT.din);
+    const wd = c.measureText(fmtClock(countdownAt(Math.min(gt, tIn), tl))).width;
+    c.font = L.font(22, 600, L.FONT.body);
+    c.letterSpacing = '3px';
+    const wl = c.measureText('TO GET INSIDE').width - 3;
+    c.letterSpacing = '0px';
+    const pw = Math.max(wd, wl) + 44, y0 = COUNT_HUD.y - 67;
     c.fillStyle = `rgba(6,8,14,${0.6 * fk})`;
-    L.roundRect(c, COUNT_HUD.x - 232, COUNT_HUD.y - 66, 252, 112, 14); c.fill();
+    L.roundRect(c, COUNT_HUD.x + 22 - pw, y0, pw, COUNT_HUD.sub + 22 - y0, 14); c.fill();
   }
   c.textAlign = 'right';
   c.shadowColor = 'rgba(2,6,14,0.8)';
@@ -1746,27 +1772,29 @@ export function drawHud(c, v) {
     c.fillText(fmtClock(countdownAt(Math.min(gt, tIn), tl)), COUNT_HUD.x, COUNT_HUD.y);
     c.restore();
   }
+  // label swap in sequence (never two labels on top of each other): the old one is fully out before the new one is in
+  const oldK = 1 - L.smoothstep(L.prog(gt, tIn - 0.2, 0.16)), newK = L.smoothstep(L.prog(gt, tIn - 0.02, 0.2));
   c.font = L.font(22, 600, L.FONT.body);
-  if (shK < 1) {
-    c.fillStyle = `rgba(232,228,220,${0.9 * labK * (1 - shK)})`;
+  if (oldK > 0) {
+    c.fillStyle = `rgba(232,228,220,${0.9 * labK * oldK})`;
     L.trackedText(c, 'TO GET INSIDE', COUNT_HUD.x, COUNT_HUD.sub, 3, 'right');
   }
-  if (shK > 0) {
-    c.fillStyle = L.rgba(SAFE, shK);
+  if (newK > 0) {
+    c.save();
+    c.translate(0, 6 * (1 - newK));
+    c.fillStyle = L.rgba(SAFE, newK);
     c.font = L.font(22, 700, L.FONT.body);
-    L.trackedText(c, 'SHELTERED', COUNT_HUD.x, COUNT_HUD.sub, 3, 'right');
-    c.letterSpacing = '3px';
-    const tw = c.measureText('SHELTERED').width;
-    c.letterSpacing = '0px';
+    const tw = L.trackedText(c, 'SHELTERED', COUNT_HUD.x, COUNT_HUD.sub, 3, 'right');
     // drawn check, ticking on
-    const cx = COUNT_HUD.x - tw - 22, cy = COUNT_HUD.sub - 8, ck2 = L.clamp((gt - (tIn - 0.15)) / 0.35);
+    const cx = COUNT_HUD.x - tw - 22, cy = COUNT_HUD.sub - 8, ck2 = L.clamp((gt - (tIn - 0.02)) / 0.35);
     c.shadowColor = 'transparent';
-    c.strokeStyle = L.rgba(SAFE, shK); c.lineWidth = 4; c.lineCap = 'round'; c.lineJoin = 'round';
+    c.strokeStyle = L.rgba(SAFE, newK); c.lineWidth = 4; c.lineCap = 'round'; c.lineJoin = 'round';
     c.beginPath();
     c.moveTo(cx - 9, cy);
     if (ck2 < 0.4) c.lineTo(cx - 9 + 6 * (ck2 / 0.4), cy + 7 * (ck2 / 0.4));
     else { c.lineTo(cx - 3, cy + 7); const f = (ck2 - 0.4) / 0.6; c.lineTo(cx - 3 + 13 * f, cy + 7 - 16 * f); }
     c.stroke();
+    c.restore();
   }
   c.restore();
 }
@@ -1775,7 +1803,9 @@ export const cues = (tl) => (sync(tl), [
   ...beatCues(tl, { gain: 0.16, pitch: 0.9 }),
   { t: T.flash - 0.02, name: 'bloom', gain: 0.5, pitch: 0.6 },
   { t: T.flash + 0.05, name: 'deep', gain: 0.45, pitch: 0.7 },
-  { t: T.blast0 + 0.1, name: 'riser', gain: 0.25, pitch: 0.8 },
+  // hook kicker: one blip per mini STEP tile as it pops (s00: tiles at phrase 2 − 0.08 + i·0.06)
+  ...[0, 1, 2, 3].map((i) => ({ t: tl.lines[0].phrases[2].start - 0.07 + i * 0.06, name: 'blip', gain: i ? 0.14 : 0.16, pitch: 1 + 0.12 * i })),
+  { t: T.blast0 + 0.1, name: 'riser', gain: 0.18, pitch: 0.8 },   // −3 dB: kept under "the" of "the blast wave hits"
   { t: T.impact, name: 'impact', gain: 0.6, pitch: 0.7 },
   { t: T.windows + 0.3, name: 'ping', gain: 0.18, pitch: 1.6 },
   { t: T.fallout0, name: 'shimmer', gain: 0.18, pitch: 0.7 },

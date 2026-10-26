@@ -13,7 +13,7 @@
 //            in bright yellow dashes, a yellow sideways arrow in each lull; a green target + EDGE chip at the crowd's
 //            edge (−27.5, 3). sub DRIFT SIDEWAYS BETWEEN WAVES. (The earlier inset diagram was dropped: the map reads.)
 import * as L from '../../../../engine/runtime/lib.js';
-import { stepBadge, badgeSub, waveFronts, youAt, youTrail, timesFor, densityAt, CD, DANGER, SAFE, PLAZA, AVENUE } from '../env.js';
+import { stepBadge, stepSub, drawYou, youInSurge, waveFronts, youAt, youTrail, timesFor, densityAt, CD, DANGER, SAFE, PLAZA, AVENUE } from '../env.js';
 
 const TAU = Math.PI * 2;
 const ph = (v, j) => v.tl.lines[v.index].phrases[j].start - v.tl.scenes[v.index].start;
@@ -56,8 +56,9 @@ export default {
     c.globalAlpha = v.k;
     const you = { ...youAt(v.gt, v.tl) }, ux = v.wx(you.x), uy = v.wy(you.y);
 
-    // ---- a soft dark band behind the captions in the close drift shot (white captions over bright dots + the red fronts)
-    const capK = L.smoothstep(L.prog(v.gt, T.drift0 - 0.5, 0.5));
+    // ---- a soft dark band behind the captions for the whole beat (white captions over bright dots, map cars and the
+    //      red fronts); it fades in with the overlay from the beat's first frame
+    const capK = 1;
     if (capK > 0) {
       const g = c.createLinearGradient(0, 1300, 0, 1600);
       g.addColorStop(0, 'rgba(4,6,12,0)'); g.addColorStop(0.3, `rgba(4,6,12,${0.62 * capK})`); g.addColorStop(0.7, `rgba(4,6,12,${0.62 * capK})`); g.addColorStop(1, 'rgba(4,6,12,0)');
@@ -195,9 +196,12 @@ export default {
     }
 
 
+    // ---- YOU (env hands the draw to this scene in beat 3): dot, ring and chip OVER the fronts, at full strength
+    if (youInSurge(v)) { c.save(); c.globalAlpha = 1; drawYou(c, v); c.restore(); }
+
     // ---- badge + sub
     stepBadge(c, v, 3, 'GO WITH THE SURGE', { k: L.enter(v.t, ph(v, 0) - 0.1, 0.75) });
-    badgeSub(c, 'DRIFT SIDEWAYS BETWEEN WAVES', L.enter(v.t, ph(v, 2) + 0.3, 0.45));
+    stepSub(c, 'DRIFT SIDEWAYS BETWEEN WAVES', L.enter(v.t, ph(v, 2) + 0.3, 0.45));
     c.restore();
   },
 };

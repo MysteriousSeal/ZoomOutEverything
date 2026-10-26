@@ -70,13 +70,41 @@ def eleven(text, cfg, prev="", nxt=""):
     chars, t0s, t1s = al.get("characters", []), al.get("character_start_times_seconds", []), al.get("character_end_times_seconds", [])
     spoken_idx = [i for i, ch in enumerate(chars) if ch.strip() and ch not in ".,;:!?\"'"]
     if spoken_idx:
-        i0 = max(0, int((t0s[spoken_idx[0]] - 0.03) * SR))
-        i1 = min(len(a), int((t1s[spoken_idx[-1]] + 0.09) * SR))   # the last consonant decays a little past its mark
+        # head: generous pre-roll (a 30 ms one clipped first consonants), then back to the real onset, 10 ms margin
+        i0 = max(0, int((t0s[spoken_idx[0]] - 0.12) * SR))
+        on = np.flatnonzero(np.abs(a[i0:]) > 0.003)
+        if len(on):
+            i0 = max(i0, i0 + int(on[0]) - int(0.01 * SR))
+        # tail: the alignment's last end time sometimes runs long, and a fixed +90 ms cut then kept the first sound of
+        # the NEXT phrase (generated as context). Cut at the first 100 ms of silence after the last character instead.
+        t1 = t1s[spoken_idx[-1]]
+        i1 = min(len(a), int((t1 + 0.09) * SR))
+        win, hop = int(0.08 * SR), int(0.01 * SR)
+        j = max(0, int((t1 - 0.06) * SR))
+        while j + win <= min(len(a), int((t1 + 0.6) * SR)):
+            if np.sqrt(np.mean(a[j:j + win] ** 2)) < 0.01:   # −40 dBFS (raw ElevenLabs gaps sit around −45…−50)
+                i1 = min(len(a), j + int(0.04 * SR))
+                break
+            j += hop
         a = a[i0:i1]
+        # safety net: if the last 0.7 s still holds a gap (≥ 250 ms under −40 dBFS) followed by sound, that sound is
+        # the next phrase leaking in: cut at the gap
+        fr = int(0.01 * SR)
+        tail0 = max(0, len(a) - int(0.7 * SR))
+        seg = a[tail0: tail0 + (len(a) - tail0) // fr * fr]
+        if len(seg) >= 12 * fr:
+            db = 20 * np.log10(np.sqrt((seg.reshape(-1, fr) ** 2).mean(axis=1)) + 1e-9)
+            run = 0
+            for k, v in enumerate(db):
+                run = run + 1 if v < -40 else 0
+                # ≥ 250 ms: leaked blips follow 0.4–0.6 s gaps; stop closures inside speech ("fight | it") last < 150 ms
+                if run >= 25 and (db[k + 1:] > -36).any():
+                    a = a[: tail0 + (k - run + 1) * fr + int(0.04 * SR)]
+                    break
     return a
 
 
-def edge_fades(a, fin=0.005, fout=0.03):
+def edge_fades(a, fin=0.01, fout=0.035):
     """Short fades so a cut never clicks."""
     n0, n1 = min(len(a), int(fin * SR)), min(len(a), int(fout * SR))
     a[:n0] *= np.linspace(0, 1, n0, dtype=np.float32)
@@ -91,7 +119,12 @@ def level(a, target=0.16, peak=0.95):   # ≈ −16 dB voiced RMS ≈ the Kokoro
     rms = np.sqrt((frames ** 2).mean(axis=1))
     voiced = rms[rms > rms.max() * 0.1]
     g = target / max(1e-6, float(np.sqrt((voiced ** 2).mean())) if len(voiced) else 1e-6)
-    return a * min(g, peak / max(1e-6, float(np.max(np.abs(a)))))
+    a = a * g
+    # soft-knee limiter instead of capping the gain at the peak: one loud consonant no longer makes a whole phrase quiet
+    knee = 0.8
+    over = np.abs(a) > knee
+    a[over] = np.sign(a[over]) * (knee + (peak - knee) * np.tanh((np.abs(a[over]) - knee) / (peak - knee)))
+    return a
 
 
 def to_48k(a, sr):

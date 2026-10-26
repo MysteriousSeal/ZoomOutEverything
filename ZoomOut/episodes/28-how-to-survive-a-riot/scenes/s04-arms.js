@@ -8,14 +8,14 @@
 //              motion arcs + arrowheads tracing both fists (fade out by +2.0).
 //   phrase 1   sub PROTECT YOUR CHEST (+0.2); the forearms flash a yellow edge (+0.1); on "so you can keep breathing"
 //              (+1.15) a cyan breathing-space bubble swells at the chest (breathes: ±6 %, 0.55 Hz) with a leader to the
-//              tag ROOM TO BREATHE on the card's right.
+//              tag ROOM TO BREATHE in the card's empty right half (leader running right).
 //   exit       d−0.62…d−0.38: tag, bubble and sub fade, the badge plate un-wipes and its tile leaves right behind it. The
 //              dim + card + boxer stay at full strength to the last frame (no v.k fade): s05 (overlayIn false) draws the
 //              identical card and pose from its first frame, so the hand-over is invisible.
 // Exports the shared card layout (CARD, DIM, GROUND_Y, card, badgeOut) used by s05; the pictogram (POSE, joints,
 // drawPicto, picLayer, motionArc) lives in env.js.
 import * as L from '../../../../engine/runtime/lib.js';
-import { stepBadge, badgeSub, BADGE, CARD_BG, CD, POSE, mixPose, pathPose, joints, drawPicto, picLayer, motionArc } from '../env.js';
+import { stepBadge, stepSub, BADGE, CARD_BG, CD, POSE, mixPose, pathPose, joints, drawPicto, picLayer, motionArc } from '../env.js';
 export { POSE, mixPose, pathPose, joints, drawPicto, picLayer, motionArc };
 
 const { W, H } = L;
@@ -44,8 +44,9 @@ export function card(c, a, dy, sc, fn, top = 0) {
   L.roundRect(c, x + 7, y + 7, w - 14, h - 14, r - 6); c.stroke();
   // hazard tick: a short yellow/black stripe block in the top-left corner (safety-card panel mark)
   c.save();
-  c.beginPath(); c.rect(x + 26, y + 26, 64, 10); c.clip();
-  c.fillStyle = L.rgba(CD.yellow, 0.85); c.fillRect(x + 26, y + 26, 64, 10);
+  // clipped to a parallelogram whose ends follow the stripe slant and fall on stripe edges (no stray sliver)
+  c.beginPath(); c.moveTo(x + 24, y + 36); c.lineTo(x + 34, y + 26); c.lineTo(x + 90, y + 26); c.lineTo(x + 80, y + 36); c.closePath(); c.clip();
+  c.fillStyle = L.rgba(CD.yellow, 0.85); c.fillRect(x + 20, y + 26, 80, 10);
   c.fillStyle = L.rgba(CARD_BG);
   c.beginPath();
   for (let sx = x + 16; sx < x + 100; sx += 16) { c.moveTo(sx, y + 36); c.lineTo(sx + 8, y + 36); c.lineTo(sx + 18, y + 26); c.lineTo(sx + 10, y + 26); c.closePath(); }
@@ -82,7 +83,7 @@ export default {
   captions: true,
   overlayIn: false,   // drawn from the beat's first (sub-)frame: the card plate is opaque from its first frame (no ghost figure)
   layer: 5,
-  cues(d) { return [{ t: 0.05, name: 'swish', gain: 0.22, pitch: 0.9 }, { t: 0.7, name: 'whoosh', gain: 0.18, pitch: 1.3 }, { t: 3.6, name: 'shimmer', gain: 0.14, pitch: 1.2 }]; },
+  cues(d) { return [{ t: 0.05, name: 'swish', gain: 0.22, pitch: 0.9 }, { t: 0.6, name: 'whoosh', gain: 0.18, pitch: 1.3 }, { t: 3.77, name: 'shimmer', gain: 0.056, pitch: 1.2 }]; },
   drawOverlay(c, v) {
     const t = Math.max(0, v.t), d = v.d, p0 = ph(v, 0), p1 = ph(v, 1);
     const kin = L.ease.outCubic(L.prog(t, 0, 0.45));
@@ -98,7 +99,7 @@ export default {
       if (bIn < 1) stepBadge(c, v, 4, 'ARMS UP, LIKE A BOXER', { k: L.ease.outCubic(bIn) });
       else badgeOut(c, v, 4, 'ARMS UP, LIKE A BOXER', 1 - L.ease.inCubic(L.prog(t, d - 0.62, 0.2)), 1 - L.ease.inCubic(L.prog(t, d - 0.5, 0.12)));   // the tile leaves as the plate finishes: no orphan tile
     }
-    badgeSub(c, 'PROTECT YOUR CHEST', L.ease.outCubic(L.prog(t, p1 + 0.2, 0.45)) * (1 - exE));
+    stepSub(c, 'PROTECT YOUR CHEST', L.ease.outCubic(L.prog(t, p1 + 0.2, 0.45)) * (1 - exE));
     // ---- card
     // the plate is fully opaque from its first frame: it scales/slides in (0.3 s); the figure only appears once it is solid
     const cIn = L.ease.outCubic(L.prog(t, 0, 0.3));
@@ -142,20 +143,25 @@ export default {
           c.beginPath(); c.moveTo(x0, y0); c.lineTo(x1 - Math.cos(a) * 6, y1 - Math.sin(a) * 6); c.stroke();
           c.beginPath(); c.moveTo(x1, y1); c.lineTo(x1 - Math.cos(a - 0.5) * 12, y1 - Math.sin(a - 0.5) * 12); c.lineTo(x1 - Math.cos(a + 0.5) * 12, y1 - Math.sin(a + 0.5) * 12); c.closePath(); c.fill();
         }
-        // leader + tag ROOM TO BREATHE (below-left of the bubble, in front of the legs)
+        // leader + tag ROOM TO BREATHE in the card's empty right half (behind the figure's back), the leader running right
+        // from the bubble's edge (a dark halo keeps it a callout line where it crosses the body)
         const tk = L.ease.outCubic(L.prog(t, p1 + 1.35, 0.45)) * (1 - exE);
         if (tk > 0) {
           c.font = L.font(30, 800, L.FONT.display);
           c.letterSpacing = '2px';
           const tw = c.measureText('ROOM TO BREATHE').width;
           c.letterSpacing = '0px';
-          const px = CARD.x + 44, py = by + 0.25 * s;
+          const px = Math.min(CARD.x + 470, CARD.x + CARD.w - 30 - (tw + 36)), py = by - 27;
           c.globalAlpha = L.clamp(tk);
-          // leader from the bubble edge to the tag
-          const lx0 = bx - rx * 0.42, ly0 = by + ry * 0.9, lx1 = Math.min(px + tw + 10, lx0 - 14), ly1 = py;
-          c.strokeStyle = 'rgba(130,225,255,0.8)'; c.lineWidth = 2.5;
-          c.beginPath(); c.moveTo(lx0, ly0); c.lineTo(L.lerp(lx0, lx1, tk), L.lerp(ly0, ly1, tk)); c.stroke();
-          c.fillStyle = 'rgba(130,225,255,0.95)'; c.beginPath(); c.arc(lx0, ly0, 6, 0, TAU); c.fill();
+          const lx0 = bx + rx * 0.55, ly0 = by, lx1 = px;
+          const lx = L.lerp(lx0, lx1, tk);
+          c.lineCap = 'round';
+          c.strokeStyle = L.rgba(CARD_BG); c.lineWidth = 7;
+          c.beginPath(); c.moveTo(lx0, ly0); c.lineTo(lx, ly0); c.stroke();
+          c.strokeStyle = 'rgba(130,225,255,0.9)'; c.lineWidth = 2.5;
+          c.beginPath(); c.moveTo(lx0, ly0); c.lineTo(lx, ly0); c.stroke();
+          c.fillStyle = L.rgba(CARD_BG); c.beginPath(); c.arc(lx0, ly0, 8.5, 0, TAU); c.fill();
+          c.fillStyle = 'rgba(130,225,255,0.98)'; c.beginPath(); c.arc(lx0, ly0, 6, 0, TAU); c.fill();
           c.fillStyle = 'rgba(14,40,52,0.96)';
           L.roundRect(c, px, py + (1 - tk) * 10, tw + 36, 54, 10); c.fill();
           c.strokeStyle = 'rgba(130,225,255,0.85)'; c.lineWidth = 2; c.stroke();

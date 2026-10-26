@@ -15,9 +15,9 @@ const TAU = Math.PI * 2;
 const PANEL = { x: 70, y: 400, w: 940, h: 860 };
 const YB = 1128, HT = 540;                         // baseline, full-height (1 h = 100 %)
 const BARS = [
-  { h: 1, cx: 250, tick: '1 H AFTER', col: DANGER, pct: '100 %' },
-  { h: 7, cx: 530, tick: '7 H', col: AMBER, big: '10×', pct: '10 %' },
-  { h: 49, cx: 810, tick: '2 DAYS', col: [214, 222, 96], big: '100×', pct: '1 %' },
+  { h: 1, cx: 250, tick: '1 H AFTER', col: DANGER, pct: '100%' },
+  { h: 7, cx: 530, tick: '7 H', col: AMBER, big: '10×', pct: '10%' },
+  { h: 49, cx: 810, tick: '2 DAYS', col: [214, 222, 96], big: '100×', pct: '1%' },
 ];
 const BW = 150;
 const LOG7 = Math.log(7);
@@ -25,6 +25,7 @@ const hx = (h) => 250 + (Math.log(h) / LOG7) * 280;
 const hy = (h) => YB - HT * doseRate(h) / doseRate(1);
 const LABEL_Y = 760;                               // label row (big number baseline)
 const MIN_BAR = 16;                                // the 1 % bar stays visible
+const PCT_LIFT = [16, 30, 30];                     // % label baseline above the bar top
 const FIRST_FULL = 0.85;                           // bar 1 is full (beat-local s): the curve + its dot start here
 
 /** hours shown (beat-local t): 1 → 7 h on phrase 0, 7 → 49 h on phrase 1 */
@@ -64,7 +65,7 @@ export default {
     c.textBaseline = 'middle';
     c.font = L.font(30, 800, L.FONT.display);
     c.letterSpacing = '2px';
-    const chip = 'THE 7-10 RULE', cw = c.measureText(chip).width + 32;
+    const chip = 'THE 7–10 RULE', cw = c.measureText(chip).width + 32;
     c.fillStyle = L.rgba(CD.yellow);
     L.roundRect(c, PANEL.x + 40, PANEL.y + 34, cw, 48, 8); c.fill();
     c.fillStyle = L.rgba(CD.ink);
@@ -114,12 +115,13 @@ export default {
       if (qk > 0) {
         c.save();
         c.globalAlpha *= qk;
-        c.textAlign = i === 0 ? 'center' : 'left'; c.textBaseline = 'alphabetic';
+        c.textAlign = 'center'; c.textBaseline = 'alphabetic';
         c.font = L.font(30, 800, L.FONT.display);
         c.fillStyle = L.rgba(L.mix(b.col, [255, 255, 255], 0.35));
         c.shadowColor = 'rgba(9,11,24,0.9)'; c.shadowBlur = 8;
-        // above the bar top; right of the curve's pass-through for bars 2 + 3 (the curve falls to the right)
-        c.fillText(b.pct, i === 0 ? b.cx : b.cx + 12, YB - h - (i === 0 ? 16 : 12));
+        // centred over the bar, raised clear of the curve (it runs through the bar-top centres and is steepest on the
+        // left of bars 2 + 3)
+        c.fillText(b.pct, b.cx, YB - h - PCT_LIFT[i]);
         c.restore();
       }
     }
@@ -177,7 +179,7 @@ export default {
       c.fillStyle = L.rgba(TEXT, 0.95);
       L.trackedText(c, 'WEAKER', b.cx, y + 48, 4, 'center');
       // dashed drop line to the bar top
-      const top = YB - Math.max(MIN_BAR, YB - hy(b.h)) - 48, y0 = y + 72;
+      const top = YB - Math.max(MIN_BAR, YB - hy(b.h)) - PCT_LIFT[BARS.indexOf(b)] - 40, y0 = y + 72;   // stops above the % label
       const dk = L.ease.outCubic(L.clamp((k - 0.3) / 0.7));
       if (dk > 0 && top > y0) {
         c.setLineDash([4, 8]);

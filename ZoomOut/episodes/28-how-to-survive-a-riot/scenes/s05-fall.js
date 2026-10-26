@@ -14,7 +14,7 @@
 //              (d−0.62, 0.2 s) with its tile leaving right behind it (d−0.5, 0.12 s), the card plate goes in 0.12 s
 //              (d−0.47), the dim last (d−0.38 → d−0.06).
 import * as L from '../../../../engine/runtime/lib.js';
-import { stepBadge, badgeSub, CD, pathPose, joints, poseBox, drawPicto, picLayer, motionArc, mixPose, rollJ } from '../env.js';
+import { stepBadge, stepSub, CD, pathPose, joints, poseBox, drawPicto, picLayer, motionArc, mixPose, rollJ } from '../env.js';
 import { CARD, DIM, GROUND_Y, card, badgeOut } from './s04-arms.js';
 
 const { W, H } = L;
@@ -40,9 +40,9 @@ export default {
   cues(d) {
     return [
       { t: 0.75, name: 'impact', gain: 0.2, pitch: 1.4 },
-      { t: 1.3, name: 'whoosh', gain: 0.2, pitch: 1.2 },
-      { t: 3.1, name: 'swish', gain: 0.18, pitch: 0.9 },
-      { t: 4.85, name: 'tick', gain: 0.2, pitch: 1.1 },
+      { t: 1.38, name: 'whoosh', gain: 0.2, pitch: 1.2 },
+      { t: 3.2, name: 'swish', gain: 0.18, pitch: 0.9 },
+      { t: 4.65, name: 'tick', gain: 0.2, pitch: 1.1 },
       { t: d - 0.6, name: 'swish', gain: 0.16, pitch: 0.8 },
     ];
   },
@@ -60,7 +60,7 @@ export default {
     const bIn = L.prog(t, p0 - 0.1, 0.75);
     if (bIn > 0 && bIn < 1) stepBadge(c, v, 5, 'IF YOU FALL, GET UP FAST', { k: L.ease.outCubic(bIn) });
     else if (bIn >= 1) badgeOut(c, v, 5, 'IF YOU FALL, GET UP FAST', 1 - L.ease.inCubic(L.prog(t, d - 0.62, 0.2)), 1 - L.ease.inCubic(L.prog(t, d - 0.5, 0.12)));
-    badgeSub(c, 'CURL UP · COVER YOUR HEAD', L.ease.outCubic(L.prog(t, p1 + 0.05, 0.45)) * (1 - L.ease.inCubic(L.prog(t, d - 0.64, 0.2))));
+    stepSub(c, 'CURL UP · COVER YOUR HEAD', L.ease.outCubic(L.prog(t, p1 + 0.05, 0.45)) * (1 - L.ease.inCubic(L.prog(t, d - 0.64, 0.2))));
     // ---- the pose
     let q, trail = null;
     if (t < p1 + 0.2) {
@@ -100,7 +100,11 @@ export default {
           const qq = pathPose(UP, 0.04 + 0.92 * (i / 30)), jj = joints(qq), ss = sizeFor(qq), xx = xFor(qq);
           pts.push([xx + (jj.ox + jj.head.x) * ss - 0.04 * ss, gy + jj.head.y * ss - 0.15 * ss]);
         }
-        motionArc(c, pts, trail.u, 560, trail.a);
+        // the arc stops ≈ 20 px short of the head (its arrowhead never crosses the face)
+        const J = joints(q), hx = gx + (J.ox + J.head.x) * s, hy = gy + J.head.y * s, keep = 0.086 * s + 20 + 0.042 * 560;
+        const cut = pts.slice(0, Math.max(2, Math.round((pts.length - 1) * L.clamp(trail.u))) + 1);
+        while (cut.length > 3 && Math.hypot(cut[cut.length - 1][0] - hx, cut[cut.length - 1][1] - hy) < keep) cut.pop();
+        if (Math.hypot(cut[cut.length - 1][0] - hx, cut[cut.length - 1][1] - hy) >= keep) motionArc(c, cut, 1, 560, trail.a);
       }
       // head-protection ring (curl), on "cover your head"
       const rk = L.ease.outBack(L.prog(t, p1 + 2.55, 0.45), 1.6);

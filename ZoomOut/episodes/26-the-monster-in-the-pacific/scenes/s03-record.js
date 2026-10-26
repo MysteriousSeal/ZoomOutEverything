@@ -50,9 +50,21 @@ export default {
       { t: T26, name: 'riser', gain: 0.25, pitch: 1 },
       { t: T_CROSS, name: 'impact', gain: 0.38, pitch: 1 },
       { t: T91, name: 'blip', gain: 0.22, pitch: 1.1 },
-      { t: 5.35, name: 'swell', gain: 0.22, pitch: 1 },
-      { t: 6.2, name: 'impact', gain: 0.3, pitch: 0.8 },
+      { t: 5.35, name: 'swell', gain: 0.13, pitch: 1 },    // peaks under "Godzilla": kept low
+      { t: 6.11, name: 'impact', gain: 0.28, pitch: 0.8 },  // stamp: in the dip before "the Godzilla" (≈ 29.13 s on the 62.49 s timeline)
     ];
+  },
+  drawWorld(c, v) {
+    // soft dark scrim behind the caption band (y 1380–1520): the warm stripe runs right under the captions in this shot
+    const s = v.tl.scenes[3];
+    const k = L.smoothstep(prog(v.gt, s.start - 0.1, 0.4)) * (1 - L.smoothstep(prog(v.gt, s.end - 0.2, 0.4)));
+    if (k <= 0.002) return;
+    c.save();
+    c.translate(540, 1452); c.scale(1, 0.24);
+    const g = c.createRadialGradient(0, 0, 0, 0, 0, 640);
+    g.addColorStop(0, `rgba(3,6,16,${0.78 * k})`); g.addColorStop(0.6, `rgba(3,6,16,${0.62 * k})`); g.addColorStop(1, 'rgba(3,6,16,0)');
+    c.fillStyle = g; c.fillRect(-640, -640, 1280, 1280);
+    c.restore();
   },
   drawOverlay(c, v) {
     const t = v.t;
@@ -159,9 +171,9 @@ export default {
       c.beginPath(); c.moveTo(x0, ry); c.lineTo(x1, ry); c.stroke();
       c.setLineDash([]);
       // label right of the 2026 bar's column (x ≥ 830), so the counting value and the flash never cross it
-      c.font = L.font(20, 700, L.FONT.body);
+      c.font = L.font(18, 700, L.FONT.body);   // −10 %: clear of both the card edge (1008) and the 2026 bar's outline (815)
       c.fillStyle = L.rgba(INKW, 0.7 * clamp(rl * 2 - 1));
-      L.trackedText(c, 'RECORD PEAK', 992, ry + 30, 2, 'right');
+      L.trackedText(c, 'RECORD PEAK', 982, ry + 30, 2, 'right');
     }
     // the break-through flash
     const fl = prog(t, T_CROSS - 0.02, 0.7);

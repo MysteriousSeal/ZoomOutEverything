@@ -87,7 +87,7 @@ export const SHOTS = [
   { name: 'windows', at: PH(2, 2, -0.15), x: colAt(4.9, 540, MPP.windows), y: rowAt(-8.3, 1180, MPP.windows), mpp: MPP.windows, travel: 1.5, push: 0.96 },
   // parapet ≈ 600 (clear of the STEP 3 sub chip), basement foot ≈ 1385 (above the caption band)
   { name: 'inside', at: B(3), x: 0, y: rowAt(-8.35, 989, MPP.inside), mpp: MPP.inside, travel: 1.9, push: 0.98 },
-  { name: 'car', at: PH(3, 2, -0.1), x: 10, y: rowAt(0, 1150, MPP.car), mpp: MPP.car, travel: 1.2, push: 0.98 },
+  { name: 'car', at: PH(3, 2, -0.1), x: 10.5, y: rowAt(0, 1150, MPP.car), mpp: MPP.car, travel: 1.2, push: 0.98 },
   { name: 'fallout', at: B(4), x: 4, y: rowAt(0, 1320, MPP.fallout), mpp: MPP.fallout, travel: 1.6, push: 0.97 },
   // the street (and the building) leave the frame entirely: the chart owns the sky; fast tilt (clears the captions)
   { name: 'decay', at: B(5), x: 4, y: rowAt(0, 2260, MPP.decay), mpp: MPP.decay, travel: 1.3, push: 0.98, fast: true },

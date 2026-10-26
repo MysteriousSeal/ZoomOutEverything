@@ -19,7 +19,7 @@
 //      CALIBRATED: at full strength (beat 2 onward) the cos-lat-weighted ocean mean of the Niño 3.4 box (5°N–5°S,
 //      170°W–120°W) is exactly +3.3 °C and of the Niño 1+2 box (0–10°S, 90°W–80°W) exactly +3.9 °C (script.md
 //      FACT-CHECK: IRI week of 14 Oct 2026 / NOAA CPC). So `anomalyAt()` / `boxMean()` may be quoted on screen.
-//      Colour: amber → orange (ACCENT) → red → crimson → magenta-white (> +4.5); cool anomalies in muted blue; |a| <
+//      Colour: amber → orange (ACCENT) → red → crimson (≥ +4, clamped = the legend's "4+" cap); cool anomalies in muted blue; |a| <
 //      0.25 °C transparent. Thin isotherm contours every 1 °C (≥ +1) make it read as data.
 //      Story of the field (fieldState): beat 0 = the real field in the central Pacific (amp 0.9, ±5 % breath, front
 //      ≈ 125°W; the leading edge is irregular and tongue-shaped: frontLon(lat, front), equator leading, ≈ 30° soft) ·
@@ -41,7 +41,7 @@
 //   field    anomalyAt(lat, lon, gt, tl), boxMean(box, gt, tl), nino34At(gt, tl), fieldState(gt, tl), glowK(gt, tl)
 //   scale    anomColor(a), anomAlpha(a), SCALE (stops), drawLegend(c, opts), fmtC(a)
 import * as L from '../../../engine/runtime/lib.js';
-import { beatCues, stars, topBar } from '../../../engine/runtime/kit.js';
+import { stars, topBar } from '../../../engine/runtime/kit.js';
 import { drawEarth, project, unproject, geoPath, basis, elevation, warm } from '../../../engine/runtime/earth.js';
 import { R_EARTH, SHOTS, B, PH, globeAt, shotAt, shotStart } from './camera.js';
 warm();
@@ -309,9 +309,8 @@ export function glowK(gt, tl) {
 /** Anomaly colour stops (°C → rgb). */
 export const SCALE = [
   [-3, [40, 80, 170]], [-2, [52, 110, 200]], [-1, [86, 150, 218]], [-0.3, [130, 180, 225]], [0, [170, 190, 200]],
-  [0.3, [255, 222, 140]], [1, [255, 186, 72]], [2, [255, 124, 40]], [3, [232, 56, 40]], [4, [196, 26, 88]],
-  [4.6, [236, 90, 170]], [5.4, [255, 210, 240]], [6, [255, 245, 252]],
-];
+  [0.3, [255, 222, 140]], [1, [255, 186, 72]], [2, [255, 124, 40]], [3, [232, 56, 40]], [4, [200, 28, 96]],
+];   // clamped at +4: anything ≥ +4 is the legend's "4+" end colour (no pink / white cores hotter than the scale)
 /** rgb for an anomaly (°C). */
 export const anomColor = (a) => L.ramp(SCALE, a);
 /** opacity the field uses for an anomaly (°C): 0 under ±0.25, ramps to ≈ 0.8 at +1, 0.92 from +2; cool max 0.6. */
@@ -337,8 +336,14 @@ export function drawLegend(c, { x, y, w = 420, k = 1, min = 0, max = 4, title = 
   const e = L.ease.outCubic(L.clamp(k));
   c.save();
   c.globalAlpha *= L.clamp(k * 1.4);
-  c.textBaseline = 'alphabetic';
+  // translucent dark plate (calms the stars / field behind the glyphs)
   c.font = L.font(22, 600, L.FONT.body);
+  c.letterSpacing = '2.5px';
+  const tW = c.measureText(title).width - 2.5;
+  c.letterSpacing = '0px';
+  c.fillStyle = 'rgba(3,7,18,0.58)';
+  L.roundRect(c, x - 22, y - 12, Math.max(w, tW) + 44, 104, 14); c.fill();
+  c.textBaseline = 'alphabetic';
   c.fillStyle = L.rgba(INKW, 0.85);
   c.shadowColor = 'rgba(0,0,0,0.6)'; c.shadowBlur = 8;
   L.trackedText(c, title, x, y + 20, 2.5);
@@ -360,7 +365,11 @@ export function drawLegend(c, { x, y, w = 420, k = 1, min = 0, max = 4, title = 
     if (tx > x + bw + 1) break;
     c.fillRect(tx - 1, by + bh, 2, 6);
     const last = v + step > max + 1e-6;
-    c.fillText(v === 0 ? '0' : `${v > 0 ? '+' : '−'}${Math.abs(v)}${last && v > 0 ? '+' : ''}`, tx, by + bh + 30);
+    if (last && v > 0) {   // the cap: "4+" right-aligned to the bar end (no glyph hanging past it)
+      c.textAlign = 'right';
+      c.fillText(`${Math.abs(v)}+`, x + w, by + bh + 30);
+      c.textAlign = 'center';
+    } else c.fillText(v === 0 ? '0' : `${v > 0 ? '+' : '−'}${Math.abs(v)}`, tx, by + bh + 30);
   }
   c.restore();
   return 84;
@@ -560,4 +569,10 @@ export function drawHud(c, v) {
   topBar(c, v, ACCENT);
 }
 
-export const cues = (tl) => beatCues(tl, { gain: 0.16, pitch: 0.9 });
+// Transition swishes sit in the silence BETWEEN lines (centred on the gap, 0.35 s long), never on a line's first word.
+// Beat 1's big pull-out gets a full whoosh (0.8 s) centred in the longer 5.5 → 6.2 s gap (s01 has no whoosh of its own).
+export const cues = (tl) => tl.scenes.slice(1).map((s, j) => {
+  const i = j + 1, a = tl.lines[i - 1].end, b = tl.lines[i].start, mid = (a + b) / 2;
+  return i === 1 ? { t: mid - 0.4, name: 'whoosh', gain: 0.24, pitch: 0.8 }
+    : { t: mid - 0.175, name: 'swish', gain: 0.2, pitch: 0.62 * (i % 2 ? 0.85 : 1) };
+});

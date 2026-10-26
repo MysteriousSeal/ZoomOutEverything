@@ -1,6 +1,6 @@
 // Beat 0 — "If a nuclear bomb goes off near you, | you have about ten minutes to save your life. | Here's exactly what to do."
 // Times (current 60.06 s timeline, beat 0.00–8.26). No captions, no chapter, overlayIn false: frame 1 is complete.
-//   0.00        headline YOU HAVE / 10 MINUTES (accent; one shared size fitted ≤ 900 px; band y 268–≈525) and a
+//   0.00        headline YOU HAVE / ≈ 10 MINUTES (accent; one shared size fitted ≤ 900 px; band y 268–≈525) and a
 //               civil-defence countdown plate (black, yellow keyline, hazard foot; x ≈ 300–780, y 566–762) reading
 //               10:00 in DIN, ticking whole seconds (env countdownAt, frame-stable; the colon never moves: digits are
 //               tabular and the string is anchored on the colon, placed so m:ss sits centred). A fine seconds-sweep hairline under the digits.
@@ -18,7 +18,7 @@ import { countdownAt, fmtClock, TEXT, CD, COUNT_HUD } from '../env.js';
 const { W } = L;
 const TAU = Math.PI * 2;
 const MAXW = 900, TOP = 268;
-const L1 = 'YOU HAVE', L2 = '10 MINUTES';
+const L1 = 'YOU HAVE', L2 = '≈ 10 MINUTES';
 const PLATE = { cx: W / 2, y: 566, h: 212, w: 480 };   // the countdown string is centred on cx
 const DIG = 178;                 // countdown digit size (DIN Condensed; tabular digits 0.372 em, colon 0.186 em)
 const ph = (v, j) => v.tl.lines[v.index].phrases[j].start - v.tl.scenes[v.index].start;
@@ -68,10 +68,7 @@ export default {
   cues(d) {
     return [
       { t: 0.0, name: 'impact', gain: 0.3, pitch: 0.7 },
-      { t: 6.0, name: 'blip', gain: 0.16, pitch: 1.0 },
-      { t: 6.06, name: 'blip', gain: 0.14, pitch: 1.12 },
-      { t: 6.12, name: 'blip', gain: 0.14, pitch: 1.24 },
-      { t: 6.18, name: 'blip', gain: 0.14, pitch: 1.36 },
+      // the four mini-tile blips are timed from the timeline (phrase 2): env.js cues
       { t: d - 0.78, name: 'swish', gain: 0.16, pitch: 1.2 },
     ];
   },

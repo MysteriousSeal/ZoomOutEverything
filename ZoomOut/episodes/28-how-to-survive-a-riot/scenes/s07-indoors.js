@@ -12,7 +12,7 @@
 //              out. Sub AWAY FROM WINDOWS (red tint) at +0.2.
 //   world marks (drawWorld, under YOU) fade out with the overlay over d−0.3 … d+0.05; the badge/sub use v.k.
 import * as L from '../../../../engine/runtime/lib.js';
-import { stepBadge, badgeSub, WINDOWS, REFUGE, DANGER, SAFE, youAt, timesFor } from '../env.js';
+import { stepBadge, stepSub, WINDOWS, REFUGE, DANGER, SAFE, youAt, timesFor } from '../env.js';
 
 const TAU = Math.PI * 2;
 const ph = (v, j) => v.tl.lines[v.index].phrases[j].start - v.tl.scenes[v.index].start;
@@ -57,7 +57,7 @@ export default {
   chapter: null,
   captions: true,
   layer: 6,
-  cues(d) { return [{ t: 0.45, name: 'swish', gain: 0.16, pitch: 1.2 }, { t: 1.35, name: 'ping', gain: 0.2, pitch: 1.0 }, { t: 2.5, name: 'tick', gain: 0.22, pitch: 0.8 }]; },
+  cues(d) { return [{ t: 0.45, name: 'swish', gain: 0.16, pitch: 1.2 }, { t: 1.35, name: 'ping', gain: 0.2, pitch: 1.0 }, { t: 2.4, name: 'tick', gain: 0.22, pitch: 0.8 }]; },
   drawWorld(c, v) {
     const t = sceneT(v), d = v.tl.scenes[B].end - v.tl.scenes[B].start;
     if (t < 0 || t > d + 0.1) return;
@@ -141,7 +141,7 @@ export default {
     c.save();
     c.globalAlpha = v.k;
     stepBadge(c, v, 7, 'GET INDOORS', { k: L.enter(v.t, ph(v, 0) - 0.1, 0.75, L.ease.linear) });
-    badgeSub(c, 'AWAY FROM WINDOWS', L.ease.outCubic(L.prog(v.t, ph(v, 1) + 0.2, 0.45)), [255, 190, 180]);
+    stepSub(c, 'AWAY FROM WINDOWS', L.ease.outCubic(L.prog(v.t, ph(v, 1) + 0.2, 0.45)), { col: [255, 190, 180], bar: DANGER });
     c.restore();
   },
 };

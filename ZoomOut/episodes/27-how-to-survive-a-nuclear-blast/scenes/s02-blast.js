@@ -156,20 +156,28 @@ export default {
     const ex = frontScreenX(vq, 1);
     if (tagK > 0 && ex != null) {
       const fs = fireScreen(vq), gy = vq.wy(0);
-      // ride the shell at least 30° up, and never below y ≈ 1290 (the caption band)
-      const R = Math.max(0, fs.x - ex), a = R > 1 ? Math.asin(L.clamp((gy - 1290) / R, 0.5, 1)) : Math.PI / 2;
+      // ride the shell at least 30° up, the tip never below y ≈ 1220 (room for the arrow + the label under its tail
+      // above the caption band)
+      const R = Math.max(0, fs.x - ex), a = R > 1 ? Math.asin(L.clamp((gy - 1220) / R, 0.5, 1)) : Math.PI / 2;
       const dx = -Math.cos(a), dy = -Math.sin(a);
       const tx = fs.x + dx * (R + 16), ty = gy + dy * (R + 16);
+      // the label hangs BELOW the arrow's tail (an upward arrow can never cross it); the arrow shortens so the label
+      // stays above y ≈ 1352, and the tag only shows once the arrow has room (no label sliding over its own shaft)
+      const al = Math.min(74, (1300 - ty) / Math.max(0.3, -dy));
+      const gk = L.smoothstep(L.clamp((al - 40) / 16));
+      if (gk > 0) {
+      const ax = tx - dx * al, ay = ty - dy * al;
       c.save();
-      c.globalAlpha *= tagK;
+      c.globalAlpha *= tagK * gk;
       c.shadowColor = 'rgba(0,0,0,0.6)'; c.shadowBlur = 10;
-      arrow(c, tx - dx * 74, ty - dy * 74, tx, ty, 4, 18, 'rgba(255,240,220,0.95)');
+      arrow(c, ax, ay, tx, ty, 4, 18, 'rgba(255,240,220,0.95)');
       c.font = L.font(28, 800, L.FONT.body);
       c.textBaseline = 'alphabetic';
       c.letterSpacing = '4px';
       const lw = c.measureText('BLAST WAVE').width - 4;
       c.letterSpacing = '0px';
-      const lx = Math.round(Math.min(tx - dx * 74 + 14, 940 - lw - 14)), ly = Math.round(Math.min(ty - dy * 74 + 38, 1340));
+      const bw = lw + 28, by0 = Math.round(ay + 10), bx0 = Math.round(Math.min(ax - 14, 940 - bw));
+      const lx = bx0 + 14, ly = by0 + 31;
       c.shadowColor = 'rgba(0,0,0,0.5)'; c.shadowBlur = 12;
       c.fillStyle = 'rgba(8,8,12,0.93)';
       L.roundRect(c, lx - 14, ly - 31, lw + 28, 44, 9); c.fill();
@@ -178,6 +186,7 @@ export default {
       c.fillStyle = 'rgba(255,240,220,0.97)';
       L.trackedText(c, 'BLAST WAVE', lx, ly, 4);
       c.restore();
+      }
     }
 
     // ---- phrase 1: STEP 2 STAY DOWN + the card (prone figure, wind passing over)

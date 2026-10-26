@@ -28,7 +28,7 @@ export default {
   captions: false,
   overlayIn: false,
   layer: 5,
-  cues() { return [{ t: 0.0, name: 'impact', gain: 0.3, pitch: 0.7 }, { t: 6.0, name: 'ping', gain: 0.2, pitch: 0.8 }]; },
+  cues() { return [{ t: 0.0, name: 'impact', gain: 0.3, pitch: 0.7 }, { t: 5.75, name: 'ping', gain: 0.2, pitch: 0.8 }]; },
   drawOverlay(c, v) {
     c.save();
     c.globalAlpha = v.k;
@@ -66,7 +66,7 @@ export default {
     c.shadowBlur = 0; c.shadowColor = 'transparent';
 
     // ---- phrase 2: lock onto the pinch
-    const t2 = ph(v, 2);
+    const t2 = ph(v, 2) - 0.15;   // starts with the ping, in the pause before "It's the crowd itself" (no cue on a word onset)
     const rk = L.ease.outCubic(L.prog(v.t, t2, 0.6));
     if (rk > 0) {
       const R = Math.max(0, L.lerp(150, 62, rk));

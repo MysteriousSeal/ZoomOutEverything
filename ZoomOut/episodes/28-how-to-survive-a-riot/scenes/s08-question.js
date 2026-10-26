@@ -29,7 +29,7 @@ export default {
       { t: 0.02, name: 'bloom', gain: 0.25, pitch: 1.1 },
       { t: 1.0, name: 'blip', gain: 0.2, pitch: 1.0 },
       { t: 1.6, name: 'blip', gain: 0.2, pitch: 1.2 },
-      { t: 2.0, name: 'ping', gain: 0.22, pitch: 1.0 },
+      { t: 2.2, name: 'ping', gain: 0.22, pitch: 1.0 },
     ];
   },
   drawOverlay(c, v) {

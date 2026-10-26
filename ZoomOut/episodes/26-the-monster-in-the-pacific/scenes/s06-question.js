@@ -15,7 +15,7 @@ const CARD = { x: 80, w: 860, pad: 56, top: 360 };
 const INNER = CARD.w - 2 * CARD.pad;                       // 748 px of text width
 const PILL = { h: 78, gap: 18, disc: 26, textX: 88, right: 30 };
 const CHOICES = [
-  { key: 'A', name: "YES, IT'S ALREADY WEIRD" },
+  { key: 'A', name: 'YES, IT’S ALREADY WEIRD' },
   { key: 'B', name: 'NOT YET' },
 ];
 
@@ -33,10 +33,11 @@ export default {
   layer: 12,
   cues(d) {
     return [
-      { t: 0.02, name: 'bloom', gain: 0.3, pitch: 1.1 },
-      { t: 0.75, name: 'blip', gain: 0.22, pitch: 1.0 },
-      { t: 1.75, name: 'blip', gain: 0.22, pitch: 1.12 },
-      { t: 2.8, name: 'ping', gain: 0.25, pitch: 1.0 },
+      // times for the 62.49 s timeline (beat 56.21; "Is" 56.36, "Tell" 58.92)
+      { t: -0.12, name: 'bloom', gain: 0.17, pitch: 1.1 },  // 0.27 s before "Is" (after "…95%" ends at 56.01), −5 dB
+      { t: 0.66, name: 'blip', gain: 0.13, pitch: 1.0 },   // pill A lit (mid-"weather", clear of "already")
+      { t: 1.66, name: 'blip', gain: 0.15, pitch: 1.12 },  // pill B lit
+      { t: 2.47, name: 'ping', gain: 0.2, pitch: 1.0 },    // the prompt, in the 58.57 → 58.92 s gap before "Tell"
     ];
   },
   drawOverlay(ctx, v) {
@@ -100,7 +101,7 @@ export default {
       const tin = 0.35 + i * 0.3;
       const k = L.enter(t, tin, 0.42, ease.outBack);
       if (k <= 0) return;
-      const litAt = 0.75 + i * 1.0;
+      const litAt = 0.66 + i * 1.0;
       const lit = ease.outCubic(prog(t, litAt, 0.25)) * (1 - ease.inOutCubic(prog(t, litAt + 0.85, 0.35)));
       const ry = pillsY + i * (PILL.h + PILL.gap);
       const px = x + pad - 8, pw = INNER + 16;
@@ -133,7 +134,7 @@ export default {
       ctx.restore();
     });
     // comment prompt + bobbing arrow, on "Tell me in the comments"
-    const fk = L.enter(t, p1 - 0.05, 0.45);
+    const fk = L.enter(t, p1 - 0.25, 0.45);   // with the ping, in the gap before "Tell"
     if (fk > 0) {
       ctx.save();
       ctx.globalAlpha = fk;

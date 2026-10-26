@@ -25,7 +25,7 @@ export default {
   overlayIn: false,
   layer: 5,
   cues() {
-    return [{ t: 0.0, name: 'deep', gain: 0.4, pitch: 0.7 }, { t: 3.0, name: 'impact', gain: 0.25, pitch: 0.8 }];
+    return [{ t: 0.0, name: 'deep', gain: 0.4, pitch: 0.7 }, { t: 2.7, name: 'impact', gain: 0.25, pitch: 0.8 }]   // in the 2.57 → 2.92 s gap, before "And" (timeline 62.49 s);
   },
   drawWorld(c, v) {
     // GRADING ONLY (the data itself is env's real anomaly field, amp ≈ 0.9 with a ±5 % breath): an ominous edge
@@ -89,7 +89,7 @@ export default {
     draw(L2, b2);
     // phrase 1: alert tag (wipes in left → right)
     const p1 = phrase(v, 1);
-    const tk = L.enter(v.t, p1 - 0.08, 0.45, L.ease.outQuint);
+    const tk = L.enter(v.t, p1 - 0.22, 0.45, L.ease.outQuint);   // with the impact, in the gap before "And"
     if (tk > 0) {
       c.shadowBlur = 0;
       const ts = L.fitSize(c, TAG, 640, 40, 800, L.FONT.display, 24);

@@ -68,7 +68,7 @@ export function timesFor(tl) {
     zones: ph(2, 1).start,                // 17.04 "Avoid walls, fences and narrow streets": pressure builds there
     surge0,                               // 22.77 "If the crowd surges"
     // arrival of each planar surge wave at y = 0 (YOU's row); waves travel south at WAVE.speed
-    surgeHits: [surge0 + 0.8, surge0 + 2.85, surge0 + 4.35, surge0 + 5.85],   // 23.57, 25.62, 27.12, 28.62
+    surgeHits: [surge0 + 0.65, surge0 + 2.85, surge0 + 4.45, surge0 + 5.85],   // 22.72, 24.92, 26.52, 27.92 (57.66 s timeline; each 'deep' cue at hit − 0.15 lands between word onsets)
     drift0: ph(3, 2).start,               // 25.89 "Go with it, and drift sideways between waves"
     calm0: b(4) + 0.6,                    // 29.90 crowd pressure eases (cards beats)
     gas0: ph(6, 0).start,                 // 41.62 "Tear gas?": the canister starts venting

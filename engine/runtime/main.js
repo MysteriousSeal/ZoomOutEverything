@@ -234,7 +234,14 @@ function captionGroups(tl) {
   const out = [];
   for (const [li, ln] of tl.lines.flatMap((l, i) => (l.phrases ?? [l]).map((ph) => [i, ph]))) {
     const words = ln.text.toUpperCase().split(/\s+/);
-    const weights = words.map((w) => w.replace(/\W/g, '').length + 1.5 + (/[,.?!:]$/.test(w.replace(/\/$/, '')) ? 3 : 0));
+    // a word's time share follows its SPOKEN length: "95%" is "ninety-five percent", "2027" is "twenty twenty-seven"
+    const spokenLen = (w) => {
+      const d = (w.match(/\d/g) || []).join('');
+      if (!d) return /^KM\W*$/.test(w) ? 10 : w.replace(/\W/g, '').length;
+      const core = d.replace(/0{3,}$/, ''), z = d.length - core.length;
+      return core.length * 4 + (z >= 3 ? 8 : 0) + (w.includes('%') ? 7 : 0);
+    };
+    const weights = words.map((w) => spokenLen(w) + 1.5 + (/[,.?!:]$/.test(w.replace(/\/$/, '')) ? 3 : 0));
     const total = weights.reduce((a, b) => a + b, 0);
     let acc = 0;
     const timed = words.map((w, i) => { const st = ln.start + (ln.end - ln.start) * acc / total; acc += weights[i]; return [st, w.replace(/\/$/, '').replace(/[,.:]$/, '')]; });   // "{history/~history}" = caption-only break after the word

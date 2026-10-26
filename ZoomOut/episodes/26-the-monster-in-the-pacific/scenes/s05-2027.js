@@ -10,7 +10,7 @@
 //   +2.95        (phrase 1, "2027") a dashed forecast segment 2025 → 2027 draws; the 2027 point lands glowing with its
 //                1.67–1.85 whisker; right column "2027 FORECAST / ≈ 1.76 °C" (accent) above the record line
 //   +7.3         (phrase 2) stat block upper-left: the ring sweeps and the number lands on "ninety-five" (≈ 55.7 s),
-//                "≈ 95% CHANCE / OF A RECORD" + "ZEKE HAUSFATHER, AUG 2026" (one scientist's estimate; never "will")
+//                (ring first; the whole text fades in on "ninety-five") "≈ 95% CHANCE / OF A RECORD" + "ZEKE HAUSFATHER, AUG 2026" (one scientist's estimate; never "will")
 // Facts: env FACTS (rec2024 1.55, f2027 1.76, f2027lo/hi 1.67/1.85, chance2027 95) = script.md FACT-CHECK.
 import * as L from '../../../../engine/runtime/lib.js';
 import { ACCENT, FACTS, GLOBAL_T, INKW, phrase } from '../env.js';
@@ -33,11 +33,12 @@ export default {
   layer: 5,
   cues(d) {
     return [
-      { t: 0.45, name: 'swish', gain: 0.18, pitch: 1 },
-      { t: 2.2, name: 'tick', gain: 0.22, pitch: 1 },
-      { t: 3.35, name: 'bloom', gain: 0.32, pitch: 1.1 },
-      { t: 7.3, name: 'riser', gain: 0.2, pitch: 1.1 },
-      { t: 9.9, name: 'ping', gain: 0.26, pitch: 1.2 },   // the 95 % lands on "ninety-five" (TN)
+      // times for the 62.49 s timeline (beat 45.26; "2027" 48.22–49.18, "ninety-five" from ≈ 54.36)
+      { t: 0.45, name: 'swish', gain: 0.13, pitch: 1 },
+      { t: 2.2, name: 'tick', gain: 0.22, pitch: 1 },      // in the 47.33 → 47.68 s gap
+      { t: 3.35, name: 'bloom', gain: 0.08, pitch: 1.1 },  // the 2027 point (under "twenty twenty-seven": kept low)
+      { t: 7.3, name: 'riser', gain: 0.13, pitch: 1.1 },
+      { t: 9.08, name: 'tick', gain: 0.2, pitch: 1.1 },   // the 95 % lands (TN): a dry click (no ringing tail) in the dip just before "ninety-five"
     ];
   },
   drawOverlay(c, v) {
@@ -48,8 +49,8 @@ export default {
     const p1 = phrase(v, 1), p2 = phrase(v, 2);
     const TF = p1 + 0.52;            // forecast segment starts (≈ "2027")
     const TP = TF + 0.4;             // 2027 point lands
-    const TS = p2 + 0.25;            // stat block (ring sweeps from here)
-    const TN = phrase(v, 2, 'end') - 1.3;   // the 95 % number lands on "ninety-five" (≈ 55.7 s)
+    const TS = phrase(v, 2, 'end') - 1.65 - 0.7;   // stat block appears 0.7 s before its text (no long-empty badge); ring sweeps from here
+    const TN = phrase(v, 2, 'end') - 1.65;  // the 95 % text lands on "ninety-five" (≈ 54.36 s)
     c.save();
     c.translate(0, (1 - ck) * 24);
     c.globalAlpha = ck;
@@ -162,7 +163,7 @@ export default {
       c.globalAlpha *= lk2;
       c.textAlign = 'left';
       const dy = (1 - lk2) * 10;
-      c.font = L.font(24, 800, L.FONT.body);
+      c.font = L.font(21, 800, L.FONT.body);   // −12 %: ends ≈ 975, clear of the card edge (1016)
       c.fillStyle = L.rgba(ACCENT);
       L.trackedText(c, '2027 FORECAST', COL, by - 34 + dy, 1.5);
       c.font = L.font(46, 800, L.FONT.display);
@@ -201,26 +202,23 @@ export default {
       c.font = L.font(s1, 800, L.FONT.display);
       c.textAlign = 'left';
       const wa = c.measureText(a).width;
+      // the whole text block fades in together on "ninety-five" (the ring sweeps first): "CHANCE" always sits right
+      // after the number, and no placeholder value is ever shown
       const nk = ease.outCubic(prog(t, TN, 0.3));
-      if (nk < 1) {   // until "ninety-five" lands, a dim placeholder holds the number's slot (no stray "CHANCE" on its own)
-        c.save(); c.globalAlpha *= 1 - nk;
-        c.fillStyle = L.rgba(INKW, 0.22); c.fillText('≈ ··%', tx, by + 52);
-        c.restore();
-      }
       if (nk > 0) {
-        c.save(); c.globalAlpha *= nk;
-        c.fillStyle = L.rgba(ACCENT); c.fillText(a, tx, by + 52);
-        c.restore();
+        c.globalAlpha *= nk;
+        const dyn = (1 - nk) * 8;
+        c.fillStyle = L.rgba(ACCENT); c.fillText(a, tx, by + 52 + dyn);
+        c.fillStyle = L.rgba(INKW); c.fillText(b, tx + wa, by + 52 + dyn);
+        c.font = L.font(Math.round(s1 * 0.62), 800, L.FONT.display);
+        c.fillText('OF A RECORD', tx, by + 88 + dyn);
+        const src = 'ZEKE HAUSFATHER, AUG 2026';
+        let fs = 22;
+        for (; fs > 20; fs--) { c.font = L.font(fs, 600, L.FONT.body); c.letterSpacing = '1.5px'; const w = c.measureText(src).width; c.letterSpacing = '0px'; if (w <= tw) break; }
+        c.font = L.font(fs, 600, L.FONT.body);
+        c.fillStyle = L.rgba(INKW, 0.66);
+        L.trackedText(c, src, tx, by + 118 + dyn, 1.5);
       }
-      c.fillStyle = L.rgba(INKW); c.fillText(b, tx + wa, by + 52);
-      c.font = L.font(Math.round(s1 * 0.62), 800, L.FONT.display);
-      c.fillText('OF A RECORD', tx, by + 88);
-      const src = 'ZEKE HAUSFATHER, AUG 2026';
-      let fs = 22;
-      for (; fs > 20; fs--) { c.font = L.font(fs, 600, L.FONT.body); c.letterSpacing = '1.5px'; const w = c.measureText(src).width; c.letterSpacing = '0px'; if (w <= tw) break; }
-      c.font = L.font(fs, 600, L.FONT.body);
-      c.fillStyle = L.rgba(INKW, 0.66);
-      L.trackedText(c, src, tx, by + 118, 1.5);
       c.restore();
     }
     c.restore();
