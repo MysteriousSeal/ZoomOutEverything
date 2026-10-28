@@ -1,0 +1,731 @@
+{
+ "voice": "kPzsL2i3teMYv0FxEYQ6",
+ "speed": 0.92,
+ "total": 64.712,
+ "preroll": 0,
+ "lines": [
+  {
+   "text": "He survived the atomic bomb on Hiroshima. Three days later, he was in Nagasaki.",
+   "start": 0.3,
+   "end": 5.658,
+   "phrases": [
+    {
+     "text": "He survived the atomic bomb on Hiroshima.",
+     "start": 0.3,
+     "end": 2.898,
+     "words": [
+      [
+       0.3,
+       "He"
+      ],
+      [
+       0.518,
+       "survived"
+      ],
+      [
+       1.078,
+       "the"
+      ],
+      [
+       1.398,
+       "atomic"
+      ],
+      [
+       1.718,
+       "bomb"
+      ],
+      [
+       2.118,
+       "on"
+      ],
+      [
+       2.278,
+       "Hiroshima."
+      ]
+     ]
+    },
+    {
+     "text": "Three days later, he was in Nagasaki.",
+     "start": 3.348,
+     "end": 5.658,
+     "words": [
+      [
+       3.348,
+       "Three"
+      ],
+      [
+       3.588,
+       "days"
+      ],
+      [
+       3.908,
+       "later,"
+      ],
+      [
+       4.548,
+       "he"
+      ],
+      [
+       4.708,
+       "was"
+      ],
+      [
+       4.828,
+       "in"
+      ],
+      [
+       4.948,
+       "Nagasaki."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "August sixth, 1945. Tsutomu Yamaguchi, an engineer, is on a business trip to Hiroshima.",
+   "start": 6.558,
+   "end": 13.859,
+   "phrases": [
+    {
+     "text": "August sixth, 1945.",
+     "start": 6.558,
+     "end": 8.845,
+     "words": [
+      [
+       6.558,
+       "August"
+      ],
+      [
+       7.105,
+       "sixth,"
+      ],
+      [
+       7.665,
+       "nineteen"
+      ],
+      [
+       8.145,
+       "forty-five."
+      ]
+     ]
+    },
+    {
+     "text": "Tsutomu Yamaguchi, an engineer, is on a business trip to Hiroshima.",
+     "start": 9.295,
+     "end": 13.859,
+     "words": [
+      [
+       9.295,
+       "Tsutomu"
+      ],
+      [
+       9.74,
+       "Yamaguchi,"
+      ],
+      [
+       10.647,
+       "an"
+      ],
+      [
+       10.807,
+       "engineer,"
+      ],
+      [
+       11.66,
+       "is"
+      ],
+      [
+       11.767,
+       "on"
+      ],
+      [
+       12.007,
+       "a"
+      ],
+      [
+       12.274,
+       "business"
+      ],
+      [
+       12.527,
+       "trip"
+      ],
+      [
+       12.687,
+       "to"
+      ],
+      [
+       12.767,
+       "Hiroshima."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "At eight fifteen, the bomb explodes about three kilometres away. His eardrums burst, his skin is burned, but he survives.",
+   "start": 14.459,
+   "end": 24.563,
+   "phrases": [
+    {
+     "text": "At eight fifteen, the bomb explodes about three kilometres away.",
+     "start": 14.459,
+     "end": 18.954,
+     "words": [
+      [
+       14.459,
+       "At"
+      ],
+      [
+       14.779,
+       "eight"
+      ],
+      [
+       14.939,
+       "fifteen,"
+      ],
+      [
+       15.819,
+       "the"
+      ],
+      [
+       16.099,
+       "bomb"
+      ],
+      [
+       16.299,
+       "explodes"
+      ],
+      [
+       16.939,
+       "about"
+      ],
+      [
+       17.419,
+       "three"
+      ],
+      [
+       17.699,
+       "kilometres"
+      ],
+      [
+       18.219,
+       "away."
+      ]
+     ]
+    },
+    {
+     "text": "His eardrums burst, his skin is burned,",
+     "start": 19.404,
+     "end": 22.908,
+     "words": [
+      [
+       19.404,
+       "His"
+      ],
+      [
+       19.7,
+       "eardrums"
+      ],
+      [
+       20.34,
+       "burst,"
+      ],
+      [
+       21.221,
+       "his"
+      ],
+      [
+       21.461,
+       "skin"
+      ],
+      [
+       21.861,
+       "is"
+      ],
+      [
+       22.101,
+       "burned,"
+      ]
+     ]
+    },
+    {
+     "text": "but he survives.",
+     "start": 23.358,
+     "end": 24.563,
+     "words": [
+      [
+       23.358,
+       "but"
+      ],
+      [
+       23.573,
+       "he"
+      ],
+      [
+       23.853,
+       "survives."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "The next day, wounded, he takes the train home. Home is Nagasaki.",
+   "start": 25.163,
+   "end": 30.471,
+   "phrases": [
+    {
+     "text": "The next day, wounded, he takes the train home.",
+     "start": 25.163,
+     "end": 28.454,
+     "words": [
+      [
+       25.163,
+       "The"
+      ],
+      [
+       25.294,
+       "next"
+      ],
+      [
+       25.774,
+       "day,"
+      ],
+      [
+       26.334,
+       "wounded,"
+      ],
+      [
+       27.214,
+       "he"
+      ],
+      [
+       27.374,
+       "takes"
+      ],
+      [
+       27.694,
+       "the"
+      ],
+      [
+       27.934,
+       "train"
+      ],
+      [
+       28.254,
+       "home."
+      ]
+     ]
+    },
+    {
+     "text": "Home is Nagasaki.",
+     "start": 28.904,
+     "end": 30.471,
+     "words": [
+      [
+       28.904,
+       "Home"
+      ],
+      [
+       29.53,
+       "is"
+      ],
+      [
+       29.73,
+       "Nagasaki."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "August ninth. Bandaged, he goes back to work, and tells his boss about the blinding flash in Hiroshima.",
+   "start": 31.071,
+   "end": 38.678,
+   "phrases": [
+    {
+     "text": "August ninth.",
+     "start": 31.071,
+     "end": 31.898,
+     "words": [
+      [
+       31.071,
+       "August"
+      ],
+      [
+       31.518,
+       "ninth."
+      ]
+     ]
+    },
+    {
+     "text": "Bandaged, he goes back to work,",
+     "start": 32.348,
+     "end": 34.328,
+     "words": [
+      [
+       32.348,
+       "Bandaged,"
+      ],
+      [
+       33.228,
+       "he"
+      ],
+      [
+       33.348,
+       "goes"
+      ],
+      [
+       33.748,
+       "back"
+      ],
+      [
+       33.948,
+       "to"
+      ],
+      [
+       34.188,
+       "work,"
+      ]
+     ]
+    },
+    {
+     "text": "and tells his boss about the blinding flash in Hiroshima.",
+     "start": 34.778,
+     "end": 38.678,
+     "words": [
+      [
+       34.778,
+       "and"
+      ],
+      [
+       34.978,
+       "tells"
+      ],
+      [
+       35.258,
+       "his"
+      ],
+      [
+       35.658,
+       "boss"
+      ],
+      [
+       35.898,
+       "about"
+      ],
+      [
+       36.218,
+       "the"
+      ],
+      [
+       36.378,
+       "blinding"
+      ],
+      [
+       37.018,
+       "flash"
+      ],
+      [
+       37.458,
+       "in"
+      ],
+      [
+       37.578,
+       "Hiroshima."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "That's when it happens again. Another flash, about three kilometres away.",
+   "start": 39.278,
+   "end": 45.256,
+   "phrases": [
+    {
+     "text": "That's when it happens again.",
+     "start": 39.278,
+     "end": 41.369,
+     "words": [
+      [
+       39.278,
+       "That's"
+      ],
+      [
+       39.678,
+       "when"
+      ],
+      [
+       39.838,
+       "it"
+      ],
+      [
+       39.998,
+       "happens"
+      ],
+      [
+       40.838,
+       "again."
+      ]
+     ]
+    },
+    {
+     "text": "Another flash, about three kilometres away.",
+     "start": 41.819,
+     "end": 45.256,
+     "words": [
+      [
+       41.819,
+       "Another"
+      ],
+      [
+       42.287,
+       "flash,"
+      ],
+      [
+       43.087,
+       "about"
+      ],
+      [
+       43.407,
+       "three"
+      ],
+      [
+       43.727,
+       "kilometres"
+      ],
+      [
+       44.367,
+       "away."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "He survives that one too. Japan only officially recognised him as a survivor of both bombs in 2009. He lived to ninety-three.",
+   "start": 45.856,
+   "end": 56.955,
+   "phrases": [
+    {
+     "text": "He survives that one too.",
+     "start": 45.856,
+     "end": 47.845,
+     "words": [
+      [
+       45.856,
+       "He"
+      ],
+      [
+       46.113,
+       "survives"
+      ],
+      [
+       46.633,
+       "that"
+      ],
+      [
+       46.913,
+       "one"
+      ],
+      [
+       47.113,
+       "too."
+      ]
+     ]
+    },
+    {
+     "text": "Japan only officially recognised him as a survivor of both bombs in 2009.",
+     "start": 48.295,
+     "end": 54.258,
+     "words": [
+      [
+       48.295,
+       "Japan"
+      ],
+      [
+       48.808,
+       "only"
+      ],
+      [
+       49.328,
+       "officially"
+      ],
+      [
+       49.968,
+       "recognised"
+      ],
+      [
+       50.408,
+       "him"
+      ],
+      [
+       50.608,
+       "as"
+      ],
+      [
+       50.728,
+       "a"
+      ],
+      [
+       50.928,
+       "survivor"
+      ],
+      [
+       51.448,
+       "of"
+      ],
+      [
+       51.688,
+       "both"
+      ],
+      [
+       52.008,
+       "bombs"
+      ],
+      [
+       52.488,
+       "in"
+      ],
+      [
+       52.728,
+       "two"
+      ],
+      [
+       52.968,
+       "thousand"
+      ],
+      [
+       53.808,
+       "nine."
+      ]
+     ]
+    },
+    {
+     "text": "He lived to ninety-three.",
+     "start": 54.708,
+     "end": 56.955,
+     "words": [
+      [
+       54.708,
+       "He"
+      ],
+      [
+       54.948,
+       "lived"
+      ],
+      [
+       55.348,
+       "to"
+      ],
+      [
+       55.588,
+       "ninety-three."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Luckiest or unluckiest man in history? Tell me in the comments.",
+   "start": 57.555,
+   "end": 62.312,
+   "phrases": [
+    {
+     "text": "Luckiest or unluckiest man in history?",
+     "start": 57.555,
+     "end": 60.655,
+     "words": [
+      [
+       57.555,
+       "Luckiest"
+      ],
+      [
+       58.355,
+       "or"
+      ],
+      [
+       58.755,
+       "unluckiest"
+      ],
+      [
+       59.555,
+       "man"
+      ],
+      [
+       59.715,
+       "in"
+      ],
+      [
+       59.875,
+       "history?"
+      ]
+     ]
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 61.105,
+     "end": 62.312,
+     "words": [
+      [
+       61.105,
+       "Tell"
+      ],
+      [
+       61.332,
+       "me"
+      ],
+      [
+       61.452,
+       "in"
+      ],
+      [
+       61.572,
+       "the"
+      ],
+      [
+       61.972,
+       "comments."
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 6.408
+  },
+  {
+   "start": 6.408,
+   "end": 14.309
+  },
+  {
+   "start": 14.309,
+   "end": 25.013
+  },
+  {
+   "start": 25.013,
+   "end": 30.921
+  },
+  {
+   "start": 30.921,
+   "end": 39.128
+  },
+  {
+   "start": 39.128,
+   "end": 45.706
+  },
+  {
+   "start": 45.706,
+   "end": 57.405
+  },
+  {
+   "start": 57.405,
+   "end": 64.712
+  }
+ ]
+}

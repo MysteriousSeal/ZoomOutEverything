@@ -1,0 +1,711 @@
+{
+ "voice": "kPzsL2i3teMYv0FxEYQ6",
+ "speed": 0.92,
+ "total": 61.928,
+ "preroll": 0,
+ "lines": [
+  {
+   "text": "In 1964, a seventeen-year-old stayed awake for eleven days. No caffeine, no pills.",
+   "start": 0.3,
+   "end": 7.623,
+   "phrases": [
+    {
+     "text": "In 1964, a seventeen-year-old stayed awake for eleven days.",
+     "start": 0.3,
+     "end": 5.133,
+     "words": [
+      [
+       0.3,
+       "In"
+      ],
+      [
+       0.513,
+       "nineteen"
+      ],
+      [
+       0.913,
+       "sixty-four,"
+      ],
+      [
+       1.953,
+       "a"
+      ],
+      [
+       2.113,
+       "seventeen-year-old"
+      ],
+      [
+       3.073,
+       "stayed"
+      ],
+      [
+       3.313,
+       "awake"
+      ],
+      [
+       3.633,
+       "for"
+      ],
+      [
+       3.993,
+       "eleven"
+      ],
+      [
+       4.593,
+       "days."
+      ]
+     ]
+    },
+    {
+     "text": "No caffeine, no pills.",
+     "start": 5.583,
+     "end": 7.623,
+     "words": [
+      [
+       5.583,
+       "No"
+      ],
+      [
+       6.003,
+       "caffeine,"
+      ],
+      [
+       6.843,
+       "no"
+      ],
+      [
+       7.083,
+       "pills."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Randy Gardner was a high-school student in San Diego. It was a science-fair project.",
+   "start": 8.523,
+   "end": 14.134,
+   "phrases": [
+    {
+     "text": "Randy Gardner was a high-school student in San Diego.",
+     "start": 8.523,
+     "end": 11.945,
+     "words": [
+      [
+       8.523,
+       "Randy"
+      ],
+      [
+       8.976,
+       "Gardner"
+      ],
+      [
+       9.456,
+       "was"
+      ],
+      [
+       9.696,
+       "a"
+      ],
+      [
+       9.856,
+       "high-school"
+      ],
+      [
+       10.256,
+       "student"
+      ],
+      [
+       10.656,
+       "in"
+      ],
+      [
+       10.816,
+       "San"
+      ],
+      [
+       11.136,
+       "Diego."
+      ]
+     ]
+    },
+    {
+     "text": "It was a science-fair project.",
+     "start": 12.395,
+     "end": 14.134,
+     "words": [
+      [
+       12.395,
+       "It"
+      ],
+      [
+       12.544,
+       "was"
+      ],
+      [
+       12.704,
+       "a"
+      ],
+      [
+       12.864,
+       "science-fair"
+      ],
+      [
+       13.505,
+       "project."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Day two: his eyes can't focus. He can't tell objects apart by touch.",
+   "start": 14.734,
+   "end": 21.154,
+   "phrases": [
+    {
+     "text": "Day two: his eyes can't focus.",
+     "start": 14.734,
+     "end": 17.869,
+     "words": [
+      [
+       14.734,
+       "Day"
+      ],
+      [
+       15.054,
+       "two:"
+      ],
+      [
+       15.934,
+       "his"
+      ],
+      [
+       16.174,
+       "eyes"
+      ],
+      [
+       16.574,
+       "can't"
+      ],
+      [
+       16.894,
+       "focus."
+      ]
+     ]
+    },
+    {
+     "text": "He can't tell objects apart by touch.",
+     "start": 18.319,
+     "end": 21.154,
+     "words": [
+      [
+       18.319,
+       "He"
+      ],
+      [
+       18.534,
+       "can't"
+      ],
+      [
+       18.894,
+       "tell"
+      ],
+      [
+       19.094,
+       "objects"
+      ],
+      [
+       19.574,
+       "apart"
+      ],
+      [
+       20.054,
+       "by"
+      ],
+      [
+       20.214,
+       "touch."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Day four: he's irritable and forgetful, and he starts to see things that aren't there.",
+   "start": 21.754,
+   "end": 28.047,
+   "phrases": [
+    {
+     "text": "Day four: he's irritable and forgetful,",
+     "start": 21.754,
+     "end": 24.831,
+     "words": [
+      [
+       21.754,
+       "Day"
+      ],
+      [
+       22.071,
+       "four:"
+      ],
+      [
+       22.991,
+       "he's"
+      ],
+      [
+       23.351,
+       "irritable"
+      ],
+      [
+       23.911,
+       "and"
+      ],
+      [
+       24.071,
+       "forgetful,"
+      ]
+     ]
+    },
+    {
+     "text": "and he starts to see things that aren't there.",
+     "start": 25.281,
+     "end": 28.047,
+     "words": [
+      [
+       25.281,
+       "and"
+      ],
+      [
+       25.507,
+       "he"
+      ],
+      [
+       25.667,
+       "starts"
+      ],
+      [
+       25.987,
+       "to"
+      ],
+      [
+       26.227,
+       "see"
+      ],
+      [
+       26.467,
+       "things"
+      ],
+      [
+       26.827,
+       "that"
+      ],
+      [
+       27.027,
+       "aren't"
+      ],
+      [
+       27.667,
+       "there."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "He even believes he's a famous American football player.",
+   "start": 28.647,
+   "end": 32.234,
+   "phrases": [
+    {
+     "text": "He even believes he's a famous American football player.",
+     "start": 28.647,
+     "end": 32.234,
+     "words": [
+      [
+       28.647,
+       "He"
+      ],
+      [
+       28.948,
+       "even"
+      ],
+      [
+       29.308,
+       "believes"
+      ],
+      [
+       29.628,
+       "he's"
+      ],
+      [
+       29.828,
+       "a"
+      ],
+      [
+       29.988,
+       "famous"
+      ],
+      [
+       30.388,
+       "American"
+      ],
+      [
+       31.028,
+       "football"
+      ],
+      [
+       31.428,
+       "player."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "By day eleven, his speech slurs and his memory fails. Yet he still beats a Stanford sleep scientist at pinball.",
+   "start": 32.834,
+   "end": 41.515,
+   "phrases": [
+    {
+     "text": "By day eleven, his speech slurs",
+     "start": 32.834,
+     "end": 35.066,
+     "words": [
+      [
+       32.834,
+       "By"
+      ],
+      [
+       33.058,
+       "day"
+      ],
+      [
+       33.378,
+       "eleven,"
+      ],
+      [
+       34.098,
+       "his"
+      ],
+      [
+       34.258,
+       "speech"
+      ],
+      [
+       34.658,
+       "slurs"
+      ]
+     ]
+    },
+    {
+     "text": "and his memory fails.",
+     "start": 35.516,
+     "end": 37.174,
+     "words": [
+      [
+       35.516,
+       "and"
+      ],
+      [
+       35.784,
+       "his"
+      ],
+      [
+       35.984,
+       "memory"
+      ],
+      [
+       36.544,
+       "fails."
+      ]
+     ]
+    },
+    {
+     "text": "Yet he still beats a Stanford sleep scientist at pinball.",
+     "start": 37.624,
+     "end": 41.515,
+     "words": [
+      [
+       37.624,
+       "Yet"
+      ],
+      [
+       37.975,
+       "he"
+      ],
+      [
+       38.175,
+       "still"
+      ],
+      [
+       38.535,
+       "beats"
+      ],
+      [
+       38.735,
+       "a"
+      ],
+      [
+       38.975,
+       "Stanford"
+      ],
+      [
+       39.535,
+       "sleep"
+      ],
+      [
+       39.855,
+       "scientist"
+      ],
+      [
+       40.415,
+       "at"
+      ],
+      [
+       40.575,
+       "pinball."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "After two hundred and sixty-four hours, he finally sleeps: about fourteen hours.",
+   "start": 42.115,
+   "end": 48.598,
+   "phrases": [
+    {
+     "text": "After two hundred and sixty-four hours, he finally sleeps:",
+     "start": 42.115,
+     "end": 46.531,
+     "words": [
+      [
+       42.115,
+       "After"
+      ],
+      [
+       42.635,
+       "two"
+      ],
+      [
+       42.835,
+       "hundred"
+      ],
+      [
+       43.155,
+       "and"
+      ],
+      [
+       43.475,
+       "sixty-four"
+      ],
+      [
+       44.195,
+       "hours,"
+      ],
+      [
+       44.995,
+       "he"
+      ],
+      [
+       45.155,
+       "finally"
+      ],
+      [
+       45.715,
+       "sleeps:"
+      ]
+     ]
+    },
+    {
+     "text": "about fourteen hours.",
+     "start": 46.981,
+     "end": 48.598,
+     "words": [
+      [
+       46.981,
+       "about"
+      ],
+      [
+       47.449,
+       "fourteen"
+      ],
+      [
+       48.089,
+       "hours."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Today, Guinness no longer accepts this record. It's too dangerous.",
+   "start": 49.198,
+   "end": 54.766,
+   "phrases": [
+    {
+     "text": "Today, Guinness no longer accepts this record.",
+     "start": 49.198,
+     "end": 52.304,
+     "words": [
+      [
+       49.198,
+       "Today,"
+      ],
+      [
+       49.928,
+       "Guinness"
+      ],
+      [
+       50.368,
+       "no"
+      ],
+      [
+       50.608,
+       "longer"
+      ],
+      [
+       50.928,
+       "accepts"
+      ],
+      [
+       51.408,
+       "this"
+      ],
+      [
+       51.928,
+       "record."
+      ]
+     ]
+    },
+    {
+     "text": "It's too dangerous.",
+     "start": 52.754,
+     "end": 54.766,
+     "words": [
+      [
+       52.754,
+       "It's"
+      ],
+      [
+       53.234,
+       "too"
+      ],
+      [
+       53.474,
+       "dangerous."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "What's the longest you've ever stayed awake? Tell me in the comments.",
+   "start": 55.366,
+   "end": 59.528,
+   "phrases": [
+    {
+     "text": "What's the longest you've ever stayed awake?",
+     "start": 55.366,
+     "end": 57.898,
+     "words": [
+      [
+       55.366,
+       "What's"
+      ],
+      [
+       55.737,
+       "the"
+      ],
+      [
+       55.897,
+       "longest"
+      ],
+      [
+       56.337,
+       "you've"
+      ],
+      [
+       56.617,
+       "ever"
+      ],
+      [
+       56.937,
+       "stayed"
+      ],
+      [
+       57.177,
+       "awake?"
+      ]
+     ]
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 58.348,
+     "end": 59.528,
+     "words": [
+      [
+       58.348,
+       "Tell"
+      ],
+      [
+       58.588,
+       "me"
+      ],
+      [
+       58.708,
+       "in"
+      ],
+      [
+       58.828,
+       "the"
+      ],
+      [
+       59.188,
+       "comments."
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 8.373
+  },
+  {
+   "start": 8.373,
+   "end": 14.584
+  },
+  {
+   "start": 14.584,
+   "end": 21.604
+  },
+  {
+   "start": 21.604,
+   "end": 28.497
+  },
+  {
+   "start": 28.497,
+   "end": 32.684
+  },
+  {
+   "start": 32.684,
+   "end": 41.965
+  },
+  {
+   "start": 41.965,
+   "end": 49.048
+  },
+  {
+   "start": 49.048,
+   "end": 55.216
+  },
+  {
+   "start": 55.216,
+   "end": 61.928
+  }
+ ]
+}

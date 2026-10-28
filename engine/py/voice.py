@@ -7,7 +7,7 @@ The default voice is ElevenLabs Brittney on eleven_v4 at its natural pace; "id",
 A "voice" block with a Kokoro "name" (or "engine": "kokoro") uses Kokoro instead. ElevenLabs needs ELEVENLABS_API_KEY in the
 environment or the project .env; each phrase is cached in .tts_cache/ by its text, voice, model and settings, so re-runs
 never spend credits twice.
-"holds": {"<line index>": seconds} adds a pause after that line; "{shown~spoken}" in a line = caption text ~ TTS text.
+"holds": {"<line index>": seconds} adds a pause after that line; "phraseAt" / "lineAt" pin starts to a grid (see main); "{shown~spoken}" in a line = caption text ~ TTS text.
 writes build/vo.wav and build/timeline.json. Recordings in voice_override/lineN.wav win.
 """
 import base64
@@ -218,6 +218,10 @@ def main(ep_dir):
                     words = None
                 if pi:
                     t += phrase_gap
+                    # "phraseAt": {"<line>.<phrase>": s} pins a phrase's start to s after its line's start (breath grids)
+                    at = cfg.get("phraseAt", {}).get(f"{li - 1 - pre}.{pi}")
+                    if at is not None:
+                        t = max(t - phrase_gap + 0.25, phrases[0]["start"] + at)
                 segments.append((t, a))
                 phrases.append({"text": shown(part), "start": round(t, 3), "end": round(t + len(a) / SR, 3)})
                 if words:   # spoken words with their start times (main.js captions use them when they match the shown words)
@@ -225,6 +229,11 @@ def main(ep_dir):
                 t += len(a) / SR
         lines.append({"text": " ".join(ph["text"] for ph in phrases), "start": phrases[0]["start"], "end": phrases[-1]["end"],
                       "phrases": phrases})
+        # "lineAt": {"<line>": s} pins a line's start to s after the previous line's start
+        at = cfg.get("lineAt", {}).get(str(li - pre))
+        if at is not None:
+            t = max(t + 0.25, lines[-1]["start"] + at)
+            continue
         t += gap + (hook_hold if li == 1 + pre else 0) + (ep["preroll"].get("hold", 0) if pre and li == 1 else 0) + holds.get(li - 1 - pre, 0)
     total = lines[-1]["end"] + tail
     starts = [0.0] + [ln["start"] - 0.15 for ln in lines[1:]]

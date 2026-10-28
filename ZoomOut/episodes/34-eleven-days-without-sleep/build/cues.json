@@ -1,0 +1,184 @@
+[
+ {
+  "t": 0,
+  "name": "deep",
+  "gain": 0.3,
+  "pitch": 0.7,
+  "scene": "env"
+ },
+ {
+  "t": 5.258000000000001,
+  "name": "blip",
+  "gain": 0.1,
+  "pitch": 0.8,
+  "scene": "env"
+ },
+ {
+  "t": 7.913,
+  "name": "swish",
+  "gain": 0.13,
+  "pitch": 0.66,
+  "scene": "env"
+ },
+ {
+  "t": 14.1,
+  "name": "tick",
+  "gain": 0.05,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 14.274000000000001,
+  "name": "swish",
+  "gain": 0.13,
+  "pitch": 0.75,
+  "scene": "env"
+ },
+ {
+  "t": 14.97,
+  "name": "tick",
+  "gain": 0.05,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 16.593999999999998,
+  "name": "shimmer",
+  "gain": 0.07,
+  "pitch": 0.8,
+  "scene": "env"
+ },
+ {
+  "t": 21.1,
+  "name": "tick",
+  "gain": 0.05,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 21.294,
+  "name": "swish",
+  "gain": 0.13,
+  "pitch": 0.66,
+  "scene": "env"
+ },
+ {
+  "t": 21.5,
+  "name": "tick",
+  "gain": 0.05,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 21.99,
+  "name": "tick",
+  "gain": 0.05,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 24.901,
+  "name": "hush",
+  "gain": 0.05,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 28.187,
+  "name": "swish",
+  "gain": 0.13,
+  "pitch": 0.75,
+  "scene": "env"
+ },
+ {
+  "t": 28.958,
+  "name": "bloom",
+  "gain": 0.1,
+  "pitch": 1.1,
+  "scene": "env"
+ },
+ {
+  "t": 32.3,
+  "name": "tick",
+  "gain": 0.05,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 32.37400000000001,
+  "name": "swish",
+  "gain": 0.13,
+  "pitch": 0.66,
+  "scene": "env"
+ },
+ {
+  "t": 37.264,
+  "name": "ping",
+  "gain": 0.08,
+  "pitch": 1.5,
+  "scene": "env"
+ },
+ {
+  "t": 37.424,
+  "name": "ping",
+  "gain": 0.06,
+  "pitch": 1.9,
+  "scene": "env"
+ },
+ {
+  "t": 41.785000000000004,
+  "name": "whoosh",
+  "gain": 0.18,
+  "pitch": 0.8,
+  "scene": "env"
+ },
+ {
+  "t": 42.5,
+  "name": "tick",
+  "gain": 0.05,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 46.606,
+  "name": "chime",
+  "gain": 0.09,
+  "pitch": 0.85,
+  "scene": "env"
+ },
+ {
+  "t": 46.87,
+  "name": "tick",
+  "gain": 0.05,
+  "pitch": 0.9,
+  "scene": "env"
+ },
+ {
+  "t": 48.738,
+  "name": "swish",
+  "gain": 0.13,
+  "pitch": 0.66,
+  "scene": "env"
+ },
+ {
+  "t": 53.114000000000004,
+  "name": "impact",
+  "gain": 0.16,
+  "pitch": 0.8,
+  "scene": "env"
+ },
+ {
+  "t": 54.906000000000006,
+  "name": "swish",
+  "gain": 0.13,
+  "pitch": 0.75,
+  "scene": "env"
+ },
+ {
+  "t": 58.023,
+  "name": "ping",
+  "gain": 0.14,
+  "pitch": 1,
+  "scene": "env"
+ }
+]

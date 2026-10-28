@@ -43,3 +43,11 @@ Every item below is a real defect that reached a render and had to be fixed. Che
 ## User feedback (ep 31)
 - Counters must visibly COUNT (a fast, crisp, eased count-up landing on the spoken number). Never blur digits (reads as "censored") and never show blank-then-final (reads as "not progressing").
 - Breathing room: at most three stacked blocks on screen, ≥ 40 px between them; retire an element when another needs its space (the leaderboard row keeps the value).
+
+## Lessons (eps 32–34)
+- Fade exits as: contents first, then the plate collapses fast (scale + alpha ≤ 0.12 s). Never a translucent plate, never an empty plate, never a blank page/card that gets its text later.
+- Globe: the earth.js `day` style's sea-ice pack reads as a white "cauliflower" around Antarctica: pass `seaIce: 0` and a dimmer `ice`; keep the ice out of the caption band.
+- Close-up maps: the 0.1° raster relief turns into square blocks or (blurred) "bubble wrap": bake a smooth bicubic hillshade + a vector coastline for the region (ep 32 env.js).
+- Flashes/explosions: a cue marked `"nodip": true` plays through a `dip` (rumble under the silence); a lens/ring born at a flash grows from its rim, never as a dark disc; labels stay whole above the bloom.
+- Don't put text overlays that repeat the caption word for word; give information instead.
+- Voice: run tools/voicecheck.py + tools/phrase_stt.py on every new voice (ElevenLabs can say the wrong words); fix with tools/retake.py.

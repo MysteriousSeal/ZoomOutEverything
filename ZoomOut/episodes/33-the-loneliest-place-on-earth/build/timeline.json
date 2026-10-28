@@ -1,0 +1,704 @@
+{
+ "voice": "kPzsL2i3teMYv0FxEYQ6",
+ "speed": 0.92,
+ "total": 56.74,
+ "preroll": 0,
+ "lines": [
+  {
+   "text": "There's a place on Earth so remote that the closest humans are often in space.",
+   "start": 0.3,
+   "end": 6.139,
+   "phrases": [
+    {
+     "text": "There's a place on Earth so remote",
+     "start": 0.3,
+     "end": 2.437,
+     "words": [
+      [
+       0.3,
+       "There's"
+      ],
+      [
+       0.561,
+       "a"
+      ],
+      [
+       0.668,
+       "place"
+      ],
+      [
+       0.988,
+       "on"
+      ],
+      [
+       1.228,
+       "Earth"
+      ],
+      [
+       1.628,
+       "so"
+      ],
+      [
+       1.868,
+       "remote"
+      ]
+     ]
+    },
+    {
+     "text": "that the closest humans are often in space.",
+     "start": 2.887,
+     "end": 6.139,
+     "words": [
+      [
+       2.887,
+       "that"
+      ],
+      [
+       3.087,
+       "the"
+      ],
+      [
+       3.247,
+       "closest"
+      ],
+      [
+       3.807,
+       "humans"
+      ],
+      [
+       4.287,
+       "are"
+      ],
+      [
+       4.607,
+       "often"
+      ],
+      [
+       4.927,
+       "in"
+      ],
+      [
+       5.167,
+       "space."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "It's called Point Nemo, in the middle of the South Pacific.",
+   "start": 7.039,
+   "end": 11.28,
+   "phrases": [
+    {
+     "text": "It's called Point Nemo,",
+     "start": 7.039,
+     "end": 8.359,
+     "words": [
+      [
+       7.039,
+       "It's"
+      ],
+      [
+       7.279,
+       "called"
+      ],
+      [
+       7.599,
+       "Point"
+      ],
+      [
+       7.919,
+       "Nemo,"
+      ]
+     ]
+    },
+    {
+     "text": "in the middle of the South Pacific.",
+     "start": 8.809,
+     "end": 11.28,
+     "words": [
+      [
+       8.809,
+       "in"
+      ],
+      [
+       9.036,
+       "the"
+      ],
+      [
+       9.276,
+       "middle"
+      ],
+      [
+       9.516,
+       "of"
+      ],
+      [
+       9.676,
+       "the"
+      ],
+      [
+       9.996,
+       "South"
+      ],
+      [
+       10.716,
+       "Pacific."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "The nearest land is almost two thousand seven hundred kilometres away, in every direction.",
+   "start": 11.88,
+   "end": 18.194,
+   "phrases": [
+    {
+     "text": "The nearest land is almost two thousand seven hundred kilometres away,",
+     "start": 11.88,
+     "end": 16.374,
+     "words": [
+      [
+       11.88,
+       "The"
+      ],
+      [
+       12.04,
+       "nearest"
+      ],
+      [
+       12.44,
+       "land"
+      ],
+      [
+       12.84,
+       "is"
+      ],
+      [
+       13.0,
+       "almost"
+      ],
+      [
+       13.48,
+       "two"
+      ],
+      [
+       13.72,
+       "thousand"
+      ],
+      [
+       14.44,
+       "seven"
+      ],
+      [
+       14.68,
+       "hundred"
+      ],
+      [
+       15.08,
+       "kilometres"
+      ],
+      [
+       15.72,
+       "away,"
+      ]
+     ]
+    },
+    {
+     "text": "in every direction.",
+     "start": 16.824,
+     "end": 18.194,
+     "words": [
+      [
+       16.824,
+       "in"
+      ],
+      [
+       17.144,
+       "every"
+      ],
+      [
+       17.544,
+       "direction."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "When the space station passes overhead, its astronauts, about four hundred kilometres up, are your nearest neighbours.",
+   "start": 18.794,
+   "end": 27.254,
+   "phrases": [
+    {
+     "text": "When the space station passes overhead,",
+     "start": 18.794,
+     "end": 21.076,
+     "words": [
+      [
+       18.794,
+       "When"
+      ],
+      [
+       18.99,
+       "the"
+      ],
+      [
+       19.23,
+       "space"
+      ],
+      [
+       19.59,
+       "station"
+      ],
+      [
+       19.99,
+       "passes"
+      ],
+      [
+       20.35,
+       "overhead,"
+      ]
+     ]
+    },
+    {
+     "text": "its astronauts, about four hundred kilometres up,",
+     "start": 21.526,
+     "end": 24.87,
+     "words": [
+      [
+       21.526,
+       "its"
+      ],
+      [
+       21.819,
+       "astronauts,"
+      ],
+      [
+       22.699,
+       "about"
+      ],
+      [
+       23.099,
+       "four"
+      ],
+      [
+       23.379,
+       "hundred"
+      ],
+      [
+       23.779,
+       "kilometres"
+      ],
+      [
+       24.379,
+       "up,"
+      ]
+     ]
+    },
+    {
+     "text": "are your nearest neighbours.",
+     "start": 25.32,
+     "end": 27.254,
+     "words": [
+      [
+       25.32,
+       "are"
+      ],
+      [
+       25.6,
+       "your"
+      ],
+      [
+       25.96,
+       "nearest"
+      ],
+      [
+       26.24,
+       "neighbours."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "The water here is some of the emptiest on the planet: almost no nutrients, almost no life.",
+   "start": 27.854,
+   "end": 34.904,
+   "phrases": [
+    {
+     "text": "The water here is some of the emptiest on the planet:",
+     "start": 27.854,
+     "end": 31.365,
+     "words": [
+      [
+       27.854,
+       "The"
+      ],
+      [
+       28.078,
+       "water"
+      ],
+      [
+       28.398,
+       "here"
+      ],
+      [
+       28.798,
+       "is"
+      ],
+      [
+       28.958,
+       "some"
+      ],
+      [
+       29.118,
+       "of"
+      ],
+      [
+       29.318,
+       "the"
+      ],
+      [
+       29.518,
+       "emptiest"
+      ],
+      [
+       30.078,
+       "on"
+      ],
+      [
+       30.238,
+       "the"
+      ],
+      [
+       30.838,
+       "planet:"
+      ]
+     ]
+    },
+    {
+     "text": "almost no nutrients, almost no life.",
+     "start": 31.815,
+     "end": 34.904,
+     "words": [
+      [
+       31.815,
+       "almost"
+      ],
+      [
+       32.364,
+       "no"
+      ],
+      [
+       32.604,
+       "nutrients,"
+      ],
+      [
+       33.644,
+       "almost"
+      ],
+      [
+       34.204,
+       "no"
+      ],
+      [
+       34.444,
+       "life."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "So space agencies use it as a graveyard. Hundreds of old spacecraft lie on the seabed, including the Russian space station Mir.",
+   "start": 35.504,
+   "end": 45.092,
+   "phrases": [
+    {
+     "text": "So space agencies use it as a graveyard.",
+     "start": 35.504,
+     "end": 38.444,
+     "words": [
+      [
+       35.504,
+       "So"
+      ],
+      [
+       35.744,
+       "space"
+      ],
+      [
+       36.144,
+       "agencies"
+      ],
+      [
+       36.784,
+       "use"
+      ],
+      [
+       37.024,
+       "it"
+      ],
+      [
+       37.224,
+       "as"
+      ],
+      [
+       37.344,
+       "a"
+      ],
+      [
+       37.504,
+       "graveyard."
+      ]
+     ]
+    },
+    {
+     "text": "Hundreds of old spacecraft lie on the seabed,",
+     "start": 38.894,
+     "end": 42.022,
+     "words": [
+      [
+       38.894,
+       "Hundreds"
+      ],
+      [
+       39.486,
+       "of"
+      ],
+      [
+       39.686,
+       "old"
+      ],
+      [
+       39.926,
+       "spacecraft"
+      ],
+      [
+       40.726,
+       "lie"
+      ],
+      [
+       41.006,
+       "on"
+      ],
+      [
+       41.126,
+       "the"
+      ],
+      [
+       41.326,
+       "seabed,"
+      ]
+     ]
+    },
+    {
+     "text": "including the Russian space station Mir.",
+     "start": 42.472,
+     "end": 45.092,
+     "words": [
+      [
+       42.472,
+       "including"
+      ],
+      [
+       43.032,
+       "the"
+      ],
+      [
+       43.192,
+       "Russian"
+      ],
+      [
+       43.672,
+       "space"
+      ],
+      [
+       44.152,
+       "station"
+      ],
+      [
+       44.752,
+       "Mir."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "And around 2030, the International Space Station is planned to join them.",
+   "start": 45.692,
+   "end": 50.451,
+   "phrases": [
+    {
+     "text": "And around 2030,",
+     "start": 45.692,
+     "end": 47.041,
+     "words": [
+      [
+       45.692,
+       "And"
+      ],
+      [
+       46.001,
+       "around"
+      ],
+      [
+       46.321,
+       "twenty"
+      ],
+      [
+       46.641,
+       "thirty,"
+      ]
+     ]
+    },
+    {
+     "text": "the International Space Station is planned to join them.",
+     "start": 47.491,
+     "end": 50.451,
+     "words": [
+      [
+       47.491,
+       "the"
+      ],
+      [
+       47.971,
+       "International"
+      ],
+      [
+       48.451,
+       "Space"
+      ],
+      [
+       48.771,
+       "Station"
+      ],
+      [
+       49.251,
+       "is"
+      ],
+      [
+       49.491,
+       "planned"
+      ],
+      [
+       49.811,
+       "to"
+      ],
+      [
+       49.971,
+       "join"
+      ],
+      [
+       50.331,
+       "them."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Would you sail to Point Nemo? Tell me in the comments.",
+   "start": 51.051,
+   "end": 54.34,
+   "phrases": [
+    {
+     "text": "Would you sail to Point Nemo?",
+     "start": 51.051,
+     "end": 52.685,
+     "words": [
+      [
+       51.051,
+       "Would"
+      ],
+      [
+       51.285,
+       "you"
+      ],
+      [
+       51.525,
+       "sail"
+      ],
+      [
+       51.845,
+       "to"
+      ],
+      [
+       52.005,
+       "Point"
+      ],
+      [
+       52.245,
+       "Nemo?"
+      ]
+     ]
+    },
+    {
+     "text": "Tell me in the comments.",
+     "start": 53.135,
+     "end": 54.34,
+     "words": [
+      [
+       53.135,
+       "Tell"
+      ],
+      [
+       53.36,
+       "me"
+      ],
+      [
+       53.48,
+       "in"
+      ],
+      [
+       53.6,
+       "the"
+      ],
+      [
+       54.0,
+       "comments."
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0.0,
+   "end": 6.889
+  },
+  {
+   "start": 6.889,
+   "end": 11.73
+  },
+  {
+   "start": 11.73,
+   "end": 18.644
+  },
+  {
+   "start": 18.644,
+   "end": 27.704
+  },
+  {
+   "start": 27.704,
+   "end": 35.354
+  },
+  {
+   "start": 35.354,
+   "end": 45.542
+  },
+  {
+   "start": 45.542,
+   "end": 50.901
+  },
+  {
+   "start": 50.901,
+   "end": 56.74
+  }
+ ]
+}

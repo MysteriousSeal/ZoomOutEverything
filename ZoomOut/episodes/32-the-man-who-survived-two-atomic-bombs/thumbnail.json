@@ -1,0 +1,19 @@
+{
+  "mode": "world",
+  "time": 1.5,
+  "zoom": 1.12,
+  "fx": 0.5,
+  "fy": 0.62,
+  "tx": 0.5,
+  "ty": 0.62,
+  "lines": [
+    "HE SURVIVED",
+    "*BOTH* ATOMIC BOMBS"
+  ],
+  "stat": {
+    "big": "3 KM",
+    "small": "FROM GROUND ZERO · TWICE",
+    "x": 540,
+    "y": 1560
+  }
+}

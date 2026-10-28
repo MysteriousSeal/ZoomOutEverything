@@ -1,0 +1,49 @@
+{
+ "slug": "34-eleven-days-without-sleep",
+ "channel": "ZOOM OUT",
+ "title": "11 Days Without Sleep",
+ "series": "Inside You",
+ "accent": [
+  170,
+  120,
+  255
+ ],
+ "music": "deep",
+ "coverTime": 1.5,
+ "voice": {
+  "lineGap": 0.6,
+  "lead": 0.3,
+  "tail": 2.4,
+  "hookHold": 0.3,
+  "phraseGap": 0.45,
+  "retake": {
+   "5.1": 3,
+   "0.1": 11,
+   "2.0": 11,
+   "3.1": 19
+  }
+ },
+ "lines": [
+  "In {1964~nineteen sixty-four}, a seventeen-year-old stayed awake for eleven days. | No caffeine, no pills.",
+  "Randy Gardner was a high-school student in San Diego. | It was a science-fair project.",
+  "Day two: his eyes can't focus. | He can't tell objects apart by touch.",
+  "Day four: he's irritable and forgetful, | and he starts to see things that aren't there.",
+  "He even believes he's a famous American football player.",
+  "By day eleven, his speech slurs | and his memory fails. | Yet he still beats a Stanford sleep scientist at pinball.",
+  "After two hundred and sixty-four hours, he finally sleeps: | about fourteen hours.",
+  "Today, Guinness no longer accepts this record. | It's too dangerous.",
+  "What's the longest you've ever stayed awake? | Tell me in the comments."
+ ],
+ "scenes": [
+  "scenes/s00-hook.js",
+  "scenes/s01-subject.js",
+  "scenes/s02-day-two.js",
+  "scenes/s03-day-four.js",
+  "scenes/s04-delusion.js",
+  "scenes/s05-day-eleven.js",
+  "scenes/s06-sleep.js",
+  "scenes/s07-guinness.js",
+  "scenes/s08-question.js"
+ ],
+ "captionY": 1450
+}

@@ -1,0 +1,20 @@
+{
+  "mode": "world",
+  "time": 25.6,
+  "zoom": 1.75,
+  "fx": 0.648,
+  "fy": 0.4245,
+  "tx": 0.5,
+  "ty": 0.405,
+  "headY": 330,
+  "lines": [
+    "THE CLOSEST HUMANS",
+    "ARE OFTEN IN *SPACE*"
+  ],
+  "stat": {
+    "big": "≈ 2,688 KM",
+    "small": "TO THE NEAREST LAND",
+    "x": 540,
+    "y": 1420
+  }
+}

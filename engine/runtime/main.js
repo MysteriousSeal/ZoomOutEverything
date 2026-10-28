@@ -63,7 +63,7 @@ function overlayK(i, gt) {
   const s = tl.scenes[i];
   const last = i === tl.scenes.length - 1;
   // scene.overlayIn === false: on at full strength from the beat's first frame (cold-open hooks)
-  const kin = scenes[i].overlayIn === false ? (gt >= s.start - 0.05 ? 1 : 0)   /* 0.05 s: motion-blur sub-frames reach slightly before the start */ : L.ease.outCubic(L.prog(gt, s.start, 0.45));
+  const kin = scenes[i].overlayIn === false ? (i === 0 || gt >= s.start ? 1 : 0)   /* renderFrame keeps blur sub-frames on this side of a hard cut; beat 0 is on from before frame 1 */ : L.ease.outCubic(L.prog(gt, s.start, 0.45));
   const kout = last ? 1 : 1 - L.ease.inCubic(L.prog(gt, s.end - 0.3, 0.3));   // gone by the beat end: no label ghosts into the next beat
   return Math.min(kin, kout);
 }
@@ -141,6 +141,8 @@ function renderFrame(frame, sub = 1, shutter = 0.5) {
       lctx.clearRect(0, 0, W, H);
       let st = gt + ((k + 0.5) / sub - 0.5) * shutter / FPS;
       if (inPre(st) !== inPre(gt)) st = inPre(gt) ? pre.end - 1e-4 : pre.end;   // never blend the cold open into the film across the cut
+      const bs = beatAt(st), bg = beatAt(gt), cut = Math.max(bs, bg);
+      if (bs !== bg && scenes[cut].overlayIn === false) st = bg < cut ? tl.scenes[cut].start - 1e-4 : tl.scenes[cut].start;   // nor two beats across a hard cut
       drawBlurred(lctx, st);
       ctx.globalAlpha = 1 / (k + 1);
       ctx.drawImage(layer, 0, 0);
@@ -234,6 +236,7 @@ function captionGroups(tl) {
   const out = [];
   for (const [li, ln] of tl.lines.flatMap((l, i) => (l.phrases ?? [l]).map((ph) => [i, ph]))) {
     const words = ln.text.toUpperCase().split(/\s+/);
+    const raw = ln.text.split(/\s+/);   // original casing, for the soft (ASMR) caption style
     // a word's time share follows its SPOKEN length: "95%" is "ninety-five percent", "2027" is "twenty twenty-seven"
     const spokenLen = (w) => {
       const d = (w.match(/\d/g) || []).join('');
@@ -247,11 +250,11 @@ function captionGroups(tl) {
     // real word starts from the voice's character alignment (voice.py "words") when they line up with the shown words;
     // otherwise spread the words over the phrase by spoken length
     const real = ln.words && ln.words.length === words.length ? ln.words : null;
-    const timed = words.map((w, i) => { const st = real ? real[i][0] : ln.start + (ln.end - ln.start) * acc / total; acc += weights[i]; return [st, w.replace(/\/$/, '').replace(/[,.:]$/, '')]; });   // "{history/~history}" = caption-only break after the word
+    const timed = words.map((w, i) => { const st = real ? real[i][0] : ln.start + (ln.end - ln.start) * acc / total; acc += weights[i]; return [st, w.replace(/\/$/, '').replace(/[,.:]$/, ''), raw[i].replace(/\/$/, '').replace(/[,.:]$/, '')]; });   // "{history/~history}" = caption-only break after the word
     let chunk = [];
     const mine = [];
     timed.forEach(([st, w], i) => {
-      chunk.push([st, w]);
+      chunk.push(timed[i]);
       // never split inside a spoken number ("A HUNDRED AND | THIRTY" would read as 30): joiner/number words extend the chunk
       const joiner = /^(A|AN|AND|THE|EL|LA|YOUR|MY|HIS|HER|OUR|THEIR|ITS|OF|ON|IN|AT|TO|BY|FOR|FROM|WITH|INTO|OUT|THAN|AS|ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN|ELEVEN|TWELVE|TWENTY|THIRTY|FORTY|FIFTY|SIXTY|SEVENTY|EIGHTY|NINETY|HUNDRED|HUNDREDS|THOUSAND|THOUSANDS|MILLION|BILLION|HALF|QUARTER|TENS|NEW|DOESNT|DONT|DIDNT|WOULD|COULD|WILL|JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)$/.test(w.replace(/[^A-Z]/g, ''))
         || (chunk.length < 5 && [1, 2].some((o) => /\/$/.test(words[i + o] ?? '')))   // a caption break marker just ahead wins
@@ -317,6 +320,7 @@ function drawCaptions(c, v) {
   if (gOut <= 0) return;
   const age = v.gt - g.start;
   const y = L.LANDSCAPE ? H - 150 : (ep.captionY ?? 1335);   // episode.json captionY moves Shorts captions (keep ≤ ~1460: YouTube's title overlay)
+  if (ep.captionStyle === 'soft') return softCaptions(c, g, y, gOut, v);
   const maxW = L.LANDSCAPE ? 1500 : 800;   // Shorts: centred, so the right edge stays left of the UI column (x ≤ 940)
   let size = L.LANDSCAPE ? 72 : 78;
   c.save();
@@ -345,6 +349,35 @@ function drawCaptions(c, v) {
   });
   c.restore();
   void age;
+}
+
+/** episode.json "captionStyle": "soft" (ASMR): light lower-case body type, words fade up gently with no bounce; the
+ *  spoken word is full white, the rest of the chunk dimmed, a soft shadow instead of a hard outline. */
+function softCaptions(c, g, y, gOut, v) {
+  const maxW = 780;
+  c.save();
+  c.textBaseline = 'middle';
+  let size = 58;
+  const sp = () => c.measureText(' ').width;
+  for (;;) {
+    c.font = L.font(size, 500, L.FONT.body);
+    const w = g.words.reduce((a, [, , wd]) => a + c.measureText(wd).width, 0) + sp() * (g.words.length - 1);
+    if (w <= maxW || size <= 40) break;
+    size -= 2;
+  }
+  const widths = g.words.map(([, , wd]) => c.measureText(wd).width);
+  const total = widths.reduce((a, b) => a + b, 0) + sp() * (g.words.length - 1);
+  let x = W / 2 - total / 2;
+  c.shadowColor = 'rgba(0,0,0,0.85)';
+  c.shadowBlur = 18;
+  g.words.forEach(([st, , wd], i) => {
+    const wk = L.ease.outCubic(L.prog(v.gt, st - 0.08, 0.45));
+    c.globalAlpha = (0.38 + 0.52 * wk) * gOut;
+    c.fillStyle = '#fff';
+    c.fillText(wd, x, y + (1 - wk) * 3);
+    x += widths[i] + sp();
+  });
+  c.restore();
 }
 
 // ------------------------------------------------------------------ finish: vignette + grain
@@ -396,7 +429,7 @@ window.__cues = () => {
   const out = [];
   scenes.forEach((s, i) => {
     const sc = tl.scenes[i];
-    for (const q of s.cues?.(sc.end - sc.start) ?? []) out.push({ ...q, t: sc.start + q.t, scene: i });
+    for (const q of s.cues?.(sc.end - sc.start, tl) ?? []) out.push({ ...q, t: sc.start + q.t, scene: i });
   });
   for (const q of env.cues?.(tl) ?? []) out.push({ ...q, scene: 'env' });
   if (pre) for (const q of pre.scene.cues?.(pre.end) ?? []) out.push({ ...q, scene: 'preroll' });

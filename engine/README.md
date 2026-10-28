@@ -45,6 +45,16 @@ Long-form extras:
   - `{shown~spoken}` inside a line gives the subtitle text and the TTS text separately (e.g. `{Laniakea~Lahnia-Kayah}`). Check the result with Kokoro's `tokenizer.phonemize`.
 - Music preset `"vast"`: an 8-chord progression for multi-minute films.
 
+## ASMR / timing options (episode.json)
+
+- `"mix": "asmr"`: close, warm, de-essed, slowly panning voice with a short dark room; `"music": "drift"`: slow pads with no pulse and soft air, sounding from frame 1.
+- `"captionStyle": "soft"`: light, normal-case, gently fading captions instead of the bold uppercase ones.
+- `"loudness"` / `"lra"`: the final master in render.mjs (default −14 LUFS, LRA 11; ASMR uses −16 and 18).
+- `voice.phraseAt {"<line>.<phrase>": s}` and `voice.lineAt {"<line>": s}` pin a phrase or line start to a grid (e.g. a breathing rhythm).
+- A `{"name": "dip", "d": seconds, "gain": 0.85}` cue pulls the music and effects down for a moment of real silence under the voice; give a cue `"nodip": true` to play it through the dip (the rumble of a flash).
+- Scene `cues(d, tl)` also receives the timeline, for word-locked cues.
+- Sound cues `chime` (singing bowl) and `hush` (airy swell).
+
 Example: `ZoomOut/long/01-from-your-hand-to-the-edge-of-the-universe` (one continuous 28-decade zoom). Its world is a stack of scale layers drawn from env.js, and the camera is driven by a monotone spline in log(field of view).
 
 ## Episode folder
@@ -93,7 +103,7 @@ Rules:
 
 ## Sound cue names (`engine/py/audio.py`)
 
-`impact deep whoosh swish dive shimmer blip tick ping sonar bubbles whale creak riser swell bloom count splash` · gain 0.1–0.7 · pitch ~0.5–2.
+`impact deep whoosh swish dive shimmer blip tick ping sonar bubbles whale creak riser swell bloom count splash chime hush` (+ `dip`) · gain 0.1–0.7 · pitch ~0.5–2.
 
 ## Library (`runtime/lib.js`)
 
